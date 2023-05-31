@@ -11,6 +11,7 @@
         ],
         "date": "2023/04/07",
         "pdf": "https://arxiv.org/pdf/2304.03442",
+        "code": "https://github.com/mkturkcan/generative-agents",
         "abstract": " Believable proxies of human behavior can empower interactive applications\nranging from immersive environments to rehearsal spaces for interpersonal\ncommunication to prototyping tools. In this paper, we introduce generative\nagents--computational software agents that simulate believable human behavior.\nGenerative agents wake up, cook breakfast, and head to work; artists paint,\nwhile authors write; they form opinions, notice each other, and initiate\nconversations; they remember and reflect on days past as they plan the next\nday. To enable generative agents, we describe an architecture that extends a\nlarge language model to store a complete record of the agent&#39;s experiences\nusing natural language, synthesize those memories over time into higher-level\nreflections, and retrieve them dynamically to plan behavior. We instantiate\ngenerative agents to populate an interactive sandbox environment inspired by\nThe Sims, where end users can interact with a small town of twenty five agents\nusing natural language. In an evaluation, these generative agents produce\nbelievable individual and emergent social behaviors: for example, starting with\nonly a single user-specified notion that one agent wants to throw a Valentine&#39;s\nDay party, the agents autonomously spread invitations to the party over the\nnext two days, make new acquaintances, ask each other out on dates to the\nparty, and coordinate to show up for the party together at the right time. We\ndemonstrate through ablation that the components of our agent\narchitecture--observation, planning, and reflection--each contribute critically\nto the believability of agent behavior. By fusing large language models with\ncomputational, interactive agents, this work introduces architectural and\ninteraction patterns for enabling believable simulations of human behavior.\n"
     },
     "63dc16015de346991b87581ffc2f70a9": {
@@ -69,6 +70,7 @@
         ],
         "date": "2023/04/26",
         "pdf": "https://arxiv.org/pdf/2304.13835",
+        "code": "https://github.com/facebookresearch/LIGHT",
         "abstract": " Current dialogue research primarily studies pairwise (two-party)\nconversations, and does not address the everyday setting where more than two\nspeakers converse together. In this work, we both collect and evaluate\nmulti-party conversations to study this more general case. We use the LIGHT\nenvironment to construct grounded conversations, where each participant has an\nassigned character to role-play. We thus evaluate the ability of language\nmodels to act as one or more characters in such conversations. Models require\ntwo skills that pairwise-trained models appear to lack: (1) being able to\ndecide when to talk; (2) producing coherent utterances grounded on multiple\ncharacters. We compare models trained on our new dataset to existing\npairwise-trained dialogue models, as well as large language models with\nfew-shot prompting. We find that our new dataset, MultiLIGHT, which we will\npublicly release, can help bring significant improvements in the group setting.\n"
     },
     "685611a174dfe4f335c66b3a972ad793": {
@@ -97,6 +99,7 @@
         ],
         "date": "2023/05/09",
         "pdf": "https://arxiv.org/pdf/2305.05658",
+        "code": "https://github.com/jimmyyhwu/tidybot",
         "abstract": " For a robot to personalize physical assistance effectively, it must learn\nuser preferences that can be generally reapplied to future scenarios. In this\nwork, we investigate personalization of household cleanup with robots that can\ntidy up rooms by picking up objects and putting them away. A key challenge is\ndetermining the proper place to put each object, as people&#39;s preferences can\nvary greatly depending on personal taste or cultural background. For instance,\none person may prefer storing shirts in the drawer, while another may prefer\nthem on the shelf. We aim to build systems that can learn such preferences from\njust a handful of examples via prior interactions with a particular person. We\nshow that robots can combine language-based planning and perception with the\nfew-shot summarization capabilities of large language models (LLMs) to infer\ngeneralized user preferences that are broadly applicable to future\ninteractions. This approach enables fast adaptation and achieves 91.2% accuracy\non unseen objects in our benchmark dataset. We also demonstrate our approach on\na real-world mobile manipulator called TidyBot, which successfully puts away\n85.0% of objects in real-world test scenarios.\n"
     },
     "aff5e8a0a6be3cc3d84f669a5dc2cf7b": {
@@ -112,6 +115,7 @@
         ],
         "date": "2023/05/17",
         "pdf": "https://arxiv.org/pdf/2305.10601",
+        "code": "https://github.com/ysymyth/tree-of-thought-llm",
         "abstract": " Language models are increasingly being deployed for general problem solving\nacross a wide range of tasks, but are still confined to token-level,\nleft-to-right decision-making processes during inference. This means they can\nfall short in tasks that require exploration, strategic lookahead, or where\ninitial decisions play a pivotal role. To surmount these challenges, we\nintroduce a new framework for language model inference, Tree of Thoughts (ToT),\nwhich generalizes over the popular Chain of Thought approach to prompting\nlanguage models, and enables exploration over coherent units of text (thoughts)\nthat serve as intermediate steps toward problem solving. ToT allows LMs to\nperform deliberate decision making by considering multiple different reasoning\npaths and self-evaluating choices to decide the next course of action, as well\nas looking ahead or backtracking when necessary to make global choices. Our\nexperiments show that ToT significantly enhances language models&#39;\nproblem-solving abilities on three novel tasks requiring non-trivial planning\nor search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in\nGame of 24, while GPT-4 with chain-of-thought prompting only solved 4% of\ntasks, our method achieved a success rate of 74%. Code repo with all prompts:\nhttps://github.com/ysymyth/tree-of-thought-llm.\n"
     },
     "843b42ba9aa69a474fd90dd43404ee8a": {
@@ -139,6 +143,7 @@
         ],
         "date": "2023/05/26",
         "pdf": "https://arxiv.org/pdf/2305.16960",
+        "code": "https://github.com/agi-templar/Stable-Alignment",
         "abstract": " Social alignment in AI systems aims to ensure that these models behave\naccording to established societal values. However, unlike humans, who derive\nconsensus on value judgments through social interaction, current language\nmodels (LMs) are trained to rigidly replicate their training corpus in\nisolation, leading to subpar generalization in unfamiliar scenarios and\nvulnerability to adversarial attacks. This work presents a novel training\nparadigm that permits LMs to learn from simulated social interactions. In\ncomparison to existing methodologies, our approach is considerably more\nscalable and efficient, demonstrating superior performance in alignment\nbenchmarks and human evaluations. This paradigm shift in the training of LMs\nbrings us a step closer to developing AI systems that can robustly and\naccurately reflect societal norms and values.\n"
     },
     "5ad397cd019ef8e7d6f8717d67b90261": {
@@ -156,6 +161,20 @@
         ],
         "date": "2023/05/27",
         "pdf": "https://arxiv.org/pdf/2305.17390",
+        "code": "https://github.com/yuchenlin/swiftsage/",
         "abstract": " We introduce SwiftSage, a novel agent framework inspired by the dual-process\ntheory of human cognition, designed to excel in action planning for complex\ninteractive reasoning tasks. SwiftSage integrates the strengths of behavior\ncloning and prompting large language models (LLMs) to enhance task completion\nperformance. The framework comprises two primary modules: the Swift module,\nrepresenting fast and intuitive thinking, and the Sage module, emulating\ndeliberate thought processes. The Swift module is a small encoder-decoder LM\nfine-tuned on the oracle agent&#39;s action trajectories, while the Sage module\nemploys LLMs such as GPT-4 for subgoal planning and grounding. We develop a\nheuristic method to harmoniously integrate the two modules, resulting in a more\nefficient and robust problem-solving process. In 30 tasks from the ScienceWorld\nbenchmark, SwiftSage significantly outperforms other methods such as SayCan,\nReAct, and Reflexion, demonstrating its effectiveness in solving complex\nreal-world tasks.\n"
+    },
+    "445a34d666cdf8017df2d3b28f3e2bcf": {
+        "title": "CAMEL: Communicative Agents for &#34;Mind&#34; Exploration of Large Scale Language Model Society",
+        "authors": [
+            "Guohao Li",
+            "Hasan Abed Al Kader Hammoud",
+            "Hani Itani",
+            "Dmitrii Khizbullin",
+            "Bernard Ghanem"
+        ],
+        "date": "2023/03/31",
+        "pdf": "https://arxiv.org/pdf/2303.17760",
+        "abstract": " The rapid advancement of conversational and chat-based language models has\nled to remarkable progress in complex task-solving. However, their success\nheavily relies on human input to guide the conversation, which can be\nchallenging and time-consuming. This paper explores the potential of building\nscalable techniques to facilitate autonomous cooperation among communicative\nagents and provide insight into their &#34;cognitive&#34; processes. To address the\nchallenges of achieving autonomous cooperation, we propose a novel\ncommunicative agent framework named role-playing. Our approach involves using\ninception prompting to guide chat agents toward task completion while\nmaintaining consistency with human intentions. We showcase how role-playing can\nbe used to generate conversational data for studying the behaviors and\ncapabilities of chat agents, providing a valuable resource for investigating\nconversational language models. Our contributions include introducing a novel\ncommunicative agent framework, offering a scalable approach for studying the\ncooperative behaviors and capabilities of multi-agent systems, and\nopen-sourcing our library to support research on communicative agents and\nbeyond. The GitHub repository of this project is made publicly available on:\nhttps://github.com/lightaime/camel.\n"
     }
 }

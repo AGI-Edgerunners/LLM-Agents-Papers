@@ -3,9 +3,6 @@
     "url": "https://arxiv.org/abs/2304.03442"
   },
   {
-    "url": "https://arxiv.org/abs/2304.09842"
-  },
-  {
     "url": "https://arxiv.org/abs/2304.10750"
   },
   {
@@ -33,7 +30,8 @@
     "url": "https://arxiv.org/abs/2305.17390"
   },
   {
-    "url": ""
+    "url": "https://arxiv.org/abs/2303.17760",
+    "code": "https://github.com/camel-ai/camel"
   },
   {
     "url": ""
