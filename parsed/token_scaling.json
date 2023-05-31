@@ -1,0 +1,28 @@
+{
+    "dc7a8128488e7520fe031884ea2b21a8": {
+        "title": "Scaling Transformer to 1M tokens and beyond with RMT",
+        "authors": [
+            "Aydar Bulatov",
+            "Yuri Kuratov",
+            "Mikhail S. Burtsev"
+        ],
+        "date": "2023/04/19",
+        "pdf": "https://arxiv.org/pdf/2304.11062",
+        "abstract": " This technical report presents the application of a recurrent memory to\nextend the context length of BERT, one of the most effective Transformer-based\nmodels in natural language processing. By leveraging the Recurrent Memory\nTransformer architecture, we have successfully increased the model&#39;s effective\ncontext length to an unprecedented two million tokens, while maintaining high\nmemory retrieval accuracy. Our method allows for the storage and processing of\nboth local and global information and enables information flow between segments\nof the input sequence through the use of recurrence. Our experiments\ndemonstrate the effectiveness of our approach, which holds significant\npotential to enhance long-term dependency handling in natural language\nunderstanding and generation tasks as well as enable large-scale context\nprocessing for memory-intensive applications.\n"
+    },
+    "04536e938fcb20ce32e45d286beed4c4": {
+        "title": "Vcc: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens",
+        "authors": [
+            "Zhanpeng Zeng",
+            "Cole Hawkins",
+            "Mingyi Hong",
+            "Aston Zhang",
+            "Nikolaos Pappas",
+            "Vikas Singh",
+            "Shuai Zheng"
+        ],
+        "date": "2023/05/07",
+        "pdf": "https://arxiv.org/pdf/2305.04241",
+        "abstract": " Transformers are central in modern natural language processing and computer\nvision applications. Despite recent works devoted to reducing the quadratic\ncost of such models (as a function of the sequence length), dealing with ultra\nlong sequences (e.g., with more than 16K tokens) remains challenging.\nApplications such as answering questions based on a book or summarizing a\nscientific article are inefficient or infeasible. Here, we propose to\nsignificantly improve the efficiency of Transformers for ultra long sequences,\nby compressing the sequence into a much smaller representation at each layer.\nSpecifically, by exploiting the fact that in many tasks, only a small subset of\nspecial tokens (we call VIP-tokens) are most relevant to the final prediction,\nwe propose a VIP-token centric compression (VCC) scheme which selectively\ncompresses the sequence based on their impact on approximating the\nrepresentation of the VIP-tokens. Compared with competitive baselines, our\nalgorithm is not only efficient (achieving more than $3\\times$ efficiency gain\ncompared to baselines on 4K and 16K lengths), but also offers\ncompetitive/better performance on a large number of tasks. Further, we show\nthat our algorithm scales to 128K tokens (or more) while consistently offering\naccuracy improvement.\n"
+    }
+}

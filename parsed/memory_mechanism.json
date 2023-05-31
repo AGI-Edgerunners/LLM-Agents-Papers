@@ -1,0 +1,44 @@
+{
+    "d0e04ab2d37bcd9b9f9980cddd5901c6": {
+        "title": "Emergent and Predictable Memorization in Large Language Models",
+        "authors": [
+            "Stella Biderman",
+            "USVSN Sai Prashanth",
+            "Lintang Sutawika",
+            "Hailey Schoelkopf",
+            "Quentin Anthony",
+            "Shivanshu Purohit",
+            "Edward Raf"
+        ],
+        "date": "2023/04/21",
+        "pdf": "https://arxiv.org/pdf/2304.11158",
+        "abstract": " Memorization, or the tendency of large language models (LLMs) to output\nentire sequences from their training data verbatim, is a key concern for safely\ndeploying language models. In particular, it is vital to minimize a model&#39;s\nmemorization of sensitive datapoints such as those containing personal\nidentifiable information (PII). The prevalence of such undesirable memorization\ncan pose issues for model trainers, and may even require discarding an\notherwise functional model. We therefore seek to predict which sequences will\nbe memorized before a large model&#39;s full train-time by extrapolating the\nmemorization behavior of lower-compute trial runs. We measure memorization of\nthe Pythia model suite, and find that intermediate checkpoints are better\npredictors of a model&#39;s memorization behavior than smaller fully-trained\nmodels. We additionally provide further novel discoveries on the distribution\nof memorization scores across models and data.\n"
+    },
+    "3670318a3140c7ef30bd05aba962ac17": {
+        "title": "ChatLog: Recording and Analyzing ChatGPT Across Time",
+        "authors": [
+            "Shangqing Tu",
+            "Chunyang Li",
+            "Jifan Yu",
+            "Xiaozhi Wang",
+            "Lei Hou",
+            "Juanzi Li"
+        ],
+        "date": "2023/04/27",
+        "pdf": "https://arxiv.org/pdf/2304.14106",
+        "abstract": " While there are abundant researches about evaluating ChatGPT on natural\nlanguage understanding and generation tasks, few studies have investigated how\nChatGPT&#39;s behavior changes over time. In this paper, we collect a\ncoarse-to-fine temporal dataset called ChatLog, consisting of two parts that\nupdate monthly and daily: ChatLog-Monthly is a dataset of 38,730\nquestion-answer pairs collected every month including questions from both the\nreasoning and classification tasks. ChatLog-Daily, on the other hand, consists\nof ChatGPT&#39;s responses to 1000 identical questions for long-form generation\nevery day. We conduct comprehensive automatic and human evaluation to provide\nthe evidence for the existence of ChatGPT evolving patterns. We further analyze\nthe unchanged characteristics of ChatGPT over time by extracting its knowledge\nand linguistic features. We find some stable features to improve the robustness\nof a RoBERTa-based detector on new versions of ChatGPT. We will continuously\nmaintain our project at https://github.com/THU-KEG/ChatLog.\n"
+    },
+    "f859fcfade304101ad2d098deeee606f": {
+        "title": "Learning to Reason and Memorize with Self-Notes",
+        "authors": [
+            "Jack Lanchantin",
+            "Shubham Toshniwal",
+            "Jason Weston",
+            "Arthur Szlam",
+            "Sainbayar Sukhbaatar"
+        ],
+        "date": "2023/05/01",
+        "pdf": "https://arxiv.org/pdf/2305.00833",
+        "abstract": " Large language models have been shown to struggle with limited context memory\nand multi-step reasoning. We propose a simple method for solving both of these\nproblems by allowing the model to take Self-Notes. Unlike recent scratchpad\napproaches, the model can deviate from the input context at any time to\nexplicitly think. This allows the model to recall information and perform\nreasoning on the fly as it reads the context, thus extending its memory and\nenabling multi-step reasoning. Our experiments on multiple tasks demonstrate\nthat our method can successfully generalize to longer and more complicated\ninstances from their training setup by taking Self-Notes at inference time.\n"
+    }
+}

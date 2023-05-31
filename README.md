@@ -1,1 +1,49 @@
-# Runners-On-LLMGamePlayer
+# Runners-on-LLMGamePlayer
+A repo lists papers about LLM-Agent, Memory mechanism, Scaling token and LLM game playing.
+
+---
+
+- token_scaling
+	- [2023/05/07] *Vcc: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens* | [[paper]](https://arxiv.org/abs/2305.04241) | [code]
+
+	- [2023/04/19] *Scaling Transformer to 1M tokens and beyond with RMT* | [[paper]](https://arxiv.org/abs/2304.11062) | [code]
+
+---
+- role_playing
+	- [2023/05/26] *Training Socially Aligned Language Models in Simulated Human Society* | [[paper]](https://arxiv.org/abs/2305.16960) | [code]
+
+	- [2023/05/25] *Role-Play with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16367) | [code]
+
+	- [2023/05/17] *Tree of Thoughts: Deliberate Problem Solving with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.10601) | [code]
+
+	- [2023/05/09] *TidyBot: Personalized Robot Assistance with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.05658) | [code]
+
+	- [2023/05/02] *The Role of Summarization in Generative Agents: A Preliminary Perspective* | [[paper]](https://arxiv.org/abs/2305.01253) | [code]
+
+	- [2023/04/26] *Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models* | [[paper]](https://arxiv.org/abs/2304.13835) | [code]
+
+	- [2023/04/24] *ChatLLM Network: More brains, More intelligence* | [[paper]](https://arxiv.org/abs/2304.12998) | [code]
+
+	- [2023/04/21] *Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback* | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
+
+	- [2023/04/19] *Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models* | [[paper]](https://arxiv.org/abs/2304.09842) | [code]
+
+	- [2023/04/07] *Generative Agents: Interactive Simulacra of Human Behavior* | [[paper]](https://arxiv.org/abs/2304.03442) | [code]
+
+---
+- memory_mechanism
+	- [2023/05/01] *Learning to Reason and Memorize with Self-Notes* | [[paper]](https://arxiv.org/abs/2305.00833) | [code]
+
+	- [2023/04/27] *ChatLog: Recording and Analyzing ChatGPT Across Time* | [[paper]](https://arxiv.org/abs/2304.14106) | [code]
+
+	- [2023/04/21] *Emergent and Predictable Memorization in Large Language Models* | [[paper]](https://arxiv.org/abs/2304.11158) | [code]
+
+---
+- game_playing
+	- [2023/05/26] *Playing repeated games with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16867) | [code]
+
+	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [code]
+
+	- [2023/05/08] *Knowledge-enhanced Agents for Interactive Text Games* | [[paper]](https://arxiv.org/abs/2305.05091) | [code]
+
+	- [2023/03/29] *Plan4MC: Skill Reinforcement Learning and Planning for Open-World Minecraft Tasks* | [[paper]](https://arxiv.org/abs/2303.16563) | [code]
