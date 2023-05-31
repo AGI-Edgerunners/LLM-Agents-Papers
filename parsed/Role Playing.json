@@ -100,6 +100,7 @@
         "date": "2023/05/09",
         "pdf": "https://arxiv.org/pdf/2305.05658",
         "code": "https://github.com/jimmyyhwu/tidybot",
+        "homepage": "https://tidybot.cs.princeton.edu/",
         "abstract": " For a robot to personalize physical assistance effectively, it must learn\nuser preferences that can be generally reapplied to future scenarios. In this\nwork, we investigate personalization of household cleanup with robots that can\ntidy up rooms by picking up objects and putting them away. A key challenge is\ndetermining the proper place to put each object, as people&#39;s preferences can\nvary greatly depending on personal taste or cultural background. For instance,\none person may prefer storing shirts in the drawer, while another may prefer\nthem on the shelf. We aim to build systems that can learn such preferences from\njust a handful of examples via prior interactions with a particular person. We\nshow that robots can combine language-based planning and perception with the\nfew-shot summarization capabilities of large language models (LLMs) to infer\ngeneralized user preferences that are broadly applicable to future\ninteractions. This approach enables fast adaptation and achieves 91.2% accuracy\non unseen objects in our benchmark dataset. We also demonstrate our approach on\na real-world mobile manipulator called TidyBot, which successfully puts away\n85.0% of objects in real-world test scenarios.\n"
     },
     "aff5e8a0a6be3cc3d84f669a5dc2cf7b": {
@@ -162,6 +163,7 @@
         "date": "2023/05/27",
         "pdf": "https://arxiv.org/pdf/2305.17390",
         "code": "https://github.com/yuchenlin/swiftsage/",
+        "homepage": "https://yuchenlin.xyz/swiftsage/",
         "abstract": " We introduce SwiftSage, a novel agent framework inspired by the dual-process\ntheory of human cognition, designed to excel in action planning for complex\ninteractive reasoning tasks. SwiftSage integrates the strengths of behavior\ncloning and prompting large language models (LLMs) to enhance task completion\nperformance. The framework comprises two primary modules: the Swift module,\nrepresenting fast and intuitive thinking, and the Sage module, emulating\ndeliberate thought processes. The Swift module is a small encoder-decoder LM\nfine-tuned on the oracle agent&#39;s action trajectories, while the Sage module\nemploys LLMs such as GPT-4 for subgoal planning and grounding. We develop a\nheuristic method to harmoniously integrate the two modules, resulting in a more\nefficient and robust problem-solving process. In 30 tasks from the ScienceWorld\nbenchmark, SwiftSage significantly outperforms other methods such as SayCan,\nReAct, and Reflexion, demonstrating its effectiveness in solving complex\nreal-world tasks.\n"
     },
     "445a34d666cdf8017df2d3b28f3e2bcf": {
