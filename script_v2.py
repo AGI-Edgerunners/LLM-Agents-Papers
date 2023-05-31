@@ -1,12 +1,4 @@
 # -*- coding: utf-8 -*-
-# @org: 辰风科技
-# @author: lyh
-# @fileName: script_v2.py
-# @date: 2023/5/15 14:09
-#
-# describe:
-#
-# @version 1.0 2023/5/15 14:09
 
 import json
 import os
@@ -15,7 +7,6 @@ import warnings
 
 import requests
 from hashlib import md5
-from bs4 import BeautifulSoup
 
 PAPER_FOLDER = "papers"
 PARSED_FOLDER = "parsed"
@@ -24,7 +15,7 @@ CONFIG_FILE = "config.json"
 USE_CSS = False
 
 HEADERS = {}
-PROXY = {'https': '127.0.0.1:4780', 'http': '127.0.0.1:4780'}
+PROXY = None
 
 PARSED_DATA = []
 
@@ -70,7 +61,7 @@ def parse_cite(cite_str: str):
 
 def parse_by_crawl(url: str):
     try:
-        res = requests.get(url, proxies=PROXY)
+        res = requests.get(url, proxies=PROXY if PROXY else None)
     except Exception as e:
         warnings.warn(f"something wrong when visit the url {url} ERROR:{str(e)}")
         res = None

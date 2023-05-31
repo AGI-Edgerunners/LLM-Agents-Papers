@@ -1,15 +1,9 @@
-# Runners-on-LLMGamePlayer
-A repo lists papers about LLM-Agent, Memory mechanism, Scaling token and LLM game playing.
+# LLMGamePlayer-Papers
+A repo lists papers about LLM role playing, memory mechanism and LLM game playing.
 
 ---
 
-- token_scaling
-	- [2023/05/07] *Vcc: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens* | [[paper]](https://arxiv.org/abs/2305.04241) | [code]
-
-	- [2023/04/19] *Scaling Transformer to 1M tokens and beyond with RMT* | [[paper]](https://arxiv.org/abs/2304.11062) | [code]
-
----
-- role_playing
+- RolePlaying
 	- [2023/05/26] *Training Socially Aligned Language Models in Simulated Human Society* | [[paper]](https://arxiv.org/abs/2305.16960) | [code]
 
 	- [2023/05/25] *Role-Play with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16367) | [code]
@@ -31,7 +25,7 @@ A repo lists papers about LLM-Agent, Memory mechanism, Scaling token and LLM gam
 	- [2023/04/07] *Generative Agents: Interactive Simulacra of Human Behavior* | [[paper]](https://arxiv.org/abs/2304.03442) | [code]
 
 ---
-- memory_mechanism
+- MemoryMechanism
 	- [2023/05/01] *Learning to Reason and Memorize with Self-Notes* | [[paper]](https://arxiv.org/abs/2305.00833) | [code]
 
 	- [2023/04/27] *ChatLog: Recording and Analyzing ChatGPT Across Time* | [[paper]](https://arxiv.org/abs/2304.14106) | [code]
@@ -39,7 +33,7 @@ A repo lists papers about LLM-Agent, Memory mechanism, Scaling token and LLM gam
 	- [2023/04/21] *Emergent and Predictable Memorization in Large Language Models* | [[paper]](https://arxiv.org/abs/2304.11158) | [code]
 
 ---
-- game_playing
+- GamePlaying
 	- [2023/05/26] *Playing repeated games with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16867) | [code]
 
 	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [code]
