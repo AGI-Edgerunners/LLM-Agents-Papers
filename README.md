@@ -3,7 +3,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 ---
 
-- RolePlaying
+- Role Playing
 	- [2023/05/27] *SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks* | [[paper]](https://arxiv.org/abs/2305.17390) | [[code]](https://yuchenlin.xyz/swiftsage/)
 
 	- [2023/05/26] *Training Socially Aligned Language Models in Simulated Human Society* | [[paper]](https://arxiv.org/abs/2305.16960) | [[code]](https://github.com/agi-templar/Stable-Alignment)
@@ -22,10 +22,10 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 	- [2023/04/21] *Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback* | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
 
-	- [2023/04/07] *Generative Agents: Interactive Simulacra of Human Behavior* | [[paper]](https://arxiv.org/abs/2304.03442) | [code]
+	- [2023/04/07] *Generative Agents: Interactive Simulacra of Human Behavior* | [[paper]](https://arxiv.org/abs/2304.03442) | [[code1]](https://github.com/mkturkcan/generative-agents) | 
 
 ---
-- MemoryMechanism
+- Memory Mechanism
 	- [2023/05/17] *MemoryBank: Enhancing Large Language Models with Long-Term Memory* | [[paper]](https://arxiv.org/abs/2305.10250) | [code]
 
 	- [2023/05/01] *Learning to Reason and Memorize with Self-Notes* | [[paper]](https://arxiv.org/abs/2305.00833) | [code]
@@ -35,15 +35,15 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 	- [2023/04/21] *Emergent and Predictable Memorization in Large Language Models* | [[paper]](https://arxiv.org/abs/2304.11158) | [code]
 
 ---
-- GamePlaying
+- Game Playing
 	- [2023/05/26] *Playing repeated games with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16867) | [code]
 
-	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [code]
+	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [[code]](https://github.com/OpenGVLab/GITM)
 
-	- [2023/05/19] *Examining the Inter-Consistency of Large Language Models: An In-depth Analysis via Debate* | [[paper]](https://arxiv.org/abs/2305.11595) | [code]
+<!-- 	- [2023/05/19] *Examining the Inter-Consistency of Large Language Models: An In-depth Analysis via Debate* | [[paper]](https://arxiv.org/abs/2305.11595) | [code] -->
 
 	- [2023/05/17] *Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback* | [[paper]](https://arxiv.org/abs/2305.10142) | [code]
 
 	- [2023/05/08] *Knowledge-enhanced Agents for Interactive Text Games* | [[paper]](https://arxiv.org/abs/2305.05091) | [code]
 
-	- [2023/03/29] *Plan4MC: Skill Reinforcement Learning and Planning for Open-World Minecraft Tasks* | [[paper]](https://arxiv.org/abs/2303.16563) | [code]
+	- [2023/03/29] *Plan4MC: Skill Reinforcement Learning and Planning for Open-World Minecraft Tasks* | [[paper]](https://arxiv.org/abs/2303.16563) | [[code]](https://sites.google.com/view/plan4mc)
