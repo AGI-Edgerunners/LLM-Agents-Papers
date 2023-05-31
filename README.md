@@ -24,7 +24,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 	- [2023/04/07] *Generative Agents: Interactive Simulacra of Human Behavior* | [[paper]](https://arxiv.org/abs/2304.03442) | [[code]](https://github.com/mkturkcan/generative-agents)
 	
-	- [2023/03/31] *CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society* | [[paper]](https://arxiv.org/abs/2303.17760) | [[code]](https://github.com/camel-ai/camel) | 
+	- [2023/03/31] *CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society* | [[paper]](https://arxiv.org/abs/2303.17760) | [[code]](https://github.com/camel-ai/camel)
 
 ---
 - Memory Mechanism
