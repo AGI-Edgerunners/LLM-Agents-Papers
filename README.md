@@ -1,4 +1,4 @@
-# LLMGamePlayer-Papers
+# LLM-Agents-Papers
 A repo lists papers about LLM role playing, memory mechanism and LLM game playing.
 
 ---
