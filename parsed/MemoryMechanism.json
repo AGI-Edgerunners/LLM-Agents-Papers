@@ -40,5 +40,18 @@
         "date": "2023/05/01",
         "pdf": "https://arxiv.org/pdf/2305.00833",
         "abstract": " Large language models have been shown to struggle with limited context memory\nand multi-step reasoning. We propose a simple method for solving both of these\nproblems by allowing the model to take Self-Notes. Unlike recent scratchpad\napproaches, the model can deviate from the input context at any time to\nexplicitly think. This allows the model to recall information and perform\nreasoning on the fly as it reads the context, thus extending its memory and\nenabling multi-step reasoning. Our experiments on multiple tasks demonstrate\nthat our method can successfully generalize to longer and more complicated\ninstances from their training setup by taking Self-Notes at inference time.\n"
+    },
+    "c63eb48acb4856602198c3e3b36201fc": {
+        "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+        "authors": [
+            "Wanjun Zhong",
+            "Lianghong Guo",
+            "Qiqi Gao",
+            "He Ye",
+            "Yanlin Wang"
+        ],
+        "date": "2023/05/17",
+        "pdf": "https://arxiv.org/pdf/2305.10250",
+        "abstract": " Revolutionary advancements in Large Language Models have drastically reshaped\nour interactions with artificial intelligence systems. Despite this, a notable\nhindrance remains-the deficiency of a long-term memory mechanism within these\nmodels. This shortfall becomes increasingly evident in situations demanding\nsustained interaction, such as personal companion systems and psychological\ncounseling. Therefore, we propose MemoryBank, a novel memory mechanism tailored\nfor LLMs. MemoryBank enables the models to summon relevant memories,\ncontinually evolve through continuous memory updates, comprehend, and adapt to\na user personality by synthesizing information from past interactions. To mimic\nanthropomorphic behaviors and selectively preserve memory, MemoryBank\nincorporates a memory updating mechanism, inspired by the Ebbinghaus Forgetting\nCurve theory, which permits the AI to forget and reinforce memory based on time\nelapsed and the relative significance of the memory, thereby offering a\nhuman-like memory mechanism. MemoryBank is versatile in accommodating both\nclosed-source models like ChatGPT and open-source models like ChatGLM. We\nexemplify application of MemoryBank through the creation of an LLM-based\nchatbot named SiliconFriend in a long-term AI Companion scenario. Further tuned\nwith psychological dialogs, SiliconFriend displays heightened empathy in its\ninteractions. Experiment involves both qualitative analysis with real-world\nuser dialogs and quantitative analysis with simulated dialogs. In the latter,\nChatGPT acts as users with diverse characteristics and generates long-term\ndialog contexts covering a wide array of topics. The results of our analysis\nreveal that SiliconFriend, equipped with MemoryBank, exhibits a strong\ncapability for long-term companionship as it can provide emphatic response,\nrecall relevant memories and understand user personality.\n"
     }
 }

@@ -28,6 +28,8 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 ---
 - MemoryMechanism
+	- [2023/05/17] *MemoryBank: Enhancing Large Language Models with Long-Term Memory* | [[paper]](https://arxiv.org/abs/2305.10250) | [code]
+
 	- [2023/05/01] *Learning to Reason and Memorize with Self-Notes* | [[paper]](https://arxiv.org/abs/2305.00833) | [code]
 
 	- [2023/04/27] *ChatLog: Recording and Analyzing ChatGPT Across Time* | [[paper]](https://arxiv.org/abs/2304.14106) | [code]
