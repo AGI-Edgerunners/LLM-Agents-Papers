@@ -4,7 +4,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 ---
 
 - RolePlaying
-	- [2023/05/27] *SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks* | [[paper]](https://arxiv.org/abs/2305.17390) | [code]
+	- [2023/05/27] *SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks* | [[paper]](https://arxiv.org/abs/2305.17390) | [code](https://yuchenlin.xyz/swiftsage/)
 
 	- [2023/05/26] *Training Socially Aligned Language Models in Simulated Human Society* | [[paper]](https://arxiv.org/abs/2305.16960) | [code]
 
