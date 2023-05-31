@@ -61,5 +61,30 @@
         "date": "2023/05/26",
         "pdf": "https://arxiv.org/pdf/2305.16867",
         "abstract": " Large Language Models (LLMs) are transforming society and permeating into\ndiverse applications. As a result, LLMs will frequently interact with us and\nother agents. It is, therefore, of great societal value to understand how LLMs\nbehave in interactive social settings. Here, we propose to use behavioral game\ntheory to study LLM&#39;s cooperation and coordination behavior. To do so, we let\ndifferent LLMs (GPT-3, GPT-3.5, and GPT-4) play finitely repeated games with\neach other and with other, human-like strategies. Our results show that LLMs\ngenerally perform well in such tasks and also uncover persistent behavioral\nsignatures. In a large set of two players-two strategies games, we find that\nLLMs are particularly good at games where valuing their own self-interest pays\noff, like the iterated Prisoner&#39;s Dilemma family. However, they behave\nsub-optimally in games that require coordination. We, therefore, further focus\non two games from these distinct families. In the canonical iterated Prisoner&#39;s\nDilemma, we find that GPT-4 acts particularly unforgivingly, always defecting\nafter another agent has defected only once. In the Battle of the Sexes, we find\nthat GPT-4 cannot match the behavior of the simple convention to alternate\nbetween options. We verify that these behavioral signatures are stable across\nrobustness checks. Finally, we show how GPT-4&#39;s behavior can be modified by\nproviding further information about the other player as well as by asking it to\npredict the other player&#39;s actions before making a choice. These results enrich\nour understanding of LLM&#39;s social behavior and pave the way for a behavioral\ngame theory for machines.\n"
+    },
+    "16ade9646e937f57019f60d7eecb4a2d": {
+        "title": "Examining the Inter-Consistency of Large Language Models: An In-depth Analysis via Debate",
+        "authors": [
+            "Kai Xiong",
+            "Xiao Ding",
+            "Yixin Cao",
+            "Ting Liu",
+            "Bing Qin"
+        ],
+        "date": "2023/05/19",
+        "pdf": "https://arxiv.org/pdf/2305.11595",
+        "abstract": " Large Language Models (LLMs) have demonstrated human-like intelligence and\nare widely used in various applications. However, LLMs still exhibit various\nkinds of inconsistency problems. Existing works mainly focus on the\ninconsistency issues within a single LLM, while we investigate the\ninter-consistency among multiple LLMs, which is critical for collaborating to\nsolve a complex task. To examine whether LLMs can collaborate to ultimately\nachieve a consensus for the shared goal and whether LLMs easily change their\nviewpoints, we introduce a Formal Debate framework (FORD) With FORD, we conduct\na three-stage debate aligned with real-world scenarios: fair debate, mismatched\ndebate, and roundtable debate. Through extensive experiments on the commonsense\nreasoning task, LLMs not only become more inter-consistent but also achieve\nhigher performance. Moreover, we observe that stronger LLMs tend to dominate\nthe debates by adhering to their perspectives, while weaker ones are more\nlikely to change viewpoints. Additionally, we highlight the importance of a\ncompetent judge, such as GPT-4, to draw more proper conclusions. Our work\ncontributes to understanding the inter-consistency among LLMs and lays the\nfoundation for the development of future collaboration methods.\n"
+    },
+    "9746aebf3641e1f07a29559fa01a166b": {
+        "title": "Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback",
+        "authors": [
+            "Yao Fu",
+            "Hao Peng",
+            "Tushar Khot",
+            "Mirella Lapata"
+        ],
+        "date": "2023/05/17",
+        "pdf": "https://arxiv.org/pdf/2305.10142",
+        "abstract": " We study whether multiple large language models (LLMs) can autonomously\nimprove each other in a negotiation game by playing, reflecting, and\ncriticizing. We are interested in this question because if LLMs were able to\nimprove each other, it would imply the possibility of creating strong AI agents\nwith minimal human intervention. We ask two LLMs to negotiate with each other,\nplaying the roles of a buyer and a seller, respectively. They aim to reach a\ndeal with the buyer targeting a lower price and the seller a higher one. A\nthird language model, playing the critic, provides feedback to a player to\nimprove the player&#39;s negotiation strategies. We let the two agents play\nmultiple rounds, using previous negotiation history and AI feedback as\nin-context demonstrations to improve the model&#39;s negotiation strategy\niteratively. We use different LLMs (GPT and Claude) for different roles and use\nthe deal price as the evaluation metric. Our experiments reveal multiple\nintriguing findings: (1) Only a subset of the language models we consider can\nself-play and improve the deal price from AI feedback, weaker models either do\nnot understand the game&#39;s rules or cannot incorporate AI feedback for further\nimprovement. (2) Models&#39; abilities to learn from the feedback differ when\nplaying different roles. For example, it is harder for Claude-instant to\nimprove as the buyer than as the seller. (3) When unrolling the game to\nmultiple rounds, stronger agents can consistently improve their performance by\nmeaningfully using previous experiences and iterative AI feedback, yet have a\nhigher risk of breaking the deal. We hope our work provides insightful initial\nexplorations of having models autonomously improve each other with game playing\nand AI feedback.\n"
     }
 }

@@ -4,6 +4,8 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 ---
 
 - RolePlaying
+	- [2023/05/27] *SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks* | [[paper]](https://arxiv.org/abs/2305.17390) | [code]
+
 	- [2023/05/26] *Training Socially Aligned Language Models in Simulated Human Society* | [[paper]](https://arxiv.org/abs/2305.16960) | [code]
 
 	- [2023/05/25] *Role-Play with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16367) | [code]
@@ -37,6 +39,10 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 	- [2023/05/26] *Playing repeated games with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16867) | [code]
 
 	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [code]
+
+	- [2023/05/19] *Examining the Inter-Consistency of Large Language Models: An In-depth Analysis via Debate* | [[paper]](https://arxiv.org/abs/2305.11595) | [code]
+
+	- [2023/05/17] *Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback* | [[paper]](https://arxiv.org/abs/2305.10142) | [code]
 
 	- [2023/05/08] *Knowledge-enhanced Agents for Interactive Text Games* | [[paper]](https://arxiv.org/abs/2305.05091) | [code]
 

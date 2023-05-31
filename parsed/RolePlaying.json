@@ -140,5 +140,22 @@
         "date": "2023/05/26",
         "pdf": "https://arxiv.org/pdf/2305.16960",
         "abstract": " Social alignment in AI systems aims to ensure that these models behave\naccording to established societal values. However, unlike humans, who derive\nconsensus on value judgments through social interaction, current language\nmodels (LMs) are trained to rigidly replicate their training corpus in\nisolation, leading to subpar generalization in unfamiliar scenarios and\nvulnerability to adversarial attacks. This work presents a novel training\nparadigm that permits LMs to learn from simulated social interactions. In\ncomparison to existing methodologies, our approach is considerably more\nscalable and efficient, demonstrating superior performance in alignment\nbenchmarks and human evaluations. This paradigm shift in the training of LMs\nbrings us a step closer to developing AI systems that can robustly and\naccurately reflect societal norms and values.\n"
+    },
+    "5ad397cd019ef8e7d6f8717d67b90261": {
+        "title": "SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks",
+        "authors": [
+            "Bill Yuchen Lin",
+            "Yicheng Fu",
+            "Karina Yang",
+            "Prithviraj Ammanabrolu",
+            "Faeze Brahman",
+            "Shiyu Huang",
+            "Chandra Bhagavatula",
+            "Yejin Choi",
+            "Xiang Ren"
+        ],
+        "date": "2023/05/27",
+        "pdf": "https://arxiv.org/pdf/2305.17390",
+        "abstract": " We introduce SwiftSage, a novel agent framework inspired by the dual-process\ntheory of human cognition, designed to excel in action planning for complex\ninteractive reasoning tasks. SwiftSage integrates the strengths of behavior\ncloning and prompting large language models (LLMs) to enhance task completion\nperformance. The framework comprises two primary modules: the Swift module,\nrepresenting fast and intuitive thinking, and the Sage module, emulating\ndeliberate thought processes. The Swift module is a small encoder-decoder LM\nfine-tuned on the oracle agent&#39;s action trajectories, while the Sage module\nemploys LLMs such as GPT-4 for subgoal planning and grounding. We develop a\nheuristic method to harmoniously integrate the two modules, resulting in a more\nefficient and robust problem-solving process. In 30 tasks from the ScienceWorld\nbenchmark, SwiftSage significantly outperforms other methods such as SayCan,\nReAct, and Reflexion, demonstrating its effectiveness in solving complex\nreal-world tasks.\n"
     }
 }
