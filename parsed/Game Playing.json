@@ -100,5 +100,21 @@
         "date": "2023/05/31",
         "pdf": "https://arxiv.org/pdf/2305.19761",
         "abstract": " In the studies on symbol emergence and emergent communication in a population\nof agents, a computational model was employed in which agents participate in\nvarious language games. Among these, the Metropolis-Hastings naming game (MHNG)\npossesses a notable mathematical property: symbol emergence through MHNG is\nproven to be a decentralized Bayesian inference of representations shared by\nthe agents. However, the previously proposed MHNG is limited to a two-agent\nscenario. This paper extends MHNG to an N-agent scenario. The main\ncontributions of this paper are twofold: (1) we propose the recursive\nMetropolis-Hastings naming game (RMHNG) as an N-agent version of MHNG and\ndemonstrate that RMHNG is an approximate Bayesian inference method for the\nposterior distribution over a latent variable shared by agents, similar to\nMHNG; and (2) we empirically evaluate the performance of RMHNG on synthetic and\nreal image data, enabling multiple agents to develop and share a symbol system.\nFurthermore, we introduce two types of approximations -- one-sample and\nlimited-length -- to reduce computational complexity while maintaining the\nability to explain communication in a population of agents. The experimental\nfindings showcased the efficacy of RMHNG as a decentralized Bayesian inference\nfor approximating the posterior distribution concerning latent variables, which\nare jointly shared among agents, akin to MHNG. Moreover, the utilization of\nRMHNG elucidated the agents&#39; capacity to exchange symbols. Furthermore, the\nstudy discovered that even the computationally simplified version of RMHNG\ncould enable symbols to emerge among the agents.\n"
+    },
+    "7faa5c7e074c69eacba3978164125eb2": {
+        "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+        "authors": [
+            "Guanzhi Wang",
+            "Yuqi Xie",
+            "Yunfan Jiang",
+            "Ajay Mandlekar",
+            "Chaowei Xiao",
+            "Yuke Zhu",
+            "Linxi Fan",
+            "Anima Anandkumar"
+        ],
+        "date": "2023/05/25",
+        "pdf": "https://arxiv.org/pdf/2305.16291",
+        "abstract": " We introduce Voyager, the first LLM-powered embodied lifelong learning agent\nin Minecraft that continuously explores the world, acquires diverse skills, and\nmakes novel discoveries without human intervention. Voyager consists of three\nkey components: 1) an automatic curriculum that maximizes exploration, 2) an\never-growing skill library of executable code for storing and retrieving\ncomplex behaviors, and 3) a new iterative prompting mechanism that incorporates\nenvironment feedback, execution errors, and self-verification for program\nimprovement. Voyager interacts with GPT-4 via blackbox queries, which bypasses\nthe need for model parameter fine-tuning. The skills developed by Voyager are\ntemporally extended, interpretable, and compositional, which compounds the\nagent&#39;s abilities rapidly and alleviates catastrophic forgetting. Empirically,\nVoyager shows strong in-context lifelong learning capability and exhibits\nexceptional proficiency in playing Minecraft. It obtains 3.3x more unique\nitems, travels 2.3x longer distances, and unlocks key tech tree milestones up\nto 15.3x faster than prior SOTA. Voyager is able to utilize the learned skill\nlibrary in a new Minecraft world to solve novel tasks from scratch, while other\ntechniques struggle to generalize. We open-source our full codebase and prompts\nat https://voyager.minedojo.org/.\n"
     }
 }
