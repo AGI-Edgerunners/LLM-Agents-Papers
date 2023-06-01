@@ -44,7 +44,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [[code]](https://github.com/OpenGVLab/GITM)
 
-	- [2023/05/25] *Voyager: An Open-Ended Embodied Agent with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16291) | [code]
+	- [2023/05/25] *Voyager: An Open-Ended Embodied Agent with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16291) | [[code]](https://github.com/MineDojo/Voyager)
 
 	- [2023/05/17] *Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback* | [[paper]](https://arxiv.org/abs/2305.10142) | [code]
 
