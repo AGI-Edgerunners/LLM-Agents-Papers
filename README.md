@@ -38,6 +38,8 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 ---
 - Game Playing
+	- [2023/05/31] *Recursive Metropolis-Hastings Naming Game: Symbol Emergence in a Multi-agent System based on Probabilistic Generative Models* | [[paper]](https://arxiv.org/abs/2305.19761) | [code]
+
 	- [2023/05/26] *Playing repeated games with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16867) | [code]
 
 	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [[code]](https://github.com/OpenGVLab/GITM)
