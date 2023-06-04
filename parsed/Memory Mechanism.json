@@ -53,5 +53,17 @@
         "date": "2023/05/17",
         "pdf": "https://arxiv.org/pdf/2305.10250",
         "abstract": " Revolutionary advancements in Large Language Models have drastically reshaped\nour interactions with artificial intelligence systems. Despite this, a notable\nhindrance remains-the deficiency of a long-term memory mechanism within these\nmodels. This shortfall becomes increasingly evident in situations demanding\nsustained interaction, such as personal companion systems and psychological\ncounseling. Therefore, we propose MemoryBank, a novel memory mechanism tailored\nfor LLMs. MemoryBank enables the models to summon relevant memories,\ncontinually evolve through continuous memory updates, comprehend, and adapt to\na user personality by synthesizing information from past interactions. To mimic\nanthropomorphic behaviors and selectively preserve memory, MemoryBank\nincorporates a memory updating mechanism, inspired by the Ebbinghaus Forgetting\nCurve theory, which permits the AI to forget and reinforce memory based on time\nelapsed and the relative significance of the memory, thereby offering a\nhuman-like memory mechanism. MemoryBank is versatile in accommodating both\nclosed-source models like ChatGPT and open-source models like ChatGLM. We\nexemplify application of MemoryBank through the creation of an LLM-based\nchatbot named SiliconFriend in a long-term AI Companion scenario. Further tuned\nwith psychological dialogs, SiliconFriend displays heightened empathy in its\ninteractions. Experiment involves both qualitative analysis with real-world\nuser dialogs and quantitative analysis with simulated dialogs. In the latter,\nChatGPT acts as users with diverse characteristics and generates long-term\ndialog contexts covering a wide array of topics. The results of our analysis\nreveal that SiliconFriend, equipped with MemoryBank, exhibits a strong\ncapability for long-term companionship as it can provide emphatic response,\nrecall relevant memories and understand user personality.\n"
+    },
+    "6a6f1235f7ec4b77cf44a2ecefe0220f": {
+        "title": "RET-LLM: Towards a General Read-Write Memory for Large Language Models",
+        "authors": [
+            "Ali Modarressi",
+            "Ayyoob Imani",
+            "Mohsen Fayyaz",
+            "Hinrich Schütze"
+        ],
+        "date": "2023/05/23",
+        "pdf": "https://arxiv.org/pdf/2305.14322",
+        "abstract": " Large language models (LLMs) have significantly advanced the field of natural\nlanguage processing (NLP) through their extensive parameters and comprehensive\ndata utilization. However, existing LLMs lack a dedicated memory unit, limiting\ntheir ability to explicitly store and retrieve knowledge for various tasks. In\nthis paper, we propose RET-LLM a novel framework that equips LLMs with a\ngeneral write-read memory unit, allowing them to extract, store, and recall\nknowledge from the text as needed for task performance. Inspired by Davidsonian\nsemantics theory, we extract and save knowledge in the form of triplets. The\nmemory unit is designed to be scalable, aggregatable, updatable, and\ninterpretable. Through qualitative evaluations, we demonstrate the superiority\nof our proposed framework over baseline approaches in question answering tasks.\nMoreover, our framework exhibits robust performance in handling temporal-based\nquestion answering tasks, showcasing its ability to effectively manage\ntime-dependent information.\n"
     }
 }

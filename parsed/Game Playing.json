@@ -28,28 +28,6 @@
         "pdf": "https://arxiv.org/pdf/2305.05091",
         "abstract": " Communication via natural language is a crucial aspect of intelligence, and\nit requires computational models to learn and reason about world concepts, with\nvarying levels of supervision. While there has been significant progress made\non fully-supervised non-interactive tasks, such as question-answering and\nprocedural text understanding, much of the community has turned to various\nsequential interactive tasks, as in semi-Markov text-based games, which have\nrevealed limitations of existing approaches in terms of coherence, contextual\nawareness, and their ability to learn effectively from the environment. In this\npaper, we propose a framework for enabling improved functional grounding of\nagents in text-based games. Specifically, we consider two forms of domain\nknowledge that we inject into learning-based agents: memory of previous correct\nactions and affordances of relevant objects in the environment. Our framework\nsupports three representative model classes: `pure&#39; reinforcement learning (RL)\nagents, RL agents enhanced with knowledge graphs, and agents equipped with\nlanguage models. Furthermore, we devise multiple injection strategies for the\nabove domain knowledge types and agent architectures, including injection via\nknowledge graphs and augmentation of the existing input encoding strategies. We\nperform all experiments on the ScienceWorld text-based game environment, to\nillustrate the performance of various model configurations in challenging\nscience-related instruction-following tasks. Our findings provide crucial\ninsights on the development of effective natural language processing systems\nfor interactive contexts.\n"
     },
-    "ec37317b3579158b46de6d811f54021b": {
-        "title": "Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory",
-        "authors": [
-            "Xizhou Zhu",
-            "Yuntao Chen",
-            "Hao Tian",
-            "Chenxin Tao",
-            "Weijie Su",
-            "Chenyu Yang",
-            "Gao Huang",
-            "Bin Li",
-            "Lewei Lu",
-            "Xiaogang Wang",
-            "Yu Qiao",
-            "Zhaoxiang Zhang",
-            "Jifeng Dai"
-        ],
-        "date": "2023/05/25",
-        "pdf": "https://arxiv.org/pdf/2305.17144",
-        "code": "https://github.com/OpenGVLab/GITM",
-        "abstract": " The captivating realm of Minecraft has attracted substantial research\ninterest in recent years, serving as a rich platform for developing intelligent\nagents capable of functioning in open-world environments. However, the current\nresearch landscape predominantly focuses on specific objectives, such as the\npopular &#34;ObtainDiamond&#34; task, and has not yet shown effective generalization to\na broader spectrum of tasks. Furthermore, the current leading success rate for\nthe &#34;ObtainDiamond&#34; task stands at around 20%, highlighting the limitations of\nReinforcement Learning (RL) based controllers used in existing methods. To\ntackle these challenges, we introduce Ghost in the Minecraft (GITM), a novel\nframework integrates Large Language Models (LLMs) with text-based knowledge and\nmemory, aiming to create Generally Capable Agents (GCAs) in Minecraft. These\nagents, equipped with the logic and common sense capabilities of LLMs, can\nskillfully navigate complex, sparse-reward environments with text-based\ninteractions. We develop a set of structured actions and leverage LLMs to\ngenerate action plans for the agents to execute. The resulting LLM-based agent\nmarkedly surpasses previous methods, achieving a remarkable improvement of\n+47.5% in success rate on the &#34;ObtainDiamond&#34; task, demonstrating superior\nrobustness compared to traditional RL-based controllers. Notably, our agent is\nthe first to procure all items in the Minecraft Overworld technology tree,\ndemonstrating its extensive capabilities. GITM does not need any GPU for\ntraining, but a single CPU node with 32 CPU cores is enough. This research\nshows the potential of LLMs in developing capable agents for handling\nlong-horizon, complex tasks and adapting to uncertainties in open-world\nenvironments. See the project website at https://github.com/OpenGVLab/GITM.\n"
-    },
     "d0aa2508a83304e8baf09ffdf76be63c": {
         "title": "Playing repeated games with Large Language Models",
         "authors": [
@@ -117,5 +95,27 @@
         "pdf": "https://arxiv.org/pdf/2305.16291",
         "code": "https://github.com/MineDojo/Voyager",
         "abstract": " We introduce Voyager, the first LLM-powered embodied lifelong learning agent\nin Minecraft that continuously explores the world, acquires diverse skills, and\nmakes novel discoveries without human intervention. Voyager consists of three\nkey components: 1) an automatic curriculum that maximizes exploration, 2) an\never-growing skill library of executable code for storing and retrieving\ncomplex behaviors, and 3) a new iterative prompting mechanism that incorporates\nenvironment feedback, execution errors, and self-verification for program\nimprovement. Voyager interacts with GPT-4 via blackbox queries, which bypasses\nthe need for model parameter fine-tuning. The skills developed by Voyager are\ntemporally extended, interpretable, and compositional, which compounds the\nagent&#39;s abilities rapidly and alleviates catastrophic forgetting. Empirically,\nVoyager shows strong in-context lifelong learning capability and exhibits\nexceptional proficiency in playing Minecraft. It obtains 3.3x more unique\nitems, travels 2.3x longer distances, and unlocks key tech tree milestones up\nto 15.3x faster than prior SOTA. Voyager is able to utilize the learned skill\nlibrary in a new Minecraft world to solve novel tasks from scratch, while other\ntechniques struggle to generalize. We open-source our full codebase and prompts\nat https://voyager.minedojo.org/.\n"
+    },
+    "ec37317b3579158b46de6d811f54021b": {
+        "title": "Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory",
+        "authors": [
+            "Xizhou Zhu",
+            "Yuntao Chen",
+            "Hao Tian",
+            "Chenxin Tao",
+            "Weijie Su",
+            "Chenyu Yang",
+            "Gao Huang",
+            "Bin Li",
+            "Lewei Lu",
+            "Xiaogang Wang",
+            "Yu Qiao",
+            "Zhaoxiang Zhang",
+            "Jifeng Dai"
+        ],
+        "date": "2023/05/25",
+        "pdf": "https://arxiv.org/pdf/2305.17144",
+        "code": "https://github.com/OpenGVLab/GITM",
+        "abstract": " The captivating realm of Minecraft has attracted substantial research\ninterest in recent years, serving as a rich platform for developing intelligent\nagents capable of functioning in open-world environments. However, the current\nresearch landscape predominantly focuses on specific objectives, such as the\npopular &#34;ObtainDiamond&#34; task, and has not yet shown effective generalization to\na broader spectrum of tasks. Furthermore, the current leading success rate for\nthe &#34;ObtainDiamond&#34; task stands at around 20%, highlighting the limitations of\nReinforcement Learning (RL) based controllers used in existing methods. To\ntackle these challenges, we introduce Ghost in the Minecraft (GITM), a novel\nframework integrates Large Language Models (LLMs) with text-based knowledge and\nmemory, aiming to create Generally Capable Agents (GCAs) in Minecraft. These\nagents, equipped with the logic and common sense capabilities of LLMs, can\nskillfully navigate complex, sparse-reward environments with text-based\ninteractions. We develop a set of structured actions and leverage LLMs to\ngenerate action plans for the agents to execute. The resulting LLM-based agent\nmarkedly surpasses previous methods, achieving a remarkable improvement of\n+47.5% in success rate on the &#34;ObtainDiamond&#34; task, demonstrating superior\nrobustness compared to traditional RL-based controllers. Notably, our agent is\nthe first to procure all items in the Minecraft Overworld technology tree,\ndemonstrating its extensive capabilities. GITM does not need any GPU for\ntraining, but a single CPU node with 32 CPU cores is enough. This research\nshows the potential of LLMs in developing capable agents for handling\nlong-horizon, complex tasks and adapting to uncertainties in open-world\nenvironments. See the project website at https://github.com/OpenGVLab/GITM.\n"
     }
 }
