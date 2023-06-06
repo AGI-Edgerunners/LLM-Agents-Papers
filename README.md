@@ -4,6 +4,8 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 ---
 
 - Role Playing
+	- [2023/05/30] *Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate* | [[paper]](https://arxiv.org/abs/2305.19118) | [code]
+
 	- [2023/05/27] *SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks* | [[paper]](https://arxiv.org/abs/2305.17390) | [[code]](https://github.com/yuchenlin/swiftsage/)
 
 	- [2023/05/26] *Training Socially Aligned Language Models in Simulated Human Society* | [[paper]](https://arxiv.org/abs/2305.16960) | [[code]](https://github.com/agi-templar/Stable-Alignment)
@@ -22,12 +24,15 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 	- [2023/04/21] *Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback* | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
 
+	- [2023/04/15] *Self-collaboration Code Generation via ChatGPT* | [[paper]](https://arxiv.org/abs/2304.07590) | [code]
+
 	- [2023/04/07] *Generative Agents: Interactive Simulacra of Human Behavior* | [[paper]](https://arxiv.org/abs/2304.03442) | [[code]](https://github.com/mkturkcan/generative-agents)
 
 	- [2023/03/31] *CAMEL: Communicative Agents for &#34;Mind&#34; Exploration of Large Scale Language Model Society* | [[paper]](https://arxiv.org/abs/2303.17760) | [[code]](https://github.com/camel-ai/camel)
 
 ---
 - Memory Mechanism
+
 	- [2023/05/31] *Monotonic Location Attention for Length Generalization* | [[paper]](https://arxiv.org/abs/2305.20019) | [code]
 
 	- [2023/05/26] *Randomized Positional Encodings Boost Length Generalization of Transformers* | [[paper]](https://arxiv.org/abs/2305.16843) | [code]
@@ -37,6 +42,8 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 	- [2023/05/24] *Revisiting Parallel Context Windows: A Frustratingly Simple Alternative and Chain-of-Thought Deterioration* | [[paper]](https://arxiv.org/abs/2305.15262) | [code]
 
 	- [2023/05/24] *Adapting Language Models to Compress Contexts* | [[paper]](https://arxiv.org/abs/2305.14788) | [code]
+
+	- [2023/05/23] *RET-LLM: Towards a General Read-Write Memory for Large Language Models* | [[paper]](https://arxiv.org/abs/2305.14322) | [code]
 
 	- [2023/05/22] *RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text* | [[paper]](https://arxiv.org/abs/2305.13304) | [code]
 
@@ -64,7 +71,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 	- [2023/05/26] *Playing repeated games with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16867) | [code]
 
-	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [[code]](https://github.com/OpenGVLab/GITM)
+	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [code]
 
 	- [2023/05/25] *Voyager: An Open-Ended Embodied Agent with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16291) | [[code]](https://github.com/MineDojo/Voyager)
 

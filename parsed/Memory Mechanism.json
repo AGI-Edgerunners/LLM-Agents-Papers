@@ -205,5 +205,17 @@
         "date": "2023/05/24",
         "pdf": "https://arxiv.org/pdf/2305.14788",
         "abstract": " Transformer-based language models (LMs) are powerful and widely-applicable\ntools, but their usefulness is constrained by a finite context window and the\nexpensive computational cost of processing long text documents. We propose to\nadapt pre-trained LMs into AutoCompressors. These models are capable of\ncompressing long contexts into compact summary vectors, which are then\naccessible to the model as soft prompts. Summary vectors are trained with an\nunsupervised objective, whereby long documents are processed in segments and\nsummary vectors from all previous segments are used in language modeling. We\nfine-tune OPT models on sequences of up to 30,720 tokens and show that\nAutoCompressors can utilize long contexts to improve perplexity. We evaluate\nAutoCompressors on in-context learning by compressing task demonstrations. We\nfind that summary vectors are good substitutes for plain-text demonstrations,\nincreasing accuracy while reducing inference cost. Finally, we explore the\nbenefits of pre-computing summary vectors for large corpora by applying summary\nvectors to retrieval-augmented language modeling. Overall, AutoCompressors\nemerge as a simple and inexpensive solution for extending the context window of\nLMs while speeding up inference over long contexts.\n"
+    },
+    "6a6f1235f7ec4b77cf44a2ecefe0220f": {
+        "title": "RET-LLM: Towards a General Read-Write Memory for Large Language Models",
+        "authors": [
+            "Ali Modarressi",
+            "Ayyoob Imani",
+            "Mohsen Fayyaz",
+            "Hinrich Schütze"
+        ],
+        "date": "2023/05/23",
+        "pdf": "https://arxiv.org/pdf/2305.14322",
+        "abstract": " Large language models (LLMs) have significantly advanced the field of natural\nlanguage processing (NLP) through their extensive parameters and comprehensive\ndata utilization. However, existing LLMs lack a dedicated memory unit, limiting\ntheir ability to explicitly store and retrieve knowledge for various tasks. In\nthis paper, we propose RET-LLM a novel framework that equips LLMs with a\ngeneral write-read memory unit, allowing them to extract, store, and recall\nknowledge from the text as needed for task performance. Inspired by Davidsonian\nsemantics theory, we extract and save knowledge in the form of triplets. The\nmemory unit is designed to be scalable, aggregatable, updatable, and\ninterpretable. Through qualitative evaluations, we demonstrate the superiority\nof our proposed framework over baseline approaches in question answering tasks.\nMoreover, our framework exhibits robust performance in handling temporal-based\nquestion answering tasks, showcasing its ability to effectively manage\ntime-dependent information.\n"
     }
 }
