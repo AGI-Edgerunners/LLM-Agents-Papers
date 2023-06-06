@@ -32,15 +32,38 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 ---
 - Memory Mechanism
+
+	- [2023/05/31] *Monotonic Location Attention for Length Generalization* | [[paper]](https://arxiv.org/abs/2305.20019) | [code]
+
+	- [2023/05/26] *Randomized Positional Encodings Boost Length Generalization of Transformers* | [[paper]](https://arxiv.org/abs/2305.16843) | [code]
+
+	- [2023/05/25] *Landmark Attention: Random-Access Infinite Context Length for Transformers* | [[paper]](https://arxiv.org/abs/2305.16300) | [code]
+
+	- [2023/05/24] *Revisiting Parallel Context Windows: A Frustratingly Simple Alternative and Chain-of-Thought Deterioration* | [[paper]](https://arxiv.org/abs/2305.15262) | [code]
+
+	- [2023/05/24] *Adapting Language Models to Compress Contexts* | [[paper]](https://arxiv.org/abs/2305.14788) | [code]
+
 	- [2023/05/23] *RET-LLM: Towards a General Read-Write Memory for Large Language Models* | [[paper]](https://arxiv.org/abs/2305.14322) | [code]
 
+	- [2023/05/22] *RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text* | [[paper]](https://arxiv.org/abs/2305.13304) | [code]
+
+	- [2023/05/19] *ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings* | [[paper]](https://arxiv.org/abs/2305.11554) | [code]
+
 	- [2023/05/17] *MemoryBank: Enhancing Large Language Models with Long-Term Memory* | [[paper]](https://arxiv.org/abs/2305.10250) | [code]
+
+	- [2023/05/15] *Small Models are Valuable Plug-ins for Large Language Models* | [[paper]](https://arxiv.org/abs/2305.08848) | [code]
+
+	- [2023/05/02] *Unlimiformer: Long-Range Transformers with Unlimited Length Input* | [[paper]](https://arxiv.org/abs/2305.01625) | [code]
 
 	- [2023/05/01] *Learning to Reason and Memorize with Self-Notes* | [[paper]](https://arxiv.org/abs/2305.00833) | [code]
 
 	- [2023/04/27] *ChatLog: Recording and Analyzing ChatGPT Across Time* | [[paper]](https://arxiv.org/abs/2304.14106) | [code]
 
+	- [2023/04/26] *Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System* | [[paper]](https://arxiv.org/abs/2304.13343) | [code]
+
 	- [2023/04/21] *Emergent and Predictable Memorization in Large Language Models* | [[paper]](https://arxiv.org/abs/2304.11158) | [code]
+
+	- [2023/03/17] *CoLT5: Faster Long-Range Transformers with Conditional Computation* | [[paper]](https://arxiv.org/abs/2303.09752) | [code]
 
 ---
 - Game Playing
