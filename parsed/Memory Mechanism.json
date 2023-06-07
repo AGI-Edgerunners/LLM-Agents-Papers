@@ -217,5 +217,19 @@
         "date": "2023/05/23",
         "pdf": "https://arxiv.org/pdf/2305.14322",
         "abstract": " Large language models (LLMs) have significantly advanced the field of natural\nlanguage processing (NLP) through their extensive parameters and comprehensive\ndata utilization. However, existing LLMs lack a dedicated memory unit, limiting\ntheir ability to explicitly store and retrieve knowledge for various tasks. In\nthis paper, we propose RET-LLM a novel framework that equips LLMs with a\ngeneral write-read memory unit, allowing them to extract, store, and recall\nknowledge from the text as needed for task performance. Inspired by Davidsonian\nsemantics theory, we extract and save knowledge in the form of triplets. The\nmemory unit is designed to be scalable, aggregatable, updatable, and\ninterpretable. Through qualitative evaluations, we demonstrate the superiority\nof our proposed framework over baseline approaches in question answering tasks.\nMoreover, our framework exhibits robust performance in handling temporal-based\nquestion answering tasks, showcasing its ability to effectively manage\ntime-dependent information.\n"
+    },
+    "8c6217168c689b7097c12b1d55262252": {
+        "title": "ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory",
+        "authors": [
+            "Chenxu Hu",
+            "Jie Fu",
+            "Chenzhuang Du",
+            "Simian Luo",
+            "Junbo Zhao",
+            "Hang Zhao"
+        ],
+        "date": "2023/06/06",
+        "pdf": "https://arxiv.org/pdf/2306.03901",
+        "abstract": " Large language models (LLMs) with memory are computationally universal.\nHowever, mainstream LLMs are not taking full advantage of memory, and the\ndesigns are heavily influenced by biological brains. Due to their approximate\nnature and proneness to the accumulation of errors, conventional neural memory\nmechanisms cannot support LLMs to simulate complex reasoning. In this paper, we\nseek inspiration from modern computer architectures to augment LLMs with\nsymbolic memory for complex multi-hop reasoning. Such a symbolic memory\nframework is instantiated as an LLM and a set of SQL databases, where the LLM\ngenerates SQL instructions to manipulate the SQL databases. We validate the\neffectiveness of the proposed memory framework on a synthetic dataset requiring\ncomplex reasoning. The project website is available at\nhttps://chatdatabase.github.io/ .\n"
     }
 }

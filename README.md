@@ -32,6 +32,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 ---
 - Memory Mechanism
+	- [2023/06/06] *ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory* | [[paper]](https://arxiv.org/abs/2306.03901) | [code]
 
 	- [2023/05/31] *Monotonic Location Attention for Length Generalization* | [[paper]](https://arxiv.org/abs/2305.20019) | [code]
 
@@ -71,7 +72,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 	- [2023/05/26] *Playing repeated games with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16867) | [code]
 
-	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [code]
+	- [2023/05/25] *Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory* | [[paper]](https://arxiv.org/abs/2305.17144) | [[code]](https://github.com/OpenGVLab/GITM)
 
 	- [2023/05/25] *Voyager: An Open-Ended Embodied Agent with Large Language Models* | [[paper]](https://arxiv.org/abs/2305.16291) | [[code]](https://github.com/MineDojo/Voyager)
 
