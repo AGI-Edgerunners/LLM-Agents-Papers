@@ -1,0 +1,16 @@
+{
+    "28a8719ce1adca46dae998bec22518f1": {
+        "title": "Can Large Language Models Play Text Games Well? Current State-of-the-Art and Open Questions",
+        "authors": [
+            "Chen Feng Tsai",
+            "Xiaochen Zhou",
+            "Sierra S. Liu",
+            "Jing Li",
+            "Mo Yu",
+            "Hongyuan Mei"
+        ],
+        "date": "2023/04/06",
+        "pdf": "https://arxiv.org/pdf/2304.02868",
+        "abstract": " Large language models (LLMs) such as ChatGPT and GPT-4 have recently\ndemonstrated their remarkable abilities of communicating with human users. In\nthis technical report, we take an initiative to investigate their capacities of\nplaying text games, in which a player has to understand the environment and\nrespond to situations by having dialogues with the game world. Our experiments\nshow that ChatGPT performs competitively compared to all the existing systems\nbut still exhibits a low level of intelligence. Precisely, ChatGPT can not\nconstruct the world model by playing the game or even reading the game manual;\nit may fail to leverage the world knowledge that it already has; it cannot\ninfer the goal of each step as the game progresses. Our results open up new\nresearch questions at the intersection of artificial intelligence, machine\nlearning, and natural language processing.\n"
+    }
+}

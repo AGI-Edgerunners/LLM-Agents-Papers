@@ -3,7 +3,13 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 ---
 
+- Servey
+	- [2023/04/06] *Can Large Language Models Play Text Games Well? Current State-of-the-Art and Open Questions* | [[paper]](https://arxiv.org/abs/2304.02868) | [code]
+
+---
 - Role Playing
+	- [2023/07/11] *Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration* | [[paper]](https://arxiv.org/abs/2307.05300) | [code]
+
 	- [2023/05/30] *Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate* | [[paper]](https://arxiv.org/abs/2305.19118) | [code]
 
 	- [2023/05/27] *SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks* | [[paper]](https://arxiv.org/abs/2305.17390) | [[code]](https://github.com/yuchenlin/swiftsage/)
@@ -81,3 +87,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 	- [2023/05/08] *Knowledge-enhanced Agents for Interactive Text Games* | [[paper]](https://arxiv.org/abs/2305.05091) | [code]
 
 	- [2023/03/29] *Plan4MC: Skill Reinforcement Learning and Planning for Open-World Minecraft Tasks* | [[paper]](https://arxiv.org/abs/2303.16563) | [[code]](https://sites.google.com/view/plan4mc)
+
+---
+- Game Platform
+	- [2023/03/14] *CB2: Collaborative Natural Language Interaction Research Platform* | [[paper]](https://arxiv.org/abs/2303.08127) | [code]
