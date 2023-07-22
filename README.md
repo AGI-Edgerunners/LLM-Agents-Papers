@@ -3,7 +3,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 ---
 
-- Servey
+- Survey
 	- [2023/04/06] *Can Large Language Models Play Text Games Well? Current State-of-the-Art and Open Questions* | [[paper]](https://arxiv.org/abs/2304.02868) | [code]
 
 ---
