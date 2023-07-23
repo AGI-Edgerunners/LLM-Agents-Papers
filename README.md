@@ -8,9 +8,15 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 ---
 - Role Playing
+	- [2023/07/16] *Communicative Agents for Software Development* | [[paper]](https://arxiv.org/abs/2307.07924) | [code]
+
 	- [2023/07/11] *Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration* | [[paper]](https://arxiv.org/abs/2307.05300) | [code]
 
-	- [2023/05/30] *Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate* | [[paper]](https://arxiv.org/abs/2305.19118) | [code]
+	- [2023/07/05] *Building Cooperative Embodied Agents Modularly with Large Language Models* | [[paper]](https://arxiv.org/abs/2307.02485) | [[code]](https://github.com/UMass-Foundation-Model/Co-LLM-Agents)
+
+	- [2023/06/28] *Inferring the Goals of Communicating Agents from Actions and Instructions* | [[paper]](https://arxiv.org/abs/2306.16207) | [code]
+
+	- [2023/05/30] *Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate* | [[paper]](https://arxiv.org/abs/2305.19118) | [[code]](https://github.com/Skytliang/Multi-Agents-Debate)
 
 	- [2023/05/27] *SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks* | [[paper]](https://arxiv.org/abs/2305.17390) | [[code]](https://github.com/yuchenlin/swiftsage/)
 
