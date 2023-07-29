@@ -12,5 +12,24 @@
         "date": "2023/04/06",
         "pdf": "https://arxiv.org/pdf/2304.02868",
         "abstract": " Large language models (LLMs) such as ChatGPT and GPT-4 have recently\ndemonstrated their remarkable abilities of communicating with human users. In\nthis technical report, we take an initiative to investigate their capacities of\nplaying text games, in which a player has to understand the environment and\nrespond to situations by having dialogues with the game world. Our experiments\nshow that ChatGPT performs competitively compared to all the existing systems\nbut still exhibits a low level of intelligence. Precisely, ChatGPT can not\nconstruct the world model by playing the game or even reading the game manual;\nit may fail to leverage the world knowledge that it already has; it cannot\ninfer the goal of each step as the game progresses. Our results open up new\nresearch questions at the intersection of artificial intelligence, machine\nlearning, and natural language processing.\n"
+    },
+    "26a0f2b5b4d2ff9c7cc8fad72d1a94ff": {
+        "title": "Next Steps for Human-Centered Generative AI: A Technical Perspective",
+        "authors": [
+            "Xiang &#39;Anthony&#39; Chen",
+            "Jeff Burke",
+            "Ruofei Du",
+            "Matthew K. Hong",
+            "Jennifer Jacobs",
+            "Philippe Laban",
+            "Dingzeyu Li",
+            "Nanyun Peng",
+            "Karl D. D. Willis",
+            "Chien-Sheng Wu",
+            "Bolei Zhou"
+        ],
+        "date": "2023/06/27",
+        "pdf": "https://arxiv.org/pdf/2306.15774",
+        "abstract": " Through iterative, cross-disciplinary discussions, we define and propose\nnext-steps for Human-centered Generative AI (HGAI) from a technical\nperspective. We contribute a roadmap that lays out future directions of\nGenerative AI spanning three levels: Aligning with human values; Accommodating\nhumans&#39; expression of intents; and Augmenting humans&#39; abilities in a\ncollaborative workflow. This roadmap intends to draw interdisciplinary research\nteams to a comprehensive list of emergent ideas in HGAI, identifying their\ninterested topics while maintaining a coherent big picture of the future work\nlandscape.\n"
     }
 }

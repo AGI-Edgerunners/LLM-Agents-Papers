@@ -267,5 +267,15 @@
         "date": "2023/06/28",
         "pdf": "https://arxiv.org/pdf/2306.16207",
         "abstract": " When humans cooperate, they frequently coordinate their activity through both\nverbal communication and non-verbal actions, using this information to infer a\nshared goal and plan. How can we model this inferential ability? In this paper,\nwe introduce a model of a cooperative team where one agent, the principal, may\ncommunicate natural language instructions about their shared plan to another\nagent, the assistant, using GPT-3 as a likelihood function for instruction\nutterances. We then show how a third person observer can infer the team&#39;s goal\nvia multi-modal Bayesian inverse planning from actions and instructions,\ncomputing the posterior distribution over goals under the assumption that\nagents will act and communicate rationally to achieve them. We evaluate this\napproach by comparing it with human goal inferences in a multi-agent gridworld,\nfinding that our model&#39;s inferences closely correlate with human judgments (R =\n0.96). When compared to inference from actions alone, we also find that\ninstructions lead to more rapid and less uncertain goal inference, highlighting\nthe importance of verbal communication for cooperative agents.\n"
+    },
+    "8064cabdde186f6c901cd321e0c1e117": {
+        "title": "Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents",
+        "authors": [
+            "Yashar Talebirad",
+            "Amirhossein Nadiri"
+        ],
+        "date": "2023/06/05",
+        "pdf": "https://arxiv.org/pdf/2306.03314",
+        "abstract": " In this paper, we present a novel framework for enhancing the capabilities of\nlarge language models (LLMs) by leveraging the power of multi-agent systems.\nOur framework introduces a collaborative environment where multiple intelligent\nagent components, each with distinctive attributes and roles, work together to\nhandle complex tasks more efficiently and effectively. We demonstrate the\npracticality and versatility of our framework through case studies in\nartificial general intelligence (AGI), specifically focusing on the Auto-GPT\nand BabyAGI models. We also examine the &#34;Gorilla&#34; model, which integrates\nexternal APIs into the LLM. Our framework addresses limitations and challenges\nsuch as looping issues, security risks, scalability, system evaluation, and\nethical considerations. By modeling various domains such as courtroom\nsimulations and software development scenarios, we showcase the potential\napplications and benefits of our proposed multi-agent system. Our framework\nprovides an avenue for advancing the capabilities and performance of LLMs\nthrough collaboration and knowledge exchange among intelligent agents.\n"
     }
 }

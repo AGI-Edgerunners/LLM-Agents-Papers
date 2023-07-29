@@ -4,6 +4,8 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 ---
 
 - Survey
+	- [2023/06/27] *Next Steps for Human-Centered Generative AI: A Technical Perspective* | [[paper]](https://arxiv.org/abs/2306.15774) | [code]
+
 	- [2023/04/06] *Can Large Language Models Play Text Games Well? Current State-of-the-Art and Open Questions* | [[paper]](https://arxiv.org/abs/2304.02868) | [code]
 
 ---
@@ -15,6 +17,8 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 	- [2023/07/05] *Building Cooperative Embodied Agents Modularly with Large Language Models* | [[paper]](https://arxiv.org/abs/2307.02485) | [[code]](https://github.com/UMass-Foundation-Model/Co-LLM-Agents)
 
 	- [2023/06/28] *Inferring the Goals of Communicating Agents from Actions and Instructions* | [[paper]](https://arxiv.org/abs/2306.16207) | [code]
+
+	- [2023/06/05] *Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents* | [[paper]](https://arxiv.org/abs/2306.03314) | [code]
 
 	- [2023/05/30] *Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate* | [[paper]](https://arxiv.org/abs/2305.19118) | [[code]](https://github.com/Skytliang/Multi-Agents-Debate)
 
