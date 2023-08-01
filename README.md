@@ -1,5 +1,8 @@
 # LLM-Agents-Papers
-A repo lists papers about LLM role playing, memory mechanism and LLM game playing.
+A repo lists papers related to LLM based agent. Includes 
+* methods of role playing, memory mechanism and game playing; 
+* benchmark and surveys of the field; 
+* environments or platforms;
 
 ---
 
@@ -103,3 +106,7 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 ---
 - Game Platform
 	- [2023/03/14] *CB2: Collaborative Natural Language Interaction Research Platform* | [[paper]](https://arxiv.org/abs/2303.08127) | [code]
+
+---
+- Benchmark
+	- [2023/07/31] *HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution* | [[paper]](https://arxiv.org/abs/2307.16883) | [code]

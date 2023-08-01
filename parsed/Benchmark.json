@@ -1,0 +1,15 @@
+{
+    "c8c04c2c8e3e947e8cdee88e9ce28e21": {
+        "title": "HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution",
+        "authors": [
+            "Ehsan Kamalloo",
+            "Aref Jafari",
+            "Xinyu Zhang",
+            "Nandan Thakur",
+            "Jimmy Lin"
+        ],
+        "date": "2023/07/31",
+        "pdf": "https://arxiv.org/pdf/2307.16883",
+        "abstract": " The rise of large language models (LLMs) had a transformative impact on\nsearch, ushering in a new era of search engines that are capable of generating\nsearch results in natural language text, imbued with citations for supporting\nsources. Building generative information-seeking models demands openly\naccessible datasets, which currently remain lacking. In this paper, we\nintroduce a new dataset, HAGRID (Human-in-the-loop Attributable Generative\nRetrieval for Information-seeking Dataset) for building end-to-end generative\ninformation-seeking models that are capable of retrieving candidate quotes and\ngenerating attributed explanations. Unlike recent efforts that focus on human\nevaluation of black-box proprietary search engines, we built our dataset atop\nthe English subset of MIRACL, a publicly available information retrieval\ndataset. HAGRID is constructed based on human and LLM collaboration. We first\nautomatically collect attributed explanations that follow an in-context\ncitation style using an LLM, i.e. GPT-3.5. Next, we ask human annotators to\nevaluate the LLM explanations based on two criteria: informativeness and\nattributability. HAGRID serves as a catalyst for the development of\ninformation-seeking models with better attribution capabilities.\n"
+    }
+}
