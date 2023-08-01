@@ -277,5 +277,19 @@
         "date": "2023/06/05",
         "pdf": "https://arxiv.org/pdf/2306.03314",
         "abstract": " In this paper, we present a novel framework for enhancing the capabilities of\nlarge language models (LLMs) by leveraging the power of multi-agent systems.\nOur framework introduces a collaborative environment where multiple intelligent\nagent components, each with distinctive attributes and roles, work together to\nhandle complex tasks more efficiently and effectively. We demonstrate the\npracticality and versatility of our framework through case studies in\nartificial general intelligence (AGI), specifically focusing on the Auto-GPT\nand BabyAGI models. We also examine the &#34;Gorilla&#34; model, which integrates\nexternal APIs into the LLM. Our framework addresses limitations and challenges\nsuch as looping issues, security risks, scalability, system evaluation, and\nethical considerations. By modeling various domains such as courtroom\nsimulations and software development scenarios, we showcase the potential\napplications and benefits of our proposed multi-agent system. Our framework\nprovides an avenue for advancing the capabilities and performance of LLMs\nthrough collaboration and knowledge exchange among intelligent agents.\n"
+    },
+    "b528b505331cd36fd5ba472f7bc6922c": {
+        "title": "To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations",
+        "authors": [
+            "Philipp Maas",
+            "Frank Carey",
+            "Chris Wheeler",
+            "Edward Saatchi",
+            "Pete Billington",
+            "Jessica Yaffa Shamash"
+        ],
+        "date": "2023/07/24",
+        "pdf": "https://fablestudio.github.io/showrunner-agents/static/pdfs/To_Infinity_and_Beyond_SHOW-1_And_Showrunner_Agents_in_Multi_Agent_Simulations_v2.pdf",
+        "abstract": "In this work we present our approach to generating high-quality episodic content for IP's (Intellectual Property) using large language models (LLMs), custom state-of-the art diffusion models and our multi-agent simulation for contextualization, story progression and behavioral control. Powerful LLMs such as GPT-4 were trained on a large corpus of TV show data which lets us believe that with the right guidance users will be able to rewrite entire seasons. \"That Is What Entertainment Will Look Like. Maybe people are still upset about the last season of Game of Thrones. Imagine if you could ask your A.I. to make a new ending that goes a different way and maybe even put yourself in there as a main character or something."
     }
 }

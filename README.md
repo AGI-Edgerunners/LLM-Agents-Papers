@@ -10,6 +10,8 @@ A repo lists papers about LLM role playing, memory mechanism and LLM game playin
 
 ---
 - Role Playing
+	- [2023/07/24] *To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations* | [[paper]](https://fablestudio.github.io/showrunner-agents/) | [code]
+
 	- [2023/07/16] *Communicative Agents for Software Development* | [[paper]](https://arxiv.org/abs/2307.07924) | [code]
 
 	- [2023/07/11] *Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration* | [[paper]](https://arxiv.org/abs/2307.05300) | [code]
