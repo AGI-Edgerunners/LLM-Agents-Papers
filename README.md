@@ -1,9 +1,9 @@
 # LLM-Agents-Papers
 A repo lists papers related to LLM based agent. Includes 
-* methods of role playing, memory mechanism and game playing; 
+* methods of role playing, memory mechanism and game playing 
 * methods of feedback or reflection 
-* benchmarks and surveys of the field; 
-* environments or platforms;
+* benchmarks and surveys of the field 
+* environments or platforms
 
 ---
 
