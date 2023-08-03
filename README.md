@@ -1,6 +1,7 @@
 # LLM-Agents-Papers
 A repo lists papers related to LLM based agent. Includes 
 * methods of role playing, memory mechanism and game playing; 
+* methods of feedback or reflection 
 * benchmark and surveys of the field; 
 * environments or platforms;
 
@@ -25,8 +26,6 @@ A repo lists papers related to LLM based agent. Includes
 
 	- [2023/06/05] *Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents* | [[paper]](https://arxiv.org/abs/2306.03314) | [code]
 
-	- [2023/05/30] *Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate* | [[paper]](https://arxiv.org/abs/2305.19118) | [[code]](https://github.com/Skytliang/Multi-Agents-Debate)
-
 	- [2023/05/27] *SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks* | [[paper]](https://arxiv.org/abs/2305.17390) | [[code]](https://github.com/yuchenlin/swiftsage/)
 
 	- [2023/05/26] *Training Socially Aligned Language Models in Simulated Human Society* | [[paper]](https://arxiv.org/abs/2305.16960) | [[code]](https://github.com/agi-templar/Stable-Alignment)
@@ -42,8 +41,6 @@ A repo lists papers related to LLM based agent. Includes
 	- [2023/04/26] *Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models* | [[paper]](https://arxiv.org/abs/2304.13835) | [[code]](https://github.com/facebookresearch/LIGHT)
 
 	- [2023/04/24] *ChatLLM Network: More brains, More intelligence* | [[paper]](https://arxiv.org/abs/2304.12998) | [code]
-
-	- [2023/04/21] *Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback* | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
 
 	- [2023/04/15] *Self-collaboration Code Generation via ChatGPT* | [[paper]](https://arxiv.org/abs/2304.07590) | [code]
 
@@ -106,6 +103,14 @@ A repo lists papers related to LLM based agent. Includes
 ---
 - Game Platform
 	- [2023/03/14] *CB2: Collaborative Natural Language Interaction Research Platform* | [[paper]](https://arxiv.org/abs/2303.08127) | [code]
+
+---
+- Feedback or Reflection
+	- [2023/08/01] *SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning* | [[paper]](https://arxiv.org/abs/2308.00436) | [code]
+
+	- [2023/05/30] *Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate* | [[paper]](https://arxiv.org/abs/2305.19118) | [code]
+
+	- [2023/04/21] *Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback* | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
 
 ---
 - Benchmark
