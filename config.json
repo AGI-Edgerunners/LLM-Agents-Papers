@@ -1,4 +1,4 @@
 {
   "repo": "LLM-Agents-Papers",
-  "description": "A repo lists papers related to LLM based agent. Includes \n* methods of role playing, memory mechanism and game playing; \n* methods of feedback or reflection \n* benchmark and surveys of the field; \n* environments or platforms;"
+  "description": "A repo lists papers related to LLM based agent. Includes \n* methods of role playing, memory mechanism and game playing; \n* methods of feedback or reflection \n* benchmarks and surveys of the field; \n* environments or platforms;"
 }
