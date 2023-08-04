@@ -291,5 +291,15 @@
         "date": "2023/07/24",
         "pdf": "https://fablestudio.github.io/showrunner-agents/static/pdfs/To_Infinity_and_Beyond_SHOW-1_And_Showrunner_Agents_in_Multi_Agent_Simulations_v2.pdf",
         "abstract": "In this work we present our approach to generating high-quality episodic content for IP's (Intellectual Property) using large language models (LLMs), custom state-of-the art diffusion models and our multi-agent simulation for contextualization, story progression and behavioral control. Powerful LLMs such as GPT-4 were trained on a large corpus of TV show data which lets us believe that with the right guidance users will be able to rewrite entire seasons. \"That Is What Entertainment Will Look Like. Maybe people are still upset about the last season of Game of Thrones. Imagine if you could ask your A.I. to make a new ending that goes a different way and maybe even put yourself in there as a main character or something."
+    },
+    "5590ade4da00d9823d9b5cd9a26936eb": {
+        "title": "InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent",
+        "authors": [
+            "Po-Lin Chen",
+            "Cheng-Shang Chang"
+        ],
+        "date": "2023/08/03",
+        "pdf": "https://arxiv.org/pdf/2308.01552",
+        "abstract": " This research paper delves into the integration of OpenAI&#39;s ChatGPT into\nembodied agent systems, evaluating its influence on interactive decision-making\nbenchmark. Drawing a parallel to the concept of people assuming roles according\nto their unique strengths, we introduce InterAct. In this approach, we feed\nChatGPT with varied prompts, assigning it a numerous roles like a checker and a\nsorter, then integrating them with the original language model. Our research\nshows a remarkable success rate of 98% in AlfWorld, which consists of 6\ndifferent tasks in a simulated household environment, emphasizing the\nsignificance of proficient prompt engineering. The results highlight ChatGPT&#39;s\ncompetence in comprehending and performing intricate tasks effectively in\nreal-world settings, thus paving the way for further advancements in task\nplanning.\n"
     }
 }
