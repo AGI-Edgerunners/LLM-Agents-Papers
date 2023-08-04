@@ -99,6 +99,7 @@ def parse_by_crawl(url: str):
         date = ''
         pdf = ''
         abstract = ''
+        return {}
     return {'title': title, 'authors': authors, 'date': date, 'pdf': pdf, 'abstract': abstract}
 
 
@@ -165,11 +166,11 @@ def init():
                     title = data.get('title')
                     url_tag = data.get('url')
                     code_tag = data.get('code')
-                    item = f"""\t- [{date}] *{title}* | {url_tag} | {code_tag}\n"""
+                    item = f"""\t- [{date}] **{title}** | {url_tag} | {code_tag}\n"""
                     list_block.append(item)
                 if not os.path.exists(PARSED_FOLDER):
                     os.mkdir(PARSED_FOLDER)
-                write_json(f"{PARSED_FOLDER}/{file}",stored_datas)
+                write_json(f"{PARSED_FOLDER}/{file}", stored_datas)
 
             else:
                 continue
