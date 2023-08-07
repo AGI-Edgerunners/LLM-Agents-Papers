@@ -16,6 +16,8 @@ A repo lists papers related to LLM based agent. Includes
 - Role Playing
 	- [2023/08/03] **InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent** | [[paper]](https://arxiv.org/abs/2308.01552) | [code]
 
+	- [2023/08/01] **MetaGPT: Meta Programming for Multi-Agent Collaborative Framework** | [[paper]](https://arxiv.org/abs/2308.00352) | [code]
+
 	- [2023/07/24] **To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations** | [[paper]](https://fablestudio.github.io/showrunner-agents/) | [code]
 
 	- [2023/07/16] **Communicative Agents for Software Development** | [[paper]](https://arxiv.org/abs/2307.07924) | [code]
