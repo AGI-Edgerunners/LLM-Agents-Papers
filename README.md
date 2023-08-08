@@ -112,9 +112,19 @@ A repo lists papers related to LLM based agent. Includes
 - Feedback&Reflection
 	- [2023/08/01] **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** | [[paper]](https://arxiv.org/abs/2308.00436) | [code]
 
+	- [2023/07/27] **PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback** | [[paper]](https://arxiv.org/abs/2307.14936) | [code]
+
 	- [2023/05/30] **Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2305.19118) | [code]
 
+	- [2023/05/26] **AdaPlanner: Adaptive Planning from Feedback with Language Models** | [[paper]](https://arxiv.org/abs/2305.16653) | [code]
+
+	- [2023/05/22] **Making Language Models Better Tool Learners with Execution Feedback** | [[paper]](https://arxiv.org/abs/2305.13068) | [code]
+
 	- [2023/04/21] **Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback** | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
+
+	- [2023/04/11] **Teaching Large Language Models to Self-Debug** | [[paper]](https://arxiv.org/abs/2304.05128) | [code]
+
+	- [2023/03/30] **Self-Refine: Iterative Refinement with Self-Feedback** | [[paper]](https://arxiv.org/abs/2303.17651) | [code]
 
 ---
 - Benchmark&Evaluation
