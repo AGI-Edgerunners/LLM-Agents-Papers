@@ -109,7 +109,7 @@ A repo lists papers related to LLM based agent. Includes
 	- [2023/03/14] **CB2: Collaborative Natural Language Interaction Research Platform** | [[paper]](https://arxiv.org/abs/2303.08127) | [code]
 
 ---
-- Feedback or Reflection
+- Feedback&Reflection
 	- [2023/08/01] **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** | [[paper]](https://arxiv.org/abs/2308.00436) | [code]
 
 	- [2023/05/30] **Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2305.19118) | [code]
@@ -117,7 +117,7 @@ A repo lists papers related to LLM based agent. Includes
 	- [2023/04/21] **Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback** | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
 
 ---
-- Benchmark
+- Benchmark&Evaluation
 	- [2023/08/07] **AgentBench: Evaluating LLMs as Agents** | [[paper]](https://arxiv.org/abs/2308.03688) | [[code]](https://github.com/THUDM/AgentBench)
 
 	- [2023/07/31] **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** | [[paper]](https://arxiv.org/abs/2307.16883) | [code]
