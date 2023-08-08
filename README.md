@@ -118,10 +118,10 @@ A repo lists papers related to LLM based agent. Includes
 
 ---
 - Benchmark
+	- [2023/08/07] **AgentBench: Evaluating LLMs as Agents** | [[paper]](https://arxiv.org/abs/2308.03688) | [[code]](https://github.com/THUDM/AgentBench)
+
 	- [2023/07/31] **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** | [[paper]](https://arxiv.org/abs/2307.16883) | [code]
- 
+
 ## :star: Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=AGI-Edgerunners/LLM-Agents-Papers&type=Date)](https://star-history.com/#AGI-Edgerunners/LLM-Agents-Papers&Date)
-
- 

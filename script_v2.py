@@ -111,6 +111,7 @@ def init():
 
     title = config.get('repo', '')
     description = config.get('description', '')
+    star_history = config.get("star_history")
     all_list = []
     line_head = f"""# {title}\n{description}\n\n---"""
     if not os.path.exists('papers'):
@@ -179,7 +180,7 @@ def init():
     line_body = "\n---\n".join(all_list)
     time_line = f"""{line_head}\n\n{line_body}"""
 
-    md_text = f"""{time_line}"""
+    md_text = f"""{time_line}\n{star_history}"""
 
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(md_text)

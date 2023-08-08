@@ -1,4 +1,5 @@
 {
   "repo": "LLM-Agents-Papers",
-  "description": "A repo lists papers related to LLM based agent. Includes \n* methods of role playing, memory mechanism and game playing \n* methods of feedback or reflection \n* benchmarks and surveys of the field \n* environments or platforms"
+  "description": "A repo lists papers related to LLM based agent. Includes \n* methods of role playing, memory mechanism and game playing \n* methods of feedback or reflection \n* benchmarks and surveys of the field \n* environments or platforms",
+  "star_history": "## :star: Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=AGI-Edgerunners/LLM-Agents-Papers&type=Date)](https://star-history.com/#AGI-Edgerunners/LLM-Agents-Papers&Date)\n"
 }
