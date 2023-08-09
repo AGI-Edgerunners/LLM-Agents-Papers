@@ -323,5 +323,23 @@
         "pdf": "https://arxiv.org/pdf/2308.00352",
         "code": "https://github.com/geekan/MetaGPT",
         "abstract": " Recently, remarkable progress has been made in automated task-solving through\nthe use of multi-agents driven by large language models (LLMs). However,\nexisting works primarily focuses on simple tasks lacking exploration and\ninvestigation in complicated tasks mainly due to the hallucination problem.\nThis kind of hallucination gets amplified infinitely as multiple intelligent\nagents interact with each other, resulting in failures when tackling\ncomplicated problems.Therefore, we introduce MetaGPT, an innovative framework\nthat infuses effective human workflows as a meta programming approach into\nLLM-driven multi-agent collaboration. In particular, MetaGPT first encodes\nStandardized Operating Procedures (SOPs) into prompts, fostering structured\ncoordination. And then, it further mandates modular outputs, bestowing agents\nwith domain expertise paralleling human professionals to validate outputs and\nreduce compounded errors. In this way, MetaGPT leverages the assembly line work\nmodel to assign diverse roles to various agents, thus establishing a framework\nthat can effectively and cohesively deconstruct complex multi-agent\ncollaborative problems. Our experiments conducted on collaborative software\nengineering tasks illustrate MetaGPT&#39;s capability in producing comprehensive\nsolutions with higher coherence relative to existing conversational and\nchat-based multi-agent systems. This underscores the potential of incorporating\nhuman domain knowledge into multi-agents, thus opening up novel avenues for\ngrappling with intricate real-world challenges. The GitHub repository of this\nproject is made publicly available on: https://github.com/geekan/MetaGPT\n"
+    },
+    "3447891c35f4bf8f904ab23534e84b9e": {
+        "title": "TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents",
+        "authors": [
+            "Jingqing Ruan",
+            "Yihong Chen",
+            "Bin Zhang",
+            "Zhiwei Xu",
+            "Tianpeng Bao",
+            "Guoqing Du",
+            "Shiwei Shi",
+            "Hangyu Mao",
+            "Xingyu Zeng",
+            "Rui Zhao"
+        ],
+        "date": "2023/08/07",
+        "pdf": "https://arxiv.org/pdf/2308.03427",
+        "abstract": " With recent advancements in natural language processing, Large Language\nModels (LLMs) have emerged as powerful tools for various real-world\napplications. Despite their prowess, the intrinsic generative abilities of LLMs\nmay prove insufficient for handling complex tasks which necessitate a\ncombination of task planning and the usage of external tools. In this paper, we\nfirst propose a structured framework tailored for LLM-based AI Agents and\ndiscuss the crucial capabilities necessary for tackling intricate problems.\nWithin this framework, we design two distinct types of agents (i.e., one-step\nagent and sequential agent) to execute the inference process. Subsequently, we\ninstantiate the framework using various LLMs and evaluate their Task Planning\nand Tool Usage (TPTU) abilities on typical tasks. By highlighting key findings\nand challenges, our goal is to provide a helpful resource for researchers and\npractitioners to leverage the power of LLMs in their AI applications. Our study\nemphasizes the substantial potential of these models, while also identifying\nareas that need more investigation and improvement.\n"
     }
 }

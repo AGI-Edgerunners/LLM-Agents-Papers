@@ -14,6 +14,8 @@ A repo lists papers related to LLM based agent. Includes
 
 ---
 - Role Playing
+	- [2023/08/07] **TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents** | [[paper]](https://arxiv.org/abs/2308.03427) | [code]
+
 	- [2023/08/03] **InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent** | [[paper]](https://arxiv.org/abs/2308.01552) | [code]
 
 	- [2023/08/01] **MetaGPT: Meta Programming for Multi-Agent Collaborative Framework** | [[paper]](https://arxiv.org/abs/2308.00352) | [[code]](https://github.com/geekan/MetaGPT)
