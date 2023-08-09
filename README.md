@@ -2,6 +2,7 @@
 A repo lists papers related to LLM based agent. Includes 
 * methods of role playing, memory mechanism and game playing 
 * methods of feedback or reflection 
+* methods of multi-agent collaboration 
 * benchmarks and surveys of the field 
 * environments or platforms
 
@@ -16,21 +17,9 @@ A repo lists papers related to LLM based agent. Includes
 - Role Playing
 	- [2023/08/07] **TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents** | [[paper]](https://arxiv.org/abs/2308.03427) | [code]
 
-	- [2023/08/03] **InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent** | [[paper]](https://arxiv.org/abs/2308.01552) | [code]
-
-	- [2023/08/01] **MetaGPT: Meta Programming for Multi-Agent Collaborative Framework** | [[paper]](https://arxiv.org/abs/2308.00352) | [[code]](https://github.com/geekan/MetaGPT)
-
 	- [2023/07/24] **To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations** | [[paper]](https://fablestudio.github.io/showrunner-agents/) | [code]
 
-	- [2023/07/16] **Communicative Agents for Software Development** | [[paper]](https://arxiv.org/abs/2307.07924) | [code]
-
-	- [2023/07/11] **Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration** | [[paper]](https://arxiv.org/abs/2307.05300) | [[code]](https://github.com/MikeWangWZHL/Solo-Performance-Prompting)
-
-	- [2023/07/05] **Building Cooperative Embodied Agents Modularly with Large Language Models** | [[paper]](https://arxiv.org/abs/2307.02485) | [[code]](https://github.com/UMass-Foundation-Model/Co-LLM-Agents)
-
 	- [2023/06/28] **Inferring the Goals of Communicating Agents from Actions and Instructions** | [[paper]](https://arxiv.org/abs/2306.16207) | [code]
-
-	- [2023/06/05] **Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents** | [[paper]](https://arxiv.org/abs/2306.03314) | [code]
 
 	- [2023/05/27] **SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks** | [[paper]](https://arxiv.org/abs/2305.17390) | [[code]](https://github.com/yuchenlin/swiftsage/)
 
@@ -53,6 +42,20 @@ A repo lists papers related to LLM based agent. Includes
 	- [2023/04/07] **Generative Agents: Interactive Simulacra of Human Behavior** | [[paper]](https://arxiv.org/abs/2304.03442) | [[code]](https://github.com/mkturkcan/generative-agents)
 
 	- [2023/03/31] **CAMEL: Communicative Agents for &#34;Mind&#34; Exploration of Large Scale Language Model Society** | [[paper]](https://arxiv.org/abs/2303.17760) | [[code]](https://github.com/camel-ai/camel)
+
+---
+- Multi-Agent Collaboration
+	- [2023/08/03] **InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent** | [[paper]](https://arxiv.org/abs/2308.01552) | [code]
+
+	- [2023/08/01] **MetaGPT: Meta Programming for Multi-Agent Collaborative Framework** | [[paper]](https://arxiv.org/abs/2308.00352) | [[code]](https://github.com/geekan/MetaGPT)
+
+	- [2023/07/16] **Communicative Agents for Software Development** | [[paper]](https://arxiv.org/abs/2307.07924) | [code]
+
+	- [2023/07/11] **Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration** | [[paper]](https://arxiv.org/abs/2307.05300) | [[code]](https://github.com/MikeWangWZHL/Solo-Performance-Prompting)
+
+	- [2023/07/05] **Building Cooperative Embodied Agents Modularly with Large Language Models** | [[paper]](https://arxiv.org/abs/2307.02485) | [[code]](https://github.com/UMass-Foundation-Model/Co-LLM-Agents)
+
+	- [2023/06/05] **Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents** | [[paper]](https://arxiv.org/abs/2306.03314) | [code]
 
 ---
 - Memory Mechanism

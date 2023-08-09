@@ -1,0 +1,91 @@
+{
+    "5590ade4da00d9823d9b5cd9a26936eb": {
+        "title": "InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent",
+        "authors": [
+            "Po-Lin Chen",
+            "Cheng-Shang Chang"
+        ],
+        "date": "2023/08/03",
+        "pdf": "https://arxiv.org/pdf/2308.01552",
+        "abstract": " This research paper delves into the integration of OpenAI&#39;s ChatGPT into\nembodied agent systems, evaluating its influence on interactive decision-making\nbenchmark. Drawing a parallel to the concept of people assuming roles according\nto their unique strengths, we introduce InterAct. In this approach, we feed\nChatGPT with varied prompts, assigning it a numerous roles like a checker and a\nsorter, then integrating them with the original language model. Our research\nshows a remarkable success rate of 98% in AlfWorld, which consists of 6\ndifferent tasks in a simulated household environment, emphasizing the\nsignificance of proficient prompt engineering. The results highlight ChatGPT&#39;s\ncompetence in comprehending and performing intricate tasks effectively in\nreal-world settings, thus paving the way for further advancements in task\nplanning.\n"
+    },
+    "9eff80228411b7637537c841822c6d9e": {
+        "title": "MetaGPT: Meta Programming for Multi-Agent Collaborative Framework",
+        "authors": [
+            "Sirui Hong",
+            "Xiawu Zheng",
+            "Jonathan Chen",
+            "Yuheng Cheng",
+            "Ceyao Zhang",
+            "Zili Wang",
+            "Steven Ka Shing Yau",
+            "Zijuan Lin",
+            "Liyang Zhou",
+            "Chenyu Ran",
+            "Lingfeng Xiao",
+            "Chenglin Wu"
+        ],
+        "date": "2023/08/01",
+        "pdf": "https://arxiv.org/pdf/2308.00352",
+        "code": "https://github.com/geekan/MetaGPT",
+        "abstract": " Recently, remarkable progress has been made in automated task-solving through\nthe use of multi-agents driven by large language models (LLMs). However,\nexisting works primarily focuses on simple tasks lacking exploration and\ninvestigation in complicated tasks mainly due to the hallucination problem.\nThis kind of hallucination gets amplified infinitely as multiple intelligent\nagents interact with each other, resulting in failures when tackling\ncomplicated problems.Therefore, we introduce MetaGPT, an innovative framework\nthat infuses effective human workflows as a meta programming approach into\nLLM-driven multi-agent collaboration. In particular, MetaGPT first encodes\nStandardized Operating Procedures (SOPs) into prompts, fostering structured\ncoordination. And then, it further mandates modular outputs, bestowing agents\nwith domain expertise paralleling human professionals to validate outputs and\nreduce compounded errors. In this way, MetaGPT leverages the assembly line work\nmodel to assign diverse roles to various agents, thus establishing a framework\nthat can effectively and cohesively deconstruct complex multi-agent\ncollaborative problems. Our experiments conducted on collaborative software\nengineering tasks illustrate MetaGPT&#39;s capability in producing comprehensive\nsolutions with higher coherence relative to existing conversational and\nchat-based multi-agent systems. This underscores the potential of incorporating\nhuman domain knowledge into multi-agents, thus opening up novel avenues for\ngrappling with intricate real-world challenges. The GitHub repository of this\nproject is made publicly available on: https://github.com/geekan/MetaGPT\n"
+    },
+    "2eac0f4e2491bfdec954e0d07a70a650": {
+        "title": "Communicative Agents for Software Development",
+        "authors": [
+            "Chen Qian",
+            "Xin Cong",
+            "Cheng Yang",
+            "Weize Chen",
+            "Yusheng Su",
+            "Juyuan Xu",
+            "Zhiyuan Liu",
+            "Maosong Sun"
+        ],
+        "date": "2023/07/16",
+        "pdf": "https://arxiv.org/pdf/2307.07924",
+        "abstract": " Software engineering is a domain characterized by intricate decision-making\nprocesses, often relying on nuanced intuition and consultation. Recent\nadvancements in deep learning have started to revolutionize software\nengineering practices through elaborate designs implemented at various stages\nof software development. In this paper, we present an innovative paradigm that\nleverages large language models (LLMs) throughout the entire software\ndevelopment process, streamlining and unifying key processes through natural\nlanguage communication, thereby eliminating the need for specialized models at\neach phase. At the core of this paradigm lies ChatDev, a virtual chat-powered\nsoftware development company that mirrors the established waterfall model,\nmeticulously dividing the development process into four distinct chronological\nstages: designing, coding, testing, and documenting. Each stage engages a team\nof agents, such as programmers, code reviewers, and test engineers, fostering\ncollaborative dialogue and facilitating a seamless workflow. The chat chain\nacts as a facilitator, breaking down each stage into atomic subtasks. This\nenables dual roles, allowing for proposing and validating solutions through\ncontext-aware communication, leading to efficient resolution of specific\nsubtasks. The instrumental analysis of ChatDev highlights its remarkable\nefficacy in software generation, enabling the completion of the entire software\ndevelopment process in under seven minutes at a cost of less than one dollar.\nIt not only identifies and alleviates potential vulnerabilities but also\nrectifies potential hallucinations while maintaining commendable efficiency and\ncost-effectiveness. The potential of ChatDev unveils fresh possibilities for\nintegrating LLMs into the realm of software development.\n"
+    },
+    "8b49604f02c96ae0a94969b9d0375cb9": {
+        "title": "Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration",
+        "authors": [
+            "Zhenhailong Wang",
+            "Shaoguang Mao",
+            "Wenshan Wu",
+            "Tao Ge",
+            "Furu Wei",
+            "Heng Ji"
+        ],
+        "date": "2023/07/11",
+        "pdf": "https://arxiv.org/pdf/2307.05300",
+        "code": "https://github.com/MikeWangWZHL/Solo-Performance-Prompting",
+        "abstract": " Human intelligence thrives on the concept of cognitive synergy, where\ncollaboration and information integration among different cognitive processes\nyield superior outcomes compared to individual cognitive processes in\nisolation. Although Large Language Models (LLMs) have demonstrated promising\nperformance as general task-solving agents, they still struggle with tasks that\nrequire intensive domain knowledge and complex reasoning. In this work, we\npropose Solo Performance Prompting (SPP), which transforms a single LLM into a\ncognitive synergist by engaging in multi-turn self-collaboration with multiple\npersonas. A cognitive synergist refers to an intelligent agent that\ncollaborates with multiple minds, combining their individual strengths and\nknowledge, to enhance problem-solving and overall performance in complex tasks.\nBy dynamically identifying and simulating different personas based on task\ninputs, SPP unleashes the potential of cognitive synergy in LLMs. We have\ndiscovered that assigning multiple, fine-grained personas in LLMs elicits\nbetter problem-solving abilities compared to using a single or fixed number of\npersonas. We evaluate SPP on three challenging tasks: Trivia Creative Writing,\nCodenames Collaborative, and Logic Grid Puzzle, encompassing both\nknowledge-intensive and reasoning-intensive types. Unlike previous works, such\nas Chain-of-Thought, that solely enhance the reasoning abilities in LLMs, SPP\neffectively elicits internal knowledge acquisition abilities, reduces\nhallucination, and maintains strong reasoning capabilities. Code, data, and\nprompts can be found at:\nhttps://github.com/MikeWangWZHL/Solo-Performance-Prompting.git.\n"
+    },
+    "35cb79b6dd5ae58f6f00de3fb5c70d29": {
+        "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
+        "authors": [
+            "Hongxin Zhang",
+            "Weihua Du",
+            "Jiaming Shan",
+            "Qinhong Zhou",
+            "Yilun Du",
+            "Joshua B. Tenenbaum",
+            "Tianmin Shu",
+            "Chuang Gan"
+        ],
+        "date": "2023/07/05",
+        "pdf": "https://arxiv.org/pdf/2307.02485",
+        "code": "https://github.com/UMass-Foundation-Model/Co-LLM-Agents",
+        "abstract": " Large Language Models (LLMs) have demonstrated impressive planning abilities\nin single-agent embodied tasks across various domains. However, their capacity\nfor planning and communication in multi-agent cooperation remains unclear, even\nthough these are crucial skills for intelligent embodied agents. In this paper,\nwe present a novel framework that utilizes LLMs for multi-agent cooperation and\ntests it in various embodied environments. Our framework enables embodied\nagents to plan, communicate, and cooperate with other embodied agents or humans\nto accomplish long-horizon tasks efficiently. We demonstrate that recent LLMs,\nsuch as GPT-4, can surpass strong planning-based methods and exhibit emergent\neffective communication using our framework without requiring fine-tuning or\nfew-shot prompting. We also discover that LLM-based agents that communicate in\nnatural language can earn more trust and cooperate more effectively with\nhumans. Our research underscores the potential of LLMs for embodied AI and lays\nthe foundation for future research in multi-agent cooperation. Videos can be\nfound on the project website https://vis-www.cs.umass.edu/Co-LLM-Agents/.\n"
+    },
+    "8064cabdde186f6c901cd321e0c1e117": {
+        "title": "Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents",
+        "authors": [
+            "Yashar Talebirad",
+            "Amirhossein Nadiri"
+        ],
+        "date": "2023/06/05",
+        "pdf": "https://arxiv.org/pdf/2306.03314",
+        "abstract": " In this paper, we present a novel framework for enhancing the capabilities of\nlarge language models (LLMs) by leveraging the power of multi-agent systems.\nOur framework introduces a collaborative environment where multiple intelligent\nagent components, each with distinctive attributes and roles, work together to\nhandle complex tasks more efficiently and effectively. We demonstrate the\npracticality and versatility of our framework through case studies in\nartificial general intelligence (AGI), specifically focusing on the Auto-GPT\nand BabyAGI models. We also examine the &#34;Gorilla&#34; model, which integrates\nexternal APIs into the LLM. Our framework addresses limitations and challenges\nsuch as looping issues, security risks, scalability, system evaluation, and\nethical considerations. By modeling various domains such as courtroom\nsimulations and software development scenarios, we showcase the potential\napplications and benefits of our proposed multi-agent system. Our framework\nprovides an avenue for advancing the capabilities and performance of LLMs\nthrough collaboration and knowledge exchange among intelligent agents.\n"
+    }
+}
