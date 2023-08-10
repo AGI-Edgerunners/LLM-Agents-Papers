@@ -39,7 +39,7 @@ A repo lists papers related to LLM based agent. Includes
 
 	- [2023/04/15] **Self-collaboration Code Generation via ChatGPT** | [[paper]](https://arxiv.org/abs/2304.07590) | [code]
 
-	- [2023/04/07] **Generative Agents: Interactive Simulacra of Human Behavior** | [[paper]](https://arxiv.org/abs/2304.03442) | [[code]](https://github.com/mkturkcan/generative-agents)
+	- [2023/04/07] **Generative Agents: Interactive Simulacra of Human Behavior** | [[paper]](https://arxiv.org/abs/2304.03442) | [[code]](https://github.com/joonspk-research/generative_agents)
 
 	- [2023/03/31] **CAMEL: Communicative Agents for &#34;Mind&#34; Exploration of Large Scale Language Model Society** | [[paper]](https://arxiv.org/abs/2303.17760) | [[code]](https://github.com/camel-ai/camel)
 
@@ -103,7 +103,7 @@ A repo lists papers related to LLM based agent. Includes
 
 	- [2023/05/25] **Voyager: An Open-Ended Embodied Agent with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16291) | [[code]](https://github.com/MineDojo/Voyager)
 
-	- [2023/05/17] **Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback** | [[paper]](https://arxiv.org/abs/2305.10142) | [code]
+	- [2023/05/17] **Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback** | [[paper]](https://arxiv.org/abs/2305.10142) | [[code]](https://github.com/FranxYao/GPT-Bargaining)
 
 	- [2023/05/08] **Knowledge-enhanced Agents for Interactive Text Games** | [[paper]](https://arxiv.org/abs/2305.05091) | [code]
 
@@ -111,31 +111,31 @@ A repo lists papers related to LLM based agent. Includes
 
 ---
 - Game Platform
-	- [2023/03/14] **CB2: Collaborative Natural Language Interaction Research Platform** | [[paper]](https://arxiv.org/abs/2303.08127) | [code]
+	- [2023/03/14] **CB2: Collaborative Natural Language Interaction Research Platform** | [[paper]](https://arxiv.org/abs/2303.08127) | [[code]](https://github.com/lil-lab/cb2)
 
 ---
 - Feedback&Reflection
-	- [2023/08/01] **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** | [[paper]](https://arxiv.org/abs/2308.00436) | [code]
+	- [2023/08/01] **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** | [[paper]](https://arxiv.org/abs/2308.00436) | [[code]](https://github.com/ningmiao/selfcheck)
 
 	- [2023/07/27] **PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback** | [[paper]](https://arxiv.org/abs/2307.14936) | [code]
 
-	- [2023/05/30] **Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2305.19118) | [code]
+	- [2023/05/30] **Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2305.19118) | [[code]](https://github.com/Skytliang/Multi-Agents-Debate)
 
-	- [2023/05/26] **AdaPlanner: Adaptive Planning from Feedback with Language Models** | [[paper]](https://arxiv.org/abs/2305.16653) | [code]
+	- [2023/05/26] **AdaPlanner: Adaptive Planning from Feedback with Language Models** | [[paper]](https://arxiv.org/abs/2305.16653) | [[code]](https://github.com/haotiansun14/adaplanner)
 
-	- [2023/05/22] **Making Language Models Better Tool Learners with Execution Feedback** | [[paper]](https://arxiv.org/abs/2305.13068) | [code]
+	- [2023/05/22] **Making Language Models Better Tool Learners with Execution Feedback** | [[paper]](https://arxiv.org/abs/2305.13068) | [[code]](https://github.com/zjunlp/trice)
 
 	- [2023/04/21] **Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback** | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
 
 	- [2023/04/11] **Teaching Large Language Models to Self-Debug** | [[paper]](https://arxiv.org/abs/2304.05128) | [code]
 
-	- [2023/03/30] **Self-Refine: Iterative Refinement with Self-Feedback** | [[paper]](https://arxiv.org/abs/2303.17651) | [code]
+	- [2023/03/30] **Self-Refine: Iterative Refinement with Self-Feedback** | [[paper]](https://arxiv.org/abs/2303.17651) | [[code]](https://github.com/madaan/self-refine)
 
 ---
 - Benchmark&Evaluation
 	- [2023/08/07] **AgentBench: Evaluating LLMs as Agents** | [[paper]](https://arxiv.org/abs/2308.03688) | [[code]](https://github.com/THUDM/AgentBench)
 
-	- [2023/07/31] **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** | [[paper]](https://arxiv.org/abs/2307.16883) | [code]
+	- [2023/07/31] **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** | [[paper]](https://arxiv.org/abs/2307.16883) | [[code]](https://github.com/project-miracl/hagrid)
 
 ## :star: Star History
 
