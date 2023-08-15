@@ -130,3 +130,7 @@ dmypy.json
 .idea/
 src/
 PDF/
+config_v2.json
+script.py
+script_v2.py
+readmeBeforeREADME.md
