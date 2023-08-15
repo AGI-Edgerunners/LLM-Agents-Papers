@@ -20,6 +20,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - Role Playing
 	- [2023/08/14] **ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2308.07201) | [code]
 
+	- [2023/08/10] **LLM As DBA** | [[paper]](https://arxiv.org/abs/2308.05481) | [[code]](https://github.com/TsinghuaDatabaseGroup/DB-GPT)
+
 	- [2023/08/07] **TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents** | [[paper]](https://arxiv.org/abs/2308.03427) | [code]
 
 	- [2023/07/24] **To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations** | [[paper]](https://fablestudio.github.io/showrunner-agents/) | [code]
