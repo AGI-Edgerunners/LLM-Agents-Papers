@@ -9,7 +9,10 @@ A repo lists papers related to LLM based agent. Includes
 
 ## Recommendation
 For more comprehensive reading, we also recommend other paper lists: 
-* [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers): Must-read Papers on Large Language Model Agents.
+* [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers): Must-read Papers on Large Language Model Agents. 
+* [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers): This is a collection of research papers for Self-Correcting Large Language Models with Automated Feedback.
+
+## Papers
 
 ---
 
