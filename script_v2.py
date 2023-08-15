@@ -111,9 +111,10 @@ def init():
 
     title = config.get('repo', '')
     description = config.get('description', '')
+    recommendation = config.get('recommendation', '')
     star_history = config.get("star_history")
     all_list = []
-    line_head = f"""# {title}\n{description}\n\n---"""
+    line_head = f"""# {title}\n{description}\n\n{recommendation}\n\n---"""
     if not os.path.exists('papers'):
         pass
     else:

@@ -1,10 +1,15 @@
 # LLM-Agents-Papers
+## Description
 A repo lists papers related to LLM based agent. Includes 
 * methods of role playing, memory mechanism and game playing 
 * methods of feedback or reflection 
 * methods of multi-agent collaboration 
 * benchmarks and surveys of the field 
 * environments or platforms
+
+## Recommendation
+For more comprehensive reading, we also recommend other paper lists: 
+* [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers): Must-read Papers on Large Language Model Agents.
 
 ---
 
@@ -15,6 +20,8 @@ A repo lists papers related to LLM based agent. Includes
 
 ---
 - Role Playing
+	- [2023/08/14] **ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2308.07201) | [code]
+
 	- [2023/08/07] **TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents** | [[paper]](https://arxiv.org/abs/2308.03427) | [code]
 
 	- [2023/07/24] **To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations** | [[paper]](https://fablestudio.github.io/showrunner-agents/) | [code]
@@ -133,6 +140,8 @@ A repo lists papers related to LLM based agent. Includes
 
 ---
 - Benchmark&Evaluation
+	- [2023/08/11] **BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents** | [[paper]](https://arxiv.org/abs/2308.05960) | [code]
+
 	- [2023/08/07] **AgentBench: Evaluating LLMs as Agents** | [[paper]](https://arxiv.org/abs/2308.03688) | [[code]](https://github.com/THUDM/AgentBench)
 
 	- [2023/07/31] **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** | [[paper]](https://arxiv.org/abs/2307.16883) | [[code]](https://github.com/project-miracl/hagrid)

@@ -1,5 +1,6 @@
 {
   "repo": "LLM-Agents-Papers",
-  "description": "A repo lists papers related to LLM based agent. Includes \n* methods of role playing, memory mechanism and game playing \n* methods of feedback or reflection \n* methods of multi-agent collaboration \n* benchmarks and surveys of the field \n* environments or platforms",
+  "description": "## Description\nA repo lists papers related to LLM based agent. Includes \n* methods of role playing, memory mechanism and game playing \n* methods of feedback or reflection \n* methods of multi-agent collaboration \n* benchmarks and surveys of the field \n* environments or platforms",
+  "recommendation": "## Recommendation\nFor more comprehensive reading, we also recommend other paper lists: \n* [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers): Must-read Papers on Large Language Model Agents.",
   "star_history": "## :star: Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=AGI-Edgerunners/LLM-Agents-Papers&type=Date)](https://star-history.com/#AGI-Edgerunners/LLM-Agents-Papers&Date)\n"
 }

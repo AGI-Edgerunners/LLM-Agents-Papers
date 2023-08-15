@@ -252,5 +252,21 @@
         "date": "2023/08/07",
         "pdf": "https://arxiv.org/pdf/2308.03427",
         "abstract": " With recent advancements in natural language processing, Large Language\nModels (LLMs) have emerged as powerful tools for various real-world\napplications. Despite their prowess, the intrinsic generative abilities of LLMs\nmay prove insufficient for handling complex tasks which necessitate a\ncombination of task planning and the usage of external tools. In this paper, we\nfirst propose a structured framework tailored for LLM-based AI Agents and\ndiscuss the crucial capabilities necessary for tackling intricate problems.\nWithin this framework, we design two distinct types of agents (i.e., one-step\nagent and sequential agent) to execute the inference process. Subsequently, we\ninstantiate the framework using various LLMs and evaluate their Task Planning\nand Tool Usage (TPTU) abilities on typical tasks. By highlighting key findings\nand challenges, our goal is to provide a helpful resource for researchers and\npractitioners to leverage the power of LLMs in their AI applications. Our study\nemphasizes the substantial potential of these models, while also identifying\nareas that need more investigation and improvement.\n"
+    },
+    "b9f40007be7ffb09746b30ea4342e688": {
+        "title": "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate",
+        "authors": [
+            "Chi-Min Chan",
+            "Weize Chen",
+            "Yusheng Su",
+            "Jianxuan Yu",
+            "Wei Xue",
+            "Shanghang Zhang",
+            "Jie Fu",
+            "Zhiyuan Liu"
+        ],
+        "date": "2023/08/14",
+        "pdf": "https://arxiv.org/pdf/2308.07201",
+        "abstract": " Text evaluation has historically posed significant challenges, often\ndemanding substantial labor and time cost. With the emergence of large language\nmodels (LLMs), researchers have explored LLMs&#39; potential as alternatives for\nhuman evaluation. While these single-agent-based approaches show promise,\nexperimental results suggest that further advancements are needed to bridge the\ngap between their current effectiveness and human-level evaluation quality.\nRecognizing that best practices of human evaluation processes often involve\nmultiple human annotators collaborating in the evaluation, we resort to a\nmulti-agent debate framework, moving beyond single-agent prompting strategies.\nThe multi-agent-based approach enables a group of LLMs to synergize with an\narray of intelligent counterparts, harnessing their distinct capabilities and\nexpertise to enhance efficiency and effectiveness in handling intricate tasks.\nIn this paper, we construct a multi-agent referee team called ChatEval to\nautonomously discuss and evaluate the quality of generated responses from\ndifferent models on open-ended questions and traditional natural language\ngeneration (NLG) tasks. Our analysis shows that ChatEval transcends mere\ntextual scoring, offering a human-mimicking evaluation process for reliable\nassessments. Our code is available at https://github.com/chanchimin/ChatEval.\n"
     }
 }

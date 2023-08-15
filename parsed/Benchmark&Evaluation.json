@@ -43,5 +43,28 @@
         "pdf": "https://arxiv.org/pdf/2308.03688",
         "code": "https://github.com/THUDM/AgentBench",
         "abstract": " Large Language Models (LLMs) are becoming increasingly smart and autonomous,\ntargeting real-world pragmatic missions beyond traditional NLP tasks. As a\nresult, there has been an urgent need to evaluate LLMs as agents on challenging\ntasks in interactive environments. We present AgentBench, a multi-dimensional\nevolving benchmark that currently consists of 8 distinct environments to assess\nLLM-as-Agent&#39;s reasoning and decision-making abilities in a multi-turn\nopen-ended generation setting. Our extensive test over 25 LLMs (including APIs\nand open-sourced models) shows that, while top commercial LLMs present a strong\nability of acting as agents in complex environments, there is a significant\ndisparity in performance between them and open-sourced competitors. It also\nserves as a component of an ongoing project with wider coverage and deeper\nconsideration towards systematic LLM evaluation. Datasets, environments, and an\nintegrated evaluation package for AgentBench are released at\nhttps://github.com/THUDM/AgentBench\n"
+    },
+    "2d8ee880fda520da34ed2cd55d7f8096": {
+        "title": "BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents",
+        "authors": [
+            "Zhiwei Liu",
+            "Weiran Yao",
+            "Jianguo Zhang",
+            "Le Xue",
+            "Shelby Heinecke",
+            "Rithesh Murthy",
+            "Yihao Feng",
+            "Zeyuan Chen",
+            "Juan Carlos Niebles",
+            "Devansh Arpit",
+            "Ran Xu",
+            "Phil Mui",
+            "Huan Wang",
+            "Caiming Xiong",
+            "Silvio Savarese"
+        ],
+        "date": "2023/08/11",
+        "pdf": "https://arxiv.org/pdf/2308.05960",
+        "abstract": " The massive successes of large language models (LLMs) encourage the emerging\nexploration of LLM-augmented Autonomous Agents (LAAs). An LAA is able to\ngenerate actions with its core LLM and interact with environments, which\nfacilitates the ability to resolve complex tasks by conditioning on past\ninteractions such as observations and actions. Since the investigation of LAA\nis still very recent, limited explorations are available. Therefore, we provide\na comprehensive comparison of LAA in terms of both agent architectures and LLM\nbackbones. Additionally, we propose a new strategy to orchestrate multiple LAAs\nsuch that each labor LAA focuses on one type of action, \\textit{i.e.} BOLAA,\nwhere a controller manages the communication among multiple agents. We conduct\nsimulations on both decision-making and multi-step reasoning environments,\nwhich comprehensively justify the capacity of LAAs. Our performance results\nprovide quantitative suggestions for designing LAA architectures and the\noptimal choice of LLMs, as well as the compatibility of both. We release our\nimplementation code of LAAs to the public at\n\\url{https://github.com/salesforce/BOLAA}.\n"
     }
 }
