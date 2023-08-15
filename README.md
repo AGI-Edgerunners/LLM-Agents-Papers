@@ -1,21 +1,16 @@
 # LLM-Agents-Papers
-## Description
-A repo lists papers related to LLM based agent. Includes 
-* methods of role playing, memory mechanism and game playing 
-* methods of feedback or reflection 
-* methods of multi-agent collaboration 
-* benchmarks and surveys of the field 
+## :writing_hand: Description
+A repo lists papers related to LLM based agent. Includes
+* methods of role playing, memory mechanism and game playing
+* methods of feedback or reflection
+* methods of multi-agent collaboration
+* benchmarks and surveys of the field
 * environments or platforms
-
-## Recommendation
-For more comprehensive reading, we also recommend other paper lists: 
-* [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers): Must-read Papers on Large Language Model Agents. 
+## :yellow_heart: Recommendation
+For more comprehensive reading, we also recommend other paper lists:
+* [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers): Must-read Papers on Large Language Model Agents.
 * [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers): This is a collection of research papers for Self-Correcting Large Language Models with Automated Feedback.
-
-## Papers
-
----
-
+## :newspaper: Papers
 - Survey
 	- [2023/06/27] **Next Steps for Human-Centered Generative AI: A Technical Perspective** | [[paper]](https://arxiv.org/abs/2306.15774) | [code]
 
@@ -149,6 +144,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/07/31] **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** | [[paper]](https://arxiv.org/abs/2307.16883) | [[code]](https://github.com/project-miracl/hagrid)
 
+---
 ## :star: Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=AGI-Edgerunners/LLM-Agents-Papers&type=Date)](https://star-history.com/#AGI-Edgerunners/LLM-Agents-Papers&Date)
