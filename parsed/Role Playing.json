@@ -268,5 +268,17 @@
         "date": "2023/08/14",
         "pdf": "https://arxiv.org/pdf/2308.07201",
         "abstract": " Text evaluation has historically posed significant challenges, often\ndemanding substantial labor and time cost. With the emergence of large language\nmodels (LLMs), researchers have explored LLMs&#39; potential as alternatives for\nhuman evaluation. While these single-agent-based approaches show promise,\nexperimental results suggest that further advancements are needed to bridge the\ngap between their current effectiveness and human-level evaluation quality.\nRecognizing that best practices of human evaluation processes often involve\nmultiple human annotators collaborating in the evaluation, we resort to a\nmulti-agent debate framework, moving beyond single-agent prompting strategies.\nThe multi-agent-based approach enables a group of LLMs to synergize with an\narray of intelligent counterparts, harnessing their distinct capabilities and\nexpertise to enhance efficiency and effectiveness in handling intricate tasks.\nIn this paper, we construct a multi-agent referee team called ChatEval to\nautonomously discuss and evaluate the quality of generated responses from\ndifferent models on open-ended questions and traditional natural language\ngeneration (NLG) tasks. Our analysis shows that ChatEval transcends mere\ntextual scoring, offering a human-mimicking evaluation process for reliable\nassessments. Our code is available at https://github.com/chanchimin/ChatEval.\n"
+    },
+    "99ab89a760611e1ee01b97ece9476d28": {
+        "title": "LLM As DBA",
+        "authors": [
+            "Xuanhe Zhou",
+            "Guoliang Li",
+            "Zhiyuan Liu"
+        ],
+        "date": "2023/08/10",
+        "pdf": "https://arxiv.org/pdf/2308.05481",
+        "code": "https://github.com/TsinghuaDatabaseGroup/DB-GPT",
+        "abstract": " Database administrators (DBAs) play a crucial role in managing, maintaining\nand optimizing a database system to ensure data availability, performance, and\nreliability. However, it is hard and tedious for DBAs to manage a large number\nof database instances (e.g., millions of instances on the cloud databases).\nRecently large language models (LLMs) have shown great potential to understand\nvaluable documents and accordingly generate reasonable answers. Thus, we\npropose D-Bot, a LLM-based database administrator that can continuously acquire\ndatabase maintenance experience from textual sources, and provide reasonable,\nwell-founded, in-time diagnosis and optimization advice for target databases.\nThis paper presents a revolutionary LLM-centric framework for database\nmaintenance, including (i) database maintenance knowledge detection from\ndocuments and tools, (ii) tree of thought reasoning for root cause analysis,\nand (iii) collaborative diagnosis among multiple LLMs. Our preliminary\nexperimental results that D-Bot can efficiently and effectively diagnose the\nroot causes and our code is available at\ngithub.com/TsinghuaDatabaseGroup/DB-GPT.\n"
     }
 }
