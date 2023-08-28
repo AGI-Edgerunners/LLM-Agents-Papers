@@ -22,6 +22,11 @@
         "name": "teacherpeterpan/self-correction-llm-papers",
         "url": "https://github.com/teacherpeterpan/self-correction-llm-papers",
         "description": "This is a collection of research papers for Self-Correcting Large Language Models with Automated Feedback."
+      },
+      {
+        "name": "Paitesanshi/LLM-Agent-Survey",
+        "url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+        "description": "A Survey on LLM-based Autonomous Agents."
       }
     ]
   },
