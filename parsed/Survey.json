@@ -31,5 +31,27 @@
         "date": "2023/06/27",
         "pdf": "https://arxiv.org/pdf/2306.15774",
         "abstract": " Through iterative, cross-disciplinary discussions, we define and propose\nnext-steps for Human-centered Generative AI (HGAI) from a technical\nperspective. We contribute a roadmap that lays out future directions of\nGenerative AI spanning three levels: Aligning with human values; Accommodating\nhumans&#39; expression of intents; and Augmenting humans&#39; abilities in a\ncollaborative workflow. This roadmap intends to draw interdisciplinary research\nteams to a comprehensive list of emergent ideas in HGAI, identifying their\ninterested topics while maintaining a coherent big picture of the future work\nlandscape.\n"
+    },
+    "75288ef81bd454aa2c0c646d5fdc4101": {
+        "title": "A Survey on Large Language Model based Autonomous Agents",
+        "authors": [
+            "Lei Wang",
+            "Chen Ma",
+            "Xueyang Feng",
+            "Zeyu Zhang",
+            "Hao Yang",
+            "Jingsen Zhang",
+            "Zhiyuan Chen",
+            "Jiakai Tang",
+            "Xu Chen",
+            "Yankai Lin",
+            "Wayne Xin Zhao",
+            "Zhewei Wei",
+            "Ji-Rong Wen"
+        ],
+        "date": "2023/08/22",
+        "pdf": "https://arxiv.org/pdf/2308.11432",
+        "code": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+        "abstract": " Autonomous agents have long been a prominent research topic in the academic\ncommunity. Previous research in this field often focuses on training agents\nwith limited knowledge within isolated environments, which diverges\nsignificantly from the human learning processes, and thus makes the agents hard\nto achieve human-like decisions. Recently, through the acquisition of vast\namounts of web knowledge, large language models (LLMs) have demonstrated\nremarkable potential in achieving human-level intelligence. This has sparked an\nupsurge in studies investigating autonomous agents based on LLMs. To harness\nthe full potential of LLMs, researchers have devised diverse agent\narchitectures tailored to different applications. In this paper, we present a\ncomprehensive survey of these studies, delivering a systematic review of the\nfield of autonomous agents from a holistic perspective. More specifically, our\nfocus lies in the construction of LLM-based agents, for which we propose a\nunified framework that encompasses a majority of the previous work.\nAdditionally, we provide a summary of the various applications of LLM-based AI\nagents in the domains of social science, natural science, and engineering.\nLastly, we discuss the commonly employed evaluation strategies for LLM-based AI\nagents. Based on the previous studies, we also present several challenges and\nfuture directions in this field. To keep track of this field and continuously\nupdate our survey, we maintain a repository for the related references at\nhttps://github.com/Paitesanshi/LLM-Agent-Survey.\n"
     }
 }

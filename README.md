@@ -12,7 +12,8 @@ For more comprehensive reading, we also recommend other paper lists:
 * [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers): This is a collection of research papers for Self-Correcting Large Language Models with Automated Feedback.
 ## :newspaper: Papers
 - Survey
-  	- [2023/08/22] **A Survey on Large Language Model based Autonomous Agents** | [[paper]](https://arxiv.org/abs/2308.11432) | [[code]](https://github.com/Paitesanshi/LLM-Agent-Survey)
+	- [2023/08/22] **A Survey on Large Language Model based Autonomous Agents** | [[paper]](https://arxiv.org/abs/2308.11432) | [[code]](https://github.com/Paitesanshi/LLM-Agent-Survey)
+
 	- [2023/06/27] **Next Steps for Human-Centered Generative AI: A Technical Perspective** | [[paper]](https://arxiv.org/abs/2306.15774) | [code]
 
 	- [2023/04/06] **Can Large Language Models Play Text Games Well? Current State-of-the-Art and Open Questions** | [[paper]](https://arxiv.org/abs/2304.02868) | [code]
@@ -53,6 +54,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent Collaboration
+	- [2023/08/21] **AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents** | [[paper]](https://arxiv.org/abs/2308.10848) | [[code]](https://github.com/OpenBMB/AgentVerse)
+
 	- [2023/08/03] **InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent** | [[paper]](https://arxiv.org/abs/2308.01552) | [code]
 
 	- [2023/08/01] **MetaGPT: Meta Programming for Multi-Agent Collaborative Framework** | [[paper]](https://arxiv.org/abs/2308.00352) | [[code]](https://github.com/geekan/MetaGPT)

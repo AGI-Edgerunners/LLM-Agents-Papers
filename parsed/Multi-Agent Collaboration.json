@@ -87,5 +87,27 @@
         "date": "2023/06/05",
         "pdf": "https://arxiv.org/pdf/2306.03314",
         "abstract": " In this paper, we present a novel framework for enhancing the capabilities of\nlarge language models (LLMs) by leveraging the power of multi-agent systems.\nOur framework introduces a collaborative environment where multiple intelligent\nagent components, each with distinctive attributes and roles, work together to\nhandle complex tasks more efficiently and effectively. We demonstrate the\npracticality and versatility of our framework through case studies in\nartificial general intelligence (AGI), specifically focusing on the Auto-GPT\nand BabyAGI models. We also examine the &#34;Gorilla&#34; model, which integrates\nexternal APIs into the LLM. Our framework addresses limitations and challenges\nsuch as looping issues, security risks, scalability, system evaluation, and\nethical considerations. By modeling various domains such as courtroom\nsimulations and software development scenarios, we showcase the potential\napplications and benefits of our proposed multi-agent system. Our framework\nprovides an avenue for advancing the capabilities and performance of LLMs\nthrough collaboration and knowledge exchange among intelligent agents.\n"
+    },
+    "5073802d8fc8727b178df4d11b1f3cef": {
+        "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents",
+        "authors": [
+            "Weize Chen",
+            "Yusheng Su",
+            "Jingwei Zuo",
+            "Cheng Yang",
+            "Chenfei Yuan",
+            "Chen Qian",
+            "Chi-Min Chan",
+            "Yujia Qin",
+            "Yaxi Lu",
+            "Ruobing Xie",
+            "Zhiyuan Liu",
+            "Maosong Sun",
+            "Jie Zhou"
+        ],
+        "date": "2023/08/21",
+        "pdf": "https://arxiv.org/pdf/2308.10848",
+        "code": "https://github.com/OpenBMB/AgentVerse",
+        "abstract": " Autonomous agents empowered by Large Language Models (LLMs) have undergone\nsignificant improvements, enabling them to generalize across a broad spectrum\nof tasks. However, in real-world scenarios, cooperation among individuals is\noften required to enhance the efficiency and effectiveness of task\naccomplishment. Hence, inspired by human group dynamics, we propose a\nmulti-agent framework \\framework that can collaboratively and dynamically\nadjust its composition as a greater-than-the-sum-of-its-parts system. Our\nexperiments demonstrate that \\framework framework can effectively deploy\nmulti-agent groups that outperform a single agent. Furthermore, we delve into\nthe emergence of social behaviors among individual agents within a group during\ncollaborative task accomplishment. In view of these behaviors, we discuss some\npossible strategies to leverage positive ones and mitigate negative ones for\nimproving the collaborative potential of multi-agent groups. Our codes for\n\\framework will soon be released at\n\\url{https://github.com/OpenBMB/AgentVerse}.\n"
     }
 }
