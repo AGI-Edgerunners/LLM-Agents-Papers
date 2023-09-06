@@ -151,6 +151,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/07/31] **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** | [[paper]](https://arxiv.org/abs/2307.16883) | [[code]](https://github.com/project-miracl/hagrid)
 
+	- [2023/06/09] **Mind2Web: Towards a Generalist Agent for the Web** | [[paper]](https://arxiv.org/abs/2306.06070) | [[code]](https://github.com/OSU-NLP-Group/Mind2Web)
 ---
 ## :star: Star History
 
