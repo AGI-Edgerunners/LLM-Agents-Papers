@@ -53,6 +53,9 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/03/31] **CAMEL: Communicative Agents for &#34;Mind&#34; Exploration of Large Scale Language Model Society** | [[paper]](https://arxiv.org/abs/2303.17760) | [[code]](https://github.com/camel-ai/camel)
 
+	- [2023/03/31] **LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models** | [[paper]](https://arxiv.org/abs/2212.04088) | [[code]](https://github.com/OSU-NLP-Group/LLM-Planner)
+
+
 ---
 - Multi-Agent Collaboration
 	- [2023/08/21] **AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents** | [[paper]](https://arxiv.org/abs/2308.10848) | [[code]](https://github.com/OpenBMB/AgentVerse)
