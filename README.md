@@ -53,6 +53,9 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/03/31] **CAMEL: Communicative Agents for &#34;Mind&#34; Exploration of Large Scale Language Model Society** | [[paper]](https://arxiv.org/abs/2303.17760) | [[code]](https://github.com/camel-ai/camel)
 
+	- [2022/12/08] **LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models** | [[paper]](https://arxiv.org/abs/2212.04088) | [[code]](https://dki-lab.github.io/LLM-Planner/)
+
+
 ---
 - Multi-Agent Collaboration
 	- [2023/08/21] **AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents** | [[paper]](https://arxiv.org/abs/2308.10848) | [[code]](https://github.com/OpenBMB/AgentVerse)
@@ -151,6 +154,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/07/31] **HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution** | [[paper]](https://arxiv.org/abs/2307.16883) | [[code]](https://github.com/project-miracl/hagrid)
 
+	- [2023/06/09] **Mind2Web: Towards a Generalist Agent for the Web** | [[paper]](https://arxiv.org/abs/2306.06070) | [[code]](https://github.com/OSU-NLP-Group/Mind2Web)
 ---
 ## :star: Star History
 
