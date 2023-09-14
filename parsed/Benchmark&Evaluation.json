@@ -66,5 +66,22 @@
         "date": "2023/08/11",
         "pdf": "https://arxiv.org/pdf/2308.05960",
         "abstract": " The massive successes of large language models (LLMs) encourage the emerging\nexploration of LLM-augmented Autonomous Agents (LAAs). An LAA is able to\ngenerate actions with its core LLM and interact with environments, which\nfacilitates the ability to resolve complex tasks by conditioning on past\ninteractions such as observations and actions. Since the investigation of LAA\nis still very recent, limited explorations are available. Therefore, we provide\na comprehensive comparison of LAA in terms of both agent architectures and LLM\nbackbones. Additionally, we propose a new strategy to orchestrate multiple LAAs\nsuch that each labor LAA focuses on one type of action, \\textit{i.e.} BOLAA,\nwhere a controller manages the communication among multiple agents. We conduct\nsimulations on both decision-making and multi-step reasoning environments,\nwhich comprehensively justify the capacity of LAAs. Our performance results\nprovide quantitative suggestions for designing LAA architectures and the\noptimal choice of LLMs, as well as the compatibility of both. We release our\nimplementation code of LAAs to the public at\n\\url{https://github.com/salesforce/BOLAA}.\n"
+    },
+    "ff1281e65bb2fcc4de561ef67dd08f7f": {
+        "title": "Mind2Web: Towards a Generalist Agent for the Web",
+        "authors": [
+            "Xiang Deng",
+            "Yu Gu",
+            "Boyuan Zheng",
+            "Shijie Chen",
+            "Samuel Stevens",
+            "Boshi Wang",
+            "Huan Sun",
+            "Yu Su"
+        ],
+        "date": "2023/06/09",
+        "pdf": "https://arxiv.org/pdf/2306.06070",
+        "code": "https://github.com/OSU-NLP-Group/Mind2Web",
+        "abstract": " We introduce Mind2Web, the first dataset for developing and evaluating\ngeneralist agents for the web that can follow language instructions to complete\ncomplex tasks on any website. Existing datasets for web agents either use\nsimulated websites or only cover a limited set of websites and tasks, thus not\nsuitable for generalist web agents. With over 2,000 open-ended tasks collected\nfrom 137 websites spanning 31 domains and crowdsourced action sequences for the\ntasks, Mind2Web provides three necessary ingredients for building generalist\nweb agents: 1) diverse domains, websites, and tasks, 2) use of real-world\nwebsites instead of simulated and simplified ones, and 3) a broad spectrum of\nuser interaction patterns. Based on Mind2Web, we conduct an initial exploration\nof using large language models (LLMs) for building generalist web agents. While\nthe raw HTML of real-world websites are often too large to be fed to LLMs, we\nshow that first filtering it with a small LM significantly improves the\neffectiveness and efficiency of LLMs. Our solution demonstrates a decent level\nof performance, even on websites or entire domains the model has never seen\nbefore, but there is still a substantial room to improve towards truly\ngeneralizable agents. We open-source our dataset, model implementation, and\ntrained models (https://osu-nlp-group.github.io/Mind2Web) to facilitate further\nresearch on building a generalist agent for the web.\n"
     }
 }

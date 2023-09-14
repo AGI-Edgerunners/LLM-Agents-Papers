@@ -281,5 +281,20 @@
         "pdf": "https://arxiv.org/pdf/2308.05481",
         "code": "https://github.com/TsinghuaDatabaseGroup/DB-GPT",
         "abstract": " Database administrators (DBAs) play a crucial role in managing, maintaining\nand optimizing a database system to ensure data availability, performance, and\nreliability. However, it is hard and tedious for DBAs to manage a large number\nof database instances (e.g., millions of instances on the cloud databases).\nRecently large language models (LLMs) have shown great potential to understand\nvaluable documents and accordingly generate reasonable answers. Thus, we\npropose D-Bot, a LLM-based database administrator that can continuously acquire\ndatabase maintenance experience from textual sources, and provide reasonable,\nwell-founded, in-time diagnosis and optimization advice for target databases.\nThis paper presents a revolutionary LLM-centric framework for database\nmaintenance, including (i) database maintenance knowledge detection from\ndocuments and tools, (ii) tree of thought reasoning for root cause analysis,\nand (iii) collaborative diagnosis among multiple LLMs. Our preliminary\nexperimental results that D-Bot can efficiently and effectively diagnose the\nroot causes and our code is available at\ngithub.com/TsinghuaDatabaseGroup/DB-GPT.\n"
+    },
+    "9008aec82292bda0c6baa1c8ad5bc9b0": {
+        "title": "LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models",
+        "authors": [
+            "Chan Hee Song",
+            "Jiaman Wu",
+            "Clayton Washington",
+            "Brian M. Sadler",
+            "Wei-Lun Chao",
+            "Yu Su"
+        ],
+        "date": "2022/12/08",
+        "pdf": "https://arxiv.org/pdf/2212.04088",
+        "code": "https://dki-lab.github.io/LLM-Planner/",
+        "abstract": " This study focuses on using large language models (LLMs) as a planner for\nembodied agents that can follow natural language instructions to complete\ncomplex tasks in a visually-perceived environment. The high data cost and poor\nsample efficiency of existing methods hinders the development of versatile\nagents that are capable of many tasks and can learn new tasks quickly. In this\nwork, we propose a novel method, LLM-Planner, that harnesses the power of large\nlanguage models to do few-shot planning for embodied agents. We further propose\na simple but effective way to enhance LLMs with physical grounding to generate\nand update plans that are grounded in the current environment. Experiments on\nthe ALFRED dataset show that our method can achieve very competitive few-shot\nperformance: Despite using less than 0.5% of paired training data, LLM-Planner\nachieves competitive performance with recent baselines that are trained using\nthe full training data. Existing methods can barely complete any task\nsuccessfully under the same few-shot setting. Our work opens the door for\ndeveloping versatile and sample-efficient embodied agents that can quickly\nlearn many tasks. Website: https://dki-lab.github.io/LLM-Planner\n"
     }
 }
