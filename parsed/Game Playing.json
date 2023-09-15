@@ -118,5 +118,17 @@
         "pdf": "https://arxiv.org/pdf/2305.17144",
         "code": "https://github.com/OpenGVLab/GITM",
         "abstract": " The captivating realm of Minecraft has attracted substantial research\ninterest in recent years, serving as a rich platform for developing intelligent\nagents capable of functioning in open-world environments. However, the current\nresearch landscape predominantly focuses on specific objectives, such as the\npopular &#34;ObtainDiamond&#34; task, and has not yet shown effective generalization to\na broader spectrum of tasks. Furthermore, the current leading success rate for\nthe &#34;ObtainDiamond&#34; task stands at around 20%, highlighting the limitations of\nReinforcement Learning (RL) based controllers used in existing methods. To\ntackle these challenges, we introduce Ghost in the Minecraft (GITM), a novel\nframework integrates Large Language Models (LLMs) with text-based knowledge and\nmemory, aiming to create Generally Capable Agents (GCAs) in Minecraft. These\nagents, equipped with the logic and common sense capabilities of LLMs, can\nskillfully navigate complex, sparse-reward environments with text-based\ninteractions. We develop a set of structured actions and leverage LLMs to\ngenerate action plans for the agents to execute. The resulting LLM-based agent\nmarkedly surpasses previous methods, achieving a remarkable improvement of\n+47.5% in success rate on the &#34;ObtainDiamond&#34; task, demonstrating superior\nrobustness compared to traditional RL-based controllers. Notably, our agent is\nthe first to procure all items in the Minecraft Overworld technology tree,\ndemonstrating its extensive capabilities. GITM does not need any GPU for\ntraining, but a single CPU node with 32 CPU cores is enough. This research\nshows the potential of LLMs in developing capable agents for handling\nlong-horizon, complex tasks and adapting to uncertainties in open-world\nenvironments. See the project website at https://github.com/OpenGVLab/GITM.\n"
+    },
+    "691bf33064019cb4442e3758f44807c8": {
+        "title": "An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents",
+        "authors": [
+            "Maximilian Croissant",
+            "Madeleine Frister",
+            "Guy Schofield",
+            "Cade McCall"
+        ],
+        "date": "2023/09/10",
+        "pdf": "https://arxiv.org/pdf/2309.05076",
+        "abstract": " The development of believable, natural, and interactive digital artificial\nagents is a field of growing interest. Theoretical uncertainties and technical\nbarriers present considerable challenges to the field, particularly with\nregards to developing agents that effectively simulate human emotions. Large\nlanguage models (LLMs) might address these issues by tapping common patterns in\nsituational appraisal. In three empirical experiments, this study tests the\ncapabilities of LLMs to solve emotional intelligence tasks and to simulate\nemotions. It presents and evaluates a new chain-of-emotion architecture for\nemotion simulation within video games, based on psychological appraisal\nresearch. Results show that it outperforms standard LLM architectures on a\nrange of user experience and content analysis metrics. This study therefore\nprovides early evidence of how to construct and test affective agents based on\ncognitive processes represented in language models.\n"
     }
 }
