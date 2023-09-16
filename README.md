@@ -150,7 +150,7 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2023/03/30] **Self-Refine: Iterative Refinement with Self-Feedback** | [[paper]](https://arxiv.org/abs/2303.17651) | [[code]](https://github.com/madaan/self-refine)
 
 ---
-- Benchmark&Evaluation
+- Benchmark&Evaluation&Framework
 	- [2023/08/11] **BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents** | [[paper]](https://arxiv.org/abs/2308.05960) | [code]
 
 	- [2023/08/07] **AgentBench: Evaluating LLMs as Agents** | [[paper]](https://arxiv.org/abs/2308.03688) | [[code]](https://github.com/THUDM/AgentBench)
