@@ -115,6 +115,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - Game Playing
 	- [2023/09/10] **An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents** | [[paper]](https://arxiv.org/abs/2309.05076) | [code]
 
+	- [2023/09/09] **Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf** | [[paper]](https://arxiv.org/abs/2309.04658) | [code]
+
 	- [2023/05/31] **Recursive Metropolis-Hastings Naming Game: Symbol Emergence in a Multi-agent System based on Probabilistic Generative Models** | [[paper]](https://arxiv.org/abs/2305.19761) | [code]
 
 	- [2023/05/26] **Playing repeated games with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16867) | [code]

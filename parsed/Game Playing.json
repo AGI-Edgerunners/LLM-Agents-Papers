@@ -130,5 +130,20 @@
         "date": "2023/09/10",
         "pdf": "https://arxiv.org/pdf/2309.05076",
         "abstract": " The development of believable, natural, and interactive digital artificial\nagents is a field of growing interest. Theoretical uncertainties and technical\nbarriers present considerable challenges to the field, particularly with\nregards to developing agents that effectively simulate human emotions. Large\nlanguage models (LLMs) might address these issues by tapping common patterns in\nsituational appraisal. In three empirical experiments, this study tests the\ncapabilities of LLMs to solve emotional intelligence tasks and to simulate\nemotions. It presents and evaluates a new chain-of-emotion architecture for\nemotion simulation within video games, based on psychological appraisal\nresearch. Results show that it outperforms standard LLM architectures on a\nrange of user experience and content analysis metrics. This study therefore\nprovides early evidence of how to construct and test affective agents based on\ncognitive processes represented in language models.\n"
+    },
+    "2784f2a2b88063c67286262773571a65": {
+        "title": "Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf",
+        "authors": [
+            "Yuzhuang Xu",
+            "Shuo Wang",
+            "Peng Li",
+            "Fuwen Luo",
+            "Xiaolong Wang",
+            "Weidong Liu",
+            "Yang Liu"
+        ],
+        "date": "2023/09/09",
+        "pdf": "https://arxiv.org/pdf/2309.04658.pdf",
+        "abstract": "Communication games, which we refer to as incomplete information games that heavily depend on natural language communication, hold significant research value in fields such as economics, social science, and artificial intelligence. In this work, we explore the problem of how to engage large language models (LLMs) in communication games, and in response, propose a tuning-free framework. Our approach keeps LLMs frozen, and relies on the retrieval and reflection on past communications and experiences for improvement. An empirical study on the representative and widely-studied communication game, ``Werewolf&#39;&#39;, demonstrates that our framework can effectively play Werewolf game without tuning the parameters of the LLMs. More importantly, strategic behaviors begin to emerge in our experiments, suggesting that it will be a fruitful journey to engage LLMs in communication games and associated domains."
     }
 }
