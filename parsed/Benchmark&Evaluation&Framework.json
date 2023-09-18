@@ -83,5 +83,31 @@
         "pdf": "https://arxiv.org/pdf/2306.06070",
         "code": "https://github.com/OSU-NLP-Group/Mind2Web",
         "abstract": " We introduce Mind2Web, the first dataset for developing and evaluating\ngeneralist agents for the web that can follow language instructions to complete\ncomplex tasks on any website. Existing datasets for web agents either use\nsimulated websites or only cover a limited set of websites and tasks, thus not\nsuitable for generalist web agents. With over 2,000 open-ended tasks collected\nfrom 137 websites spanning 31 domains and crowdsourced action sequences for the\ntasks, Mind2Web provides three necessary ingredients for building generalist\nweb agents: 1) diverse domains, websites, and tasks, 2) use of real-world\nwebsites instead of simulated and simplified ones, and 3) a broad spectrum of\nuser interaction patterns. Based on Mind2Web, we conduct an initial exploration\nof using large language models (LLMs) for building generalist web agents. While\nthe raw HTML of real-world websites are often too large to be fed to LLMs, we\nshow that first filtering it with a small LM significantly improves the\neffectiveness and efficiency of LLMs. Our solution demonstrates a decent level\nof performance, even on websites or entire domains the model has never seen\nbefore, but there is still a substantial room to improve towards truly\ngeneralizable agents. We open-source our dataset, model implementation, and\ntrained models (https://osu-nlp-group.github.io/Mind2Web) to facilitate further\nresearch on building a generalist agent for the web.\n"
+    },
+    "e551d82f612e1b1fabd139d6337197b9": {
+        "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+        "authors": [
+            "Wangchunshu Zhou",
+            "Yuchen Eleanor Jiang",
+            "Long Li",
+            "Jialong Wu",
+            "Tiannan Wang",
+            "Shi Qiu",
+            "Jintian Zhang",
+            "Jing Chen",
+            "Ruipu Wu",
+            "Shuai Wang",
+            "Shiding Zhu",
+            "Jiyu Chen",
+            "Wentao Zhang",
+            "Ningyu Zhang",
+            "Huajun Chen",
+            "Peng Cui",
+            "Mrinmaya Sachan"
+        ],
+        "date": "2023/09/14",
+        "pdf": "https://arxiv.org/pdf/2309.07870",
+        "code": "https://github.com/aiwaves-cn/agents",
+        "abstract": " Recent advances on large language models (LLMs) enable researchers and\ndevelopers to build autonomous language agents that can automatically solve\nvarious tasks and interact with environments, humans, and other agents using\nnatural language interfaces. We consider language agents as a promising\ndirection towards artificial general intelligence and release Agents, an\nopen-source library with the goal of opening up these advances to a wider\nnon-specialist audience. Agents is carefully engineered to support important\nfeatures including planning, memory, tool usage, multi-agent communication, and\nfine-grained symbolic control. Agents is user-friendly as it enables\nnon-specialists to build, customize, test, tune, and deploy state-of-the-art\nautonomous language agents without much coding. The library is also\nresearch-friendly as its modularized design makes it easily extensible for\nresearchers. Agents is available at https://github.com/aiwaves-cn/agents.\n"
     }
 }
