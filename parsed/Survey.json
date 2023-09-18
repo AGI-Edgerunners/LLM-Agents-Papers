@@ -53,5 +53,42 @@
         "pdf": "https://arxiv.org/pdf/2308.11432",
         "code": "https://github.com/Paitesanshi/LLM-Agent-Survey",
         "abstract": " Autonomous agents have long been a prominent research topic in the academic\ncommunity. Previous research in this field often focuses on training agents\nwith limited knowledge within isolated environments, which diverges\nsignificantly from the human learning processes, and thus makes the agents hard\nto achieve human-like decisions. Recently, through the acquisition of vast\namounts of web knowledge, large language models (LLMs) have demonstrated\nremarkable potential in achieving human-level intelligence. This has sparked an\nupsurge in studies investigating autonomous agents based on LLMs. To harness\nthe full potential of LLMs, researchers have devised diverse agent\narchitectures tailored to different applications. In this paper, we present a\ncomprehensive survey of these studies, delivering a systematic review of the\nfield of autonomous agents from a holistic perspective. More specifically, our\nfocus lies in the construction of LLM-based agents, for which we propose a\nunified framework that encompasses a majority of the previous work.\nAdditionally, we provide a summary of the various applications of LLM-based AI\nagents in the domains of social science, natural science, and engineering.\nLastly, we discuss the commonly employed evaluation strategies for LLM-based AI\nagents. Based on the previous studies, we also present several challenges and\nfuture directions in this field. To keep track of this field and continuously\nupdate our survey, we maintain a repository for the related references at\nhttps://github.com/Paitesanshi/LLM-Agent-Survey.\n"
+    },
+    "bb0bbf6c3da5efdcd8f7acdce436c1f1": {
+        "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+        "authors": [
+            "Zhiheng Xi",
+            "Wenxiang Chen",
+            "Xin Guo",
+            "Wei He",
+            "Yiwen Ding",
+            "Boyang Hong",
+            "Ming Zhang",
+            "Junzhe Wang",
+            "Senjie Jin",
+            "Enyu Zhou",
+            "Rui Zheng",
+            "Xiaoran Fan",
+            "Xiao Wang",
+            "Limao Xiong",
+            "Yuhao Zhou",
+            "Weiran Wang",
+            "Changhao Jiang",
+            "Yicheng Zou",
+            "Xiangyang Liu",
+            "Zhangyue Yin",
+            "Shihan Dou",
+            "Rongxiang Weng",
+            "Wensen Cheng",
+            "Qi Zhang",
+            "Wenjuan Qin",
+            "Yongyan Zheng",
+            "Xipeng Qiu",
+            "Xuanjing Huang",
+            "Tao Gui"
+        ],
+        "date": "2023/09/14",
+        "pdf": "https://arxiv.org/pdf/2309.07864",
+        "abstract": " For a long time, humanity has pursued artificial intelligence (AI) equivalent\nto or surpassing the human level, with AI agents considered a promising vehicle\nfor this pursuit. AI agents are artificial entities that sense their\nenvironment, make decisions, and take actions. Many efforts have been made to\ndevelop intelligent AI agents since the mid-20th century. However, these\nefforts have mainly focused on advancement in algorithms or training strategies\nto enhance specific capabilities or performance on particular tasks. Actually,\nwhat the community lacks is a sufficiently general and powerful model to serve\nas a starting point for designing AI agents that can adapt to diverse\nscenarios. Due to the versatile and remarkable capabilities they demonstrate,\nlarge language models (LLMs) are regarded as potential sparks for Artificial\nGeneral Intelligence (AGI), offering hope for building general AI agents. Many\nresearch efforts have leveraged LLMs as the foundation to build AI agents and\nhave achieved significant progress. We start by tracing the concept of agents\nfrom its philosophical origins to its development in AI, and explain why LLMs\nare suitable foundations for AI agents. Building upon this, we present a\nconceptual framework for LLM-based agents, comprising three main components:\nbrain, perception, and action, and the framework can be tailored to suit\ndifferent applications. Subsequently, we explore the extensive applications of\nLLM-based agents in three aspects: single-agent scenarios, multi-agent\nscenarios, and human-agent cooperation. Following this, we delve into agent\nsocieties, exploring the behavior and personality of LLM-based agents, the\nsocial phenomena that emerge when they form societies, and the insights they\noffer for human society. Finally, we discuss a range of key topics and open\nproblems within the field.\n"
     }
 }
