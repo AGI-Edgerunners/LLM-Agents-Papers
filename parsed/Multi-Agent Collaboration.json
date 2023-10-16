@@ -109,5 +109,32 @@
         "pdf": "https://arxiv.org/pdf/2308.10848",
         "code": "https://github.com/OpenBMB/AgentVerse",
         "abstract": " Autonomous agents empowered by Large Language Models (LLMs) have undergone\nsignificant improvements, enabling them to generalize across a broad spectrum\nof tasks. However, in real-world scenarios, cooperation among individuals is\noften required to enhance the efficiency and effectiveness of task\naccomplishment. Hence, inspired by human group dynamics, we propose a\nmulti-agent framework \\framework that can collaboratively and dynamically\nadjust its composition as a greater-than-the-sum-of-its-parts system. Our\nexperiments demonstrate that \\framework framework can effectively deploy\nmulti-agent groups that outperform a single agent. Furthermore, we delve into\nthe emergence of social behaviors among individual agents within a group during\ncollaborative task accomplishment. In view of these behaviors, we discuss some\npossible strategies to leverage positive ones and mitigate negative ones for\nimproving the collaborative potential of multi-agent groups. Our codes for\n\\framework will soon be released at\n\\url{https://github.com/OpenBMB/AgentVerse}.\n"
+    },
+    "eecbaf3e56b9f6a2e8c2abf1201ee2bb": {
+        "title": "MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents",
+        "authors": [
+            "Yuan Li",
+            "Yixuan Zhang",
+            "Lichao Sun"
+        ],
+        "date": "2023/10/10",
+        "pdf": "https://arxiv.org/pdf/2310.06500.pdf",
+        "abstract": "Significant advancements have occurred in the application of Large Language Models (LLMs) for various tasks and social simulations. Despite this, their capacities to coordinate within task-oriented social contexts are under-explored. Such capabilities are crucial if LLMs are to effectively mimic human-like social behavior and produce meaningful results. To bridge this gap, we introduce collaborative generative agents, endowing LLM-based Agents with consistent behavior patterns and task-solving abilities. We situate these agents in a simulated job fair environment as a case study to scrutinize their coordination skills. We propose a novel framework that equips collaborative generative agents with human-like reasoning abilities and specialized skills. Our evaluation demonstrates that these agents show promising performance. However, we also uncover limitations that hinder their effectiveness in more complex coordination tasks. Our work provides valuable insights into the role and evolution of LLMs in task-oriented social simulations."
+    },
+    "6e9ff82716ae89e1a364697a663541a9": {
+        "title": "Learning to Coordinate with Anyone",
+        "authors": [
+            "Lei Yuan",
+            "Lihe Li",
+            "Ziqian Zhang",
+            "Feng Chen",
+            "Tianyi Zhang",
+            "Cong Guan",
+            "Yang Yu",
+            "Zhi-Hua Zhou"
+        ],
+        "date": "2023/09/22",
+        "pdf": "https://arxiv.org/pdf/2309.12633.pdf",
+        "abstract": "In open multi-agent environments, the agents may encounter unexpected teammates. Classical multi-agent learning approaches train agents that can only coordinate with seen teammates. Recent studies attempted to generate diverse teammates to enhance the generalizable coordination ability, but were restricted by pre-defined teammates. In this work, our aim is to train agents with strong coordination ability by generating teammates that fully cover the teammate policy space, so that agents can coordinate with any teammates. Since the teammate policy space is too huge to be enumerated, we find only dissimilar teammates that are incompatible with controllable agents, which highly reduces the number of teammates that need to be trained with. However, it is hard to determine the number of such incompatible teammates beforehand. We therefore introduce a continual multi-agent learning process, in which the agent learns to coordinate with different teammates until no more incompatible teammates can be found. The above idea is implemented in the proposed Macop (Multi-agent compatible policy learning) algorithm. We conduct experiments in 8 scenarios from 4 environments that have distinct coordination patterns. Experiments show that Macop generates training teammates with much lower compatibility than previous methods. As a result, in all scenarios Macop achieves the best overall coordination ability while never significantly worse than the baselines, showing strong generalization ability."
     }
 }

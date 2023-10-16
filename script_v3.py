@@ -3,6 +3,7 @@
 import json
 import os
 import re
+import time
 import warnings
 
 import requests
@@ -111,7 +112,10 @@ def parse_recommendation_section(data: dict) -> str:
 
 
 def parse_description_section(data: dict) -> str:
-    readme_lines = ["## :writing_hand: Description", data.get('description', '')]
+    now = time.localtime(time.time())
+    readme_lines = ["## :writing_hand: Description",
+                    data.get('date', '').format(f"{now.tm_year}/{now.tm_mon}/{now.tm_mday}\n"),
+                    data.get('description', '')]
     for item in data.get('items', []):
         readme_lines.append(f"* {item}")
     return '\n'.join(readme_lines)

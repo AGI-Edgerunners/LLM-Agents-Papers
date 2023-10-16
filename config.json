@@ -8,7 +8,8 @@
       "methods of multi-agent collaboration",
       "benchmarks and surveys of the field",
       "environments or platforms"
-    ]
+    ],
+    "date": "Last Updated Time: {}"
   },
   "Recommendation": {
     "description": "For more comprehensive reading, we also recommend other paper lists:",

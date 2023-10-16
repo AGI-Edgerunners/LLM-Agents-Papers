@@ -308,5 +308,17 @@
         "date": "2023/09/05",
         "pdf": "https://arxiv.org/pdf/2309.02427",
         "abstract": " Recent efforts have incorporated large language models (LLMs) with external\nresources (e.g., the Internet) or internal control flows (e.g., prompt\nchaining) for tasks requiring grounding or reasoning. However, these efforts\nhave largely been piecemeal, lacking a systematic framework for constructing a\nfully-fledged language agent. To address this challenge, we draw on the rich\nhistory of agent design in symbolic artificial intelligence to develop a\nblueprint for a new wave of cognitive language agents. We first show that LLMs\nhave many of the same properties as production systems, and recent efforts to\nimprove their grounding or reasoning mirror the development of cognitive\narchitectures built around production systems. We then propose Cognitive\nArchitectures for Language Agents (CoALA), a conceptual framework to\nsystematize diverse methods for LLM-based reasoning, grounding, learning, and\ndecision making as instantiations of language agents in the framework. Finally,\nwe use the CoALA framework to highlight gaps and propose actionable directions\ntoward more capable language agents in the future.\n"
+    },
+    "649d55c8a7a65af48b7a6a279512302a": {
+        "title": "Unleashing the Power of Graph Learning through LLM-based Autonomous Agents",
+        "authors": [
+            "Lanning Wei",
+            "Zhiqiang He",
+            "Huan Zhao",
+            "Quanming Yao"
+        ],
+        "date": "2023/09/08",
+        "pdf": "https://arxiv.org/pdf/2309.04565.pdf",
+        "abstract": "Graph structured data are widely existed and applied in the real-world applications, while it is a challenge to handling these diverse data and learning tasks on graph in an efficient manner. When facing the complicated graph learning tasks, experts have designed diverse Graph Neural Networks (GNNs) in recent years. They have also implemented AutoML in Graph, also known as AutoGraph, to automatically generate data-specific solutions. Despite their success, they encounter limitations in (1) managing diverse learning tasks at various levels, (2) dealing with different procedures in graph learning beyond architecture design, and (3) the huge requirements on the prior knowledge when using AutoGraph. In this paper, we propose to use Large Language Models (LLMs) as autonomous agents to simplify the learning process on diverse real-world graphs. Specifically, in response to a user request which may contain varying data and learning targets at the node, edge, or graph levels, the complex graph learning task is decomposed into three components following the agent planning, namely, detecting the learning intent, configuring solutions based on AutoGraph, and generating a response. The AutoGraph agents manage crucial procedures in automated graph learning, including data-processing, AutoML configuration, searching architectures, and hyper-parameter fine-tuning. With these agents, those components are processed by decomposing and completing step by step, thereby generating a solution for the given data automatically, regardless of the learning task on node or graph. The proposed method is dubbed Auto$^2$Graph, and the comparable performance on different datasets and learning tasks. Its effectiveness is demonstrated by its comparable performance on different datasets and learning tasks, as well as the human-like decisions made by the agents."
     }
 }

@@ -145,5 +145,28 @@
         "date": "2023/09/09",
         "pdf": "https://arxiv.org/pdf/2309.04658.pdf",
         "abstract": "Communication games, which we refer to as incomplete information games that heavily depend on natural language communication, hold significant research value in fields such as economics, social science, and artificial intelligence. In this work, we explore the problem of how to engage large language models (LLMs) in communication games, and in response, propose a tuning-free framework. Our approach keeps LLMs frozen, and relies on the retrieval and reflection on past communications and experiences for improvement. An empirical study on the representative and widely-studied communication game, ``Werewolf&#39;&#39;, demonstrates that our framework can effectively play Werewolf game without tuning the parameters of the LLMs. More importantly, strategic behaviors begin to emerge in our experiments, suggesting that it will be a fruitful journey to engage LLMs in communication games and associated domains."
+    },
+    "fa0d2b5c94ed1f859fe93477ed2d3f79": {
+        "title": "Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4",
+        "authors": [
+            "Jiaxian Guo",
+            "Bo Yang",
+            "Paul Yoo",
+            "Bill Yuchen Lin",
+            "Yusuke Iwasawa",
+            "Yutaka Matsuo"
+        ],
+        "date": "2023/09/29",
+        "pdf": "https://arxiv.org/pdf/2309.17277.pdf",
+        "abstract": "Unlike perfect information games, where all elements are known to every player, imperfect information games emulate the real-world complexities of decision-making under uncertain or incomplete information. GPT-4, the recent breakthrough in large language models (LLMs) trained on massive passive data, is notable for its knowledge retrieval and reasoning abilities. This paper delves into the applicability of GPT-4&#39;s learned knowledge for imperfect information games. To achieve this, we introduce \\textbf{Suspicion-Agent}, an innovative agent that leverages GPT-4&#39;s capabilities for performing in imperfect information games. With proper prompt engineering to achieve different functions, Suspicion-Agent based on GPT-4 demonstrates remarkable adaptability across a range of imperfect information card games. Importantly, GPT-4 displays a strong high-order theory of mind (ToM) capacity, meaning it can understand others and intentionally impact others&#39; behavior. Leveraging this, we design a planning strategy that enables GPT-4 to competently play against different opponents, adapting its gameplay style as needed, while requiring only the game rules and descriptions of observations as input. In the experiments, we qualitatively showcase the capabilities of Suspicion-Agent across three different imperfect information games and then quantitatively evaluate it in Leduc Hold&#39;em. The results show that Suspicion-Agent can potentially outperform traditional algorithms designed for imperfect information games, without any specialized training or examples. In order to encourage and foster deeper insights within the community, we make our game-related data publicly available."
+    },
+    "e0a2fda9dfc3609da9420d67063733e8": {
+        "title": "Are ChatGPT and GPT-4 Good Poker Players? -- A Pre-Flop Analysis",
+        "authors": [
+            "Akshat Gupta"
+        ],
+        "date": "2023/08/23",
+        "pdf": "https://arxiv.org/pdf/2308.12466.pdf",
+        "abstract": "Since the introduction of ChatGPT and GPT-4, these models have been tested across a large number of tasks. Their adeptness across domains is evident, but their aptitude in playing games and specifically their aptitude in the realm of poker has remained unexplored. Poker is a game that requires decision making under uncertainty and incomplete information. In this paper, we put ChatGPT and GPT-4 through the poker test and evaluate their poker skills. Our findings reveal that while both models display an advanced understanding of poker, encompassing concepts like the valuation of starting hands, playing positions and other intricacies of game theory optimal (GTO) poker, both ChatGPT and GPT-4 are NOT game theory optimal poker players. Through a series of experiments, we first discover the characteristics of optimal prompts and model parameters for playing poker with these models. Our observations then unveil the distinct playing personas of the two models. We first conclude that GPT-4 is a more advanced poker player than ChatGPT. This exploration then sheds light on the divergent poker tactics of the two models: ChatGPT&#39;s conservativeness juxtaposed against GPT-4&#39;s aggression. In poker vernacular, when tasked to play GTO poker, ChatGPT plays like a Nit, which means that it has a propensity to only engage with premium hands and folds a majority of hands. When subjected to the same directive, GPT-4 plays like a maniac, showcasing a loose and aggressive style of play. Both strategies, although relatively advanced, are not game theory optimal."
     }
 }

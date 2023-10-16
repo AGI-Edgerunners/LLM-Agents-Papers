@@ -1,5 +1,7 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
+Last Updated Time: 2023/10/16
+
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
 * methods of feedback or reflection
@@ -23,6 +25,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2023/09/08] **Unleashing the Power of Graph Learning through LLM-based Autonomous Agents** | [[paper]](https://arxiv.org/abs/2309.04565) | [code]
+
 	- [2023/09/05] **Cognitive Architectures for Language Agents** | [[paper]](https://arxiv.org/abs/2309.02427) | [code]
 
 	- [2023/08/14] **ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2308.07201) | [[code]](https://github.com/thunlp/ChatEval)
@@ -61,6 +65,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent Collaboration
+	- [2023/10/10] **MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents** | [[paper]](https://arxiv.org/abs/2310.06500) | [code]
+
+	- [2023/09/22] **Learning to Coordinate with Anyone** | [[paper]](https://arxiv.org/abs/2309.12633) | [code]
+
 	- [2023/08/21] **AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents** | [[paper]](https://arxiv.org/abs/2308.10848) | [[code]](https://github.com/OpenBMB/AgentVerse)
 
 	- [2023/08/03] **InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent** | [[paper]](https://arxiv.org/abs/2308.01552) | [code]
@@ -112,10 +120,20 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2023/03/17] **CoLT5: Faster Long-Range Transformers with Conditional Computation** | [[paper]](https://arxiv.org/abs/2303.09752) | [code]
 
 ---
+- Human-Agent Interaction
+	- [2023/10/13] **AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems** | [[paper]](https://arxiv.org/abs/2310.09233) | [code]
+
+	- [2023/06/05] **When Large Language Model based Agent Meets User Behavior Analysis: A Novel User Simulation Paradigm** | [[paper]](https://arxiv.org/abs/2306.02552) | [code]
+
+---
 - Game Playing
+	- [2023/09/29] **Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4** | [[paper]](https://arxiv.org/abs/2309.17277) | [code]
+
 	- [2023/09/10] **An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents** | [[paper]](https://arxiv.org/abs/2309.05076) | [code]
 
 	- [2023/09/09] **Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf** | [[paper]](https://arxiv.org/abs/2309.04658) | [code]
+
+	- [2023/08/23] **Are ChatGPT and GPT-4 Good Poker Players? -- A Pre-Flop Analysis** | [[paper]](https://arxiv.org/abs/2308.12466) | [code]
 
 	- [2023/05/31] **Recursive Metropolis-Hastings Naming Game: Symbol Emergence in a Multi-agent System based on Probabilistic Generative Models** | [[paper]](https://arxiv.org/abs/2305.19761) | [code]
 
@@ -155,6 +173,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2023/10/09] **Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena** | [[paper]](https://arxiv.org/abs/2310.05746) | [code]
+
 	- [2023/09/14] **Agents: An Open-source Framework for Autonomous Language Agents** | [[paper]](https://arxiv.org/abs/2309.07870) | [[code]](https://github.com/aiwaves-cn/agents)
 
 	- [2023/08/11] **BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents** | [[paper]](https://arxiv.org/abs/2308.05960) | [code]
