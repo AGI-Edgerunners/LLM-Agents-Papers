@@ -6,6 +6,7 @@ A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
 * methods of feedback or reflection
 * methods of multi-agent collaboration
+* methods of tool usage or human-agent interaction
 * benchmarks and surveys of the field
 * environments or platforms
 ## :yellow_heart: Recommendation
