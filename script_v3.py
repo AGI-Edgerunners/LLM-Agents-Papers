@@ -180,13 +180,16 @@ def parse_paper_block(file_name: str) -> str:
     return '\n'.join(readme_lines)
 
 
-def parse_paper_section() -> str:
+def parse_paper_section(category_sort: list) -> str:
     readme_lines = ["## :newspaper: Papers"]
     if not os.path.exists('papers'):
         return '\n'.join(readme_lines)
     else:
         files = os.listdir('papers')
-        files = sorted(files, reverse=True)
+        if not category_sort:
+            files = sorted(files, reverse=True)
+        else:
+            files = category_sort
         for file in files:
             if file.endswith('.json'):
                 readme_line = parse_paper_block(file)
@@ -204,7 +207,7 @@ def init():
         f"# {title}",
         parse_description_section(config.get('Description')),
         parse_recommendation_section(config.get('Recommendation')),
-        parse_paper_section(),
+        parse_paper_section(config.get('Category_Sort')),
         config.get('Star_History', '')
     ]
     md_text = '\n'.join(readme_sections)

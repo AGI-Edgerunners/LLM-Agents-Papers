@@ -1,5 +1,6 @@
 {
   "Name": "LLM-Agents-Papers",
+  "Category_Sort": ["Survey.json", "Role Playing.json", "Multi-Agent Collaboration.json", "Feedback&Reflection.json", "Memory Mechanism.json", "Game Playing.json", "Game Platform.json", "Benchmark&Evaluation&Framework.json", "Tool Usage&Human-Agent Interaction.json"],
   "Description": {
     "description": "A repo lists papers related to LLM based agent. Includes",
     "items": [
