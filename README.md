@@ -9,6 +9,7 @@ A repo lists papers related to LLM based agent. Includes
 * methods of tool usage or human-agent interaction
 * benchmarks and surveys of the field
 * environments or platforms
+* agent fine-tuning
 ## :yellow_heart: Recommendation
 For more comprehensive reading, we also recommend other paper lists:
 * [zjunlp/LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers): Must-read Papers on Large Language Model Agents.

@@ -9,7 +9,8 @@
       "methods of multi-agent collaboration",
       "methods of tool usage or human-agent interaction",
       "benchmarks and surveys of the field",
-      "environments or platforms"
+      "environments or platforms",
+      "agent fine-tuning"
     ],
     "date": "Last Updated Time: {}"
   },
