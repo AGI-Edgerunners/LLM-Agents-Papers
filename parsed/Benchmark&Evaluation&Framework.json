@@ -134,5 +134,20 @@
         "date": "2023/10/02",
         "pdf": "https://arxiv.org/pdf/2310.01557.pdf",
         "abstract": "Recent large language models (LLMs) have demonstrated great potential toward intelligent agents and next-gen automation, but there currently lacks a systematic benchmark for evaluating LLMs&#39; abilities as agents. We introduce SmartPlay: both a challenging benchmark and a methodology for evaluating LLMs as agents. SmartPlay consists of 6 different games, including Rock-Paper-Scissors, Tower of Hanoi, Minecraft. Each game features a unique setting, providing up to 20 evaluation settings and infinite environment variations. Each game in SmartPlay uniquely challenges a subset of 9 important capabilities of an intelligent LLM agent, including reasoning with object dependencies, planning ahead, spatial reasoning, learning from history, and understanding randomness. The distinction between the set of capabilities each game test allows us to analyze each capability separately. SmartPlay serves not only as a rigorous testing ground for evaluating the overall performance of LLM agents but also as a road-map for identifying gaps in current methodologies. We release our benchmark at github.com/microsoft/SmartPlay"
+    },
+    "804f5942ec7bac44830ad6243a4d15c7": {
+        "title": "Reason for Future, Act for Now: A Principled Framework for Autonomous LLM Agents with Provable Sample Efficiency",
+        "authors": [
+            "Zhihan Liu",
+            "Hao Hu",
+            "Shenao Zhang",
+            "Hongyi Guo",
+            "Shuqi Ke",
+            "Boyi Liu",
+            "Zhaoran Wang"
+        ],
+        "date": "2023/09/29",
+        "pdf": "https://arxiv.org/pdf/2309.17382.pdf",
+        "abstract": " Large language models (LLMs) demonstrate impressive reasoning abilities, but\ntranslating reasoning into actions in the real world remains challenging. In\nparticular, it remains unclear how to complete a given task provably within a\nminimum number of interactions with the external environment, e.g., through an\ninternal mechanism of reasoning. To this end, we propose a principled framework\nwith provable regret guarantees to orchestrate reasoning and acting, which we\ncall &#34;reason for future, act for now&#34; (\\texttt{RAFA}). Specifically, we design\na prompt template for reasoning that learns from the memory buffer and plans a\nfuture trajectory over a long horizon (&#34;reason for future&#34;). At each step, the\nLLM agent takes the initial action of the planned trajectory (&#34;act for now&#34;),\nstores the collected feedback in the memory buffer, and reinvokes the reasoning\nroutine to replan the future trajectory from the new state. The key idea is to cast reasoning in LLMs as learning and planning in\nBayesian adaptive Markov decision processes (MDPs). Correspondingly, we prompt\nLLMs to form an updated posterior of the unknown environment from the memory\nbuffer (learning) and generate an optimal trajectory for multiple future steps\nthat maximizes a value function (planning). The learning and planning\nsubroutines are performed in an &#34;in-context&#34; manner to emulate the actor-critic\nupdate for MDPs. Our theoretical analysis proves that the novel combination of\nlong-term reasoning and short-term acting achieves a $\\sqrt{T}$ regret. In\nparticular, the regret bound highlights an intriguing interplay between the\nprior knowledge obtained through pretraining and the uncertainty reduction\nachieved by reasoning and acting. Our empirical validation shows that it\noutperforms various existing frameworks and achieves nearly perfect scores on a\nfew benchmarks.\n"
     }
 }

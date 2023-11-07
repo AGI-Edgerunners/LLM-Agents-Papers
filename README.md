@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2023/10/23
+Last Updated Time: 2023/11/7
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -23,6 +23,14 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2023/06/27] **Next Steps for Human-Centered Generative AI: A Technical Perspective** | [[paper]](https://arxiv.org/abs/2306.15774) | [code]
 
 	- [2023/04/06] **Can Large Language Models Play Text Games Well? Current State-of-the-Art and Open Questions** | [[paper]](https://arxiv.org/abs/2304.02868) | [code]
+
+---
+- Agent Fine-tuning
+	- [2023/10/19] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** | [[paper]](https://arxiv.org/abs/2310.12823) | [code]
+
+	- [2023/10/09] **FireAct: Toward Language Agent Fine-tuning** | [[paper]](https://arxiv.org/abs/2310.05915) | [code]
+
+	- [2023/10/01] **Adapting LLM Agents Through Communication** | [[paper]](https://arxiv.org/abs/2310.01444v2) | [code]
 
 ---
 - Role Playing
@@ -104,6 +112,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Memory Mechanism
+	- [2023/10/16] **CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization** | [[paper]](https://arxiv.org/abs/2310.10134) | [code]
+
 	- [2023/06/06] **ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory** | [[paper]](https://arxiv.org/abs/2306.03901) | [code]
 
 	- [2023/05/31] **Monotonic Location Attention for Length Generalization** | [[paper]](https://arxiv.org/abs/2305.20019) | [code]
@@ -171,6 +181,8 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2023/10/09] **Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena** | [[paper]](https://arxiv.org/abs/2310.05746) | [code]
 
 	- [2023/10/02] **SmartPlay : A Benchmark for LLMs as Intelligent Agents** | [[paper]](https://arxiv.org/abs/2310.01557) | [code]
+
+	- [2023/09/29] **Reason for Future, Act for Now: A Principled Framework for Autonomous LLM Agents with Provable Sample Efficiency** | [[paper]](https://arxiv.org/abs/2309.17382) | [code]
 
 	- [2023/09/14] **Agents: An Open-source Framework for Autonomous Language Agents** | [[paper]](https://arxiv.org/abs/2309.07870) | [[code]](https://github.com/aiwaves-cn/agents)
 

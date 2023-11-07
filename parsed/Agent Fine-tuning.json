@@ -1,0 +1,45 @@
+{
+    "59ce6dd642c3cee234d3e05856eef0cc": {
+        "title": "Adapting LLM Agents Through Communication",
+        "authors": [
+            "Kuan Wang",
+            "Yadong Lu",
+            "Michael Santacroce",
+            "Yeyun Gong",
+            "Chao Zhang",
+            "Yelong Shen"
+        ],
+        "date": "2023/10/01",
+        "pdf": "https://arxiv.org/pdf/2310.01444.pdf",
+        "abstract": " Recent advancements in large language models (LLMs) have shown potential for\nhuman-like agents. To help these agents adapt to new tasks without extensive\nhuman supervision, we propose the Learning through Communication (LTC)\nparadigm, a novel training approach enabling LLM agents to improve continuously\nthrough interactions with their environments and other agents. Recent\nadvancements in large language models (LLMs) have shown potential for\nhuman-like agents. To help these agents adapt to new tasks without extensive\nhuman supervision, we propose the Learning through Communication (LTC)\nparadigm, a novel training approach enabling LLM agents to improve continuously\nthrough interactions with their environments and other agents. Through\niterative exploration and PPO training, LTC empowers the agent to assimilate\nshort-term experiences into long-term memory. To optimize agent interactions\nfor task-specific learning, we introduce three structured communication\npatterns: Monologue, Dialogue, and Analogue-tailored for common tasks such as\ndecision-making, knowledge-intensive reasoning, and numerical reasoning. We\nevaluated LTC on three datasets: ALFWorld (decision-making), HotpotQA\n(knowledge-intensive reasoning), and GSM8k (numerical reasoning). On ALFWorld,\nit exceeds the instruction tuning baseline by 12% in success rate. On HotpotQA,\nLTC surpasses the instruction-tuned LLaMA-7B agent by 5.1% in EM score, and it\noutperforms the instruction-tuned 9x larger PaLM-62B agent by 0.6%. On GSM8k,\nLTC outperforms the CoT-Tuning baseline by 3.6% in accuracy. The results\nshowcase the versatility and efficiency of the LTC approach across diverse\ndomains. We will open-source our code to promote further development of the\ncommunity.\n"
+    },
+    "a48d6f115726758bb29c8fe22f9dffd9": {
+        "title": "AgentTuning: Enabling Generalized Agent Abilities for LLMs",
+        "authors": [
+            "Aohan Zeng",
+            "Mingdao Liu",
+            "Rui Lu",
+            "Bowen Wang",
+            "Xiao Liu",
+            "Yuxiao Dong",
+            "Jie Tang"
+        ],
+        "date": "2023/10/19",
+        "pdf": "https://arxiv.org/pdf/2310.12823.pdf",
+        "abstract": " Open large language models (LLMs) with great performance in various tasks\nhave significantly advanced the development of LLMs. However, they are far\ninferior to commercial models such as ChatGPT and GPT-4 when acting as agents\nto tackle complex tasks in the real world. These agent tasks employ LLMs as the\ncentral controller responsible for planning, memorization, and tool\nutilization, necessitating both fine-grained prompting methods and robust LLMs\nto achieve satisfactory performance. Though many prompting methods have been\nproposed to complete particular agent tasks, there is lack of research focusing\non improving the agent capabilities of LLMs themselves without compromising\ntheir general abilities. In this work, we present AgentTuning, a simple and\ngeneral method to enhance the agent abilities of LLMs while maintaining their\ngeneral LLM capabilities. We construct AgentInstruct, a lightweight\ninstruction-tuning dataset containing high-quality interaction trajectories. We\nemploy a hybrid instruction-tuning strategy by combining AgentInstruct with\nopen-source instructions from general domains. AgentTuning is used to\ninstruction-tune the Llama 2 series, resulting in AgentLM. Our evaluations show\nthat AgentTuning enables LLMs&#39; agent capabilities without compromising general\nabilities. The AgentLM-70B is comparable to GPT-3.5-turbo on unseen agent\ntasks, demonstrating generalized agent capabilities. We open source the\nAgentInstruct and AgentLM-7B, 13B, and 70B models at\nhttps://github.com/THUDM/AgentTuning, serving open and powerful alternatives to\ncommercial LLMs for agent tasks.\n"
+    },
+    "cf1de36f3cf9d3bf1383a44f988ddf99": {
+        "title": "FireAct: Toward Language Agent Fine-tuning",
+        "authors": [
+            "Baian Chen",
+            "Chang Shu",
+            "Ehsan Shareghi",
+            "Nigel Collier",
+            "Karthik Narasimhan",
+            "Shunyu Yao"
+        ],
+        "date": "2023/10/09",
+        "pdf": "https://arxiv.org/pdf/2310.05915.pdf",
+        "abstract": " Recent efforts have augmented language models (LMs) with external tools or\nenvironments, leading to the development of language agents that can reason and\nact. However, most of these agents rely on few-shot prompting techniques with\noff-the-shelf LMs. In this paper, we investigate and argue for the overlooked\ndirection of fine-tuning LMs to obtain language agents. Using a setup of\nquestion answering (QA) with a Google search API, we explore a variety of base\nLMs, prompting methods, fine-tuning data, and QA tasks, and find language\nagents are consistently improved after fine-tuning their backbone LMs. For\nexample, fine-tuning Llama2-7B with 500 agent trajectories generated by GPT-4\nleads to a 77% HotpotQA performance increase. Furthermore, we propose FireAct,\na novel approach to fine-tuning LMs with trajectories from multiple tasks and\nprompting methods, and show having more diverse fine-tuning data can further\nimprove agents. Along with other findings regarding scaling effects,\nrobustness, generalization, efficiency and cost, our work establishes\ncomprehensive benefits of fine-tuning LMs for agents, and provides an initial\nset of experimental designs, insights, as well as open questions toward\nlanguage agent fine-tuning.\n"
+    }
+}
