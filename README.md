@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2023/11/7
+Last Updated Time: 2023/11/8
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -36,6 +36,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2023/10/01] **RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models** | [[paper]](https://arxiv.org/abs/2310.00746) | [[code]](https://github.com/InteractiveNLP-Team/RoleLLM-public)
+
 	- [2023/09/08] **Unleashing the Power of Graph Learning through LLM-based Autonomous Agents** | [[paper]](https://arxiv.org/abs/2309.04565) | [code]
 
 	- [2023/09/05] **Cognitive Architectures for Language Agents** | [[paper]](https://arxiv.org/abs/2309.02427) | [code]
@@ -77,6 +79,8 @@ For more comprehensive reading, we also recommend other paper lists:
 ---
 - Multi-Agent Collaboration
 	- [2023/10/10] **MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents** | [[paper]](https://arxiv.org/abs/2310.06500) | [code]
+
+	- [2023/10/03] **Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View** | [[paper]](https://arxiv.org/abs/2310.02124) | [[code]](https://github.com/zjunlp/MachineSoM)
 
 	- [2023/09/22] **Learning to Coordinate with Anyone** | [[paper]](https://arxiv.org/abs/2309.12633) | [code]
 

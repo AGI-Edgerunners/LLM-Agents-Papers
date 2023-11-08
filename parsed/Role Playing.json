@@ -320,5 +320,30 @@
         "date": "2023/09/08",
         "pdf": "https://arxiv.org/pdf/2309.04565.pdf",
         "abstract": "Graph structured data are widely existed and applied in the real-world applications, while it is a challenge to handling these diverse data and learning tasks on graph in an efficient manner. When facing the complicated graph learning tasks, experts have designed diverse Graph Neural Networks (GNNs) in recent years. They have also implemented AutoML in Graph, also known as AutoGraph, to automatically generate data-specific solutions. Despite their success, they encounter limitations in (1) managing diverse learning tasks at various levels, (2) dealing with different procedures in graph learning beyond architecture design, and (3) the huge requirements on the prior knowledge when using AutoGraph. In this paper, we propose to use Large Language Models (LLMs) as autonomous agents to simplify the learning process on diverse real-world graphs. Specifically, in response to a user request which may contain varying data and learning targets at the node, edge, or graph levels, the complex graph learning task is decomposed into three components following the agent planning, namely, detecting the learning intent, configuring solutions based on AutoGraph, and generating a response. The AutoGraph agents manage crucial procedures in automated graph learning, including data-processing, AutoML configuration, searching architectures, and hyper-parameter fine-tuning. With these agents, those components are processed by decomposing and completing step by step, thereby generating a solution for the given data automatically, regardless of the learning task on node or graph. The proposed method is dubbed Auto$^2$Graph, and the comparable performance on different datasets and learning tasks. Its effectiveness is demonstrated by its comparable performance on different datasets and learning tasks, as well as the human-like decisions made by the agents."
+    },
+    "c80b679cf1da13cfa8781f22f67a9488": {
+        "title": "RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models",
+        "authors": [
+            "Zekun Moore Wang",
+            "Zhongyuan Peng",
+            "Haoran Que",
+            "Jiaheng Liu",
+            "Wangchunshu Zhou",
+            "Yuhan Wu",
+            "Hongcheng Guo",
+            "Ruitong Gan",
+            "Zehao Ni",
+            "Man Zhang",
+            "Zhaoxiang Zhang",
+            "Wanli Ouyang",
+            "Ke Xu",
+            "Wenhu Chen",
+            "Jie Fu",
+            "Junran Peng"
+        ],
+        "date": "2023/10/01",
+        "pdf": "https://arxiv.org/pdf/2310.00746.pdf",
+        "code": "https://github.com/InteractiveNLP-Team/RoleLLM-public",
+        "abstract": "The advent of Large Language Models (LLMs) has paved the way for complex tasks such as role-playing, which enhances user interactions by enabling models to imitate various characters. However, the closed-source nature of state-of-the-art LLMs and their general-purpose training limit role-playing optimization. In this paper, we introduce RoleLLM, a framework to benchmark, elicit, and enhance role-playing abilities in LLMs. RoleLLM comprises four stages: (1) Role Profile Construction for 100 roles; (2) Context-Based Instruction Generation (Context-Instruct) for role-specific knowledge extraction; (3) Role Prompting using GPT (RoleGPT) for speaking style imitation; and (4) Role-Conditioned Instruction Tuning (RoCIT) for fine-tuning open-source models along with role customization. By Context-Instruct and RoleGPT, we create RoleBench, the first systematic and fine-grained character-level benchmark dataset for role-playing with 168,093 samples. Moreover, RoCIT on RoleBench yields RoleLLaMA (English) and RoleGLM (Chinese), significantly enhancing role-playing abilities and even achieving comparable results with RoleGPT (using GPT-4)."
     }
 }
