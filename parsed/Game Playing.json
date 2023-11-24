@@ -169,5 +169,23 @@
         "date": "2023/08/23",
         "pdf": "https://arxiv.org/pdf/2308.12466.pdf",
         "abstract": "Since the introduction of ChatGPT and GPT-4, these models have been tested across a large number of tasks. Their adeptness across domains is evident, but their aptitude in playing games and specifically their aptitude in the realm of poker has remained unexplored. Poker is a game that requires decision making under uncertainty and incomplete information. In this paper, we put ChatGPT and GPT-4 through the poker test and evaluate their poker skills. Our findings reveal that while both models display an advanced understanding of poker, encompassing concepts like the valuation of starting hands, playing positions and other intricacies of game theory optimal (GTO) poker, both ChatGPT and GPT-4 are NOT game theory optimal poker players. Through a series of experiments, we first discover the characteristics of optimal prompts and model parameters for playing poker with these models. Our observations then unveil the distinct playing personas of the two models. We first conclude that GPT-4 is a more advanced poker player than ChatGPT. This exploration then sheds light on the divergent poker tactics of the two models: ChatGPT&#39;s conservativeness juxtaposed against GPT-4&#39;s aggression. In poker vernacular, when tasked to play GTO poker, ChatGPT plays like a Nit, which means that it has a propensity to only engage with premium hands and folds a majority of hands. When subjected to the same directive, GPT-4 plays like a maniac, showcasing a loose and aggressive style of play. Both strategies, although relatively advanced, are not game theory optimal."
+    },
+    "547060c869101463eaac2740b4922d60": {
+        "title": "Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models",
+        "authors": [
+            "Tian Liang",
+            "Zhiwei He",
+            "Jen-tse Huang",
+            "Wenxuan Wang",
+            "Wenxiang Jiao",
+            "Rui Wang",
+            "Yujiu Yang",
+            "Zhaopeng Tu",
+            "Shuming Shi",
+            "Xing Wang"
+        ],
+        "date": "2023/10/31",
+        "pdf": "https://arxiv.org/pdf/2310.20499.pdf",
+        "abstract": "The automatic evaluation of LLM-based agent intelligence is critical in developing advanced LLM-based agents. Although considerable effort has been devoted to developing human-annotated evaluation datasets, such as AlpacaEval, existing techniques are costly, time-consuming, and lack adaptability. In this paper, inspired by the popular language game ``Who is Spy&#39;&#39;, we propose to use the word guessing game to assess the intelligence performance of LLMs. Given a word, the LLM is asked to describe the word and determine its identity (spy or not) based on its and other players&#39; descriptions. Ideally, an advanced agent should possess the ability to accurately describe a given word using an aggressive description while concurrently maximizing confusion in the conservative description, enhancing its participation in the game. To this end, we first develop DEEP to evaluate LLMs&#39; expression and disguising abilities. DEEP requires LLM to describe a word in aggressive and conservative modes. We then introduce SpyGame, an interactive multi-agent framework designed to assess LLMs&#39; intelligence through participation in a competitive language-based board game. Incorporating multi-agent interaction, SpyGame requires the target LLM to possess linguistic skills and strategic thinking, providing a more comprehensive evaluation of LLMs&#39; human-like cognitive abilities and adaptability in complex communication situations. The proposed evaluation framework is very easy to implement. We collected words from multiple sources, domains, and languages and used the proposed evaluation framework to conduct experiments. Extensive experiments demonstrate that the proposed DEEP and SpyGame effectively evaluate the capabilities of various LLMs, capturing their ability to adapt to novel situations and engage in strategic communication."
     }
 }

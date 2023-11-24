@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2023/11/8
+Last Updated Time: 2023/11/24
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -100,6 +100,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Feedback&Reflection
+	- [2023/11/14] **The ART of LLM Refinement: Ask, Refine, and Trust** | [[paper]](https://arxiv.org/abs/2311.07961) | [code]
+
+	- [2023/10/31] **Learning From Mistakes Makes LLM Better Reasoner** | [[paper]](https://arxiv.org/abs/2310.20689) | [[code]](https://github.com/microsoft/LEMA)
+
 	- [2023/08/01] **SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning** | [[paper]](https://arxiv.org/abs/2308.00436) | [[code]](https://github.com/ningmiao/selfcheck)
 
 	- [2023/07/27] **PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback** | [[paper]](https://arxiv.org/abs/2307.14936) | [code]
@@ -156,6 +160,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Game Playing
+	- [2023/10/31] **Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models** | [[paper]](https://arxiv.org/abs/2310.20499) | [code]
+
 	- [2023/09/29] **Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4** | [[paper]](https://arxiv.org/abs/2309.17277) | [[code]](https://github.com/CR-Gjx/Suspicion-Agent)
 
 	- [2023/09/10] **An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents** | [[paper]](https://arxiv.org/abs/2309.05076) | [code]
@@ -184,6 +190,14 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2023/11/17] **Testing Language Model Agents Safely in the Wild** | [[paper]](https://arxiv.org/abs/2311.10538) | [code]
+
+	- [2023/11/16] **ML-Bench: Large Language Models Leverage Open-source Libraries for Machine Learning Tasks** | [[paper]](https://arxiv.org/abs/2311.09835) | [[code]](https://ml-bench.github.io/)
+
+	- [2023/11/15] **ToolTalk: Evaluating Tool-Usage in a Conversational Setting** | [[paper]](https://arxiv.org/abs/2311.10775) | [[code]](https://github.com/microsoft/ToolTalk)
+
+	- [2023/11/02] **ProAgent: From Robotic Process Automation to Agentic Process Automation** | [[paper]](https://arxiv.org/abs/2311.10751) | [[code]](https://github.com/OpenBMB/ProAgent)
+
 	- [2023/10/09] **Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena** | [[paper]](https://arxiv.org/abs/2310.05746) | [[code]](https://github.com/jiangjiechen/auction-arena)
 
 	- [2023/10/02] **SmartPlay : A Benchmark for LLMs as Intelligent Agents** | [[paper]](https://arxiv.org/abs/2310.01557) | [[code]](https://github.com/microsoft/SmartPlay)
@@ -202,6 +216,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Tool Usage&Human-Agent Interaction
+	- [2023/11/19] **TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems** | [[paper]](https://arxiv.org/abs/2311.11315) | [code]
+
 	- [2023/10/18] **MusicAgent: An AI Agent for Music Understanding and Generation with Large Language Models** | [[paper]](https://arxiv.org/abs/2310.11954) | [code]
 
 	- [2023/10/13] **AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems** | [[paper]](https://arxiv.org/abs/2310.09233) | [code]

@@ -153,5 +153,88 @@
         "pdf": "https://arxiv.org/pdf/2309.17382.pdf",
         "code": "https://github.com/agentification/RAFA_code",
         "abstract": " Large language models (LLMs) demonstrate impressive reasoning abilities, but\ntranslating reasoning into actions in the real world remains challenging. In\nparticular, it remains unclear how to complete a given task provably within a\nminimum number of interactions with the external environment, e.g., through an\ninternal mechanism of reasoning. To this end, we propose a principled framework\nwith provable regret guarantees to orchestrate reasoning and acting, which we\ncall &#34;reason for future, act for now&#34; (\\texttt{RAFA}). Specifically, we design\na prompt template for reasoning that learns from the memory buffer and plans a\nfuture trajectory over a long horizon (&#34;reason for future&#34;). At each step, the\nLLM agent takes the initial action of the planned trajectory (&#34;act for now&#34;),\nstores the collected feedback in the memory buffer, and reinvokes the reasoning\nroutine to replan the future trajectory from the new state. The key idea is to cast reasoning in LLMs as learning and planning in\nBayesian adaptive Markov decision processes (MDPs). Correspondingly, we prompt\nLLMs to form an updated posterior of the unknown environment from the memory\nbuffer (learning) and generate an optimal trajectory for multiple future steps\nthat maximizes a value function (planning). The learning and planning\nsubroutines are performed in an &#34;in-context&#34; manner to emulate the actor-critic\nupdate for MDPs. Our theoretical analysis proves that the novel combination of\nlong-term reasoning and short-term acting achieves a $\\sqrt{T}$ regret. In\nparticular, the regret bound highlights an intriguing interplay between the\nprior knowledge obtained through pretraining and the uncertainty reduction\nachieved by reasoning and acting. Our empirical validation shows that it\noutperforms various existing frameworks and achieves nearly perfect scores on a\nfew benchmarks.\n"
+    },
+    "1035d55aceab0dd79e95634189726dd8": {
+        "title": "ToolTalk: Evaluating Tool-Usage in a Conversational Setting",
+        "authors": [
+            "Nicholas Farn",
+            "Richard Shin"
+        ],
+        "date": "2023/11/15",
+        "pdf": "https://arxiv.org/pdf/2311.10775.pdf",
+        "code": "https://github.com/microsoft/ToolTalk",
+        "abstract": "Large language models (LLMs) have displayed massive improvements in reasoning and decision-making skills and can hold natural conversations with users. Many recent works seek to augment LLM-based assistants with external tools so they can access private or up-to-date information and carry out actions on behalf of users. To better measure the performance of these assistants, this paper introduces ToolTalk, a benchmark consisting of complex user intents requiring multi-step tool usage specified through dialogue. ToolTalk contains 28 tools grouped into 7 plugins, and includes a complete simulated implementation of each tool, allowing for fully automated evaluation of assistants that rely on execution feedback. ToolTalk also emphasizes tools that externally affect the world rather than only tools for referencing or searching information. We evaluate GPT-3.5 and GPT-4 on ToolTalk resulting in success rates of 26% and 50% respectively. Our analysis of the errors reveals three major categories and suggests some future directions for improvement. We release ToolTalk at https://github.com/microsoft/ToolTalk."
+    },
+    "54f679e78e32c2a097dbea9d822cd5b1": {
+        "title": "ProAgent: From Robotic Process Automation to Agentic Process Automation",
+        "authors": [
+            "Yining Ye",
+            "Xin Cong",
+            "Shizuo Tian",
+            "Jiannan Cao",
+            "Hao Wang",
+            "Yujia Qin",
+            "Yaxi Lu",
+            "Heyang Yu",
+            "Huadong Wang",
+            "Yankai Lin",
+            "Zhiyuan Liu",
+            "Maosong Sun"
+        ],
+        "date": "2023/11/02",
+        "pdf": "https://arxiv.org/pdf/2311.10751.pdf",
+        "code": "https://github.com/OpenBMB/ProAgent",
+        "abstract": "From ancient water wheels to robotic process automation (RPA), automation technology has evolved throughout history to liberate human beings from arduous tasks. Yet, RPA struggles with tasks needing human-like intelligence, especially in elaborate design of workflow construction and dynamic decision-making in workflow execution. As Large Language Models (LLMs) have emerged human-like intelligence, this paper introduces Agentic Process Automation (APA), a groundbreaking automation paradigm using LLM-based agents for advanced automation by offloading the human labor to agents associated with construction and execution. We then instantiate ProAgent, an LLM-based agent designed to craft workflows from human instructions and make intricate decisions by coordinating specialized agents. Empirical experiments are conducted to detail its construction and execution procedure of workflow, showcasing the feasibility of APA, unveiling the possibility of a new paradigm of automation driven by agents. Our code is public at https://github.com/OpenBMB/ProAgent."
+    },
+    "1a40deb82fb0656c7b0275ac70641179": {
+        "title": "Testing Language Model Agents Safely in the Wild",
+        "authors": [
+            "Silen Naihin",
+            "David Atkinson",
+            "Marc Green",
+            "Merwane Hamadi",
+            "Craig Swift",
+            "Douglas Schonholtz",
+            "Adam Tauman Kalai",
+            "David Bau"
+        ],
+        "date": "2023/11/17",
+        "pdf": "https://arxiv.org/pdf/2311.10538.pdf",
+        "abstract": "A prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wild. Yet real-world autonomous tests face several unique safety challenges, both due to the possibility of causing harm during a test, as well as the risk of encountering new unsafe agent behavior through interactions with real-world and potentially malicious actors. We propose a framework for conducting safe autonomous agent tests on the open internet: agent actions are audited by a context-sensitive monitor that enforces a stringent safety boundary to stop an unsafe test, with suspect behavior ranked and logged to be examined by humans. We a design a basic safety monitor that is flexible enough to monitor existing LLM agents, and, using an adversarial simulated agent, we measure its ability to identify and stop unsafe situations. Then we apply the safety monitor on a battery of real-world tests of AutoGPT, and we identify several limitations and challenges that will face the creation of safe in-the-wild tests as autonomous agents grow more capable."
+    },
+    "a395035cf81a5a9129beb1f8413fa648": {
+        "title": "ML-Bench: Large Language Models Leverage Open-source Libraries for Machine Learning Tasks",
+        "authors": [
+            "Yuliang Liu",
+            "Xiangru Tang",
+            "Zefan Cai",
+            "Junjie Lu",
+            "Yichi Zhang",
+            "Yanjun Shao",
+            "Zexuan Deng",
+            "Helan Hu",
+            "Zengxian Yang",
+            "Kaikai An",
+            "Ruijun Huang",
+            "Shuzheng Si",
+            "Sheng Chen",
+            "Haozhe Zhao",
+            "Zhengliang Li",
+            "Liang Chen",
+            "Yiming Zong",
+            "Yan Wang",
+            "Tianyu Liu",
+            "Zhiwei Jiang",
+            "Baobao Chang",
+            "Yujia Qin",
+            "Wangchunshu Zhou",
+            "Yilun Zhao",
+            "Arman Cohan",
+            "Mark Gerstein"
+        ],
+        "date": "2023/11/16",
+        "pdf": "https://arxiv.org/pdf/2311.09835.pdf",
+        "code": "https://ml-bench.github.io/",
+        "abstract": "Large language models have shown promising performance in code generation benchmarks. However, a considerable divide exists between these benchmark achievements and their practical applicability, primarily attributed to real-world programming&#39;s reliance on pre-existing libraries. Instead of evaluating LLMs to code from scratch, this work aims to propose a new evaluation setup where LLMs use open-source libraries to finish machine learning tasks. Therefore, we propose ML-Bench, an expansive benchmark developed to assess the effectiveness of LLMs in leveraging existing functions in open-source libraries. Consisting of 10044 samples spanning 130 tasks over 14 notable machine learning GitHub repositories. In this setting, given a specific machine learning task instruction and the accompanying README in a codebase, an LLM is tasked to generate code to accomplish the task. This necessitates the comprehension of long and language-code interleaved documents, as well as the understanding of complex cross-file code structures, introducing new challenges. Notably, while GPT-4 exhibits remarkable improvement over other LLMs, it manages to accomplish only 39.73\\% of the tasks, leaving a huge space for improvement. We address these challenges by proposing ML-Agent, designed to effectively navigate the codebase, locate documentation, retrieve code, and generate executable code. Empirical results demonstrate that ML-Agent, built upon GPT-4, results in further improvements. Code, data, and models are available at \\url{https://ml-bench.github.io/}."
     }
 }
