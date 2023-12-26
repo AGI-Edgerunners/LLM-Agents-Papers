@@ -161,5 +161,22 @@
         "date": "2023/12/21",
         "pdf": "http://arxiv.org/pdf/2312.13816.pdf",
         "abstract": "At the Dialogue Robot Competition 2023 (DRC2023), which was held to improve the capability of dialogue robots, our team developed a system that could build common ground and take more natural turns based on user utterance texts. Our system generated queries for sightseeing spot searches using the common ground and engaged in dialogue while waiting for user comprehension."
+    },
+    "a268d9a93ef4c6dfe9e15a988ec88129": {
+        "title": "AppAgent: Multimodal Agents as Smartphone Users",
+        "authors": [
+            "Chi Zhang",
+            "Zhao Yang",
+            "Jiaxuan Liu",
+            "Yucheng Han",
+            "Xin Chen",
+            "Zebiao Huang",
+            "Bin Fu",
+            "Gang Yu"
+        ],
+        "date": "2023/12/21",
+        "pdf": "http://arxiv.org/pdf/2312.13771.pdf",
+        "code": "https://github.com/mnotgod96/AppAgent",
+        "abstract": "Recent advancements in large language models (LLMs) have led to the creation of intelligent agents capable of performing complex tasks. This paper introduces a novel LLM-based multimodal agent framework designed to operate smartphone applications. Our framework enables the agent to operate smartphone applications through a simplified action space, mimicking human-like interactions such as tapping and swiping. This novel approach bypasses the need for system back-end access, thereby broadening its applicability across diverse apps. Central to our agent&#39;s functionality is its innovative learning method. The agent learns to navigate and use new apps either through autonomous exploration or by observing human demonstrations. This process generates a knowledge base that the agent refers to for executing complex tasks across different applications. To demonstrate the practicality of our agent, we conducted extensive testing over 50 tasks in 10 different applications, including social media, email, maps, shopping, and sophisticated image editing tools. The results affirm our agent&#39;s proficiency in handling a diverse array of high-level tasks."
     }
 }

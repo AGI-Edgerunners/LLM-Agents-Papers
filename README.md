@@ -44,6 +44,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/12/19] **Can ChatGPT be Your Personal Medical Assistant?** | [[paper]](https://arxiv.org/abs/2312.12006) | [code]
 
+	- [2023/12/06] **LLM as OS, Agents as Apps: Envisioning AIOS, Agents and the AIOS-Agent Ecosystem** | [[paper]](https://arxiv.org/abs/2312.03815) | [code]
+
 	- [2023/11/28] **War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars** | [[paper]](https://arxiv.org/abs/2311.17227) | [code]
 
 	- [2023/11/10] **Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations** | [[paper]](https://arxiv.org/abs/2311.06330) | [[code]](https://github.com/Roihn/SABM)
@@ -235,6 +237,8 @@ For more comprehensive reading, we also recommend other paper lists:
 ---
 - Tool Usage&Human-Agent Interaction
 	- [2023/12/21] **Team Flow at DRC2023: Building Common Ground and Text-based Turn-taking in a Travel Agent Spoken Dialogue System** | [[paper]](https://arxiv.org/abs/2312.13816) | [code]
+
+	- [2023/12/21] **AppAgent: Multimodal Agents as Smartphone Users** | [[paper]](https://arxiv.org/abs/2312.13771) | [[code]](https://github.com/mnotgod96/AppAgent)
 
 	- [2023/12/14] **CogAgent: A Visual Language Model for GUI Agents** | [[paper]](https://arxiv.org/abs/2312.08914) | [code]
 
