@@ -56,6 +56,7 @@
         ],
         "date": "2023/12/20",
         "pdf": "http://arxiv.org/pdf/2312.12999.pdf",
+        "code": "https://github.com/PKU-YuanGroup/Machine-Mindset",
         "abstract": "We present a novel approach for integrating Myers-Briggs Type Indicator (MBTI) personality traits into large language models (LLMs), addressing the challenges of personality consistency in personalized AI. Our method, &#34;Machine Mindset,&#34; involves a two-phase fine-tuning and Direct Preference Optimization (DPO) to embed MBTI traits into LLMs. This approach ensures that models internalize these traits, offering a stable and consistent personality profile. We demonstrate the effectiveness of our models across various domains, showing alignment between model performance and their respective MBTI traits. The paper highlights significant contributions in the development of personality datasets and a new training methodology for personality integration in LLMs, enhancing the potential for personalized AI applications. We also open-sourced our model and part of the data at \\url{https://github.com/PKU-YuanGroup/Machine-Mindset}."
     }
 }

@@ -358,6 +358,7 @@
         ],
         "date": "2023/11/10",
         "pdf": "http://arxiv.org/pdf/2311.06330.pdf",
+        "code": "https://github.com/Roihn/SABM",
         "abstract": "Computer simulations offer a robust toolset for exploring complex systems across various disciplines. A particularly impactful approach within this realm is Agent-Based Modeling (ABM), which harnesses the interactions of individual agents to emulate intricate system dynamics. ABM&#39;s strength lies in its bottom-up methodology, illuminating emergent phenomena by modeling the behaviors of individual components of a system. Yet, ABM has its own set of challenges, notably its struggle with modeling natural language instructions and common sense in mathematical equations or rules. This paper seeks to transcend these boundaries by integrating Large Language Models (LLMs) like GPT into ABM. This amalgamation gives birth to a novel framework, Smart Agent-Based Modeling (SABM). Building upon the concept of smart agents -- entities characterized by their intelligence, adaptability, and computation ability -- we explore in the direction of utilizing LLM-powered agents to simulate real-world scenarios with increased nuance and realism. In this comprehensive exploration, we elucidate the state of the art of ABM, introduce SABM&#39;s potential and methodology, and present three case studies (source codes available at https://github.com/Roihn/SABM), demonstrating the SABM methodology and validating its effectiveness in modeling real-world systems. Furthermore, we cast a vision towards several aspects of the future of SABM, anticipating a broader horizon for its applications. Through this endeavor, we aspire to redefine the boundaries of computer simulations, enabling a more profound understanding of complex systems."
     },
     "de513f1e7dfb0963d0a6da0cda7e8108": {
@@ -398,5 +399,21 @@
         "date": "2023/05/24",
         "pdf": "http://arxiv.org/pdf/2305.14992.pdf",
         "abstract": "Large language models (LLMs) have shown remarkable reasoning capabilities, especially when prompted to generate intermediate reasoning steps (e.g., Chain-of-Thought, CoT). However, LLMs can still struggle with problems that are easy for humans, such as generating action plans for executing tasks in a given environment, or performing complex math, logical, and commonsense reasoning. The deficiency stems from the key fact that LLMs lack an internal $\\textit{world model}$ to predict the world $\\textit{state}$ (e.g., environment status, intermediate variable values) and simulate long-term outcomes of actions. This prevents LLMs from performing deliberate planning akin to human brains, which involves exploring alternative reasoning paths, anticipating future states and rewards, and iteratively refining existing reasoning steps. To overcome the limitations, we propose a new LLM reasoning framework, $\\underline{R}$easoning vi$\\underline{a}$ $\\underline{P}$lanning $\\textbf{(RAP)}$. RAP repurposes the LLM as both a world model and a reasoning agent, and incorporates a principled planning algorithm (based on Monto Carlo Tree Search) for strategic exploration in the vast reasoning space. During reasoning, the LLM (as agent) incrementally builds a reasoning tree under the guidance of the LLM (as world model) and task-specific rewards, and obtains a high-reward reasoning path efficiently with a proper balance between exploration $\\textit{vs.}$ exploitation. We apply RAP to a variety of challenging reasoning problems including plan generation, math reasoning, and logical inference. Empirical results on these tasks demonstrate the superiority of RAP over various strong baselines, including CoT and least-to-most prompting with self-consistency. RAP on LLAMA-33B surpasses CoT on GPT-4 with 33% relative improvement in a plan generation setting."
+    },
+    "05010b701c190badb6151c0c424f1d62": {
+        "title": "War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars",
+        "authors": [
+            "Wenyue Hua",
+            "Lizhou Fan",
+            "Lingyao Li",
+            "Kai Mei",
+            "Jianchao Ji",
+            "Yingqiang Ge",
+            "Libby Hemphill",
+            "Yongfeng Zhang"
+        ],
+        "date": "2023/11/28",
+        "pdf": "http://arxiv.org/pdf/2311.17227.pdf",
+        "abstract": "Can we avoid wars at the crossroads of history? This question has been pursued by individuals, scholars, policymakers, and organizations throughout human history. In this research, we attempt to answer the question based on the recent advances of Artificial Intelligence (AI) and Large Language Models (LLMs). We propose \\textbf{WarAgent}, an LLM-powered multi-agent AI system, to simulate the participating countries, their decisions, and the consequences, in historical international conflicts, including the World War I (WWI), the World War II (WWII), and the Warring States Period (WSP) in Ancient China. By evaluating the simulation effectiveness, we examine the advancements and limitations of cutting-edge AI systems&#39; abilities in studying complex collective human behaviors such as international conflicts under diverse settings. In these simulations, the emergent interactions among agents also offer a novel perspective for examining the triggers and conditions that lead to war. Our findings offer data-driven and AI-augmented insights that can redefine how we approach conflict resolution and peacekeeping strategies. The implications stretch beyond historical analysis, offering a blueprint for using AI to understand human history and possibly prevent future international conflicts. Code and data are available at \\url{https://github.com/agiresearch/WarAgent}."
     }
 }

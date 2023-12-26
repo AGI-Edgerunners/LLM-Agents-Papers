@@ -30,7 +30,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
-	- [2023/12/20] **Machine Mindset: An MBTI Exploration of Large Language Models** | [[paper]](https://arxiv.org/abs/2312.12999) | [code]
+	- [2023/12/20] **Machine Mindset: An MBTI Exploration of Large Language Models** | [[paper]](https://arxiv.org/abs/2312.12999) | [[code]](https://github.com/PKU-YuanGroup/Machine-Mindset)
 
 	- [2023/10/19] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** | [[paper]](https://arxiv.org/abs/2310.12823) | [[code]](https://github.com/THUDM/AgentTuning)
 
@@ -44,7 +44,9 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/12/19] **Can ChatGPT be Your Personal Medical Assistant?** | [[paper]](https://arxiv.org/abs/2312.12006) | [code]
 
-	- [2023/11/10] **Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations** | [[paper]](https://arxiv.org/abs/2311.06330) | [code]
+	- [2023/11/28] **War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars** | [[paper]](https://arxiv.org/abs/2311.17227) | [code]
+
+	- [2023/11/10] **Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations** | [[paper]](https://arxiv.org/abs/2311.06330) | [[code]](https://github.com/Roihn/SABM)
 
 	- [2023/10/01] **RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models** | [[paper]](https://arxiv.org/abs/2310.00746) | [[code]](https://github.com/InteractiveNLP-Team/RoleLLM-public)
 
@@ -220,7 +222,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/09/14] **Agents: An Open-source Framework for Autonomous Language Agents** | [[paper]](https://arxiv.org/abs/2309.07870) | [[code]](https://github.com/aiwaves-cn/agents)
 
-	- [2023/08/22] **ProAgent: Building Proactive Cooperative AI with Large Language Models** | [[paper]](https://arxiv.org/abs/2308.11339) | [code]
+	- [2023/08/22] **ProAgent: Building Proactive Cooperative AI with Large Language Models** | [[paper]](https://arxiv.org/abs/2308.11339) | [[code]](https://github.com/PKU-Alignment/ProAgent)
 
 	- [2023/08/11] **BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents** | [[paper]](https://arxiv.org/abs/2308.05960) | [[code]](https://github.com/salesforce/BOLAA)
 
