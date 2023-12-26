@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2023/11/24
+Last Updated Time: 2023/12/26
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -18,6 +18,8 @@ For more comprehensive reading, we also recommend other paper lists:
 * [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list): Must-read papers for LLM-based agents.
 ## :newspaper: Papers
 - Survey
+	- [2023/12/19] **Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives** | [[paper]](https://arxiv.org/abs/2312.11970) | [code]
+
 	- [2023/09/14] **The Rise and Potential of Large Language Model Based Agents: A Survey** | [[paper]](https://arxiv.org/abs/2309.07864) | [[code]](https://github.com/woooodyy/llm-agent-paper-list)
 
 	- [2023/08/22] **A Survey on Large Language Model based Autonomous Agents** | [[paper]](https://arxiv.org/abs/2308.11432) | [[code]](https://github.com/Paitesanshi/LLM-Agent-Survey)
@@ -28,6 +30,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
+	- [2023/12/20] **Machine Mindset: An MBTI Exploration of Large Language Models** | [[paper]](https://arxiv.org/abs/2312.12999) | [code]
+
 	- [2023/10/19] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** | [[paper]](https://arxiv.org/abs/2310.12823) | [[code]](https://github.com/THUDM/AgentTuning)
 
 	- [2023/10/09] **FireAct: Toward Language Agent Fine-tuning** | [[paper]](https://arxiv.org/abs/2310.05915) | [[code]](https://github.com/anchen1011/FireAct)
@@ -36,6 +40,12 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2023/12/21] **ChatGPT as a commenter to the news: can LLMs generate human-like opinions?** | [[paper]](https://arxiv.org/abs/2312.13961) | [code]
+
+	- [2023/12/19] **Can ChatGPT be Your Personal Medical Assistant?** | [[paper]](https://arxiv.org/abs/2312.12006) | [code]
+
+	- [2023/11/10] **Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations** | [[paper]](https://arxiv.org/abs/2311.06330) | [code]
+
 	- [2023/10/01] **RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models** | [[paper]](https://arxiv.org/abs/2310.00746) | [[code]](https://github.com/InteractiveNLP-Team/RoleLLM-public)
 
 	- [2023/09/08] **Unleashing the Power of Graph Learning through LLM-based Autonomous Agents** | [[paper]](https://arxiv.org/abs/2309.04565) | [code]
@@ -58,6 +68,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/05/25] **Role-Play with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16367) | [code]
 
+	- [2023/05/24] **Reasoning with Language Model is Planning with World Model** | [[paper]](https://arxiv.org/abs/2305.14992) | [code]
+
 	- [2023/05/17] **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.10601) | [[code]](https://github.com/ysymyth/tree-of-thought-llm)
 
 	- [2023/05/09] **TidyBot: Personalized Robot Assistance with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.05658) | [[code]](https://github.com/jimmyyhwu/tidybot)
@@ -78,6 +90,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent Collaboration
+	- [2023/12/20] **AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation** | [[paper]](https://arxiv.org/abs/2312.13010) | [code]
+
 	- [2023/10/10] **MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents** | [[paper]](https://arxiv.org/abs/2310.06500) | [code]
 
 	- [2023/10/03] **Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View** | [[paper]](https://arxiv.org/abs/2310.02124) | [[code]](https://github.com/zjunlp/MachineSoM)
@@ -206,6 +220,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/09/14] **Agents: An Open-source Framework for Autonomous Language Agents** | [[paper]](https://arxiv.org/abs/2309.07870) | [[code]](https://github.com/aiwaves-cn/agents)
 
+	- [2023/08/22] **ProAgent: Building Proactive Cooperative AI with Large Language Models** | [[paper]](https://arxiv.org/abs/2308.11339) | [code]
+
 	- [2023/08/11] **BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents** | [[paper]](https://arxiv.org/abs/2308.05960) | [[code]](https://github.com/salesforce/BOLAA)
 
 	- [2023/08/07] **AgentBench: Evaluating LLMs as Agents** | [[paper]](https://arxiv.org/abs/2308.03688) | [[code]](https://github.com/THUDM/AgentBench)
@@ -216,6 +232,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Tool Usage&Human-Agent Interaction
+	- [2023/12/21] **Team Flow at DRC2023: Building Common Ground and Text-based Turn-taking in a Travel Agent Spoken Dialogue System** | [[paper]](https://arxiv.org/abs/2312.13816) | [code]
+
+	- [2023/12/14] **CogAgent: A Visual Language Model for GUI Agents** | [[paper]](https://arxiv.org/abs/2312.08914) | [code]
+
 	- [2023/11/19] **TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems** | [[paper]](https://arxiv.org/abs/2311.11315) | [code]
 
 	- [2023/10/18] **MusicAgent: An AI Agent for Music Understanding and Generation with Large Language Models** | [[paper]](https://arxiv.org/abs/2310.11954) | [code]

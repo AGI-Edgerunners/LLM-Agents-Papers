@@ -345,5 +345,58 @@
         "pdf": "https://arxiv.org/pdf/2310.00746.pdf",
         "code": "https://github.com/InteractiveNLP-Team/RoleLLM-public",
         "abstract": "The advent of Large Language Models (LLMs) has paved the way for complex tasks such as role-playing, which enhances user interactions by enabling models to imitate various characters. However, the closed-source nature of state-of-the-art LLMs and their general-purpose training limit role-playing optimization. In this paper, we introduce RoleLLM, a framework to benchmark, elicit, and enhance role-playing abilities in LLMs. RoleLLM comprises four stages: (1) Role Profile Construction for 100 roles; (2) Context-Based Instruction Generation (Context-Instruct) for role-specific knowledge extraction; (3) Role Prompting using GPT (RoleGPT) for speaking style imitation; and (4) Role-Conditioned Instruction Tuning (RoCIT) for fine-tuning open-source models along with role customization. By Context-Instruct and RoleGPT, we create RoleBench, the first systematic and fine-grained character-level benchmark dataset for role-playing with 168,093 samples. Moreover, RoCIT on RoleBench yields RoleLLaMA (English) and RoleGLM (Chinese), significantly enhancing role-playing abilities and even achieving comparable results with RoleGPT (using GPT-4)."
+    },
+    "f46f37266200ef7081c636ebaf459a15": {
+        "title": "Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations",
+        "authors": [
+            "Zengqing Wu",
+            "Run Peng",
+            "Xu Han",
+            "Shuyuan Zheng",
+            "Yixin Zhang",
+            "Chuan Xiao"
+        ],
+        "date": "2023/11/10",
+        "pdf": "http://arxiv.org/pdf/2311.06330.pdf",
+        "abstract": "Computer simulations offer a robust toolset for exploring complex systems across various disciplines. A particularly impactful approach within this realm is Agent-Based Modeling (ABM), which harnesses the interactions of individual agents to emulate intricate system dynamics. ABM&#39;s strength lies in its bottom-up methodology, illuminating emergent phenomena by modeling the behaviors of individual components of a system. Yet, ABM has its own set of challenges, notably its struggle with modeling natural language instructions and common sense in mathematical equations or rules. This paper seeks to transcend these boundaries by integrating Large Language Models (LLMs) like GPT into ABM. This amalgamation gives birth to a novel framework, Smart Agent-Based Modeling (SABM). Building upon the concept of smart agents -- entities characterized by their intelligence, adaptability, and computation ability -- we explore in the direction of utilizing LLM-powered agents to simulate real-world scenarios with increased nuance and realism. In this comprehensive exploration, we elucidate the state of the art of ABM, introduce SABM&#39;s potential and methodology, and present three case studies (source codes available at https://github.com/Roihn/SABM), demonstrating the SABM methodology and validating its effectiveness in modeling real-world systems. Furthermore, we cast a vision towards several aspects of the future of SABM, anticipating a broader horizon for its applications. Through this endeavor, we aspire to redefine the boundaries of computer simulations, enabling a more profound understanding of complex systems."
+    },
+    "de513f1e7dfb0963d0a6da0cda7e8108": {
+        "title": "ChatGPT as a commenter to the news: can LLMs generate human-like opinions?",
+        "authors": [
+            "Rayden Tseng",
+            "Suzan Verberne",
+            "Peter van der Putten"
+        ],
+        "date": "2023/12/21",
+        "pdf": "http://arxiv.org/pdf/2312.13961.pdf",
+        "abstract": "ChatGPT, GPT-3.5, and other large language models (LLMs) have drawn significant attention since their release, and the abilities of these models have been investigated for a wide variety of tasks. In this research we investigate to what extent GPT-3.5 can generate human-like comments on Dutch news articles. We define human likeness as `not distinguishable from human comments&#39;, approximated by the difficulty of automatic classification between human and GPT comments. We analyze human likeness across multiple prompting techniques. In particular, we utilize zero-shot, few-shot and context prompts, for two generated personas. We found that our fine-tuned BERT models can easily distinguish human-written comments from GPT-3.5 generated comments, with none of the used prompting methods performing noticeably better. We further analyzed that human comments consistently showed higher lexical diversity than GPT-generated comments. This indicates that although generative LLMs can generate fluent text, their capability to create human-like opinionated comments is still limited."
+    },
+    "41a3472c1867c5546c3cac80da7266ef": {
+        "title": "Can ChatGPT be Your Personal Medical Assistant?",
+        "authors": [
+            "Md. Rafiul Biswas",
+            "Ashhadul Islam",
+            "Zubair Shah",
+            "Wajdi Zaghouani",
+            "Samir Brahim Belhaouari"
+        ],
+        "date": "2023/12/19",
+        "pdf": "http://arxiv.org/pdf/2312.12006.pdf",
+        "abstract": "The advanced large language model (LLM) ChatGPT has shown its potential in different domains and remains unbeaten due to its characteristics compared to other LLMs. This study aims to evaluate the potential of using a fine-tuned ChatGPT model as a personal medical assistant in the Arabic language. To do so, this study uses publicly available online questions and answering datasets in Arabic language. There are almost 430K questions and answers for 20 disease-specific categories. GPT-3.5-turbo model was fine-tuned with a portion of this dataset. The performance of this fine-tuned model was evaluated through automated and human evaluation. The automated evaluations include perplexity, coherence, similarity, and token count. Native Arabic speakers with medical knowledge evaluated the generated text by calculating relevance, accuracy, precision, logic, and originality. The overall result shows that ChatGPT has a bright future in medical assistance."
+    },
+    "9a8576963b068bd4380c72b187026243": {
+        "title": "Reasoning with Language Model is Planning with World Model",
+        "authors": [
+            "Shibo Hao",
+            "Yi Gu",
+            "Haodi Ma",
+            "Joshua Jiahua Hong",
+            "Zhen Wang",
+            "Daisy Zhe Wang",
+            "Zhiting Hu"
+        ],
+        "date": "2023/05/24",
+        "pdf": "http://arxiv.org/pdf/2305.14992.pdf",
+        "abstract": "Large language models (LLMs) have shown remarkable reasoning capabilities, especially when prompted to generate intermediate reasoning steps (e.g., Chain-of-Thought, CoT). However, LLMs can still struggle with problems that are easy for humans, such as generating action plans for executing tasks in a given environment, or performing complex math, logical, and commonsense reasoning. The deficiency stems from the key fact that LLMs lack an internal $\\textit{world model}$ to predict the world $\\textit{state}$ (e.g., environment status, intermediate variable values) and simulate long-term outcomes of actions. This prevents LLMs from performing deliberate planning akin to human brains, which involves exploring alternative reasoning paths, anticipating future states and rewards, and iteratively refining existing reasoning steps. To overcome the limitations, we propose a new LLM reasoning framework, $\\underline{R}$easoning vi$\\underline{a}$ $\\underline{P}$lanning $\\textbf{(RAP)}$. RAP repurposes the LLM as both a world model and a reasoning agent, and incorporates a principled planning algorithm (based on Monto Carlo Tree Search) for strategic exploration in the vast reasoning space. During reasoning, the LLM (as agent) incrementally builds a reasoning tree under the guidance of the LLM (as world model) and task-specific rewards, and obtains a high-reward reasoning path efficiently with a proper balance between exploration $\\textit{vs.}$ exploitation. We apply RAP to a variety of challenging reasoning problems including plan generation, math reasoning, and logical inference. Empirical results on these tasks demonstrate the superiority of RAP over various strong baselines, including CoT and least-to-most prompting with self-consistency. RAP on LLAMA-33B surpasses CoT on GPT-4 with 33% relative improvement in a plan generation setting."
     }
 }

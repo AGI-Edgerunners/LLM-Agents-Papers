@@ -127,5 +127,39 @@
         "date": "2023/11/19",
         "pdf": "https://arxiv.org/pdf/2311.11315.pdf",
         "abstract": "Large Language Models (LLMs) have demonstrated proficiency in addressing tasks that necessitate a combination of task planning and the usage of external tools that require a blend of task planning and the utilization of external tools, such as APIs. However, real-world complex systems present three prevalent challenges concerning task planning and tool usage: (1) The real system usually has a vast array of APIs, so it is impossible to feed the descriptions of all APIs to the prompt of LLMs as the token length is limited; (2) the real system is designed for handling complex tasks, and the base LLMs can hardly plan a correct sub-task order and API-calling order for such tasks; (3) Similar semantics and functionalities among APIs in real systems create challenges for both LLMs and even humans in distinguishing between them. In response, this paper introduces a comprehensive framework aimed at enhancing the Task Planning and Tool Usage (TPTU) abilities of LLM-based agents operating within real-world systems. Our framework comprises three key components designed to address these challenges: (1) the API Retriever selects the most pertinent APIs for the user task among the extensive array available; (2) LLM Finetuner tunes a base LLM so that the finetuned LLM can be more capable for task planning and API calling; (3) the Demo Selector adaptively retrieves different demonstrations related to hard-to-distinguish APIs, which is further used for in-context learning to boost the final performance. We validate our methods using a real-world commercial system as well as an open-sourced academic dataset, and the outcomes clearly showcase the efficacy of each individual component as well as the integrated framework."
+    },
+    "32379c096b4ff85ab67a07fc51cbd301": {
+        "title": "CogAgent: A Visual Language Model for GUI Agents",
+        "authors": [
+            "Wenyi Hong",
+            "Weihan Wang",
+            "Qingsong Lv",
+            "Jiazheng Xu",
+            "Wenmeng Yu",
+            "Junhui Ji",
+            "Yan Wang",
+            "Zihan Wang",
+            "Yuxiao Dong",
+            "Ming Ding",
+            "Jie Tang"
+        ],
+        "date": "2023/12/14",
+        "pdf": "https://arxiv.org/pdf/2312.08914.pdf",
+        "abstract": "People are spending an enormous amount of time on digital devices through graphical user interfaces (GUIs), e.g., computer or smartphone screens. Large language models (LLMs) such as ChatGPT can assist people in tasks like writing emails, but struggle to understand and interact with GUIs, thus limiting their potential to increase automation levels. In this paper, we introduce CogAgent, an 18-billion-parameter visual language model (VLM) specializing in GUI understanding and navigation. By utilizing both low-resolution and high-resolution image encoders, CogAgent supports input at a resolution of 1120*1120, enabling it to recognize tiny page elements and text. As a generalist visual language model, CogAgent achieves the state of the art on five text-rich and four general VQA benchmarks, including VQAv2, OK-VQA, Text-VQA, ST-VQA, ChartQA, infoVQA, DocVQA, MM-Vet, and POPE. CogAgent, using only screenshots as input, outperforms LLM-based methods that consume extracted HTML text on both PC and Android GUI navigation tasks -- Mind2Web and AITW, advancing the state of the art. The model and codes are available at \\url{https://github.com/THUDM/CogVLM}."
+    },
+    "07b43c95e66ae36855f382f95cea8e41": {
+        "title": "Team Flow at DRC2023: Building Common Ground and Text-based Turn-taking in a Travel Agent Spoken Dialogue System",
+        "authors": [
+            "Ryu Hirai",
+            "Shinya Iizuka",
+            "Haruhisa Iseno",
+            "Ao Guo",
+            "Jingjing Jiang",
+            "Atsumoto Ohashi",
+            "Ryuichiro Higashinaka"
+        ],
+        "date": "2023/12/21",
+        "pdf": "http://arxiv.org/pdf/2312.13816.pdf",
+        "abstract": "At the Dialogue Robot Competition 2023 (DRC2023), which was held to improve the capability of dialogue robots, our team developed a system that could build common ground and take more natural turns based on user utterance texts. Our system generated queries for sightseeing spot searches using the common ground and engaged in dialogue while waiting for user comprehension."
     }
 }

@@ -149,5 +149,18 @@
         "pdf": "https://arxiv.org/pdf/2310.02124.pdf",
         "code": "https://github.com/zjunlp/MachineSoM",
         "abstract": "As Natural Language Processing (NLP) systems are increasingly employed in intricate social environments, a pressing query emerges: Can these NLP systems mirror human-esque collaborative intelligence, in a multi-agent society consisting of multiple large language models (LLMs)? This paper probes the collaboration mechanisms among contemporary NLP systems by melding practical experiments with theoretical insights. We fabricate four unique `societies&#39; comprised of LLM agents, where each agent is characterized by a specific `trait&#39; (easy-going or overconfident) and engages in collaboration with a distinct `thinking pattern&#39; (debate or reflection). Evaluating these multi-agent societies on three benchmark datasets, we discern that LLM agents navigate tasks by leveraging diverse social behaviors, from active debates to introspective reflections. Notably, certain collaborative strategies only optimize efficiency (using fewer API tokens), but also outshine previous top-tier approaches. Moreover, our results further illustrate that LLM agents manifest human-like social behaviors, such as conformity or majority rule, mirroring foundational Social Psychology theories. In conclusion, we integrate insights from Social Psychology to contextualize the collaboration of LLM agents, inspiring further investigations into the collaboration mechanism for LLMs. We commit to sharing our code and datasets (already submitted in supplementary materials), hoping to catalyze further research in this promising avenue (All code and data are available at \\url{https://github.com/zjunlp/MachineSoM}.)."
+    },
+    "f5c8363d28a1236e6465845e8e6559d4": {
+        "title": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+        "authors": [
+            "Dong Huang",
+            "Qingwen Bu",
+            "Jie M. Zhang",
+            "Michael Luck",
+            "Heming Cui"
+        ],
+        "date": "2023/12/20",
+        "pdf": "http://arxiv.org/pdf/2312.13010.pdf",
+        "abstract": "The advancement of natural language processing (NLP) has been significantly boosted by the development of transformer-based large language models (LLMs). These models have revolutionized NLP tasks, particularly in code generation, aiding developers in creating software with enhanced efficiency. Despite their advancements, challenges in balancing code snippet generation with effective test case generation and execution persist. To address these issues, this paper introduces Multi-Agent Assistant Code Generation (AgentCoder), a novel solution comprising a multi-agent framework with specialized agents: the programmer agent, the test designer agent, and the test executor agent. During the coding procedure, the programmer agent will focus on the code generation and refinement based on the test executor agent&#39;s feedback. The test designer agent will generate test cases for the generated code, and the test executor agent will run the code with the test cases and write the feedback to the programmer. This collaborative system ensures robust code generation, surpassing the limitations of single-agent models and traditional methodologies. Our extensive experiments on 9 code generation models and 12 enhancement approaches showcase AgentCoder&#39;s superior performance over existing code generation models and prompt engineering techniques across various benchmarks. For example, AgentCoder achieves 77.4% and 89.1% pass@1 in HumanEval-ET and MBPP-ET with GPT-3.5, while SOTA baselines obtain only 69.5% and 63.0%."
     }
 }
