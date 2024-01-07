@@ -260,5 +260,42 @@
         "pdf": "http://arxiv.org/pdf/2308.11339.pdf",
         "code": "https://github.com/PKU-Alignment/ProAgent",
         "abstract": "Building AIs with adaptive behaviors in human-AI cooperation stands as a pivotal focus in AGI research. Current methods for developing cooperative agents predominantly rely on learning-based methods, where policy generalization heavily hinges on past interactions with specific teammates. These approaches constrain the agent&#39;s capacity to recalibrate its strategy when confronted with novel teammates. We propose \\textbf{ProAgent}, a novel framework that harnesses large language models (LLMs) to fashion a \\textit{pro}active \\textit{agent} empowered with the ability to anticipate teammates&#39; forthcoming decisions and formulate enhanced plans for itself. ProAgent excels at cooperative reasoning with the capacity to dynamically adapt its behavior to enhance collaborative efforts with teammates. Moreover, the ProAgent framework exhibits a high degree of modularity and interpretability, facilitating seamless integration to address a wide array of coordination scenarios. Experimental evaluations conducted within the framework of \\textit{Overcook-AI} unveil the remarkable performance superiority of ProAgent, outperforming five methods based on self-play and population-based training in cooperation with AI agents. Further, when cooperating with human proxy models, its performance exhibits an average improvement exceeding 10\\% compared to the current state-of-the-art, COLE. The advancement was consistently observed across diverse scenarios involving interactions with both AI agents of varying characteristics and human counterparts. These findings inspire future research for human-robot collaborations. For a hands-on demonstration, please visit \\url{https://pku-proagent.github.io}."
+    },
+    "ca294c5bb4a93752040084e62a9bedc9": {
+        "title": "CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation",
+        "authors": [
+            "Quan Tu",
+            "Shilong Fan",
+            "Zihang Tian",
+            "Rui Yan"
+        ],
+        "date": "2024/01/02",
+        "pdf": "http://arxiv.org/pdf/2401.01275.pdf",
+        "abstract": "Recently, the advent of large language models (LLMs) has revolutionized generative agents. Among them, Role-Playing Conversational Agents (RPCAs) attract considerable attention due to their ability to emotionally engage users. However, the absence of a comprehensive benchmark impedes progress in this field. To bridge this gap, we introduce CharacterEval, a Chinese benchmark for comprehensive RPCA assessment, complemented by a tailored high-quality dataset. The dataset comprises 1,785 multi-turn role-playing dialogues, encompassing 23,020 examples and featuring 77 characters derived from Chinese novels and scripts. It was carefully constructed, beginning with initial dialogue extraction via GPT-4, followed by rigorous human-led quality control, and enhanced with in-depth character profiles sourced from Baidu Baike. CharacterEval employs a multifaceted evaluation approach, encompassing thirteen targeted metrics on four dimensions. Comprehensive experiments on CharacterEval demonstrate that Chinese LLMs exhibit more promising capabilities than GPT-4 in Chinese role-playing conversation. Source code, data source and reward model will be publicly accessible at https://github.com/morecry/CharacterEval."
+    },
+    "7e2c67da344f12dc61a0a219ed1d7c98": {
+        "title": "RoleEval: A Bilingual Role Evaluation Benchmark for Large Language Models",
+        "authors": [
+            "Tianhao Shen",
+            "Sun Li",
+            "Deyi Xiong"
+        ],
+        "date": "2023/12/26",
+        "pdf": "http://arxiv.org/pdf/2312.16132.pdf",
+        "abstract": "The rapid evolution of large language models (LLMs) necessitates effective benchmarks for evaluating their role knowledge, which is essential for establishing connections with the real world and providing more immersive interactions. This paper introduces RoleEval, a bilingual benchmark designed to assess the memorization, utilization, and reasoning capabilities of role knowledge. RoleEval comprises RoleEval-Global (including internationally recognized characters) and RoleEval-Chinese (including characters popular in China), with 6,000 Chinese-English parallel multiple-choice questions focusing on 300 influential people and fictional characters drawn from a variety of domains including celebrities, anime, comics, movies, TV series, games, and fiction. These questions cover basic knowledge and multi-hop reasoning abilities, aiming to systematically probe various aspects such as personal information, relationships, abilities, and experiences of the characters. To maintain high standards, we perform a hybrid quality check process combining automatic and human verification, ensuring that the questions are diverse, challenging, and discriminative. Our extensive evaluations of RoleEval across various open-source and proprietary large language models, under both the zero- and few-shot settings, reveal insightful findings. Notably, while GPT-4 outperforms other models on RoleEval-Global, Chinese LLMs excel on RoleEval-Chinese, highlighting significant knowledge distribution differences. We expect that RoleEval will highlight the significance of assessing role knowledge for foundation models across various languages and cultural settings."
+    },
+    "d180677e0a021d9f02ea25bdaf8c9f9e": {
+        "title": "How Far Are We from Believable AI Agents? A Framework for Evaluating the Believability of Human Behavior Simulation",
+        "authors": [
+            "Yang Xiao",
+            "Yi Cheng",
+            "Jinlan Fu",
+            "Jiashuo Wang",
+            "Wenjie Li",
+            "Pengfei Liu"
+        ],
+        "date": "2023/12/28",
+        "pdf": "http://arxiv.org/pdf/2312.17115.pdf",
+        "abstract": "Human behavior simulation of AI agents necessitates the agents to possess a quality of believability, which is crucial as it facilitates users in establishing trust toward the agents and streamlines the fulfillment of the agents&#39; goal. While recent advancements in Large Language Model (LLM) based agents have improved human behavior simulation, challenges inherent to LLMs (e.g., long context modeling) can undermine their believability. Consequently, evaluating AI agent believability becomes imperative. Unfortunately, prior research often neglects the negative impacts of LLM deficiencies. To address these gaps, we introduce two metrics for assessing LLM-based agent believability: consistency, and robustness, together with a benchmark, SimulateBench, with which, we evaluate the consistency and robustness of agents implemented with popular LLMs. We find that agents (i) struggle to accurately depict character information when presented with lengthy profile inputs; (ii) exhibit vulnerability to profile perturbations; and (iii) are significantly affected by certain key factors that impact their overall believability. Code and SimulateBench are public at https://github.com/GAIR-NLP/GPTMan."
     }
 }

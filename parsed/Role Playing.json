@@ -429,5 +429,33 @@
         "date": "2023/12/06",
         "pdf": "http://arxiv.org/pdf/2312.03815.pdf",
         "abstract": "This paper envisions a revolutionary AIOS-Agent ecosystem, where Large Language Model (LLM) serves as the (Artificial) Intelligent Operating System (IOS, or AIOS)--an operating system &#34;with soul&#34;. Upon this foundation, a diverse range of LLM-based AI Agent Applications (Agents, or AAPs) are developed, enriching the AIOS-Agent ecosystem and signaling a paradigm shift from the traditional OS-APP ecosystem. We envision that LLM&#39;s impact will not be limited to the AI application level, instead, it will in turn revolutionize the design and implementation of computer system, architecture, software, and programming language, featured by several main concepts: LLM as OS (system-level), Agents as Applications (application-level), Natural Language as Programming Interface (user-level), and Tools as Devices/Libraries (hardware/middleware-level). We begin by introducing the architecture of traditional OS. Then we formalize a conceptual framework for AIOS through &#34;LLM as OS (LLMOS)&#34;, drawing analogies between AIOS and traditional OS: LLM is likened to OS kernel, context window to memory, external storage to file system, hardware tools to peripheral devices, software tools to programming libraries, and user prompts to user commands. Subsequently, we introduce the new AIOS-Agent Ecosystem, where users can easily program Agent Applications (AAPs) using natural language, democratizing the development of software, which is different from the traditional OS-APP ecosystem. Following this, we explore the diverse scope of Agent Applications. We delve into both single-agent and multi-agent systems, as well as human-agent interaction. Lastly, drawing on the insights from traditional OS-APP ecosystem, we propose a roadmap for the evolution of the AIOS-Agent ecosystem. This roadmap is designed to guide the future research and development, suggesting systematic progresses of AIOS and its Agent applications."
+    },
+    "527cb71d35909520605f0d39509bfac8": {
+        "title": "Automating Knowledge Acquisition for Content-Centric Cognitive Agents Using LLMs",
+        "authors": [
+            "Sanjay Oruganti",
+            "Sergei Nirenburg",
+            "Jesse English",
+            "Marjorie McShane"
+        ],
+        "date": "2023/12/27",
+        "pdf": "http://arxiv.org/pdf/2312.16378.pdf",
+        "abstract": "The paper describes a system that uses large language model (LLM) technology to support the automatic learning of new entries in an intelligent agent&#39;s semantic lexicon. The process is bootstrapped by an existing non-toy lexicon and a natural language generator that converts formal, ontologically-grounded representations of meaning into natural language sentences. The learning method involves a sequence of LLM requests and includes an automatic quality control step. To date, this learning method has been applied to learning multiword expressions whose meanings are equivalent to those of transitive verbs in the agent&#39;s lexicon. The experiment demonstrates the benefits of a hybrid learning architecture that integrates knowledge-based methods and resources with both traditional data analytics and LLMs."
+    },
+    "3c5cb3f3c825afd95557058b3c655d7e": {
+        "title": "Experiential Co-Learning of Software-Developing Agents",
+        "authors": [
+            "Chen Qian",
+            "Yufan Dang",
+            "Jiahao Li",
+            "Wei Liu",
+            "Weize Chen",
+            "Cheng Yang",
+            "Zhiyuan Liu",
+            "Maosong Sun"
+        ],
+        "date": "2023/12/28",
+        "pdf": "http://arxiv.org/pdf/2312.17025.pdf",
+        "abstract": "Recent advancements in large language models (LLMs) have brought significant changes to various domains, especially through LLM-driven autonomous agents. These agents are now capable of collaborating seamlessly, splitting tasks and enhancing accuracy, thus minimizing the need for human involvement. However, these agents often approach a diverse range of tasks in isolation, without benefiting from past experiences. This isolation can lead to repeated mistakes and inefficient trials in task solving. To this end, this paper introduces Experiential Co-Learning, a novel framework in which instructor and assistant agents gather shortcut-oriented experiences from their historical trajectories and use these past experiences for mutual reasoning. This paradigm, enriched with previous experiences, equips agents to more effectively address unseen tasks."
     }
 }

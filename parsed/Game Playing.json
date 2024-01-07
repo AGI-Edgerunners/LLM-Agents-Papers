@@ -187,5 +187,19 @@
         "date": "2023/10/31",
         "pdf": "https://arxiv.org/pdf/2310.20499.pdf",
         "abstract": "The automatic evaluation of LLM-based agent intelligence is critical in developing advanced LLM-based agents. Although considerable effort has been devoted to developing human-annotated evaluation datasets, such as AlpacaEval, existing techniques are costly, time-consuming, and lack adaptability. In this paper, inspired by the popular language game ``Who is Spy&#39;&#39;, we propose to use the word guessing game to assess the intelligence performance of LLMs. Given a word, the LLM is asked to describe the word and determine its identity (spy or not) based on its and other players&#39; descriptions. Ideally, an advanced agent should possess the ability to accurately describe a given word using an aggressive description while concurrently maximizing confusion in the conservative description, enhancing its participation in the game. To this end, we first develop DEEP to evaluate LLMs&#39; expression and disguising abilities. DEEP requires LLM to describe a word in aggressive and conservative modes. We then introduce SpyGame, an interactive multi-agent framework designed to assess LLMs&#39; intelligence through participation in a competitive language-based board game. Incorporating multi-agent interaction, SpyGame requires the target LLM to possess linguistic skills and strategic thinking, providing a more comprehensive evaluation of LLMs&#39; human-like cognitive abilities and adaptability in complex communication situations. The proposed evaluation framework is very easy to implement. We collected words from multiple sources, domains, and languages and used the proposed evaluation framework to conduct experiments. Extensive experiments demonstrate that the proposed DEEP and SpyGame effectively evaluate the capabilities of various LLMs, capturing their ability to adapt to novel situations and engage in strategic communication."
+    },
+    "6ef9581ab6919de277369293f4d554ec": {
+        "title": "Cooperation on the Fly: Exploring Language Agents for Ad Hoc Teamwork in the Avalon Game",
+        "authors": [
+            "Zijing Shi",
+            "Meng Fang",
+            "Shunfeng Zheng",
+            "Shilong Deng",
+            "Ling Chen",
+            "Yali Du"
+        ],
+        "date": "2023/12/29",
+        "pdf": "http://arxiv.org/pdf/2312.17515.pdf",
+        "abstract": "Multi-agent collaboration with Large Language Models (LLMs) demonstrates proficiency in basic tasks, yet its efficiency in more complex scenarios remains unexplored. In gaming environments, these agents often face situations without established coordination protocols, requiring them to make intelligent inferences about teammates from limited data. This problem motivates the area of ad hoc teamwork, in which an agent may potentially cooperate with a variety of teammates to achieve a shared goal. Our study focuses on the ad hoc teamwork problem where the agent operates in an environment driven by natural language. Our findings reveal the potential of LLM agents in team collaboration, highlighting issues related to hallucinations in communication. To address this issue, we develop CodeAct, a general agent that equips LLM with enhanced memory and code-driven reasoning, enabling the repurposing of partial information for rapid adaptation to new teammates."
     }
 }

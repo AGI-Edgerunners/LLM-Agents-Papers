@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2023/12/26
+Last Updated Time: 2024/1/8
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -18,6 +18,10 @@ For more comprehensive reading, we also recommend other paper lists:
 * [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list): Must-read papers for LLM-based agents.
 ## :newspaper: Papers
 - Survey
+	- [2024/01/01] **If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents** | [[paper]](https://arxiv.org/abs/2401.00812) | [code]
+
+	- [2023/12/31] **A Survey of Personality, Persona, and Profile in Conversational Agents and Chatbots** | [[paper]](https://arxiv.org/abs/2401.00609) | [code]
+
 	- [2023/12/19] **Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives** | [[paper]](https://arxiv.org/abs/2312.11970) | [code]
 
 	- [2023/09/14] **The Rise and Potential of Large Language Model Based Agents: A Survey** | [[paper]](https://arxiv.org/abs/2309.07864) | [[code]](https://github.com/woooodyy/llm-agent-paper-list)
@@ -40,6 +44,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2023/12/28] **Experiential Co-Learning of Software-Developing Agents** | [[paper]](https://arxiv.org/abs/2312.17025) | [code]
+
+	- [2023/12/27] **Automating Knowledge Acquisition for Content-Centric Cognitive Agents Using LLMs** | [[paper]](https://arxiv.org/abs/2312.16378) | [code]
+
 	- [2023/12/21] **ChatGPT as a commenter to the news: can LLMs generate human-like opinions?** | [[paper]](https://arxiv.org/abs/2312.13961) | [code]
 
 	- [2023/12/19] **Can ChatGPT be Your Personal Medical Assistant?** | [[paper]](https://arxiv.org/abs/2312.12006) | [code]
@@ -140,6 +148,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Memory Mechanism
+	- [2023/12/22] **Empowering Working Memory for Large Language Model Agents** | [[paper]](https://arxiv.org/abs/2312.17259) | [code]
+
+	- [2023/12/22] **Evolving Large Language Model Assistant with Long-Term Conditional Memory** | [[paper]](https://arxiv.org/abs/2312.17257) | [code]
+
 	- [2023/10/16] **CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization** | [[paper]](https://arxiv.org/abs/2310.10134) | [[code]](https://github.com/allenai/clin)
 
 	- [2023/06/06] **ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory** | [[paper]](https://arxiv.org/abs/2306.03901) | [code]
@@ -178,6 +190,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Game Playing
+	- [2023/12/29] **Cooperation on the Fly: Exploring Language Agents for Ad Hoc Teamwork in the Avalon Game** | [[paper]](https://arxiv.org/abs/2312.17515) | [code]
+
 	- [2023/10/31] **Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models** | [[paper]](https://arxiv.org/abs/2310.20499) | [code]
 
 	- [2023/09/29] **Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4** | [[paper]](https://arxiv.org/abs/2309.17277) | [[code]](https://github.com/CR-Gjx/Suspicion-Agent)
@@ -208,6 +222,12 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2024/01/02] **CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation** | [[paper]](https://arxiv.org/abs/2401.01275) | [code]
+
+	- [2023/12/28] **How Far Are We from Believable AI Agents? A Framework for Evaluating the Believability of Human Behavior Simulation** | [[paper]](https://arxiv.org/abs/2312.17115) | [code]
+
+	- [2023/12/26] **RoleEval: A Bilingual Role Evaluation Benchmark for Large Language Models** | [[paper]](https://arxiv.org/abs/2312.16132) | [code]
+
 	- [2023/11/17] **Testing Language Model Agents Safely in the Wild** | [[paper]](https://arxiv.org/abs/2311.10538) | [code]
 
 	- [2023/11/16] **ML-Bench: Large Language Models Leverage Open-source Libraries for Machine Learning Tasks** | [[paper]](https://arxiv.org/abs/2311.09835) | [[code]](https://ml-bench.github.io/)
@@ -236,6 +256,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Tool Usage&Human-Agent Interaction
+	- [2024/01/03] **GPT-4V(ision) is a Generalist Web Agent, if Grounded** | [[paper]](https://arxiv.org/abs/2401.01614) | [code]
+
 	- [2023/12/21] **Team Flow at DRC2023: Building Common Ground and Text-based Turn-taking in a Travel Agent Spoken Dialogue System** | [[paper]](https://arxiv.org/abs/2312.13816) | [code]
 
 	- [2023/12/21] **AppAgent: Multimodal Agents as Smartphone Users** | [[paper]](https://arxiv.org/abs/2312.13771) | [[code]](https://github.com/mnotgod96/AppAgent)
