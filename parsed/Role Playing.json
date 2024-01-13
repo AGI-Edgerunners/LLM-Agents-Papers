@@ -457,5 +457,32 @@
         "date": "2023/12/28",
         "pdf": "http://arxiv.org/pdf/2312.17025.pdf",
         "abstract": "Recent advancements in large language models (LLMs) have brought significant changes to various domains, especially through LLM-driven autonomous agents. These agents are now capable of collaborating seamlessly, splitting tasks and enhancing accuracy, thus minimizing the need for human involvement. However, these agents often approach a diverse range of tasks in isolation, without benefiting from past experiences. This isolation can lead to repeated mistakes and inefficient trials in task solving. To this end, this paper introduces Experiential Co-Learning, a novel framework in which instructor and assistant agents gather shortcut-oriented experiences from their historical trajectories and use these past experiences for mutual reasoning. This paradigm, enriched with previous experiences, equips agents to more effectively address unseen tasks."
+    },
+    "4da8b341d1dc74b5c91c82a8b8332fe3": {
+        "title": "AUTOACT: Automatic Agent Learning from Scratch via Self-Planning",
+        "authors": [
+            "Shuofei Qiao",
+            "Ningyu Zhang",
+            "Runnan Fang",
+            "Yujie Luo",
+            "Wangchunshu Zhou",
+            "Yuchen Eleanor Jiang",
+            "Chengfei Lv",
+            "Huajun Chen"
+        ],
+        "date": "2024/01/10",
+        "pdf": "http://arxiv.org/pdf/2401.05268.pdf",
+        "abstract": "Language agents have achieved considerable performance on various complex tasks. Despite the incessant exploration in this field, existing language agent systems still struggle with costly, non-reproducible data reliance and face the challenge of compelling a single model for multiple functions. To this end, we introduce AutoAct, an automatic agent learning framework that does not rely on large-scale annotated data and synthetic trajectories from closed-source models (e.g., GPT-4). Given limited data with a tool library, AutoAct first automatically synthesizes planning trajectories without any assistance from humans or strong closed-source models. Then, AutoAct leverages a division-of-labor strategy to automatically differentiate based on the target task information and synthesized trajectories, producing a sub-agent group to complete the task. We conduct comprehensive experiments with different LLMs, which demonstrates that AutoAct yields better or parallel performance compared to various strong baselines. We even notice that AutoAct, when using the Llama-2-13b model, can achieve performance comparable to that of the GPT-3.5-Turbo agent. Code will be available at https://github.com/zjunlp/AutoAct."
+    },
+    "815211b5ab3616d6d3d1fba384bca69a": {
+        "title": "Agent Alignment in Evolving Social Norms",
+        "authors": [
+            "Shimin Li",
+            "Tianxiang Sun",
+            "Xipeng Qiu"
+        ],
+        "date": "2024/01/09",
+        "pdf": "http://arxiv.org/pdf/2401.04620.pdf",
+        "abstract": "Agents based on Large Language Models (LLMs) are increasingly permeating various domains of human production and life, highlighting the importance of aligning them with human values. The current alignment of AI systems primarily focuses on passively aligning LLMs through human intervention. However, agents possess characteristics like receiving environmental feedback and self-evolution, rendering the LLM alignment methods inadequate. In response, we propose an evolutionary framework for agent evolution and alignment, named EvolutionaryAgent, which transforms agent alignment into a process of evolution and selection under the principle of survival of the fittest. In an environment where social norms continuously evolve, agents better adapted to the current social norms will have a higher probability of survival and proliferation, while those inadequately aligned dwindle over time. Experimental results assessing the agents from multiple perspectives in aligning with social norms demonstrate that EvolutionaryAgent possesses the capability to align progressively better with the evolving social norms while maintaining its proficiency in general tasks. Effectiveness tests conducted on various open and closed-source LLMs as the foundation for agents also prove the applicability of our approach."
     }
 }

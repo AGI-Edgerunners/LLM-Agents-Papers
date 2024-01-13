@@ -297,5 +297,15 @@
         "date": "2023/12/28",
         "pdf": "http://arxiv.org/pdf/2312.17115.pdf",
         "abstract": "Human behavior simulation of AI agents necessitates the agents to possess a quality of believability, which is crucial as it facilitates users in establishing trust toward the agents and streamlines the fulfillment of the agents&#39; goal. While recent advancements in Large Language Model (LLM) based agents have improved human behavior simulation, challenges inherent to LLMs (e.g., long context modeling) can undermine their believability. Consequently, evaluating AI agent believability becomes imperative. Unfortunately, prior research often neglects the negative impacts of LLM deficiencies. To address these gaps, we introduce two metrics for assessing LLM-based agent believability: consistency, and robustness, together with a benchmark, SimulateBench, with which, we evaluate the consistency and robustness of agents implemented with popular LLMs. We find that agents (i) struggle to accurately depict character information when presented with lengthy profile inputs; (ii) exhibit vulnerability to profile perturbations; and (iii) are significantly affected by certain key factors that impact their overall believability. Code and SimulateBench are public at https://github.com/GAIR-NLP/GPTMan."
+    },
+    "0c56afc81fe63849e15821130b7b8562": {
+        "title": "AFSPP: Agent Framework for Shaping Preference and Personality with Large Language Models",
+        "authors": [
+            "Zihong He",
+            "Changwang Zhang"
+        ],
+        "date": "2024/01/05",
+        "pdf": "http://arxiv.org/pdf/2401.02870.pdf",
+        "abstract": "The evolution of Large Language Models (LLMs) has introduced a new paradigm for investigating human behavior emulation. Recent research has employed LLM-based Agents to create a sociological research environment, in which agents exhibit behavior based on the unfiltered characteristics of large language models. However, these studies overlook the iterative development within a human-like setting - Human preferences and personalities are complex, shaped by various factors and subject to ongoing change as a result of environmental and subjective influences. In light of this observation, we propose Agent Framework for Shaping Preference and Personality (AFSPP), exploring the multifaceted impact of social networks and subjective consciousness on LLM-based Agents&#39; preference and personality formation. With AFSPP, we have, for the first time, successfully replicated several key findings from human personality experiments. And other AFSPP-based experimental results indicate that plan making, sensory perceptions and social networking with subjective information, wield the most pronounced influence on preference shaping. AFSPP can significantly enhance the efficiency and scope of psychological experiments, while yielding valuable insights for Trustworthy Artificial Intelligence research for strategies to prevent undesirable preference and personality development."
     }
 }

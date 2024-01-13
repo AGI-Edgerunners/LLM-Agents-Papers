@@ -162,5 +162,42 @@
         "date": "2023/12/20",
         "pdf": "http://arxiv.org/pdf/2312.13010.pdf",
         "abstract": "The advancement of natural language processing (NLP) has been significantly boosted by the development of transformer-based large language models (LLMs). These models have revolutionized NLP tasks, particularly in code generation, aiding developers in creating software with enhanced efficiency. Despite their advancements, challenges in balancing code snippet generation with effective test case generation and execution persist. To address these issues, this paper introduces Multi-Agent Assistant Code Generation (AgentCoder), a novel solution comprising a multi-agent framework with specialized agents: the programmer agent, the test designer agent, and the test executor agent. During the coding procedure, the programmer agent will focus on the code generation and refinement based on the test executor agent&#39;s feedback. The test designer agent will generate test cases for the generated code, and the test executor agent will run the code with the test cases and write the feedback to the programmer. This collaborative system ensures robust code generation, surpassing the limitations of single-agent models and traditional methodologies. Our extensive experiments on 9 code generation models and 12 enhancement approaches showcase AgentCoder&#39;s superior performance over existing code generation models and prompt engineering techniques across various benchmarks. For example, AgentCoder achieves 77.4% and 89.1% pass@1 in HumanEval-ET and MBPP-ET with GPT-3.5, while SOTA baselines obtain only 69.5% and 63.0%."
+    },
+    "0f608fe3eaae4d7140d7e1b012544308": {
+        "title": "MARG: Multi-Agent Review Generation for Scientific Papers",
+        "authors": [
+            "Mike D&#39;Arcy",
+            "Tom Hope",
+            "Larry Birnbaum",
+            "Doug Downey"
+        ],
+        "date": "2024/01/08",
+        "pdf": "http://arxiv.org/pdf/2401.04259.pdf",
+        "abstract": "We study the ability of LLMs to generate feedback for scientific papers and develop MARG, a feedback generation approach using multiple LLM instances that engage in internal discussion. By distributing paper text across agents, MARG can consume the full text of papers beyond the input length limitations of the base LLM, and by specializing agents and incorporating sub-tasks tailored to different comment types (experiments, clarity, impact) it improves the helpfulness and specificity of feedback. In a user study, baseline methods using GPT-4 were rated as producing generic or very generic comments more than half the time, and only 1.7 comments per paper were rated as good overall in the best baseline. Our system substantially improves the ability of GPT-4 to generate specific and helpful feedback, reducing the rate of generic comments from 60% to 29% and generating 3.7 good comments per paper (a 2.2x improvement)."
+    },
+    "6eb13c310b738a72ae549f50036d452d": {
+        "title": "SpeechAgents: Human-Communication Simulation with Multi-Modal Multi-Agent Systems",
+        "authors": [
+            "Dong Zhang",
+            "Zhaowei Li",
+            "Pengyu Wang",
+            "Xin Zhang",
+            "Yaqian Zhou",
+            "Xipeng Qiu"
+        ],
+        "date": "2024/01/08",
+        "pdf": "http://arxiv.org/pdf/2401.03945.pdf",
+        "abstract": "Human communication is a complex and diverse process that not only involves multiple factors such as language, commonsense, and cultural backgrounds but also requires the participation of multimodal information, such as speech. Large Language Model (LLM)-based multi-agent systems have demonstrated promising performance in simulating human society. Can we leverage LLM-based multi-agent systems to simulate human communication? However, current LLM-based multi-agent systems mainly rely on text as the primary medium. In this paper, we propose SpeechAgents, a multi-modal LLM based multi-agent system designed for simulating human communication. SpeechAgents utilizes multi-modal LLM as the control center for individual agent and employes multi-modal signals as the medium for exchanged messages among agents. Additionally, we propose Multi-Agent Tuning to enhance the multi-agent capabilities of LLM without compromising general abilities. To strengthen and evaluate the effectiveness of human communication simulation, we build the Human-Communication Simulation Benchmark. Experimental results demonstrate that SpeechAgents can simulate human communication dialogues with consistent content, authentic rhythm, and rich emotions and demonstrate excellent scalability even with up to 25 agents, which can apply to tasks such as drama creation and audio novels generation. Code and models will be open-sourced at https://github. com/0nutation/SpeechAgents"
+    },
+    "b9ae12751107d3f49280fc6a22ba0d08": {
+        "title": "Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet",
+        "authors": [
+            "Weizhe Chen",
+            "Sven Koenig",
+            "Bistra Dilkina"
+        ],
+        "date": "2024/01/08",
+        "pdf": "http://arxiv.org/pdf/2401.03630.pdf",
+        "abstract": "With the explosive influence caused by the success of large language models (LLM) like ChatGPT and GPT-4, there has been an extensive amount of recent work showing that foundation models can be used to solve a large variety of tasks. However, there is very limited work that shares insights on multi-agent planning. Multi-agent planning is different from other domains by combining the difficulty of multi-agent coordination and planning, and making it hard to leverage external tools to facilitate the reasoning needed. In this paper, we focus on the problem of multi-agent path finding (MAPF), which is also known as multi-robot route planning, and study how to solve MAPF with LLMs. We first show the motivating success on an empty room map without obstacles, then the failure to plan on a slightly harder room map. We present our hypothesis of why directly solving MAPF with LLMs has not been successful yet, and we use various experiments to support our hypothesis."
     }
 }

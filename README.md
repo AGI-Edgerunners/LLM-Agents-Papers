@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/1/8
+Last Updated Time: 2024/1/13
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -34,6 +34,12 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
+	- [2024/01/10] **Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training** | [[paper]](https://arxiv.org/abs/2401.05566) | [code]
+
+	- [2024/01/10] **Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk** | [[paper]](https://arxiv.org/abs/2401.05033) | [code]
+
+	- [2024/01/05] **From LLM to Conversational Agent: A Memory Enhanced Architecture with Fine-Tuning of Large Language Models** | [[paper]](https://arxiv.org/abs/2401.02777) | [code]
+
 	- [2023/12/20] **Machine Mindset: An MBTI Exploration of Large Language Models** | [[paper]](https://arxiv.org/abs/2312.12999) | [[code]](https://github.com/PKU-YuanGroup/Machine-Mindset)
 
 	- [2023/10/19] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** | [[paper]](https://arxiv.org/abs/2310.12823) | [[code]](https://github.com/THUDM/AgentTuning)
@@ -44,6 +50,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2024/01/10] **AUTOACT: Automatic Agent Learning from Scratch via Self-Planning** | [[paper]](https://arxiv.org/abs/2401.05268) | [code]
+
+	- [2024/01/09] **Agent Alignment in Evolving Social Norms** | [[paper]](https://arxiv.org/abs/2401.04620) | [code]
+
 	- [2023/12/28] **Experiential Co-Learning of Software-Developing Agents** | [[paper]](https://arxiv.org/abs/2312.17025) | [code]
 
 	- [2023/12/27] **Automating Knowledge Acquisition for Content-Centric Cognitive Agents Using LLMs** | [[paper]](https://arxiv.org/abs/2312.16378) | [code]
@@ -102,6 +112,12 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent Collaboration
+	- [2024/01/08] **MARG: Multi-Agent Review Generation for Scientific Papers** | [[paper]](https://arxiv.org/abs/2401.04259) | [code]
+
+	- [2024/01/08] **SpeechAgents: Human-Communication Simulation with Multi-Modal Multi-Agent Systems** | [[paper]](https://arxiv.org/abs/2401.03945) | [code]
+
+	- [2024/01/08] **Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet** | [[paper]](https://arxiv.org/abs/2401.03630) | [code]
+
 	- [2023/12/20] **AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation** | [[paper]](https://arxiv.org/abs/2312.13010) | [code]
 
 	- [2023/10/10] **MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents** | [[paper]](https://arxiv.org/abs/2310.06500) | [code]
@@ -222,6 +238,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2024/01/05] **AFSPP: Agent Framework for Shaping Preference and Personality with Large Language Models** | [[paper]](https://arxiv.org/abs/2401.02870) | [code]
+
 	- [2024/01/02] **CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation** | [[paper]](https://arxiv.org/abs/2401.01275) | [code]
 
 	- [2023/12/28] **How Far Are We from Believable AI Agents? A Framework for Evaluating the Believability of Human Behavior Simulation** | [[paper]](https://arxiv.org/abs/2312.17115) | [code]
