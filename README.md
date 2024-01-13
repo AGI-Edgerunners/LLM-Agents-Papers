@@ -254,6 +254,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/11/02] **ProAgent: From Robotic Process Automation to Agentic Process Automation** | [[paper]](https://arxiv.org/abs/2311.10751) | [[code]](https://github.com/OpenBMB/ProAgent)
 
+	- [2023/10/24] **FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions** | [[paper]](https://arxiv.org/abs/2310.15421) | [code]
+
 	- [2023/10/09] **Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena** | [[paper]](https://arxiv.org/abs/2310.05746) | [[code]](https://github.com/jiangjiechen/auction-arena)
 
 	- [2023/10/02] **SmartPlay : A Benchmark for LLMs as Intelligent Agents** | [[paper]](https://arxiv.org/abs/2310.01557) | [[code]](https://github.com/microsoft/SmartPlay)

@@ -307,5 +307,20 @@
         "date": "2024/01/05",
         "pdf": "http://arxiv.org/pdf/2401.02870.pdf",
         "abstract": "The evolution of Large Language Models (LLMs) has introduced a new paradigm for investigating human behavior emulation. Recent research has employed LLM-based Agents to create a sociological research environment, in which agents exhibit behavior based on the unfiltered characteristics of large language models. However, these studies overlook the iterative development within a human-like setting - Human preferences and personalities are complex, shaped by various factors and subject to ongoing change as a result of environmental and subjective influences. In light of this observation, we propose Agent Framework for Shaping Preference and Personality (AFSPP), exploring the multifaceted impact of social networks and subjective consciousness on LLM-based Agents&#39; preference and personality formation. With AFSPP, we have, for the first time, successfully replicated several key findings from human personality experiments. And other AFSPP-based experimental results indicate that plan making, sensory perceptions and social networking with subjective information, wield the most pronounced influence on preference shaping. AFSPP can significantly enhance the efficiency and scope of psychological experiments, while yielding valuable insights for Trustworthy Artificial Intelligence research for strategies to prevent undesirable preference and personality development."
+    },
+    "926e1a0151c4046b84210e6e81639f51": {
+        "title": "FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions",
+        "authors": [
+            "Hyunwoo Kim",
+            "Melanie Sclar",
+            "Xuhui Zhou",
+            "Ronan Le Bras",
+            "Gunhee Kim",
+            "Yejin Choi",
+            "Maarten Sap"
+        ],
+        "date": "2023/10/24",
+        "pdf": "http://arxiv.org/pdf/2310.15421.pdf",
+        "abstract": "Theory of mind (ToM) evaluations currently focus on testing models using passive narratives that inherently lack interactivity. We introduce FANToM, a new benchmark designed to stress-test ToM within information-asymmetric conversational contexts via question answering. Our benchmark draws upon important theoretical requisites from psychology and necessary empirical considerations when evaluating large language models (LLMs). In particular, we formulate multiple types of questions that demand the same underlying reasoning to identify illusory or false sense of ToM capabilities in LLMs. We show that FANToM is challenging for state-of-the-art LLMs, which perform significantly worse than humans even with chain-of-thought reasoning or fine-tuning."
     }
 }
