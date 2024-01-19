@@ -133,5 +133,22 @@
         "date": "2024/01/05",
         "pdf": "http://arxiv.org/pdf/2401.02777.pdf",
         "abstract": "This paper introduces RAISE (Reasoning and Acting through Scratchpad and Examples), an advanced architecture enhancing the integration of Large Language Models (LLMs) like GPT-4 into conversational agents. RAISE, an enhancement of the ReAct framework, incorporates a dual-component memory system, mirroring human short-term and long-term memory, to maintain context and continuity in conversations. It entails a comprehensive agent construction scenario, including phases like Conversation Selection, Scene Extraction, CoT Completion, and Scene Augmentation, leading to the LLMs Training phase. This approach appears to enhance agent controllability and adaptability in complex, multi-turn dialogues. Our preliminary evaluations in a real estate sales context suggest that RAISE has some advantages over traditional agents, indicating its potential for broader applications. This work contributes to the AI field by providing a robust framework for developing more context-aware and versatile conversational agents."
+    },
+    "4da8b341d1dc74b5c91c82a8b8332fe3": {
+        "title": "AUTOACT: Automatic Agent Learning from Scratch via Self-Planning",
+        "authors": [
+            "Shuofei Qiao",
+            "Ningyu Zhang",
+            "Runnan Fang",
+            "Yujie Luo",
+            "Wangchunshu Zhou",
+            "Yuchen Eleanor Jiang",
+            "Chengfei Lv",
+            "Huajun Chen"
+        ],
+        "date": "2024/01/10",
+        "pdf": "http://arxiv.org/pdf/2401.05268.pdf",
+        "code": "https://github.com/zjunlp/AutoAct",
+        "abstract": "Language agents have achieved considerable performance on various complex tasks. Despite the incessant exploration in this field, existing language agent systems still struggle with costly, non-reproducible data reliance and face the challenge of compelling a single model for multiple functions. To this end, we introduce AutoAct, an automatic agent learning framework that does not rely on large-scale annotated data and synthetic trajectories from closed-source models (e.g., GPT-4). Given limited data with a tool library, AutoAct first automatically synthesizes planning trajectories without any assistance from humans or strong closed-source models. Then, AutoAct leverages a division-of-labor strategy to automatically differentiate based on the target task information and synthesized trajectories, producing a sub-agent group to complete the task. We conduct comprehensive experiments with different LLMs, which demonstrates that AutoAct yields better or parallel performance compared to various strong baselines. We even notice that AutoAct, when using the Llama-2-13b model, can achieve performance comparable to that of the zero-shot GPT-3.5-Turbo agent. Code will be available at https://github.com/zjunlp/AutoAct."
     }
 }

@@ -484,5 +484,43 @@
         "date": "2024/01/09",
         "pdf": "http://arxiv.org/pdf/2401.04620.pdf",
         "abstract": "Agents based on Large Language Models (LLMs) are increasingly permeating various domains of human production and life, highlighting the importance of aligning them with human values. The current alignment of AI systems primarily focuses on passively aligning LLMs through human intervention. However, agents possess characteristics like receiving environmental feedback and self-evolution, rendering the LLM alignment methods inadequate. In response, we propose an evolutionary framework for agent evolution and alignment, named EvolutionaryAgent, which transforms agent alignment into a process of evolution and selection under the principle of survival of the fittest. In an environment where social norms continuously evolve, agents better adapted to the current social norms will have a higher probability of survival and proliferation, while those inadequately aligned dwindle over time. Experimental results assessing the agents from multiple perspectives in aligning with social norms demonstrate that EvolutionaryAgent possesses the capability to align progressively better with the evolving social norms while maintaining its proficiency in general tasks. Effectiveness tests conducted on various open and closed-source LLMs as the foundation for agents also prove the applicability of our approach."
+    },
+    "1a7cb27152159d355d47bfa90274d0ab": {
+        "title": "Towards an On-device Agent for Text Rewriting",
+        "authors": [
+            "Yun Zhu",
+            "Yinxiao Liu",
+            "Felix Stahlberg",
+            "Shankar Kumar",
+            "Yu-hui Chen",
+            "Liangchen Luo",
+            "Lei Shu",
+            "Renjie Liu",
+            "Jindong Chen",
+            "Lei Meng"
+        ],
+        "date": "2023/08/22",
+        "pdf": "http://arxiv.org/pdf/2308.11807.pdf",
+        "abstract": "Large Language Models (LLMs) have demonstrated impressive capabilities for text rewriting. Nonetheless, the large sizes of these models make them impractical for on-device inference, which would otherwise allow for enhanced privacy and economical inference. Creating a smaller yet potent language model for text rewriting presents a formidable challenge because it requires balancing the need for a small size with the need to retain the emergent capabilities of the LLM, that requires costly data collection. To address the above challenge, we introduce a new instruction tuning approach for building a mobile-centric text rewriting model. Our strategies enable the generation of high quality training data without any human labeling. In addition, we propose a heuristic reinforcement learning framework which substantially enhances performance without requiring preference data. To further bridge the performance gap with the larger server-side model, we propose an effective approach that combines the mobile rewrite agent with the server model using a cascade. To tailor the text rewriting tasks to mobile scenarios, we introduce MessageRewriteEval, a benchmark that focuses on text rewriting for messages through natural language instructions. Through empirical experiments, we demonstrate that our on-device model surpasses the current state-of-the-art LLMs in text rewriting while maintaining a significantly reduced model size. Notably, we show that our proposed cascading approach improves model performance."
+    },
+    "2243b2331fd2574d72aca0cb65e10376": {
+        "title": "Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach",
+        "authors": [
+            "Bin Zhang",
+            "Hangyu Mao",
+            "Jingqing Ruan",
+            "Ying Wen",
+            "Yang Li",
+            "Shao Zhang",
+            "Zhiwei Xu",
+            "Dapeng Li",
+            "Ziyue Li",
+            "Rui Zhao",
+            "Lijuan Li",
+            "Guoliang Fan"
+        ],
+        "date": "2023/11/23",
+        "pdf": "http://arxiv.org/pdf/2311.13884.pdf",
+        "abstract": "The significant advancements in large language models (LLMs) have presented novel opportunities for tackling planning and decision-making within multi-agent systems. However, as the number of agents increases, the issues of hallucination in LLMs and coordination in multi-agent systems (MAS) have become increasingly pronounced. Additionally, the efficient utilization of tokens becomes a critical consideration when employing LLMs to facilitate the interactions of large numbers of agents. In this paper, we present a novel framework aimed at enhancing coordination and decision-making capabilities of LLMs within large-scale multi-agent environments. Our approach draws inspiration from the actor-critic framework employed in multi-agent reinforcement learning, and we develop a modular and token-efficient solution that effectively addresses challenges presented by LLMs and MAS. Through evaluations conducted in experiments involving system resource allocation and robot grid transportation, we demonstrate the considerable advantages afforded by our proposed approach."
     }
 }
