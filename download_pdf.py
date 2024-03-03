@@ -38,7 +38,7 @@ def pdf_downloader(url: str, pdf_file: str):
         warnings.warn(f'the file {pdf_file}({url}) download failed')
 
 
-Parsed_Folder = 'parsed'
+Parsed_Folder = 'parsed_v4'
 PDF_Folder = 'PDF'
 if not os.path.exists(Parsed_Folder):
     warnings.warn(f'the folder ./{Parsed_Folder}/ is not exist')
@@ -63,7 +63,7 @@ for file in files:
         if not os.path.exists(f'{PDF_Folder}/{list_title}'):
             os.mkdir(f'{PDF_Folder}/{list_title}')
 
-        pdf_file = pdf_file.replace(':', '：')
+        pdf_file = pdf_file.replace(':', '：').replace('?','？')
         if not os.path.exists(pdf_file):
             print(f'{pdf_link} downloading...')
             pdf_downloader(pdf_link, pdf_file)

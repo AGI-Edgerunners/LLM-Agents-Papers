@@ -1,6 +1,6 @@
 {
   "Name": "LLM-Agents-Papers",
-  "Category_Sort": ["Survey.json", "Agent Fine-tuning.json", "Role Playing.json", "Multi-Agent System.json", "Feedback&Reflection.json", "Memory Mechanism.json", "Game Playing.json", "Game Platform.json", "Benchmark&Evaluation&Framework.json", "Tool Usage&Human-Agent Interaction.json"],
+  "Category_Sort": ["Survey", "Agent Fine-tuning", "Role Playing", "Multi-Agent System", "Feedback&Reflection", "Memory Mechanism", "Planning", "Game Playing", "Game Platform", "Benchmark&Evaluation&Framework", "Tool Usage&Human-Agent Interaction", "Others"],
   "Description": {
     "description": "A repo lists papers related to LLM based agent. Includes",
     "items": [

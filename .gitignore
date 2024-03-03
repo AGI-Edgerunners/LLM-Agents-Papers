@@ -133,4 +133,7 @@ PDF/
 config_v2.json
 script.py
 script_v2.py
+script_v3.py
 readmeBeforeREADME.md
+papers/
+parsed/

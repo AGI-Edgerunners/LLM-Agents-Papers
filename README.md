@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/1/19
+Last Updated Time: 2024/3/3
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -37,8 +37,6 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2024/01/10] **Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training** | [[paper]](https://arxiv.org/abs/2401.05566) | [code]
 
 	- [2024/01/10] **Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk** | [[paper]](https://arxiv.org/abs/2401.05033) | [code]
-
-	- [2024/01/10] **AUTOACT: Automatic Agent Learning from Scratch via Self-Planning** | [[paper]](https://arxiv.org/abs/2401.05268) | [[code]](https://github.com/zjunlp/AutoAct)
 
 	- [2024/01/05] **From LLM to Conversational Agent: A Memory Enhanced Architecture with Fine-Tuning of Large Language Models** | [[paper]](https://arxiv.org/abs/2401.02777) | [code]
 
@@ -82,19 +80,17 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/08/10] **LLM As DBA** | [[paper]](https://arxiv.org/abs/2308.05481) | [[code]](https://github.com/TsinghuaDatabaseGroup/DB-GPT)
 
-	- [2023/08/07] **TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents** | [[paper]](https://arxiv.org/abs/2308.03427) | [code]
-
 	- [2023/07/24] **To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations** | [[paper]](https://fablestudio.github.io/showrunner-agents/) | [code]
 
 	- [2023/06/28] **Inferring the Goals of Communicating Agents from Actions and Instructions** | [[paper]](https://arxiv.org/abs/2306.16207) | [code]
+
+	- [2023/05/30] **Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2305.19118) | [[code]](https://github.com/Skytliang/Multi-Agents-Debate)
 
 	- [2023/05/27] **SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks** | [[paper]](https://arxiv.org/abs/2305.17390) | [[code]](https://github.com/yuchenlin/swiftsage/)
 
 	- [2023/05/26] **Training Socially Aligned Language Models in Simulated Human Society** | [[paper]](https://arxiv.org/abs/2305.16960) | [[code]](https://github.com/agi-templar/Stable-Alignment)
 
 	- [2023/05/25] **Role-Play with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16367) | [code]
-
-	- [2023/05/24] **Reasoning with Language Model is Planning with World Model** | [[paper]](https://arxiv.org/abs/2305.14992) | [code]
 
 	- [2023/05/17] **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.10601) | [[code]](https://github.com/ysymyth/tree-of-thought-llm)
 
@@ -106,11 +102,15 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/04/24] **ChatLLM Network: More brains, More intelligence** | [[paper]](https://arxiv.org/abs/2304.12998) | [code]
 
+	- [2023/04/21] **Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback** | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
+
+	- [2023/04/19] **Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models** | [paper] | [code]
+
 	- [2023/04/15] **Self-collaboration Code Generation via ChatGPT** | [[paper]](https://arxiv.org/abs/2304.07590) | [code]
 
 	- [2023/04/07] **Generative Agents: Interactive Simulacra of Human Behavior** | [[paper]](https://arxiv.org/abs/2304.03442) | [[code]](https://github.com/joonspk-research/generative_agents)
 
-	- [2023/03/31] **CAMEL: Communicative Agents for &#34;Mind&#34; Exploration of Large Scale Language Model Society** | [[paper]](https://arxiv.org/abs/2303.17760) | [[code]](https://github.com/camel-ai/camel)
+	- [2023/03/31] **CAMEL: Communicative Agents for &#34;Mind&#34; Exploration of Large Scale Language Model Society** | [[paper]](https://arxiv.org/abs/2303.17760) | [code]
 
 	- [2022/12/08] **LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models** | [[paper]](https://arxiv.org/abs/2212.04088) | [[code]](https://dki-lab.github.io/LLM-Planner/)
 
@@ -138,7 +138,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/09/22] **Learning to Coordinate with Anyone** | [[paper]](https://arxiv.org/abs/2309.12633) | [code]
 
-	- [2023/09/19] **MindAgent: Emergent Gaming Interaction** | [[paper]](https://arxiv.org/abs/2309.09971) | [code](https://mindagent.github.io/)
+	- [2023/09/18] **MindAgent: Emergent Gaming Interaction** | [[paper]](https://arxiv.org/abs/2309.09971) | [[code]](https://mindagent.github.io/)
 
 	- [2023/08/21] **AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents** | [[paper]](https://arxiv.org/abs/2308.10848) | [[code]](https://github.com/OpenBMB/AgentVerse)
 
@@ -156,7 +156,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Feedback&Reflection
-  	- [2023/12/18] **CLOVA: A Closed-Loop Visual Assistant with Tool Usage and Update** | [[paper]](https://arxiv.org/abs/2312.10908) | [code](https://clova-tool.github.io/)
+	- [2023/12/18] **CLOVA: A Closed-Loop Visual Assistant with Tool Usage and Update** | [[paper]](https://arxiv.org/abs/2312.10908) | [[code]](https://clova-tool.github.io/)
 
 	- [2023/11/14] **The ART of LLM Refinement: Ask, Refine, and Trust** | [[paper]](https://arxiv.org/abs/2311.07961) | [code]
 
@@ -166,19 +166,15 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/07/27] **PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback** | [[paper]](https://arxiv.org/abs/2307.14936) | [code]
 
-	- [2023/05/30] **Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2305.19118) | [[code]](https://github.com/Skytliang/Multi-Agents-Debate)
-
 	- [2023/05/26] **AdaPlanner: Adaptive Planning from Feedback with Language Models** | [[paper]](https://arxiv.org/abs/2305.16653) | [[code]](https://github.com/haotiansun14/adaplanner)
 
 	- [2023/05/22] **Making Language Models Better Tool Learners with Execution Feedback** | [[paper]](https://arxiv.org/abs/2305.13068) | [[code]](https://github.com/zjunlp/trice)
-
-	- [2023/04/21] **Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback** | [[paper]](https://arxiv.org/abs/2304.10750) | [code]
 
 	- [2023/04/11] **Teaching Large Language Models to Self-Debug** | [[paper]](https://arxiv.org/abs/2304.05128) | [code]
 
 	- [2023/03/30] **Self-Refine: Iterative Refinement with Self-Feedback** | [[paper]](https://arxiv.org/abs/2303.17651) | [[code]](https://github.com/madaan/self-refine)
 
-   	- [2023/02/03] **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents** | [[paper]](https://arxiv.org/abs/2302.01560)
+	- [2023/02/03] **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents** | [[paper]](https://arxiv.org/abs/2302.01560) | [code]
 
 ---
 - Memory Mechanism
@@ -186,7 +182,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/12/22] **Evolving Large Language Model Assistant with Long-Term Conditional Memory** | [[paper]](https://arxiv.org/abs/2312.17257) | [code]
 
-	- [2023/11/10] **JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models** | [[paper]](https://arxiv.org/abs/2311.05997) | [code](https://github.com/CraftJarvis/JARVIS-1)
+	- [2023/11/10] **JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models** | [[paper]](https://arxiv.org/abs/2311.05997) | [[code]](https://github.com/CraftJarvis/JARVIS-1)
 
 	- [2023/10/16] **CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization** | [[paper]](https://arxiv.org/abs/2310.10134) | [[code]](https://github.com/allenai/clin)
 
@@ -225,16 +221,38 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2023/03/17] **CoLT5: Faster Long-Range Transformers with Conditional Computation** | [[paper]](https://arxiv.org/abs/2303.09752) | [code]
 
 ---
+- Planning
+	- [2024/01/10] **AUTOACT: Automatic Agent Learning from Scratch via Self-Planning** | [[paper]](https://arxiv.org/abs/2401.05268) | [code]
+
+	- [2023/11/19] **TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems** | [[paper]](https://arxiv.org/abs/2311.11315) | [code]
+
+	- [2023/10/09] **Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena** | [[paper]](https://arxiv.org/abs/2310.05746) | [[code]](https://github.com/jiangjiechen/auction-arena)
+
+	- [2023/08/07] **TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents** | [[paper]](https://arxiv.org/abs/2308.03427) | [code]
+
+	- [2023/05/26] **AdaPlanner: Adaptive Planning from Feedback with Language Models** | [[paper]](https://arxiv.org/abs/2305.16653) | [[code]](https://github.com/haotiansun14/adaplanner)
+
+	- [2023/05/24] **Reasoning with Language Model is Planning with World Model** | [[paper]](https://arxiv.org/abs/2305.14992) | [code]
+
+	- [2023/05/24] **Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning** | [[paper]](https://arxiv.org/abs/2305.14909) | [[code]](https://github.com/GuanSuns/LLMs-World-Models-for-Planning)
+
+	- [2023/03/29] **Plan4MC: Skill Reinforcement Learning and Planning for Open-World Minecraft Tasks** | [[paper]](https://arxiv.org/abs/2303.16563) | [[code]](https://sites.google.com/view/plan4mc)
+
+	- [2023/02/03] **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents** | [[paper]](https://arxiv.org/abs/2302.01560) | [code]
+
+	- [2022/12/08] **LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models** | [[paper]](https://arxiv.org/abs/2212.04088) | [[code]](https://dki-lab.github.io/LLM-Planner/)
+
+---
 - Game Playing
 	- [2023/12/29] **Cooperation on the Fly: Exploring Language Agents for Ad Hoc Teamwork in the Avalon Game** | [[paper]](https://arxiv.org/abs/2312.17515) | [code]
 
-	- [2023/11/10] **JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models** | [[paper]](https://arxiv.org/abs/2311.05997) | [code](https://github.com/CraftJarvis/JARVIS-1)
+	- [2023/11/10] **JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models** | [[paper]](https://arxiv.org/abs/2311.05997) | [[code]](https://github.com/CraftJarvis/JARVIS-1)
 
 	- [2023/10/31] **Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models** | [[paper]](https://arxiv.org/abs/2310.20499) | [code]
 
 	- [2023/09/29] **Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4** | [[paper]](https://arxiv.org/abs/2309.17277) | [[code]](https://github.com/CR-Gjx/Suspicion-Agent)
 
-	- [2023/09/19] **MindAgent: Emergent Gaming Interaction** | [[paper]](https://arxiv.org/abs/2309.09971) | [code](https://mindagent.github.io/)
+	- [2023/09/18] **MindAgent: Emergent Gaming Interaction** | [[paper]](https://arxiv.org/abs/2309.09971) | [[code]](https://mindagent.github.io/)
 
 	- [2023/09/10] **An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents** | [[paper]](https://arxiv.org/abs/2309.05076) | [code]
 
@@ -246,9 +264,11 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/05/26] **Playing repeated games with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16867) | [code]
 
+	- [2023/05/25] **Voyager: An Open-Ended Embodied Agent with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16291) | [[code]](https://github.com/MineDojo/Voyager)
+
 	- [2023/05/25] **Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory** | [[paper]](https://arxiv.org/abs/2305.17144) | [[code]](https://github.com/OpenGVLab/GITM)
 
-	- [2023/05/25] **Voyager: An Open-Ended Embodied Agent with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16291) | [[code]](https://github.com/MineDojo/Voyager)
+	- [2023/05/19] **Examining the Inter-Consistency of Large Language Models: An In-depth Analysis via Debate** | [paper] | [code]
 
 	- [2023/05/17] **Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback** | [[paper]](https://arxiv.org/abs/2305.10142) | [[code]](https://github.com/FranxYao/GPT-Bargaining)
 
@@ -256,7 +276,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/03/29] **Plan4MC: Skill Reinforcement Learning and Planning for Open-World Minecraft Tasks** | [[paper]](https://arxiv.org/abs/2303.16563) | [[code]](https://sites.google.com/view/plan4mc)
 
-   	- [2023/02/03] **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents** | [[paper]](https://arxiv.org/abs/2302.01560)
+	- [2023/02/03] **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents** | [[paper]](https://arxiv.org/abs/2302.01560) | [code]
 
 ---
 - Game Platform
@@ -288,9 +308,9 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/09/29] **Reason for Future, Act for Now: A Principled Framework for Autonomous LLM Agents with Provable Sample Efficiency** | [[paper]](https://arxiv.org/abs/2309.17382) | [[code]](https://github.com/agentification/RAFA_code)
 
-	- [2023/09/14] **Agents: An Open-source Framework for Autonomous Language Agents** | [[paper]](https://arxiv.org/abs/2309.07870) | [[code]](https://github.com/aiwaves-cn/agents)
+	- [2023/09/18] **MindAgent: Emergent Gaming Interaction** | [[paper]](https://arxiv.org/abs/2309.09971) | [[code]](https://mindagent.github.io/)
 
-	- [2023/09/19] **MindAgent: Emergent Gaming Interaction** | [[paper]](https://arxiv.org/abs/2309.09971) | [code](https://mindagent.github.io/)
+	- [2023/09/14] **Agents: An Open-source Framework for Autonomous Language Agents** | [[paper]](https://arxiv.org/abs/2309.07870) | [[code]](https://github.com/aiwaves-cn/agents)
 
 	- [2023/08/22] **ProAgent: Building Proactive Cooperative AI with Large Language Models** | [[paper]](https://arxiv.org/abs/2308.11339) | [[code]](https://github.com/PKU-Alignment/ProAgent)
 
@@ -310,7 +330,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/12/21] **AppAgent: Multimodal Agents as Smartphone Users** | [[paper]](https://arxiv.org/abs/2312.13771) | [[code]](https://github.com/mnotgod96/AppAgent)
 
-  	- [2023/12/18] **CLOVA: A Closed-Loop Visual Assistant with Tool Usage and Update** | [[paper]](https://arxiv.org/abs/2312.10908) | [code](https://clova-tool.github.io/)
+	- [2023/12/18] **CLOVA: A Closed-Loop Visual Assistant with Tool Usage and Update** | [[paper]](https://arxiv.org/abs/2312.10908) | [[code]](https://clova-tool.github.io/)
 
 	- [2023/12/14] **CogAgent: A Visual Language Model for GUI Agents** | [[paper]](https://arxiv.org/abs/2312.08914) | [code]
 
@@ -328,6 +348,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/06/05] **When Large Language Model based Agent Meets User Behavior Analysis: A Novel User Simulation Paradigm** | [[paper]](https://arxiv.org/abs/2306.02552) | [[code]](https://github.com/RUC-GSAI/YuLan-Rec)
 
+---
+- Others
 ---
 ## :star: Star History
 
