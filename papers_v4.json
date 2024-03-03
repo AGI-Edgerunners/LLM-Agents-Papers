@@ -425,5 +425,35 @@
     },
     {
         "url": "https://arxiv.org/abs/2305.14909", "code": "https://github.com/GuanSuns/LLMs-World-Models-for-Planning"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.19273"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.18807"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.18659"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.17753"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.17505"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.17168"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.16667"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.16823", "code": "https://github.com/metauto-ai/gptswarm"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.16333"
+    },
+    {
+        "url": "https://arxiv.org/abs/2402.15506"
     }
 ]

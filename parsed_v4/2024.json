@@ -255,5 +255,217 @@
             "Tool Usage&Human-Agent Interaction"
         ],
         "url": "https://arxiv.org/abs/2401.01614"
+    },
+    "c5e9a179be09dac22812b7f097407e07": {
+        "title": "PlanGPT: Enhancing Urban Planning with Tailored Language Model and Efficient Retrieval",
+        "authors": [
+            "He Zhu",
+            "Wenjia Zhang",
+            "Nuoxian Huang",
+            "Boyang Li",
+            "Luyao Niu",
+            "Zipei Fan",
+            "Tianle Lun",
+            "Yicheng Tao",
+            "Junyou Su",
+            "Zhaoya Gong",
+            "Chenyu Fang",
+            "Xing Liu"
+        ],
+        "date": "2024/02/29",
+        "pdf": "http://arxiv.org/pdf/2402.19273.pdf",
+        "abstract": "In the field of urban planning, general-purpose large language models often struggle to meet the specific needs of planners. Tasks like generating urban planning texts, retrieving related information, and evaluating planning documents pose unique challenges. To enhance the efficiency of urban professionals and overcome these obstacles, we introduce PlanGPT, the first specialized Large Language Model tailored for urban and spatial planning. Developed through collaborative efforts with institutions like the Chinese Academy of Urban Planning, PlanGPT leverages a customized local database retrieval framework, domain-specific fine-tuning of base models, and advanced tooling capabilities. Empirical tests demonstrate that PlanGPT has achieved advanced performance, delivering responses of superior quality precisely tailored to the intricacies of urban planning.",
+        "code": "",
+        "category": [
+            "Planning"
+        ],
+        "url": "https://arxiv.org/abs/2402.19273"
+    },
+    "bb03d9d04304fb8cf361615291a5e13d": {
+        "title": "On the Decision-Making Abilities in Role-Playing using Large Language Models",
+        "authors": [
+            "Chenglei Shen",
+            "Guofu Xie",
+            "Xiao Zhang",
+            "Jun Xu"
+        ],
+        "date": "2024/02/29",
+        "pdf": "http://arxiv.org/pdf/2402.18807.pdf",
+        "abstract": "Large language models (LLMs) are now increasingly utilized for role-playing tasks, especially in impersonating domain-specific experts, primarily through role-playing prompts. When interacting in real-world scenarios, the decision-making abilities of a role significantly shape its behavioral patterns. In this paper, we concentrate on evaluating the decision-making abilities of LLMs post role-playing thereby validating the efficacy of role-playing. Our goal is to provide metrics and guidance for enhancing the decision-making abilities of LLMs in role-playing tasks. Specifically, we first use LLMs to generate virtual role descriptions corresponding to the 16 personality types of Myers-Briggs Type Indicator (abbreviated as MBTI) representing a segmentation of the population. Then we design specific quantitative operations to evaluate the decision-making abilities of LLMs post role-playing from four aspects: adaptability, exploration$\\&amp;$exploitation trade-off ability, reasoning ability, and safety. Finally, we analyze the association between the performance of decision-making and the corresponding MBTI types through GPT-4. Extensive experiments demonstrate stable differences in the four aspects of decision-making abilities across distinct roles, signifying a robust correlation between decision-making abilities and the roles emulated by LLMs. These results underscore that LLMs can effectively impersonate varied roles while embodying their genuine sociological characteristics.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2402.18807"
+    },
+    "2b67bb3cf1de46c69a656f1dd20fd49a": {
+        "title": "Large Language Models and Games: A Survey and Roadmap",
+        "authors": [
+            "Roberto Gallotta",
+            "Graham Todd",
+            "Marvin Zammit",
+            "Sam Earle",
+            "Antonios Liapis",
+            "Julian Togelius",
+            "Georgios N. Yannakakis"
+        ],
+        "date": "2024/02/28",
+        "pdf": "http://arxiv.org/pdf/2402.18659.pdf",
+        "abstract": "Recent years have seen an explosive increase in research on large language models (LLMs), and accompanying public engagement on the topic. While starting as a niche area within natural language processing, LLMs have shown remarkable potential across a broad range of applications and domains, including games. This paper surveys the current state of the art across the various applications of LLMs in and for games, and identifies the different roles LLMs can take within a game. Importantly, we discuss underexplored areas and promising directions for future uses of LLMs in games and we reconcile the potential and limitations of LLMs within the games domain. As the first comprehensive survey and roadmap at the intersection of LLMs and games, we are hopeful that this paper will serve as the basis for groundbreaking research and innovation in this exciting new field.",
+        "code": "",
+        "category": [
+            "Survey"
+        ],
+        "url": "https://arxiv.org/abs/2402.18659"
+    },
+    "aaf7b78ec6f39f72b41938c6a0519e85": {
+        "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+        "authors": [
+            "Adyasha Maharana",
+            "Dong-Ho Lee",
+            "Sergey Tulyakov",
+            "Mohit Bansal",
+            "Francesco Barbieri",
+            "Yuwei Fang"
+        ],
+        "date": "2024/02/27",
+        "pdf": "http://arxiv.org/pdf/2402.17753.pdf",
+        "abstract": "Existing works on long-term open-domain dialogues focus on evaluating model responses within contexts spanning no more than five chat sessions. Despite advancements in long-context large language models (LLMs) and retrieval augmented generation (RAG) techniques, their efficacy in very long-term dialogues remains unexplored. To address this research gap, we introduce a machine-human pipeline to generate high-quality, very long-term dialogues by leveraging LLM-based agent architectures and grounding their dialogues on personas and temporal event graphs. Moreover, we equip each agent with the capability of sharing and reacting to images. The generated conversations are verified and edited by human annotators for long-range consistency and grounding to the event graphs. Using this pipeline, we collect LoCoMo, a dataset of very long-term conversations, each encompassing 300 turns and 9K tokens on avg., over up to 35 sessions. Based on LoCoMo, we present a comprehensive evaluation benchmark to measure long-term memory in models, encompassing question answering, event summarization, and multi-modal dialogue generation tasks. Our experimental results indicate that LLMs exhibit challenges in understanding lengthy conversations and comprehending long-range temporal and causal dynamics within dialogues. Employing strategies like long-context LLMs or RAG can offer improvements but these models still substantially lag behind human performance.",
+        "code": "",
+        "category": [
+            "Memory Mechanism"
+        ],
+        "url": "https://arxiv.org/abs/2402.17753"
+    },
+    "8e89988cfaaa29803f9c446bc8ee3eaf": {
+        "title": "BASES: Large-scale Web Search User Simulation with Large Language Model based Agents",
+        "authors": [
+            "Ruiyang Ren",
+            "Peng Qiu",
+            "Yingqi Qu",
+            "Jing Liu",
+            "Wayne Xin Zhao",
+            "Hua Wu",
+            "Ji-Rong Wen",
+            "Haifeng Wang"
+        ],
+        "date": "2024/02/27",
+        "pdf": "http://arxiv.org/pdf/2402.17505.pdf",
+        "abstract": "Due to the excellent capacities of large language models (LLMs), it becomes feasible to develop LLM-based agents for reliable user simulation. Considering the scarcity and limit (e.g., privacy issues) of real user data, in this paper, we conduct large-scale user simulation for web search, to improve the analysis and modeling of user search behavior. Specially, we propose BASES, a novel user simulation framework with LLM-based agents, designed to facilitate comprehensive simulations of web search user behaviors. Our simulation framework can generate unique user profiles at scale, which subsequently leads to diverse search behaviors. To demonstrate the effectiveness of BASES, we conduct evaluation experiments based on two human benchmarks in both Chinese and English, demonstrating that BASES can effectively simulate large-scale human-like search behaviors. To further accommodate the research on web search, we develop WARRIORS, a new large-scale dataset encompassing web search user behaviors, including both Chinese and English versions, which can greatly bolster research in the field of information retrieval. Our code and data will be publicly released soon.",
+        "code": "",
+        "category": [
+            "Tool Usage&Human-Agent Interaction",
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2402.17505"
+    },
+    "ab05a8f2b05390e1cbe83e0b06b55b43": {
+        "title": "Benchmarking Data Science Agents",
+        "authors": [
+            "Yuge Zhang",
+            "Qiyang Jiang",
+            "Xingyu Han",
+            "Nan Chen",
+            "Yuqing Yang",
+            "Kan Ren"
+        ],
+        "date": "2024/02/27",
+        "pdf": "http://arxiv.org/pdf/2402.17168.pdf",
+        "abstract": "In the era of data-driven decision-making, the complexity of data analysis necessitates advanced expertise and tools of data science, presenting significant challenges even for specialists. Large Language Models (LLMs) have emerged as promising aids as data science agents, assisting humans in data analysis and processing. Yet their practical efficacy remains constrained by the varied demands of real-world applications and complicated analytical process. In this paper, we introduce DSEval -- a novel evaluation paradigm, as well as a series of innovative benchmarks tailored for assessing the performance of these agents throughout the entire data science lifecycle. Incorporating a novel bootstrapped annotation method, we streamline dataset preparation, improve the evaluation coverage, and expand benchmarking comprehensiveness. Our findings uncover prevalent obstacles and provide critical insights to inform future advancements in the field.",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation&Framework"
+        ],
+        "url": "https://arxiv.org/abs/2402.17168"
+    },
+    "8baca9839158cad236aad1235f6695c7": {
+        "title": "RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation",
+        "authors": [
+            "Qinyu Luo",
+            "Yining Ye",
+            "Shihao Liang",
+            "Zhong Zhang",
+            "Yujia Qin",
+            "Yaxi Lu",
+            "Yesai Wu",
+            "Xin Cong",
+            "Yankai Lin",
+            "Yingli Zhang",
+            "Xiaoyin Che",
+            "Zhiyuan Liu",
+            "Maosong Sun"
+        ],
+        "date": "2024/02/26",
+        "pdf": "http://arxiv.org/pdf/2402.16667.pdf",
+        "abstract": "Generative models have demonstrated considerable potential in software engineering, particularly in tasks such as code generation and debugging. However, their utilization in the domain of code documentation generation remains underexplored. To this end, we introduce RepoAgent, a large language model powered open-source framework aimed at proactively generating, maintaining, and updating code documentation. Through both qualitative and quantitative evaluations, we have validated the effectiveness of our approach, showing that RepoAgent excels in generating high-quality repository-level documentation. The code and results are publicly accessible at https://github.com/OpenBMB/RepoAgent.",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation&Framework"
+        ],
+        "url": "https://arxiv.org/abs/2402.16667"
+    },
+    "4c8c556d314a7cbb7541e472f63cbccd": {
+        "title": "Language Agents as Optimizable Graphs",
+        "authors": [
+            "Mingchen Zhuge",
+            "Wenyi Wang",
+            "Louis Kirsch",
+            "Francesco Faccio",
+            "Dmitrii Khizbullin",
+            "Jürgen Schmidhuber"
+        ],
+        "date": "2024/02/26",
+        "pdf": "http://arxiv.org/pdf/2402.16823.pdf",
+        "abstract": "Various human-designed prompt engineering techniques have been proposed to improve problem solvers based on Large Language Models (LLMs), yielding many disparate code bases. We unify these approaches by describing LLM-based agents as computational graphs. The nodes implement functions to process multimodal data or query LLMs, and the edges describe the information flow between operations. Graphs can be recursively combined into larger composite graphs representing hierarchies of inter-agent collaboration (where edges connect operations of different agents). Our novel automatic graph optimizers (1) refine node-level LLM prompts (node optimization) and (2) improve agent orchestration by changing graph connectivity (edge optimization). Experiments demonstrate that our framework can be used to efficiently develop, integrate, and automatically improve various LLM agents. The code can be found at https://github.com/metauto-ai/gptswarm.",
+        "code": "https://github.com/metauto-ai/gptswarm",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2402.16823"
+    },
+    "6edba424f625da489f6bcf7dac4d5a57": {
+        "title": "Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation",
+        "authors": [
+            "Xinyi Mou",
+            "Zhongyu Wei",
+            "Xuanjing Huang"
+        ],
+        "date": "2024/02/26",
+        "pdf": "http://arxiv.org/pdf/2402.16333.pdf",
+        "abstract": "Social media has emerged as a cornerstone of social movements, wielding significant influence in driving societal change. Simulating the response of the public and forecasting the potential impact has become increasingly important. However, existing methods for simulating such phenomena encounter challenges concerning their efficacy and efficiency in capturing the behaviors of social movement participants. In this paper, we introduce a hybrid framework for social media user simulation, wherein users are categorized into two types. Core users are driven by Large Language Models, while numerous ordinary users are modeled by deductive agent-based models. We further construct a Twitter-like environment to replicate their response dynamics following trigger events. Subsequently, we develop a multi-faceted benchmark SoMoSiMu-Bench for evaluation and conduct comprehensive experiments across real-world datasets. Experimental results demonstrate the effectiveness and flexibility of our method.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2402.16333"
+    },
+    "a5538ed0a6964ec13a4ebdd94f383ecc": {
+        "title": "AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning",
+        "authors": [
+            "Jianguo Zhang",
+            "Tian Lan",
+            "Rithesh Murthy",
+            "Zhiwei Liu",
+            "Weiran Yao",
+            "Juntao Tan",
+            "Thai Hoang",
+            "Liangwei Yang",
+            "Yihao Feng",
+            "Zuxin Liu",
+            "Tulika Awalgaonkar",
+            "Juan Carlos Niebles",
+            "Silvio Savarese",
+            "Shelby Heinecke",
+            "Huan Wang",
+            "Caiming Xiong"
+        ],
+        "date": "2024/02/23",
+        "pdf": "http://arxiv.org/pdf/2402.15506.pdf",
+        "abstract": "Autonomous agents powered by large language models (LLMs) have garnered significant research attention. However, fully harnessing the potential of LLMs for agent-based tasks presents inherent challenges due to the heterogeneous nature of diverse data sources featuring multi-turn trajectories. In this paper, we introduce \\textbf{AgentOhana} as a comprehensive solution to address these challenges. \\textit{AgentOhana} aggregates agent trajectories from distinct environments, spanning a wide array of scenarios. It meticulously standardizes and unifies these trajectories into a consistent format, streamlining the creation of a generic data loader optimized for agent training. Leveraging the data unification, our training pipeline maintains equilibrium across different data sources and preserves independent randomness across devices during dataset partitioning and model training. Additionally, we present \\textbf{xLAM-v0.1}, a large action model tailored for AI agents, which demonstrates exceptional performance across various benchmarks.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning"
+        ],
+        "url": "https://arxiv.org/abs/2402.15506"
     }
 }

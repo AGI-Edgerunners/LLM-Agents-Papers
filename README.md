@@ -18,6 +18,8 @@ For more comprehensive reading, we also recommend other paper lists:
 * [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list): Must-read papers for LLM-based agents.
 ## :newspaper: Papers
 - Survey
+	- [2024/02/28] **Large Language Models and Games: A Survey and Roadmap** | [[paper]](https://arxiv.org/abs/2402.18659) | [code]
+
 	- [2024/01/01] **If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents** | [[paper]](https://arxiv.org/abs/2401.00812) | [code]
 
 	- [2023/12/31] **A Survey of Personality, Persona, and Profile in Conversational Agents and Chatbots** | [[paper]](https://arxiv.org/abs/2401.00609) | [code]
@@ -34,6 +36,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
+	- [2024/02/23] **AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning** | [[paper]](https://arxiv.org/abs/2402.15506) | [code]
+
 	- [2024/01/10] **Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training** | [[paper]](https://arxiv.org/abs/2401.05566) | [code]
 
 	- [2024/01/10] **Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk** | [[paper]](https://arxiv.org/abs/2401.05033) | [code]
@@ -50,6 +54,14 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2024/02/29] **On the Decision-Making Abilities in Role-Playing using Large Language Models** | [[paper]](https://arxiv.org/abs/2402.18807) | [code]
+
+	- [2024/02/27] **BASES: Large-scale Web Search User Simulation with Large Language Model based Agents** | [[paper]](https://arxiv.org/abs/2402.17505) | [code]
+
+	- [2024/02/26] **Language Agents as Optimizable Graphs** | [[paper]](https://arxiv.org/abs/2402.16823) | [[code]](https://github.com/metauto-ai/gptswarm)
+
+	- [2024/02/26] **Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation** | [[paper]](https://arxiv.org/abs/2402.16333) | [code]
+
 	- [2024/01/09] **Agent Alignment in Evolving Social Norms** | [[paper]](https://arxiv.org/abs/2401.04620) | [code]
 
 	- [2023/12/28] **Experiential Co-Learning of Software-Developing Agents** | [[paper]](https://arxiv.org/abs/2312.17025) | [code]
@@ -178,6 +190,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Memory Mechanism
+	- [2024/02/27] **Evaluating Very Long-Term Conversational Memory of LLM Agents** | [[paper]](https://arxiv.org/abs/2402.17753) | [code]
+
 	- [2023/12/22] **Empowering Working Memory for Large Language Model Agents** | [[paper]](https://arxiv.org/abs/2312.17259) | [code]
 
 	- [2023/12/22] **Evolving Large Language Model Assistant with Long-Term Conditional Memory** | [[paper]](https://arxiv.org/abs/2312.17257) | [code]
@@ -222,6 +236,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Planning
+	- [2024/02/29] **PlanGPT: Enhancing Urban Planning with Tailored Language Model and Efficient Retrieval** | [[paper]](https://arxiv.org/abs/2402.19273) | [code]
+
 	- [2024/01/10] **AUTOACT: Automatic Agent Learning from Scratch via Self-Planning** | [[paper]](https://arxiv.org/abs/2401.05268) | [code]
 
 	- [2023/11/19] **TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems** | [[paper]](https://arxiv.org/abs/2311.11315) | [code]
@@ -284,6 +300,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2024/02/27] **Benchmarking Data Science Agents** | [[paper]](https://arxiv.org/abs/2402.17168) | [code]
+
+	- [2024/02/26] **RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation** | [[paper]](https://arxiv.org/abs/2402.16667) | [code]
+
 	- [2024/01/05] **AFSPP: Agent Framework for Shaping Preference and Personality with Large Language Models** | [[paper]](https://arxiv.org/abs/2401.02870) | [code]
 
 	- [2024/01/02] **CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation** | [[paper]](https://arxiv.org/abs/2401.01275) | [code]
@@ -324,6 +344,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Tool Usage&Human-Agent Interaction
+	- [2024/02/27] **BASES: Large-scale Web Search User Simulation with Large Language Model based Agents** | [[paper]](https://arxiv.org/abs/2402.17505) | [code]
+
 	- [2024/01/03] **GPT-4V(ision) is a Generalist Web Agent, if Grounded** | [[paper]](https://arxiv.org/abs/2401.01614) | [code]
 
 	- [2023/12/21] **Team Flow at DRC2023: Building Common Ground and Text-based Turn-taking in a Travel Agent Spoken Dialogue System** | [[paper]](https://arxiv.org/abs/2312.13816) | [code]
