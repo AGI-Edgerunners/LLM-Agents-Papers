@@ -276,6 +276,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Planning
+        - [2024/03/16] **AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production** | [[paper]](https://arxiv.org/abs/2403.07952) | [code]
+   	
 	- [2024/02/29] **PlanGPT: Enhancing Urban Planning with Tailored Language Model and Efficient Retrieval** | [[paper]](https://arxiv.org/abs/2402.19273) | [code]
 
 	- [2024/02/18] **What&#39;s the Plan? Evaluating and Developing Planning-Aware Techniques for LLMs** | [[paper]](https://arxiv.org/abs/2402.11489) | [code]
