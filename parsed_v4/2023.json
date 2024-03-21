@@ -2555,5 +2555,34 @@
             "Planning"
         ],
         "url": "https://arxiv.org/abs/2305.14909"
+    },
+    "37c843ffe31783b0915c083bee24ed9d": {
+        "title": "Pangu-Agent: A Fine-Tunable Generalist Agent with Structured Reasoning",
+        "authors": [
+            "Filippos Christianos",
+            "Georgios Papoudakis",
+            "Matthieu Zimmer",
+            "Thomas Coste",
+            "Zhihao Wu",
+            "Jingxuan Chen",
+            "Khyati Khandelwal",
+            "James Doran",
+            "Xidong Feng",
+            "Jiacheng Liu",
+            "Zheng Xiong",
+            "Yicheng Luo",
+            "Jianye Hao",
+            "Kun Shao",
+            "Haitham Bou-Ammar",
+            "Jun Wang"
+        ],
+        "date": "2023/12/22",
+        "pdf": "http://arxiv.org/pdf/2312.14878",
+        "abstract": "A key method for creating Artificial Intelligence (AI) agents is Reinforcement Learning (RL). However, constructing a standalone RL policy that maps perception to action directly encounters severe problems, chief among them being its lack of generality across multiple tasks and the need for a large amount of training data. The leading cause is that it cannot effectively integrate prior information into the perception-action cycle when devising the policy. Large language models (LLMs) emerged as a fundamental way to incorporate cross-domain knowledge into AI agents but lack crucial learning and adaptation toward specific decision problems. This paper presents a general framework model for integrating and learning structured reasoning into AI agents&#39; policies. Our methodology is motivated by the modularity found in the human brain. The framework utilises the construction of intrinsic and extrinsic functions to add previous understandings of reasoning structures. It also provides the adaptive ability to learn models inside every module or function, consistent with the modular structure of cognitive processes. We describe the framework in-depth and compare it with other AI pipelines and existing frameworks. The paper explores practical applications, covering experiments that show the effectiveness of our method. Our results indicate that AI agents perform and adapt far better when organised reasoning and prior knowledge are embedded. This opens the door to more resilient and general AI agent systems.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning"
+        ],
+        "url": "https://arxiv.org/abs/2312.14878"
     }
 }
