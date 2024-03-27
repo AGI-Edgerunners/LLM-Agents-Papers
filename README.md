@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/3/21
+Last Updated Time: 2024/3/27
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -48,6 +48,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
+	- [2024/03/21] **ReAct Meets ActRe: Autonomous Annotation of Agent Trajectories for Contrastive Self-Training** | [[paper]](https://arxiv.org/abs/2403.14589) | [code]
+
 	- [2024/03/19] **Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models** | [[paper]](https://arxiv.org/abs/2403.12881) | [code]
 
 	- [2024/03/18] **EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents** | [[paper]](https://arxiv.org/abs/2403.12014) | [code]
@@ -80,6 +82,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2024/03/22] **CACA Agent: Capability Collaboration based AI Agent** | [[paper]](https://arxiv.org/abs/2403.15137) | [code]
+
 	- [2024/03/19] **Characteristic AI Agents via Large Language Models** | [[paper]](https://arxiv.org/abs/2403.12368) | [code]
 
 	- [2024/03/15] **VideoAgent: Long-form Video Understanding with Large Language Model as Agent** | [[paper]](https://arxiv.org/abs/2403.10517) | [code]
@@ -218,6 +222,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent System
+	- [2024/03/21] **Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering** | [[paper]](https://arxiv.org/abs/2403.14783) | [code]
+
 	- [2024/03/20] **Agent Group Chat: An Interactive Group Chat Simulacra For Better Eliciting Collective Emergent Behavior** | [[paper]](https://arxiv.org/abs/2403.13433) | [code]
 
 	- [2024/03/19] **Embodied LLM Agents Learn to Cooperate in Organized Teams** | [[paper]](https://arxiv.org/abs/2403.12482) | [code]
@@ -438,6 +444,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Game Playing
+	- [2024/03/26] **Sharing the Cost of Success: A Game for Evaluating and Learning Collaborative Multi-Agent Instruction Giving and Following Policies** | [[paper]](https://arxiv.org/abs/2403.17497) | [[code]](https://github.com/clp-research/cost-sharing-reference-game)
+
 	- [2024/02/19] **LLM Agents for Psychology: A Study on Gamified Assessments** | [[paper]](https://arxiv.org/abs/2402.12326) | [code]
 
 	- [2024/02/13] **Large Language Models as Minecraft Agents** | [[paper]](https://arxiv.org/abs/2402.08392) | [code]
@@ -484,6 +492,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Game Platform
+	- [2024/03/26] **Sharing the Cost of Success: A Game for Evaluating and Learning Collaborative Multi-Agent Instruction Giving and Following Policies** | [[paper]](https://arxiv.org/abs/2403.17497) | [[code]](https://github.com/clp-research/cost-sharing-reference-game)
+
 	- [2023/03/14] **CB2: Collaborative Natural Language Interaction Research Platform** | [[paper]](https://arxiv.org/abs/2303.08127) | [[code]](https://github.com/lil-lab/cb2)
 
 ---

@@ -2571,5 +2571,76 @@
             "Benchmark&Evaluation&Framework"
         ],
         "url": "https://arxiv.org/abs/2403.13679"
+    },
+    "d254cf4f173176c2999c0a1d87ca1ac8": {
+        "title": "Sharing the Cost of Success: A Game for Evaluating and Learning Collaborative Multi-Agent Instruction Giving and Following Policies",
+        "authors": [
+            "Philipp Sadler",
+            "Sherzod Hakimov",
+            "David Schlangen"
+        ],
+        "date": "2024/03/26",
+        "pdf": "http://arxiv.org/pdf/2403.17497",
+        "abstract": "In collaborative goal-oriented settings, the participants are not only interested in achieving a successful outcome, but do also implicitly negotiate the effort they put into the interaction (by adapting to each other). In this work, we propose a challenging interactive reference game that requires two players to coordinate on vision and language observations. The learning signal in this game is a score (given after playing) that takes into account the achieved goal and the players&#39; assumed efforts during the interaction. We show that a standard Proximal Policy Optimization (PPO) setup achieves a high success rate when bootstrapped with heuristic partner behaviors that implement insights from the analysis of human-human interactions. And we find that a pairing of neural partners indeed reduces the measured joint effort when playing together repeatedly. However, we observe that in comparison to a reasonable heuristic pairing there is still room for improvement -- which invites further research in the direction of cost-sharing in collaborative interactions.",
+        "code": "https://github.com/clp-research/cost-sharing-reference-game",
+        "category": [
+            "Game Playing",
+            "Game Platform"
+        ],
+        "url": "https://arxiv.org/abs/2403.17497"
+    },
+    "85fd90755f5739a7fb483412602e97e6": {
+        "title": "CACA Agent: Capability Collaboration based AI Agent",
+        "authors": [
+            "Peng Xu",
+            "Haoran Wang",
+            "Chuang Wang",
+            "Xu Liu"
+        ],
+        "date": "2024/03/22",
+        "pdf": "http://arxiv.org/pdf/2403.15137",
+        "abstract": "As AI Agents based on Large Language Models (LLMs) have shown potential in practical applications across various fields, how to quickly deploy an AI agent and how to conveniently expand the application scenario of AI agents has become a challenge. Previous studies mainly focused on implementing all the reasoning capabilities of AI agents within a single LLM, which often makes the model more complex and also reduces the extensibility of AI agent functionality. In this paper, we propose CACA Agent (Capability Collaboration based AI Agent), using an open architecture inspired by service computing. CACA Agent integrates a set of collaborative capabilities to implement AI Agents, not only reducing the dependence on a single LLM, but also enhancing the extensibility of both the planning abilities and the tools available to AI agents. Utilizing the proposed system, we present a demo to illustrate the operation and the application scenario extension of CACA Agent.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2403.15137"
+    },
+    "6c7684079093a696f575560ed81b715f": {
+        "title": "Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering",
+        "authors": [
+            "Bowen Jiang",
+            "Zhijun Zhuang",
+            "Shreyas S. Shivakumar",
+            "Dan Roth",
+            "Camillo J. Taylor"
+        ],
+        "date": "2024/03/21",
+        "pdf": "http://arxiv.org/pdf/2403.14783",
+        "abstract": "This work explores the zero-shot capabilities of foundation models in Visual Question Answering (VQA) tasks. We propose an adaptive multi-agent system, named Multi-Agent VQA, to overcome the limitations of foundation models in object detection and counting by using specialized agents as tools. Unlike existing approaches, our study focuses on the system&#39;s performance without fine-tuning it on specific VQA datasets, making it more practical and robust in the open world. We present preliminary experimental results under zero-shot scenarios and highlight some failure cases, offering new directions for future research.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2403.14783"
+    },
+    "f8ff753c3aa2bb437a2e5380838bfef6": {
+        "title": "ReAct Meets ActRe: Autonomous Annotation of Agent Trajectories for Contrastive Self-Training",
+        "authors": [
+            "Zonghan Yang",
+            "Peng Li",
+            "Ming Yan",
+            "Ji Zhang",
+            "Fei Huang",
+            "Yang Liu"
+        ],
+        "date": "2024/03/21",
+        "pdf": "http://arxiv.org/pdf/2403.14589",
+        "abstract": "Language agents have demonstrated autonomous decision-making abilities by reasoning with foundation models. Recently, efforts have been made to train language agents for performance improvement, with multi-step reasoning and action trajectories as the training data. However, collecting such trajectories still requires considerable human effort, by either artificial annotation or implementations of diverse prompting frameworks. In this work, we propose A$^3$T, a framework that enables the Autonomous Annotation of Agent Trajectories in the style of ReAct. The central role is an ActRe prompting agent, which explains the reason for an arbitrary action. When randomly sampling an external action, the ReAct-style agent could query the ActRe agent with the action to obtain its textual rationales. Novel trajectories are then synthesized by prepending the posterior reasoning from ActRe to the sampled action. In this way, the ReAct-style agent executes multiple trajectories for the failed tasks, and selects the successful ones to supplement its failed trajectory for contrastive self-training. Realized by policy gradient methods with binarized rewards, the contrastive self-training with accumulated trajectories facilitates a closed loop for multiple rounds of language agent self-improvement. We conduct experiments using QLoRA fine-tuning with the open-sourced Mistral-7B-Instruct-v0.2. In AlfWorld, the agent trained with A$^3$T obtains a 1-shot success rate of 96%, and 100% success with 4 iterative rounds. In WebShop, the 1-shot performance of the A$^3$T agent matches human average, and 4 rounds of iterative refinement lead to the performance approaching human experts. A$^3$T agents significantly outperform existing techniques, including prompting with GPT-4, advanced agent frameworks, and fully fine-tuned LLMs.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning"
+        ],
+        "url": "https://arxiv.org/abs/2403.14589"
     }
 }
