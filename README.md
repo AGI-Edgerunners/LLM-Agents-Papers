@@ -222,6 +222,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent System
+	- [2024/03/26] **MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution** | [[paper]](https://arxiv.org/abs/2403.17927) | [code]
+ 
 	- [2024/03/21] **Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering** | [[paper]](https://arxiv.org/abs/2403.14783) | [code]
 
 	- [2024/03/20] **Agent Group Chat: An Interactive Group Chat Simulacra For Better Eliciting Collective Emergent Behavior** | [[paper]](https://arxiv.org/abs/2403.13433) | [code]
