@@ -18,6 +18,7 @@ For more comprehensive reading, we also recommend other paper lists:
 * [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list): Must-read papers for LLM-based agents.
 ## :newspaper: Papers
 - Survey
+	- [2024/04/03] **Empowering Biomedical Discovery with AI Agents** (perspective paper) | [[paper](https://arxiv.org/abs/2404.02831)] 
 	- [2024/03/07] **Promising and worth-to-try future directions for advancing state-of-the-art surrogates methods of agent-based models in social and health computational sciences** | [[paper]](https://arxiv.org/abs/2403.04417) | [code]
 
 	- [2024/02/28] **Large Language Models and Games: A Survey and Roadmap** | [[paper]](https://arxiv.org/abs/2402.18659) | [code]
