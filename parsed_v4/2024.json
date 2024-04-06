@@ -2858,5 +2858,44 @@
             "Benchmark&Evaluation&Framework"
         ],
         "url": "https://arxiv.org/abs/2403.20097"
+    },
+    "bbdc7d81c7e1344bee08ecab46a592ba": {
+        "title": "Empowering Biomedical Discovery with AI Agents",
+        "authors": [
+            "Shanghua Gao",
+            "Ada Fang",
+            "Yepeng Huang",
+            "Valentina Giunchiglia",
+            "Ayush Noori",
+            "Jonathan Richard Schwarz",
+            "Yasha Ektefaie",
+            "Jovana Kondic",
+            "Marinka Zitnik"
+        ],
+        "date": "2024/04/03",
+        "pdf": "http://arxiv.org/pdf/2404.02831",
+        "abstract": "We envision &#39;AI scientists&#39; as systems capable of skeptical learning and reasoning that empower biomedical research through collaborative agents that integrate machine learning tools with experimental platforms. Rather than taking humans out of the discovery process, biomedical AI agents combine human creativity and expertise with AI&#39;s ability to analyze large datasets, navigate hypothesis spaces, and execute repetitive tasks. AI agents are proficient in a variety of tasks, including self-assessment and planning of discovery workflows. These agents use large language models and generative models to feature structured memory for continual learning and use machine learning tools to incorporate scientific knowledge, biological principles, and theories. AI agents can impact areas ranging from hybrid cell simulation, programmable control of phenotypes, and the design of cellular circuits to the development of new therapies.",
+        "code": "",
+        "category": [
+            "Survey"
+        ],
+        "url": "https://arxiv.org/abs/2404.02831"
+    },
+    "bd832d696f6c8b97c8a962d70be2a48d": {
+        "title": "MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution",
+        "authors": [
+            "Wei Tao",
+            "Yucheng Zhou",
+            "Wenqiang Zhang",
+            "Yu Cheng"
+        ],
+        "date": "2024/03/26",
+        "pdf": "http://arxiv.org/pdf/2403.17927",
+        "abstract": "In software evolution, resolving the emergent issues within GitHub repositories is a complex challenge that involves not only the incorporation of new code but also the maintenance of existing functionalities. Large Language Models (LLMs) have shown promise in code generation and understanding but face difficulties in code change, particularly at the repository level. To overcome these challenges, we empirically study the reason why LLMs mostly fail to resolve GitHub issues and analyze some impact factors. Motivated by the empirical findings, we propose a novel LLM-based Multi-Agent framework for GitHub Issue reSolution, MAGIS, consisting of four kinds of agents customized for the software evolution: Manager, Repository Custodian, Developer, and Quality Assurance Engineer agents. This framework leverages the collaboration of various agents in the planning and coding process to unlock the potential of LLMs to resolve GitHub issues. In experiments, we employ the SWE-bench benchmark to compare MAGIS with popular LLMs, including GPT-3.5, GPT-4, and Claude-2. MAGIS can resolve 13.94% GitHub issues, which significantly outperforms the baselines. Specifically, MAGIS achieves an eight-fold increase in resolved ratio over the direct application of GPT-4, the based LLM of our method. We also analyze the factors for improving GitHub issue resolution rates, such as line location, task allocation, etc.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2403.17927"
     }
 }
