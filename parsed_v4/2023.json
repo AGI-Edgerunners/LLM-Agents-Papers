@@ -2584,5 +2584,27 @@
             "Agent Fine-tuning"
         ],
         "url": "https://arxiv.org/abs/2312.14878"
+    },
+    "a078befa2b9350c5c5120719572a4f7c": {
+        "title": "Embodied Multi-Modal Agent trained by an LLM from a Parallel TextWorld",
+        "authors": [
+            "Yijun Yang",
+            "Tianyi Zhou",
+            "Kanxue Li",
+            "Dapeng Tao",
+            "Lusong Li",
+            "Li Shen",
+            "Xiaodong He",
+            "Jing Jiang",
+            "Yuhui Shi"
+        ],
+        "date": "2023/11/28",
+        "pdf": "http://arxiv.org/pdf/2311.16714",
+        "abstract": "While large language models (LLMs) excel in a simulated world of texts, they struggle to interact with the more realistic world without perceptions of other modalities such as visual or audio signals. Although vision-language models (VLMs) integrate LLM modules (1) aligned with static image features, and (2) may possess prior knowledge of world dynamics (as demonstrated in the text world), they have not been trained in an embodied visual world and thus cannot align with its dynamics. On the other hand, training an embodied agent in a noisy visual world without expert guidance is often challenging and inefficient. In this paper, we train a VLM agent living in a visual world using an LLM agent excelling in a parallel text world. Specifically, we distill LLM&#39;s reflection outcomes (improved actions by analyzing mistakes) in a text world&#39;s tasks to finetune the VLM on the same tasks of the visual world, resulting in an Embodied Multi-Modal Agent (EMMA) quickly adapting to the visual world dynamics. Such cross-modality imitation learning between the two parallel worlds is achieved by a novel DAgger-DPO algorithm, enabling EMMA to generalize to a broad scope of new tasks without any further guidance from the LLM expert. Extensive evaluations on the ALFWorld benchmark&#39;s diverse tasks highlight EMMA&#39;s superior performance to SOTA VLM-based agents, e.g., 20%-70% improvement in the success rate.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning"
+        ],
+        "url": "https://arxiv.org/abs/2311.16714"
     }
 }

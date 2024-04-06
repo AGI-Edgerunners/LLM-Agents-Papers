@@ -2642,5 +2642,221 @@
             "Agent Fine-tuning"
         ],
         "url": "https://arxiv.org/abs/2403.14589"
+    },
+    "b14f11857f2bd0666a823802ced632df": {
+        "title": "Learn to Disguise: Avoid Refusal Responses in LLM&#39;s Defense via a Multi-agent Attacker-Disguiser Game",
+        "authors": [
+            "Qianqiao Xu",
+            "Zhiliang Tian",
+            "Hongyan Wu",
+            "Zhen Huang",
+            "Yiping Song",
+            "Feng Liu",
+            "Dongsheng Li"
+        ],
+        "date": "2024/04/03",
+        "pdf": "http://arxiv.org/pdf/2404.02532",
+        "abstract": "With the enhanced performance of large models on natural language processing tasks, potential moral and ethical issues of large models arise. There exist malicious attackers who induce large models to jailbreak and generate information containing illegal, privacy-invasive information through techniques such as prompt engineering. As a result, large models counter malicious attackers&#39; attacks using techniques such as safety alignment. However, the strong defense mechanism of the large model through rejection replies is easily identified by attackers and used to strengthen attackers&#39; capabilities. In this paper, we propose a multi-agent attacker-disguiser game approach to achieve a weak defense mechanism that allows the large model to both safely reply to the attacker and hide the defense intent. First, we construct a multi-agent framework to simulate attack and defense scenarios, playing different roles to be responsible for attack, disguise, safety evaluation, and disguise evaluation tasks. After that, we design attack and disguise game algorithms to optimize the game strategies of the attacker and the disguiser and use the curriculum learning process to strengthen the capabilities of the agents. The experiments verify that the method in this paper is more effective in strengthening the model&#39;s ability to disguise the defense intent compared with other methods. Moreover, our approach can adapt any black-box large model to assist the model in defense and does not suffer from model version iterations.",
+        "code": "",
+        "category": [
+            "Multi-Agent System",
+            "Game Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.02532"
+    },
+    "132f6a74ec7ec450c6106e9467b63208": {
+        "title": "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization",
+        "authors": [
+            "Yoichi Ishibashi",
+            "Yoshimasa Nishimura"
+        ],
+        "date": "2024/04/02",
+        "pdf": "http://arxiv.org/pdf/2404.02183",
+        "abstract": "Recent advancements in automatic code generation using large language model (LLM) agent have brought us closer to the future of automated software development. However, existing single-agent approaches face limitations in generating and improving large-scale, complex codebases due to constraints in context length. To tackle this challenge, we propose Self-Organized multi-Agent framework (SoA), a novel multi-agent framework that enables the scalable and efficient generation and optimization of large-scale code. In SoA, self-organized agents operate independently to generate and modify code components while seamlessly collaborating to construct the overall codebase. A key feature of our framework is the automatic multiplication of agents based on problem complexity, allowing for dynamic scalability. This enables the overall code volume to be increased indefinitely according to the number of agents, while the amount of code managed by each agent remains constant. We evaluate SoA on the HumanEval benchmark and demonstrate that, compared to a single-agent system, each agent in SoA handles significantly less code, yet the overall generated code is substantially greater. Moreover, SoA surpasses the powerful single-agent baseline by 5% in terms of Pass@1 accuracy.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.02183"
+    },
+    "ab2ebbcc0da2f32564c4167a2306ff73": {
+        "title": "CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models",
+        "authors": [
+            "Xuechen Liang",
+            "Meiling Tao",
+            "Tianyu Shi",
+            "Yiting Xie"
+        ],
+        "date": "2024/04/02",
+        "pdf": "http://arxiv.org/pdf/2404.01663",
+        "abstract": "Open large language models (LLMs) have significantly advanced the field of natural language processing, showcasing impressive performance across various tasks.Despite the significant advancements in LLMs, their effective operation still relies heavily on human input to accurately guide the dialogue flow, with agent tuning being a crucial optimization technique that involves human adjustments to the model for better response to such guidance.Addressing this dependency, our work introduces the TinyAgent model, trained on a meticulously curated high-quality dataset. We also present the Collaborative Multi-Agent Tuning (CMAT) framework, an innovative system designed to augment language agent capabilities through adaptive weight updates based on environmental feedback. This framework fosters collaborative learning and real-time adaptation among multiple intelligent agents, enhancing their context-awareness and long-term memory. In this research, we propose a new communication agent framework that integrates multi-agent systems with environmental feedback mechanisms, offering a scalable method to explore cooperative behaviors. Notably, our TinyAgent-7B model exhibits performance on par with GPT-3.5, despite having fewer parameters, signifying a substantial improvement in the efficiency and effectiveness of LLMs.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning",
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.01663"
+    },
+    "0da1af4d68be428f423f0e488588bb54": {
+        "title": "DiffAgent: Fast and Accurate Text-to-Image API Selection with Large Language Model",
+        "authors": [
+            "Lirui Zhao",
+            "Yue Yang",
+            "Kaipeng Zhang",
+            "Wenqi Shao",
+            "Yuxin Zhang",
+            "Yu Qiao",
+            "Ping Luo",
+            "Rongrong Ji"
+        ],
+        "date": "2024/03/31",
+        "pdf": "http://arxiv.org/pdf/2404.01342",
+        "abstract": "Text-to-image (T2I) generative models have attracted significant attention and found extensive applications within and beyond academic research. For example, the Civitai community, a platform for T2I innovation, currently hosts an impressive array of 74,492 distinct models. However, this diversity presents a formidable challenge in selecting the most appropriate model and parameters, a process that typically requires numerous trials. Drawing inspiration from the tool usage research of large language models (LLMs), we introduce DiffAgent, an LLM agent designed to screen the accurate selection in seconds via API calls. DiffAgent leverages a novel two-stage training framework, SFTA, enabling it to accurately align T2I API responses with user input in accordance with human preferences. To train and evaluate DiffAgent&#39;s capabilities, we present DABench, a comprehensive dataset encompassing an extensive range of T2I APIs from the community. Our evaluations reveal that DiffAgent not only excels in identifying the appropriate T2I API but also underscores the effectiveness of the SFTA training framework. Codes are available at https://github.com/OpenGVLab/DiffAgent.",
+        "code": "https://github.com/OpenGVLab/DiffAgent",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.01342"
+    },
+    "4a545d9e08ef7641444abce3a33444ee": {
+        "title": "TraveLER: A Multi-LMM Agent Framework for Video Question-Answering",
+        "authors": [
+            "Chuyi Shang",
+            "Amos You",
+            "Sanjay Subramanian",
+            "Trevor Darrell",
+            "Roei Herzig"
+        ],
+        "date": "2024/04/01",
+        "pdf": "http://arxiv.org/pdf/2404.01476",
+        "abstract": "Recently, Large Multimodal Models (LMMs) have made significant progress in video question-answering using a frame-wise approach by leveraging large-scale, image-based pretraining in a zero-shot manner. While image-based methods for videos have shown impressive performance, a current limitation is that they often overlook how key timestamps are selected and cannot adjust when incorrect timestamps are identified. Moreover, they are unable to extract details relevant to the question, instead providing general descriptions of the frame. To overcome this, we design a multi-LMM agent framework that travels along the video, iteratively collecting relevant information from keyframes through interactive question-asking until there is sufficient information to answer the question. Specifically, we propose TraveLER, a model that can create a plan to &#34;Traverse&#34; through the video, ask questions about individual frames to &#34;Locate&#34; and store key information, and then &#34;Evaluate&#34; if there is enough information to answer the question. Finally, if there is not enough information, our method is able to &#34;Replan&#34; based on its collected knowledge. Through extensive experiments, we find that the proposed TraveLER approach improves performance on several video question-answering benchmarks, such as NExT-QA, STAR, and Perception Test, without the need to fine-tune on specific datasets.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.01476"
+    },
+    "13a2dcc1dde7c8d8aa2560b567b6a73b": {
+        "title": "DataAgent: Evaluating Large Language Models&#39; Ability to Answer Zero-Shot, Natural Language Queries",
+        "authors": [
+            "Manit Mishra",
+            "Abderrahman Braham",
+            "Charles Marsom",
+            "Bryan Chung",
+            "Gavin Griffin",
+            "Dakshesh Sidnerlikar",
+            "Chatanya Sarin",
+            "Arjun Rajaram"
+        ],
+        "date": "2024/03/29",
+        "pdf": "http://arxiv.org/pdf/2404.00188",
+        "abstract": "Conventional processes for analyzing datasets and extracting meaningful information are often time-consuming and laborious. Previous work has identified manual, repetitive coding and data collection as major obstacles that hinder data scientists from undertaking more nuanced labor and high-level projects. To combat this, we evaluated OpenAI&#39;s GPT-3.5 as a &#34;Language Data Scientist&#34; (LDS) that can extrapolate key findings, including correlations and basic information, from a given dataset. The model was tested on a diverse set of benchmark datasets to evaluate its performance across multiple standards, including data science code-generation based tasks involving libraries such as NumPy, Pandas, Scikit-Learn, and TensorFlow, and was broadly successful in correctly answering a given data science query related to the benchmark dataset. The LDS used various novel prompt engineering techniques to effectively answer a given question, including Chain-of-Thought reinforcement and SayCan prompt engineering. Our findings demonstrate great potential for leveraging Large Language Models for low-level, zero-shot data analysis.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.00188"
+    },
+    "f8ee0b1f0b3c9c1fea3d64bc0053aa66": {
+        "title": "AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent",
+        "authors": [
+            "Hanyu Lai",
+            "Xiao Liu",
+            "Iat Long Iong",
+            "Shuntian Yao",
+            "Yuxuan Chen",
+            "Pengbo Shen",
+            "Hao Yu",
+            "Hanchen Zhang",
+            "Xiaohan Zhang",
+            "Yuxiao Dong",
+            "Jie Tang"
+        ],
+        "date": "2024/04/04",
+        "pdf": "http://arxiv.org/pdf/2404.03648",
+        "abstract": "Large language models (LLMs) have fueled many intelligent agent tasks, such as web navigation -- but most existing agents perform far from satisfying in real-world webpages due to three factors: (1) the versatility of actions on webpages, (2) HTML text exceeding model processing capacity, and (3) the complexity of decision-making due to the open-domain nature of web. In light of the challenge, we develop AutoWebGLM, a GPT-4-outperforming automated web navigation agent built upon ChatGLM3-6B. Inspired by human browsing patterns, we design an HTML simplification algorithm to represent webpages, preserving vital information succinctly. We employ a hybrid human-AI method to build web browsing data for curriculum training. Then, we bootstrap the model by reinforcement learning and rejection sampling to further facilitate webpage comprehension, browser operations, and efficient task decomposition by itself. For testing, we establish a bilingual benchmark -- AutoWebBench -- for real-world web browsing tasks. We evaluate AutoWebGLM across diverse web navigation benchmarks, revealing its improvements but also underlying challenges to tackle real environments. Related code, model, and data will be released at \\url{https://github.com/THUDM/AutoWebGLM}.",
+        "code": "https://github.com/THUDM/AutoWebGLM",
+        "category": [
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2404.03648"
+    },
+    "c5a6769c1c0badbeb24b45a8b9e4b1d9": {
+        "title": "EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction",
+        "authors": [
+            "Siyu Yuan",
+            "Kaitao Song",
+            "Jiangjie Chen",
+            "Xu Tan",
+            "Yongliang Shen",
+            "Ren Kan",
+            "Dongsheng Li",
+            "Deqing Yang"
+        ],
+        "date": "2024/01/11",
+        "pdf": "http://arxiv.org/pdf/2401.06201",
+        "abstract": "To address intricate real-world tasks, there has been a rising interest in tool utilization in applications of large language models (LLMs). To develop LLM-based agents, it usually requires LLMs to understand many tool functions from different tool documentation. But these documentations could be diverse, redundant or incomplete, which immensely affects the capability of LLMs in using tools. To solve this, we introduce EASYTOOL, a framework transforming diverse and lengthy tool documentation into a unified and concise tool instruction for easier tool usage. EasyTool purifies essential information from extensive tool documentation of different sources, and elaborates a unified interface (i.e., tool instruction) to offer standardized tool descriptions and functionalities for LLM-based agents. Extensive experiments on multiple different tasks demonstrate that EasyTool can significantly reduce token consumption and improve the performance of tool utilization in real-world scenarios. Our code will be available at \\url{https://github.com/microsoft/JARVIS/} in the future.",
+        "code": "",
+        "category": [
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2401.06201"
+    },
+    "d6c196649bda278dff206fe125f58a0a": {
+        "title": "MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation",
+        "authors": [
+            "Yu Li",
+            "Shenyu Zhang",
+            "Rui Wu",
+            "Xiutian Huang",
+            "Yongrui Chen",
+            "Wenhao Xu",
+            "Guilin Qi",
+            "Dehai Min"
+        ],
+        "date": "2024/03/28",
+        "pdf": "http://arxiv.org/pdf/2403.19305",
+        "abstract": "Recent advancements in generative Large Language Models(LLMs) have been remarkable, however, the quality of the text generated by these models often reveals persistent issues. Evaluating the quality of text generated by these models, especially in open-ended text, has consistently presented a significant challenge. Addressing this, recent work has explored the possibility of using LLMs as evaluators. While using a single LLM as an evaluation agent shows potential, it is filled with significant uncertainty and instability. To address these issues, we propose the MATEval: A &#34;Multi-Agent Text Evaluation framework&#34; where all agents are played by LLMs like GPT-4. The MATEval framework emulates human collaborative discussion methods, integrating multiple agents&#39; interactions to evaluate open-ended text. Our framework incorporates self-reflection and Chain-of-Thought (CoT) strategies, along with feedback mechanisms, enhancing the depth and breadth of the evaluation process and guiding discussions towards consensus, while the framework generates comprehensive evaluation reports, including error localization, error types and scoring. Experimental results show that our framework outperforms existing open-ended text evaluation methods and achieves the highest correlation with human evaluation, which confirms the effectiveness and advancement of our framework in addressing the uncertainties and instabilities in evaluating LLMs-generated text. Furthermore, our framework significantly improves the efficiency of text evaluation and model iteration in industrial scenarios.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2403.19305"
+    },
+    "c1649f215b96688fccfcbc30d4e394e1": {
+        "title": "Enhancing the General Agent Capabilities of Low-Parameter LLMs through Tuning and Multi-Branch Reasoning",
+        "authors": [
+            "Qinhao Zhou",
+            "Zihan Zhang",
+            "Xiang Xiang",
+            "Ke Wang",
+            "Yuchuan Wu",
+            "Yongbin Li"
+        ],
+        "date": "2024/03/29",
+        "pdf": "http://arxiv.org/pdf/2403.19962",
+        "abstract": "Open-source pre-trained Large Language Models (LLMs) exhibit strong language understanding and generation capabilities, making them highly successful in a variety of tasks. However, when used as agents for dealing with complex problems in the real world, their performance is far inferior to large commercial models such as ChatGPT and GPT-4. As intelligent agents, LLMs need to have the capabilities of task planning, long-term memory, and the ability to leverage external tools to achieve satisfactory performance. Various methods have been proposed to enhance the agent capabilities of LLMs. On the one hand, methods involve constructing agent-specific data and fine-tuning the models. On the other hand, some methods focus on designing prompts that effectively activate the reasoning abilities of the LLMs. We explore both strategies on the 7B and 13B models. We propose a comprehensive method for constructing agent-specific data using GPT-4. Through supervised fine-tuning with constructed data, we find that for these models with a relatively small number of parameters, supervised fine-tuning can significantly reduce hallucination outputs and formatting errors in agent tasks. Furthermore, techniques such as multi-path reasoning and task decomposition can effectively decrease problem complexity and enhance the performance of LLMs as agents. We evaluate our method on five agent tasks of AgentBench and achieve satisfactory results.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning"
+        ],
+        "url": "https://arxiv.org/abs/2403.19962"
+    },
+    "ca90b46ea8556ad2018c64fe4bb59682": {
+        "title": "ITCMA: A Generative Agent Based on a Computational Consciousness Structure",
+        "authors": [
+            "Hanzhong Zhang",
+            "Jibin Yin",
+            "Haoyang Wang",
+            "Ziwei Xiang"
+        ],
+        "date": "2024/03/29",
+        "pdf": "http://arxiv.org/pdf/2403.20097",
+        "abstract": "Large Language Models (LLMs) still face challenges in tasks requiring understanding implicit instructions and applying common-sense knowledge. In such scenarios, LLMs may require multiple attempts to achieve human-level performance, potentially leading to inaccurate responses or inferences in practical environments, affecting their long-term consistency and behavior. This paper introduces the Internal Time-Consciousness Machine (ITCM), a computational consciousness structure. We further propose the ITCM-based Agent (ITCMA), which supports behavior generation and reasoning in open-world settings. ITCMA enhances LLMs&#39; ability to understand implicit instructions and apply common-sense knowledge by considering agents&#39; interaction and reasoning with the environment. Evaluations in the Alfworld environment show that trained ITCMA outperforms the state-of-the-art (SOTA) by 9% on the seen set. Even untrained ITCMA achieves a 96% task completion rate on the seen set, 5% higher than SOTA, indicating its superiority over traditional intelligent agents in utility and generalization. In real-world tasks with quadruped robots, the untrained ITCMA achieves an 85% task completion rate, which is close to its performance in the unseen set, demonstrating its comparable utility in real-world settings.",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation&Framework"
+        ],
+        "url": "https://arxiv.org/abs/2403.20097"
     }
 }

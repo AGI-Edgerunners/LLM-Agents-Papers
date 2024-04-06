@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/3/27
+Last Updated Time: 2024/4/6
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -48,6 +48,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
+	- [2024/04/02] **CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models** | [[paper]](https://arxiv.org/abs/2404.01663) | [code]
+
+	- [2024/03/29] **Enhancing the General Agent Capabilities of Low-Parameter LLMs through Tuning and Multi-Branch Reasoning** | [[paper]](https://arxiv.org/abs/2403.19962) | [code]
+
 	- [2024/03/21] **ReAct Meets ActRe: Autonomous Annotation of Agent Trajectories for Contrastive Self-Training** | [[paper]](https://arxiv.org/abs/2403.14589) | [code]
 
 	- [2024/03/19] **Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models** | [[paper]](https://arxiv.org/abs/2403.12881) | [code]
@@ -74,6 +78,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/12/20] **Machine Mindset: An MBTI Exploration of Large Language Models** | [[paper]](https://arxiv.org/abs/2312.12999) | [[code]](https://github.com/PKU-YuanGroup/Machine-Mindset)
 
+	- [2023/11/28] **Embodied Multi-Modal Agent trained by an LLM from a Parallel TextWorld** | [[paper]](https://arxiv.org/abs/2311.16714) | [code]
+
 	- [2023/10/19] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** | [[paper]](https://arxiv.org/abs/2310.12823) | [[code]](https://github.com/THUDM/AgentTuning)
 
 	- [2023/10/09] **FireAct: Toward Language Agent Fine-tuning** | [[paper]](https://arxiv.org/abs/2310.05915) | [[code]](https://github.com/anchen1011/FireAct)
@@ -82,6 +88,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2024/03/31] **DiffAgent: Fast and Accurate Text-to-Image API Selection with Large Language Model** | [[paper]](https://arxiv.org/abs/2404.01342) | [[code]](https://github.com/OpenGVLab/DiffAgent)
+
+	- [2024/03/29] **DataAgent: Evaluating Large Language Models&#39; Ability to Answer Zero-Shot, Natural Language Queries** | [[paper]](https://arxiv.org/abs/2404.00188) | [code]
+
 	- [2024/03/22] **CACA Agent: Capability Collaboration based AI Agent** | [[paper]](https://arxiv.org/abs/2403.15137) | [code]
 
 	- [2024/03/19] **Characteristic AI Agents via Large Language Models** | [[paper]](https://arxiv.org/abs/2403.12368) | [code]
@@ -222,6 +232,16 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent System
+	- [2024/04/03] **Learn to Disguise: Avoid Refusal Responses in LLM&#39;s Defense via a Multi-agent Attacker-Disguiser Game** | [[paper]](https://arxiv.org/abs/2404.02532) | [code]
+
+	- [2024/04/02] **Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization** | [[paper]](https://arxiv.org/abs/2404.02183) | [code]
+
+	- [2024/04/02] **CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models** | [[paper]](https://arxiv.org/abs/2404.01663) | [code]
+
+	- [2024/04/01] **TraveLER: A Multi-LMM Agent Framework for Video Question-Answering** | [[paper]](https://arxiv.org/abs/2404.01476) | [code]
+
+	- [2024/03/28] **MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation** | [[paper]](https://arxiv.org/abs/2403.19305) | [code]
+
 	- [2024/03/21] **Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering** | [[paper]](https://arxiv.org/abs/2403.14783) | [code]
 
 	- [2024/03/20] **Agent Group Chat: An Interactive Group Chat Simulacra For Better Eliciting Collective Emergent Behavior** | [[paper]](https://arxiv.org/abs/2403.13433) | [code]
@@ -444,6 +464,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Game Playing
+	- [2024/04/03] **Learn to Disguise: Avoid Refusal Responses in LLM&#39;s Defense via a Multi-agent Attacker-Disguiser Game** | [[paper]](https://arxiv.org/abs/2404.02532) | [code]
+
 	- [2024/03/26] **Sharing the Cost of Success: A Game for Evaluating and Learning Collaborative Multi-Agent Instruction Giving and Following Policies** | [[paper]](https://arxiv.org/abs/2403.17497) | [[code]](https://github.com/clp-research/cost-sharing-reference-game)
 
 	- [2024/02/19] **LLM Agents for Psychology: A Study on Gamified Assessments** | [[paper]](https://arxiv.org/abs/2402.12326) | [code]
@@ -498,6 +520,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2024/03/29] **ITCMA: A Generative Agent Based on a Computational Consciousness Structure** | [[paper]](https://arxiv.org/abs/2403.20097) | [code]
+
 	- [2024/03/20] **RoleInteract: Evaluating the Social Interaction of Role-Playing Agents** | [[paper]](https://arxiv.org/abs/2403.13679) | [code]
 
 	- [2024/03/18] **How Far Are We on the Decision-Making of LLMs? Evaluating LLMs&#39; Gaming Ability in Multi-Agent Environments** | [[paper]](https://arxiv.org/abs/2403.11807) | [code]
@@ -566,6 +590,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Tool Usage&Human-Agent Interaction
+	- [2024/04/04] **AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent** | [[paper]](https://arxiv.org/abs/2404.03648) | [[code]](https://github.com/THUDM/AutoWebGLM)
+
 	- [2024/03/12] **AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production** | [[paper]](https://arxiv.org/abs/2403.07952) | [code]
 
 	- [2024/03/05] **InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents** | [[paper]](https://arxiv.org/abs/2403.02691) | [code]
@@ -597,6 +623,8 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2024/02/08] **UFO: A UI-Focused Agent for Windows OS Interaction** | [[paper]](https://arxiv.org/abs/2402.07939) | [code]
 
 	- [2024/02/06] **AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls** | [[paper]](https://arxiv.org/abs/2402.04253) | [[code]](https://github.com/dyabel/anytool)
+
+	- [2024/01/11] **EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction** | [[paper]](https://arxiv.org/abs/2401.06201) | [code]
 
 	- [2024/01/03] **GPT-4V(ision) is a Generalist Web Agent, if Grounded** | [[paper]](https://arxiv.org/abs/2401.01614) | [code]
 
