@@ -241,8 +241,10 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2024/04/01] **TraveLER: A Multi-LMM Agent Framework for Video Question-Answering** | [[paper]](https://arxiv.org/abs/2404.01476) | [code]
 
 	- [2024/03/28] **MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation** | [[paper]](https://arxiv.org/abs/2403.19305) | [code]
-
-	- [2024/03/21] **Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering** | [[paper]](https://arxiv.org/abs/2403.14783) | [code]
+  
+  - [2024/03/26] **MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution** | [[paper]](https://arxiv.org/abs/2403.17927) | [code]
+	
+  - [2024/03/21] **Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering** | [[paper]](https://arxiv.org/abs/2403.14783) | [code]
 
 	- [2024/03/20] **Agent Group Chat: An Interactive Group Chat Simulacra For Better Eliciting Collective Emergent Behavior** | [[paper]](https://arxiv.org/abs/2403.13433) | [code]
 
