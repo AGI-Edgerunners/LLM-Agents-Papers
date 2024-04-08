@@ -36,6 +36,11 @@
         "name": "woooodyy/llm-agent-paper-list",
         "url": "https://github.com/woooodyy/llm-agent-paper-list",
         "description": "Must-read papers for LLM-based agents."
+      },
+      {
+        "name": "git-disl/awesome-LLM-game-agent-papers",
+        "url": "https://github.com/git-disl/awesome-LLM-game-agent-papers",
+        "description": "Must-read papers for LLM-based Game agents."
       }
     ]
   },

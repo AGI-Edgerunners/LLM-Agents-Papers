@@ -2897,5 +2897,59 @@
             "Multi-Agent System"
         ],
         "url": "https://arxiv.org/abs/2403.17927"
+    },
+    "6037287a594e3e33c4df8c55a9261097": {
+        "title": "Cleared for Takeoff? Compositional &amp; Conditional Reasoning may be the Achilles Heel to (Flight-Booking) Language Agents",
+        "authors": [
+            "Harsh Kohli",
+            "Huan Sun"
+        ],
+        "date": "2024/04/05",
+        "pdf": "http://arxiv.org/pdf/2404.04237",
+        "abstract": "The rapid progress of large language models (LLMs) has seen them excel and frequently surpass human performance on standard benchmarks. This has enabled many downstream applications, such as LLM agents, to rely on their sophisticated reasoning to navigate complex task requirements. However, LLMs are known to unexpectedly falter in simple tasks and under seemingly straightforward circumstances - underscoring the need for better and more diverse evaluation setups to measure their true capabilities. To this end, we choose to study compositional and conditional reasoning, two cornerstones of human cognition, and introduce GroundCocoa - a lexically diverse benchmark connecting these reasoning skills to the real-world problem of flight booking. Our task involves aligning detailed user preferences with available flight options presented in a multiple-choice format. Results indicate a significant disparity in performance among current state-of-the-art LLMs with even the best performing model, GPT-4 Turbo, not exceeding 67% accuracy despite advanced prompting techniques.",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation&Framework"
+        ],
+        "url": "https://arxiv.org/abs/2404.04237"
+    },
+    "95468202e69deb8c7b13b4296cb1384f": {
+        "title": "Social Skill Training with Large Language Models",
+        "authors": [
+            "Diyi Yang",
+            "Caleb Ziems",
+            "William Held",
+            "Omar Shaikh",
+            "Michael S. Bernstein",
+            "John Mitchell"
+        ],
+        "date": "2024/04/05",
+        "pdf": "http://arxiv.org/pdf/2404.04204",
+        "abstract": "People rely on social skills like conflict resolution to communicate effectively and to thrive in both work and personal life. However, practice environments for social skills are typically out of reach for most people. How can we make social skill training more available, accessible, and inviting? Drawing upon interdisciplinary research from communication and psychology, this perspective paper identifies social skill barriers to enter specialized fields. Then we present a solution that leverages large language models for social skill training via a generic framework. Our AI Partner, AI Mentor framework merges experiential learning with realistic practice and tailored feedback. This work ultimately calls for cross-disciplinary innovation to address the broader implications for workforce development and social equality.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning"
+        ],
+        "url": "https://arxiv.org/abs/2404.04204"
+    },
+    "5e8a9349f5f9f58e294e0558b604cbf4": {
+        "title": "A Survey on Large Language Model-Based Game Agents",
+        "authors": [
+            "Sihao Hu",
+            "Tiansheng Huang",
+            "Fatih Ilhan",
+            "Selim Tekin",
+            "Gaowen Liu",
+            "Ramana Kompella",
+            "Ling Liu"
+        ],
+        "date": "2024/04/02",
+        "pdf": "http://arxiv.org/pdf/2404.02039",
+        "abstract": "The development of game agents holds a critical role in advancing towards Artificial General Intelligence (AGI). The progress of LLMs and their multimodal counterparts (MLLMs) offers an unprecedented opportunity to evolve and empower game agents with human-like decision-making capabilities in complex computer game environments. This paper provides a comprehensive overview of LLM-based game agents from a holistic viewpoint. First, we introduce the conceptual architecture of LLM-based game agents, centered around six essential functional components: perception, memory, thinking, role-playing, action, and learning. Second, we survey existing representative LLM-based game agents documented in the literature with respect to methodologies and adaptation agility across six genres of games, including adventure, communication, competition, cooperation, simulation, and crafting &amp; exploration games. Finally, we present an outlook of future research and development directions in this burgeoning field. A curated list of relevant papers is maintained and made accessible at: https://github.com/git-disl/awesome-LLM-game-agent-papers.",
+        "code": "https://github.com/git-disl/awesome-LLM-game-agent-papers",
+        "category": [
+            "Survey"
+        ],
+        "url": "https://arxiv.org/abs/2404.02039"
     }
 }

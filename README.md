@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/4/6
+Last Updated Time: 2024/4/8
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -16,9 +16,12 @@ For more comprehensive reading, we also recommend other paper lists:
 * [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers): This is a collection of research papers for Self-Correcting Large Language Models with Automated Feedback.
 * [Paitesanshi/LLM-Agent-Survey](https://github.com/Paitesanshi/LLM-Agent-Survey): A Survey on LLM-based Autonomous Agents.
 * [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list): Must-read papers for LLM-based agents.
+* [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers): Must-read papers for LLM-based Game agents.
 ## :newspaper: Papers
 - Survey
 	- [2024/04/03] **Empowering Biomedical Discovery with AI Agents** | [[paper]](https://arxiv.org/abs/2404.02831) | [code]
+
+	- [2024/04/02] **A Survey on Large Language Model-Based Game Agents** | [[paper]](https://arxiv.org/abs/2404.02039) | [[code]](https://github.com/git-disl/awesome-LLM-game-agent-papers)
 
 	- [2024/03/07] **Promising and worth-to-try future directions for advancing state-of-the-art surrogates methods of agent-based models in social and health computational sciences** | [[paper]](https://arxiv.org/abs/2403.04417) | [code]
 
@@ -50,6 +53,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
+	- [2024/04/05] **Social Skill Training with Large Language Models** | [[paper]](https://arxiv.org/abs/2404.04204) | [code]
+
 	- [2024/04/02] **CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models** | [[paper]](https://arxiv.org/abs/2404.01663) | [code]
 
 	- [2024/03/29] **Enhancing the General Agent Capabilities of Low-Parameter LLMs through Tuning and Multi-Branch Reasoning** | [[paper]](https://arxiv.org/abs/2403.19962) | [code]
@@ -524,6 +529,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2024/04/05] **Cleared for Takeoff? Compositional &amp; Conditional Reasoning may be the Achilles Heel to (Flight-Booking) Language Agents** | [[paper]](https://arxiv.org/abs/2404.04237) | [code]
+
 	- [2024/03/29] **ITCMA: A Generative Agent Based on a Computational Consciousness Structure** | [[paper]](https://arxiv.org/abs/2403.20097) | [code]
 
 	- [2024/03/20] **RoleInteract: Evaluating the Social Interaction of Role-Playing Agents** | [[paper]](https://arxiv.org/abs/2403.13679) | [code]
