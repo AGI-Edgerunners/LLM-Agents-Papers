@@ -2951,5 +2951,87 @@
             "Survey"
         ],
         "url": "https://arxiv.org/abs/2404.02039"
+    },
+    "6871dbd47b870df8b8c81d0776a86b40": {
+        "title": "360{\\deg}REA: Towards A Reusable Experience Accumulation with 360{\\deg} Assessment for Multi-Agent System",
+        "authors": [
+            "Shen Gao",
+            "Hao Li",
+            "Zhengliang Shi",
+            "Chengrui Huang",
+            "Quan Tu",
+            "Zhiliang Tian",
+            "Minlie Huang",
+            "Shuo Shang"
+        ],
+        "date": "2024/04/08",
+        "pdf": "http://arxiv.org/pdf/2404.05569",
+        "abstract": "Large language model agents have demonstrated remarkable advancements across various complex tasks. Recent works focus on optimizing the agent team or employing self-reflection to iteratively solve complex tasks. Since these agents are all based on the same LLM, only conducting self-evaluation or removing underperforming agents does not substantively enhance the capability of the agents. We argue that a comprehensive evaluation and accumulating experience from evaluation feedback is an effective approach to improving system performance. In this paper, we propose Reusable Experience Accumulation with 360{\\deg} Assessment (360{\\deg}REA), a hierarchical multi-agent framework inspired by corporate organizational practices. The framework employs a novel 360{\\deg} performance assessment method for multi-perspective performance evaluation with fine-grained assessment. To enhance the capability of agents in addressing complex tasks, we introduce dual-level experience pool for agents to accumulate experience through fine-grained assessment. Extensive experiments on complex task datasets demonstrate the effectiveness of 360{\\deg}REA.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.05569"
+    },
+    "0cfb4e05bac6b3386a7765e13cc10d48": {
+        "title": "Large Language Models to the Rescue: Deadlock Resolution in Multi-Robot Systems",
+        "authors": [
+            "Kunal Garg",
+            "Jacob Arkin",
+            "Songyuan Zhang",
+            "Nicholas Roy",
+            "Chuchu Fan"
+        ],
+        "date": "2024/04/09",
+        "pdf": "http://arxiv.org/pdf/2404.06413",
+        "abstract": "Multi-agent robotic systems are prone to deadlocks in an obstacle environment where the system can get stuck away from its desired location under a smooth low-level control policy. Without an external intervention, often in terms of a high-level command, it is not possible to guarantee that just a low-level control policy can resolve such deadlocks. Utilizing the generalizability and low data requirements of large language models (LLMs), this paper explores the possibility of using LLMs for deadlock resolution. We propose a hierarchical control framework where an LLM resolves deadlocks by assigning a leader and direction for the leader to move along. A graph neural network (GNN) based low-level distributed control policy executes the assigned plan. We systematically study various prompting techniques to improve LLM&#39;s performance in resolving deadlocks. In particular, as part of prompt engineering, we provide in-context examples for LLMs. We conducted extensive experiments on various multi-robot environments with up to 15 agents and 40 obstacles. Our results demonstrate that LLM-based high-level planners are effective in resolving deadlocks in MRS.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.06413"
+    },
+    "d495dbace9bd6c2bbbbc13da7e2af198": {
+        "title": "AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents",
+        "authors": [
+            "Luca Gioacchini",
+            "Giuseppe Siracusano",
+            "Davide Sanvito",
+            "Kiril Gashteovski",
+            "David Friede",
+            "Roberto Bifulco",
+            "Carolin Lawrence"
+        ],
+        "date": "2024/04/09",
+        "pdf": "http://arxiv.org/pdf/2404.06411",
+        "abstract": "The advances made by Large Language Models (LLMs) have led to the pursuit of LLM agents that can solve intricate, multi-step reasoning tasks. As with any research pursuit, benchmarking and evaluation are key corner stones to efficient and reliable progress. However, existing benchmarks are often narrow and simply compute overall task success. To face these issues, we propose AgentQuest -- a framework where (i) both benchmarks and metrics are modular and easily extensible through well documented and easy-to-use APIs; (ii) we offer two new evaluation metrics that can reliably track LLM agent progress while solving a task. We exemplify the utility of the metrics on two use cases wherein we identify common failure points and refine the agent architecture to obtain a significant performance increase. Together with the research community, we hope to extend AgentQuest further and therefore we make it available under https://github.com/nec-research/agentquest.",
+        "code": "https://github.com/nec-research/agentquest",
+        "category": [
+            "Benchmark&Evaluation&Framework"
+        ],
+        "url": "https://arxiv.org/abs/2404.06411"
+    },
+    "3919bfea394e8ef4c0ad613ffd0bd296": {
+        "title": "SurveyAgent: A Conversational System for Personalized and Efficient Research Survey",
+        "authors": [
+            "Xintao Wang",
+            "Jiangjie Chen",
+            "Nianqi Li",
+            "Lida Chen",
+            "Xinfeng Yuan",
+            "Wei Shi",
+            "Xuyang Ge",
+            "Rui Xu",
+            "Yanghua Xiao"
+        ],
+        "date": "2024/04/09",
+        "pdf": "http://arxiv.org/pdf/2404.06364",
+        "abstract": "In the rapidly advancing research fields such as AI, managing and staying abreast of the latest scientific literature has become a significant challenge for researchers. Although previous efforts have leveraged AI to assist with literature searches, paper recommendations, and question-answering, a comprehensive support system that addresses the holistic needs of researchers has been lacking. This paper introduces SurveyAgent, a novel conversational system designed to provide personalized and efficient research survey assistance to researchers. SurveyAgent integrates three key modules: Knowledge Management for organizing papers, Recommendation for discovering relevant literature, and Query Answering for engaging with content on a deeper level. This system stands out by offering a unified platform that supports researchers through various stages of their literature review process, facilitated by a conversational interface that prioritizes user interaction and personalization. Our evaluation demonstrates SurveyAgent&#39;s effectiveness in streamlining research activities, showcasing its capability to facilitate how researchers interact with scientific literature.",
+        "code": "",
+        "category": [
+            "Role Playing",
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2404.06364"
     }
 }

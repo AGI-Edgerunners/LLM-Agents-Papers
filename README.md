@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/4/8
+Last Updated Time: 2024/4/11
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -95,6 +95,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2024/04/09] **SurveyAgent: A Conversational System for Personalized and Efficient Research Survey** | [[paper]](https://arxiv.org/abs/2404.06364) | [code]
+
 	- [2024/03/31] **DiffAgent: Fast and Accurate Text-to-Image API Selection with Large Language Model** | [[paper]](https://arxiv.org/abs/2404.01342) | [[code]](https://github.com/OpenGVLab/DiffAgent)
 
 	- [2024/03/29] **DataAgent: Evaluating Large Language Models&#39; Ability to Answer Zero-Shot, Natural Language Queries** | [[paper]](https://arxiv.org/abs/2404.00188) | [code]
@@ -239,6 +241,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent System
+	- [2024/04/09] **Large Language Models to the Rescue: Deadlock Resolution in Multi-Robot Systems** | [[paper]](https://arxiv.org/abs/2404.06413) | [code]
+
+	- [2024/04/08] **360{\deg}REA: Towards A Reusable Experience Accumulation with 360{\deg} Assessment for Multi-Agent System** | [[paper]](https://arxiv.org/abs/2404.05569) | [code]
+
 	- [2024/04/03] **Learn to Disguise: Avoid Refusal Responses in LLM&#39;s Defense via a Multi-agent Attacker-Disguiser Game** | [[paper]](https://arxiv.org/abs/2404.02532) | [code]
 
 	- [2024/04/02] **Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization** | [[paper]](https://arxiv.org/abs/2404.02183) | [code]
@@ -529,6 +535,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2024/04/09] **AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents** | [[paper]](https://arxiv.org/abs/2404.06411) | [[code]](https://github.com/nec-research/agentquest)
+
 	- [2024/04/05] **Cleared for Takeoff? Compositional &amp; Conditional Reasoning may be the Achilles Heel to (Flight-Booking) Language Agents** | [[paper]](https://arxiv.org/abs/2404.04237) | [code]
 
 	- [2024/03/29] **ITCMA: A Generative Agent Based on a Computational Consciousness Structure** | [[paper]](https://arxiv.org/abs/2403.20097) | [code]
@@ -601,6 +609,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Tool Usage&Human-Agent Interaction
+	- [2024/04/09] **SurveyAgent: A Conversational System for Personalized and Efficient Research Survey** | [[paper]](https://arxiv.org/abs/2404.06364) | [code]
+
 	- [2024/04/04] **AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent** | [[paper]](https://arxiv.org/abs/2404.03648) | [[code]](https://github.com/THUDM/AutoWebGLM)
 
 	- [2024/03/12] **AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production** | [[paper]](https://arxiv.org/abs/2403.07952) | [code]
