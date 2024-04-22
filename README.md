@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/4/11
+Last Updated Time: 2024/4/22
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -19,6 +19,10 @@ For more comprehensive reading, we also recommend other paper lists:
 * [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers): Must-read papers for LLM-based Game agents.
 ## :newspaper: Papers
 - Survey
+	- [2024/04/17] **The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey** | [[paper]](https://arxiv.org/abs/2404.11584) | [code]
+
+	- [2024/04/17] **Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions** | [[paper]](https://arxiv.org/abs/2404.11023) | [code]
+
 	- [2024/04/03] **Empowering Biomedical Discovery with AI Agents** | [[paper]](https://arxiv.org/abs/2404.02831) | [code]
 
 	- [2024/04/02] **A Survey on Large Language Model-Based Game Agents** | [[paper]](https://arxiv.org/abs/2404.02039) | [[code]](https://github.com/git-disl/awesome-LLM-game-agent-papers)
@@ -53,6 +57,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
+	- [2024/04/16] **Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2404.10887) | [code]
+
 	- [2024/04/05] **Social Skill Training with Large Language Models** | [[paper]](https://arxiv.org/abs/2404.04204) | [code]
 
 	- [2024/04/02] **CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models** | [[paper]](https://arxiv.org/abs/2404.01663) | [code]
@@ -95,11 +101,19 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2024/04/19] **Cooperative Sentiment Agents for Multimodal Sentiment Analysis** | [[paper]](https://arxiv.org/abs/2404.12642) | [[code]](https://github.com/smwanghhh/co-sa)
+
+	- [2024/04/19] **Towards Human-centered Proactive Conversational Agents** | [[paper]](https://arxiv.org/abs/2404.12670) | [code]
+
+	- [2024/04/10] **Apollonion: Profile-centric Dialog Agent** | [[paper]](https://arxiv.org/abs/2404.08692) | [code]
+
 	- [2024/04/09] **SurveyAgent: A Conversational System for Personalized and Efficient Research Survey** | [[paper]](https://arxiv.org/abs/2404.06364) | [code]
 
 	- [2024/03/31] **DiffAgent: Fast and Accurate Text-to-Image API Selection with Large Language Model** | [[paper]](https://arxiv.org/abs/2404.01342) | [[code]](https://github.com/OpenGVLab/DiffAgent)
 
 	- [2024/03/29] **DataAgent: Evaluating Large Language Models&#39; Ability to Answer Zero-Shot, Natural Language Queries** | [[paper]](https://arxiv.org/abs/2404.00188) | [code]
+
+	- [2024/03/23] **EduAgent: Generative Student Agents in Learning** | [[paper]](https://arxiv.org/abs/2404.07963) | [code]
 
 	- [2024/03/22] **CACA Agent: Capability Collaboration based AI Agent** | [[paper]](https://arxiv.org/abs/2403.15137) | [code]
 
@@ -241,9 +255,17 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent System
+	- [2024/04/14] **Confidence Calibration and Rationalization for LLMs via Multi-Agent Deliberation** | [[paper]](https://arxiv.org/abs/2404.09127) | [code]
+
+	- [2024/04/12] **Leveraging Multi-AI Agents for Cross-Domain Knowledge Discovery** | [[paper]](https://arxiv.org/abs/2404.08511) | [code]
+
+	- [2024/04/10] **MathVC: An LLM-Simulated Multi-Character Virtual Classroom for Mathematics Education** | [[paper]](https://arxiv.org/abs/2404.06711) | [code]
+
 	- [2024/04/09] **Large Language Models to the Rescue: Deadlock Resolution in Multi-Robot Systems** | [[paper]](https://arxiv.org/abs/2404.06413) | [code]
 
 	- [2024/04/08] **360{\deg}REA: Towards A Reusable Experience Accumulation with 360{\deg} Assessment for Multi-Agent System** | [[paper]](https://arxiv.org/abs/2404.05569) | [code]
+
+	- [2024/04/06] **MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems** | [[paper]](https://arxiv.org/abs/2404.04735) | [[code]](https://github.com/bin123apple/macm)
 
 	- [2024/04/03] **Learn to Disguise: Avoid Refusal Responses in LLM&#39;s Defense via a Multi-agent Attacker-Disguiser Game** | [[paper]](https://arxiv.org/abs/2404.02532) | [code]
 
@@ -377,6 +399,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Memory Mechanism
+	- [2024/04/15] **Memory Sharing for Large Language Model based Agents** | [[paper]](https://arxiv.org/abs/2404.09982) | [[code]](https://github.com/GHupppp/MemorySharingLLM)
+
 	- [2024/02/27] **Evaluating Very Long-Term Conversational Memory of LLM Agents** | [[paper]](https://arxiv.org/abs/2402.17753) | [code]
 
 	- [2024/02/19] **Compress to Impress: Unleashing the Potential of Compressive Memory in Real-World Long-Term Conversations** | [[paper]](https://arxiv.org/abs/2402.11975) | [code]
@@ -529,12 +553,20 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Game Platform
+	- [2024/03/28] **MineLand: Simulating Large-Scale Multi-Agent Interactions with Limited Multimodal Senses and Physical Needs** | [[paper]](https://arxiv.org/abs/2403.19267) | [[code]](https://github.com/cocacola-lab/mineland)
+
 	- [2024/03/26] **Sharing the Cost of Success: A Game for Evaluating and Learning Collaborative Multi-Agent Instruction Giving and Following Policies** | [[paper]](https://arxiv.org/abs/2403.17497) | [[code]](https://github.com/clp-research/cost-sharing-reference-game)
 
 	- [2023/03/14] **CB2: Collaborative Natural Language Interaction Research Platform** | [[paper]](https://arxiv.org/abs/2303.08127) | [[code]](https://github.com/lil-lab/cb2)
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2024/04/15] **MMInA: Benchmarking Multihop Multimodal Internet Agents** | [[paper]](https://arxiv.org/abs/2404.09992) | [[code]](https://github.com/shulin16/mmina)
+
+	- [2024/04/11] **OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments** | [[paper]](https://arxiv.org/abs/2404.07972) | [code]
+
+	- [2024/04/11] **Behavior Trees Enable Structured Programming of Language Model Agents** | [[paper]](https://arxiv.org/abs/2404.07439) | [[code]](https://github.com/RichardKelley/dendron)
+
 	- [2024/04/09] **AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents** | [[paper]](https://arxiv.org/abs/2404.06411) | [[code]](https://github.com/nec-research/agentquest)
 
 	- [2024/04/05] **Cleared for Takeoff? Compositional &amp; Conditional Reasoning may be the Achilles Heel to (Flight-Booking) Language Agents** | [[paper]](https://arxiv.org/abs/2404.04237) | [code]
@@ -609,6 +641,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Tool Usage&Human-Agent Interaction
+	- [2024/04/16] **Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2404.10887) | [code]
+
 	- [2024/04/09] **SurveyAgent: A Conversational System for Personalized and Efficient Research Survey** | [[paper]](https://arxiv.org/abs/2404.06364) | [code]
 
 	- [2024/04/04] **AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent** | [[paper]](https://arxiv.org/abs/2404.03648) | [[code]](https://github.com/THUDM/AutoWebGLM)

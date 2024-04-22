@@ -3033,5 +3033,285 @@
             "Tool Usage&Human-Agent Interaction"
         ],
         "url": "https://arxiv.org/abs/2404.06364"
+    },
+    "6cff9e7aba238d85b3a23a95296ae8b2": {
+        "title": "Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning",
+        "authors": [
+            "Moghis Fereidouni",
+            "A. B. Siddique"
+        ],
+        "date": "2024/04/16",
+        "pdf": "http://arxiv.org/pdf/2404.10887",
+        "abstract": "Traditional search systems focus on query formulation for effective results but face challenges in scenarios such as product searches where crucial product details (e.g., size, color) remain concealed until users visit specific product pages. This highlights the need for intelligent web navigation agents capable of formulating queries and navigating web pages according to users&#39; high-level intents. In response to this need, this work introduces a Grounded Language Agent for Intelligent Web Interactions, called GLAINTEL. Drawing upon advancements in language modeling and reinforcement learning, GLAINTEL investigates the efficacy of transformer-based models in enhancing the search capabilities of interactive web environments. Given the dynamic action space for each state in web navigation, GLAINTEL employs the Flan-T5 architecture and incorporates language modeling and value estimation heads. This work focuses on training smaller language models as agents across various scenarios, systematically evaluating the impact of human demonstrations on the training process. Specifically, we investigate scenarios where no human demonstrations are available and subsequently assess the effective utilization of such demonstrations. We also explore unsupervised domain adaptation for situations where demonstrations are confined to a specific domain. Experimental evaluations across diverse setups demonstrate the effectiveness of training agents in unsupervised settings, outperforming in-context learning-based approaches that employ larger models with up to 540 billion parameters. Surprisingly, behavioral cloning-based methods that straightforwardly use human demonstrations do not outperform unsupervised learning-based methods. Additionally, combining human demonstrations with Reinforcement Learning-based training yields results comparable to models utilizing GPT-4.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning",
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2404.10887"
+    },
+    "6429fc4c2cf6413ca87d31ea50fa16af": {
+        "title": "The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey",
+        "authors": [
+            "Tula Masterman",
+            "Sandi Besen",
+            "Mason Sawtell",
+            "Alex Chao"
+        ],
+        "date": "2024/04/17",
+        "pdf": "http://arxiv.org/pdf/2404.11584",
+        "abstract": "This survey paper examines the recent advancements in AI agent implementations, with a focus on their ability to achieve complex goals that require enhanced reasoning, planning, and tool execution capabilities. The primary objectives of this work are to a) communicate the current capabilities and limitations of existing AI agent implementations, b) share insights gained from our observations of these systems in action, and c) suggest important considerations for future developments in AI agent design. We achieve this by providing overviews of single-agent and multi-agent architectures, identifying key patterns and divergences in design choices, and evaluating their overall impact on accomplishing a provided goal. Our contribution outlines key themes when selecting an agentic architecture, the impact of leadership on agent systems, agent communication styles, and key phases for planning, execution, and reflection that enable robust AI agent systems.",
+        "code": "",
+        "category": [
+            "Survey"
+        ],
+        "url": "https://arxiv.org/abs/2404.11584"
+    },
+    "41737985bf67ad09153b971991bed0bd": {
+        "title": "Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions",
+        "authors": [
+            "Leena Mathur",
+            "Paul Pu Liang",
+            "Louis-Philippe Morency"
+        ],
+        "date": "2024/04/17",
+        "pdf": "http://arxiv.org/pdf/2404.11023",
+        "abstract": "Building socially-intelligent AI agents (Social-AI) is a multidisciplinary, multimodal research goal that involves creating agents that can sense, perceive, reason about, learn from, and respond to affect, behavior, and cognition of other agents (human or artificial). Progress towards Social-AI has accelerated in the past decade across several computing communities, including natural language processing, machine learning, robotics, human-machine interaction, computer vision, and speech. Natural language processing, in particular, has been prominent in Social-AI research, as language plays a key role in constructing the social world. In this position paper, we identify a set of underlying technical challenges and open questions for researchers across computing communities to advance Social-AI. We anchor our discussion in the context of social intelligence concepts and prior progress in Social-AI research.",
+        "code": "",
+        "category": [
+            "Survey"
+        ],
+        "url": "https://arxiv.org/abs/2404.11023"
+    },
+    "035610ab3e24c6452439d97d8816f74b": {
+        "title": "Memory Sharing for Large Language Model based Agents",
+        "authors": [
+            "Hang Gao",
+            "Yongfeng Zhang"
+        ],
+        "date": "2024/04/15",
+        "pdf": "http://arxiv.org/pdf/2404.09982",
+        "abstract": "In the realm of artificial intelligence, the adaptation of Large Language Model (LLM)-based agents to execute tasks via natural language prompts represents a significant advancement, notably eliminating the need for explicit retraining or fine tuning for fixed-answer tasks such as common sense questions and yes/no queries. However, the application of In-context Learning to open-ended challenges, such as poetry creation, reveals substantial limitations due to the comprehensiveness of the provided examples and agent&#39;s ability to understand the content expressed in the problem, leading to outputs that often diverge significantly from expected results. Addressing this gap, our study introduces the Memory-Sharing (MS) framework for LLM multi-agents, which utilizes a real-time memory storage and retrieval system to enhance the In-context Learning process. Each &#34;memory&#34; within this system captures both the posed query and the corresponding real-time response from an LLM-based agent, aggregating these memories from a broad spectrum of similar agents to enrich the memory pool shared by all agents. This framework not only aids agents in identifying the most relevant examples for specific tasks but also evaluates the potential utility of their memories for future applications by other agents. Empirical validation across three distinct domains involving specialized functions of agents demonstrates that the MS framework significantly improve the agent&#39;s performance regrading the open-ended questions. Furthermore, we also discuss what type of memory pool and what retrieval strategy in MS can better help agents, offering a future develop direction of MS. The code and data are available at: https://github.com/GHupppp/MemorySharingLLM",
+        "code": "https://github.com/GHupppp/MemorySharingLLM",
+        "category": [
+            "Memory Mechanism"
+        ],
+        "url": "https://arxiv.org/abs/2404.09982"
+    },
+    "50229be1bb06bde01c7cd0f4bcd6a33e": {
+        "title": "Confidence Calibration and Rationalization for LLMs via Multi-Agent Deliberation",
+        "authors": [
+            "Ruixin Yang",
+            "Dheeraj Rajagopal",
+            "Shirley Anugrah Hayati",
+            "Bin Hu",
+            "Dongyeop Kang"
+        ],
+        "date": "2024/04/14",
+        "pdf": "http://arxiv.org/pdf/2404.09127",
+        "abstract": "Uncertainty estimation is a significant issue for current large language models (LLMs) that are generally poorly calibrated and over-confident, especially with reinforcement learning from human feedback (RLHF). Unlike humans, whose decisions and confidences not only stem from intrinsic beliefs but can also be adjusted through daily observations, existing calibration methods for LLMs focus on estimating or eliciting individual confidence without taking full advantage of the &#34;Collective Wisdom&#34;: the interaction among multiple LLMs that can collectively improve both accuracy and calibration. In this work, we propose Collaborative Calibration, a post-hoc training-free calibration strategy that leverages the collaborative and expressive capabilities of multiple tool-augmented LLM agents in a simulated group deliberation process. We demonstrate the effectiveness of Collaborative Calibration on generative QA tasks across various domains, showing its potential in harnessing the rationalization of collectively calibrated confidence assessments and improving the reliability of model predictions.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.09127"
+    },
+    "e574d5257ac04d06751dabd1e710f55c": {
+        "title": "MineLand: Simulating Large-Scale Multi-Agent Interactions with Limited Multimodal Senses and Physical Needs",
+        "authors": [
+            "Xianhao Yu",
+            "Jiaqi Fu",
+            "Renjia Deng",
+            "Wenjuan Han"
+        ],
+        "date": "2024/03/28",
+        "pdf": "http://arxiv.org/pdf/2403.19267",
+        "abstract": "Conventional multi-agent simulators often assume perfect information and limitless capabilities, hindering the ecological validity of social interactions. We propose a multi-agent Minecraft simulator, MineLand, that bridges this gap by introducing limited multimodal senses and physical needs. Our simulator supports up to 48 agents with limited visual, auditory, and environmental awareness, forcing them to actively communicate and collaborate to fulfill physical needs like food and resources. This fosters dynamic and valid multi-agent interactions. We further introduce an AI agent framework, Alex, inspired by multitasking theory, enabling agents to handle intricate coordination and scheduling. Our experiments demonstrate that the simulator, the corresponding benchmark, and the AI agent framework contribute to more ecological and nuanced collective behavior. The source code of MineLand and Alex is openly available at https://github.com/cocacola-lab/MineLand.",
+        "code": "https://github.com/cocacola-lab/mineland",
+        "category": [
+            "Game Platform"
+        ],
+        "url": "https://arxiv.org/abs/2403.19267"
+    },
+    "646f22e74c6eeed331b2c65036e763b4": {
+        "title": "EduAgent: Generative Student Agents in Learning",
+        "authors": [
+            "Songlin Xu",
+            "Xinyu Zhang",
+            "Lianhui Qin"
+        ],
+        "date": "2024/03/23",
+        "pdf": "http://arxiv.org/pdf/2404.07963",
+        "abstract": "Student simulation in online education is important to address dynamic learning behaviors of students with diverse backgrounds. Existing simulation models based on deep learning usually need massive training data, lacking prior knowledge in educational contexts. Large language models (LLMs) may contain such prior knowledge since they are pre-trained from a large corpus. However, because student behaviors are dynamic and multifaceted with individual differences, directly prompting LLMs is not robust nor accurate enough to capture fine-grained interactions among diverse student personas, learning behaviors, and learning outcomes. This work tackles this problem by presenting a newly annotated fine-grained large-scale dataset and proposing EduAgent, a novel generative agent framework incorporating cognitive prior knowledge (i.e., theoretical findings revealed in cognitive science) to guide LLMs to first reason correlations among various behaviors and then make simulations. Our two experiments show that EduAgent could not only mimic and predict learning behaviors of real students but also generate realistic learning behaviors of virtual students without real data.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.07963"
+    },
+    "d9bf095ed730a8b63fd64cc395cf1bdf": {
+        "title": "MathVC: An LLM-Simulated Multi-Character Virtual Classroom for Mathematics Education",
+        "authors": [
+            "Murong Yue",
+            "Wijdane Mifdal",
+            "Yixuan Zhang",
+            "Jennifer Suh",
+            "Ziyu Yao"
+        ],
+        "date": "2024/04/10",
+        "pdf": "http://arxiv.org/pdf/2404.06711",
+        "abstract": "Mathematical modeling (MM) is considered a fundamental skill for students in STEM disciplines. Practicing the MM skill is often the most effective when students can engage in group discussion and collaborative problem-solving. However, due to unevenly distributed teachers and educational resources needed to monitor such group activities, students do not always receive equal opportunities for this practice. Excitingly, large language models (LLMs) have recently demonstrated strong capability in both modeling mathematical problems and simulating characters with different traits and properties. Drawing inspiration from the advancement of LLMs, in this work, we present MATHVC, the very first LLM-powered virtual classroom containing multiple LLM-simulated student characters, with whom a human student can practice their MM skill. To encourage each LLM character&#39;s behaviors to be aligned with their specified math-relevant properties (termed &#34;characteristics alignment&#34;) and the overall conversational procedure to be close to an authentic student MM discussion (termed &#34;conversational procedural alignment&#34;), we proposed three innovations: integrating MM domain knowledge into the simulation, defining a symbolic schema as the ground for character simulation, and designing a meta planner at the platform level to drive the conversational procedure. Through experiments and ablation studies, we confirmed the effectiveness of our simulation approach and showed the promise for MATHVC to benefit real-life students in the future.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.06711"
+    },
+    "d03fda5f2f4a4b417169cee197138d05": {
+        "title": "MMInA: Benchmarking Multihop Multimodal Internet Agents",
+        "authors": [
+            "Ziniu Zhang",
+            "Shulin Tian",
+            "Liangyu Chen",
+            "Ziwei Liu"
+        ],
+        "date": "2024/04/15",
+        "pdf": "http://arxiv.org/pdf/2404.09992",
+        "abstract": "Autonomous embodied agents live on an Internet of multimedia websites. Can they hop around multimodal websites to complete complex user tasks? Existing benchmarks fail to assess them in a realistic, evolving environment for their embodiment across websites. To answer this question, we present MMInA, a multihop and multimodal benchmark to evaluate the embodied agents for compositional Internet tasks, with several appealing properties: 1) Evolving real-world multimodal websites. Our benchmark uniquely operates on evolving real-world websites, ensuring a high degree of realism and applicability to natural user tasks. Our data includes 1,050 human-written tasks covering various domains such as shopping and travel, with each task requiring the agent to autonomously extract multimodal information from web pages as observations; 2) Multihop web browsing. Our dataset features naturally compositional tasks that require information from or actions on multiple websites to solve, to assess long-range reasoning capabilities on web tasks; 3) Holistic evaluation. We propose a novel protocol for evaluating an agent&#39;s progress in completing multihop tasks. We experiment with both standalone (multimodal) language models and heuristic-based web agents. Extensive experiments demonstrate that while long-chain multihop web tasks are easy for humans, they remain challenging for state-of-the-art web agents. We identify that agents are more likely to fail on the early hops when solving tasks of more hops, which results in lower task success rates. To address this issue, we propose a simple memory augmentation approach replaying past action trajectories to reflect. Our method significantly improved both the single-hop and multihop web browsing abilities of agents. See our code and data at https://mmina.cliangyu.com",
+        "code": "https://github.com/shulin16/mmina",
+        "category": [
+            "Benchmark&Evaluation&Framework"
+        ],
+        "url": "https://arxiv.org/abs/2404.09992"
+    },
+    "f188d764a8c441b5dec5b1194d16f4aa": {
+        "title": "Apollonion: Profile-centric Dialog Agent",
+        "authors": [
+            "Shangyu Chen",
+            "Zibo Zhao",
+            "Yuanyuan Zhao",
+            "Xiang Li"
+        ],
+        "date": "2024/04/10",
+        "pdf": "http://arxiv.org/pdf/2404.08692",
+        "abstract": "The emergence of Large Language Models (LLMs) has innovated the development of dialog agents. Specially, a well-trained LLM, as a central process unit, is capable of providing fluent and reasonable response for user&#39;s request. Besides, auxiliary tools such as external knowledge retrieval, personalized character for vivid response, short/long-term memory for ultra long context management are developed, completing the usage experience for LLM-based dialog agents. However, the above-mentioned techniques does not solve the issue of \\textbf{personalization from user perspective}: agents response in a same fashion to different users, without consideration of their features, such as habits, interests and past experience. In another words, current implementation of dialog agents fail in ``knowing the user&#39;&#39;. The capacity of well-description and representation of user is under development. In this work, we proposed a framework for dialog agent to incorporate user profiling (initialization, update): user&#39;s query and response is analyzed and organized into a structural user profile, which is latter served to provide personal and more precise response. Besides, we proposed a series of evaluation protocols for personalization: to what extend the response is personal to the different users. The framework is named as \\method{}, inspired by inscription of ``Know Yourself&#39;&#39; in the temple of Apollo (also known as \\method{}) in Ancient Greek. Few works have been conducted on incorporating personalization into LLM, \\method{} is a pioneer work on guiding LLM&#39;s response to meet individuation via the application of dialog agents, with a set of evaluation methods for measurement in personalization.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.08692"
+    },
+    "d0acc8a7c482a802b05a57eaa66a1a88": {
+        "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+        "authors": [
+            "Tianbao Xie",
+            "Danyang Zhang",
+            "Jixuan Chen",
+            "Xiaochuan Li",
+            "Siheng Zhao",
+            "Ruisheng Cao",
+            "Toh Jing Hua",
+            "Zhoujun Cheng",
+            "Dongchan Shin",
+            "Fangyu Lei",
+            "Yitao Liu",
+            "Yiheng Xu",
+            "Shuyan Zhou",
+            "Silvio Savarese",
+            "Caiming Xiong",
+            "Victor Zhong",
+            "Tao Yu"
+        ],
+        "date": "2024/04/11",
+        "pdf": "http://arxiv.org/pdf/2404.07972",
+        "abstract": "Autonomous agents that accomplish complex computer tasks with minimal human interventions have the potential to transform human-computer interaction, significantly enhancing accessibility and productivity. However, existing benchmarks either lack an interactive environment or are limited to environments specific to certain applications or domains, failing to reflect the diverse and complex nature of real-world computer use, thereby limiting the scope of tasks and agent scalability. To address this issue, we introduce OSWorld, the first-of-its-kind scalable, real computer environment for multimodal agents, supporting task setup, execution-based evaluation, and interactive learning across various operating systems such as Ubuntu, Windows, and macOS. OSWorld can serve as a unified, integrated computer environment for assessing open-ended computer tasks that involve arbitrary applications. Building upon OSWorld, we create a benchmark of 369 computer tasks involving real web and desktop apps in open domains, OS file I/O, and workflows spanning multiple applications. Each task example is derived from real-world computer use cases and includes a detailed initial state setup configuration and a custom execution-based evaluation script for reliable, reproducible evaluation. Extensive evaluation of state-of-the-art LLM/VLM-based agents on OSWorld reveals significant deficiencies in their ability to serve as computer assistants. While humans can accomplish over 72.36% of the tasks, the best model achieves only 12.24% success, primarily struggling with GUI grounding and operational knowledge. Comprehensive analysis using OSWorld provides valuable insights for developing multimodal generalist agents that were not possible with previous benchmarks. Our code, environment, baseline models, and data are publicly available at https://os-world.github.io.",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation&Framework"
+        ],
+        "url": "https://arxiv.org/abs/2404.07972"
+    },
+    "90d497ca09a06d5a5c4e2145c4070532": {
+        "title": "Leveraging Multi-AI Agents for Cross-Domain Knowledge Discovery",
+        "authors": [
+            "Shiva Aryal",
+            "Tuyen Do",
+            "Bisesh Heyojoo",
+            "Sandeep Chataut",
+            "Bichar Dip Shrestha Gurung",
+            "Venkataramana Gadhamshetty",
+            "Etienne Gnimpieba"
+        ],
+        "date": "2024/04/12",
+        "pdf": "http://arxiv.org/pdf/2404.08511",
+        "abstract": "In the rapidly evolving field of artificial intelligence, the ability to harness and integrate knowledge across various domains stands as a paramount challenge and opportunity. This study introduces a novel approach to cross-domain knowledge discovery through the deployment of multi-AI agents, each specialized in distinct knowledge domains. These AI agents, designed to function as domain-specific experts, collaborate in a unified framework to synthesize and provide comprehensive insights that transcend the limitations of single-domain expertise. By facilitating seamless interaction among these agents, our platform aims to leverage the unique strengths and perspectives of each, thereby enhancing the process of knowledge discovery and decision-making. We present a comparative analysis of the different multi-agent workflow scenarios evaluating their performance in terms of efficiency, accuracy, and the breadth of knowledge integration. Through a series of experiments involving complex, interdisciplinary queries, our findings demonstrate the superior capability of domain specific multi-AI agent system in identifying and bridging knowledge gaps. This research not only underscores the significance of collaborative AI in driving innovation but also sets the stage for future advancements in AI-driven, cross-disciplinary research and application. Our methods were evaluated on a small pilot data and it showed a trend we expected, if we increase the amount of data we custom train the agents, the trend is expected to be more smooth.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.08511"
+    },
+    "025449e23ed3eefcf2cca46adc679089": {
+        "title": "Behavior Trees Enable Structured Programming of Language Model Agents",
+        "authors": [
+            "Richard Kelley"
+        ],
+        "date": "2024/04/11",
+        "pdf": "http://arxiv.org/pdf/2404.07439",
+        "abstract": "Language models trained on internet-scale data sets have shown an impressive ability to solve problems in Natural Language Processing and Computer Vision. However, experience is showing that these models are frequently brittle in unexpected ways, and require significant scaffolding to ensure that they operate correctly in the larger systems that comprise &#34;language-model agents.&#34; In this paper, we argue that behavior trees provide a unifying framework for combining language models with classical AI and traditional programming. We introduce Dendron, a Python library for programming language model agents using behavior trees. We demonstrate the approach embodied by Dendron in three case studies: building a chat agent, a camera-based infrastructure inspection agent for use on a mobile robot or vehicle, and an agent that has been built to satisfy safety constraints that it did not receive through instruction tuning or RLHF.",
+        "code": "https://github.com/RichardKelley/dendron",
+        "category": [
+            "Benchmark&Evaluation&Framework"
+        ],
+        "url": "https://arxiv.org/abs/2404.07439"
+    },
+    "889657431ba1b80ade839a1491dd8506": {
+        "title": "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems",
+        "authors": [
+            "Bin Lei"
+        ],
+        "date": "2024/04/06",
+        "pdf": "http://arxiv.org/pdf/2404.04735",
+        "abstract": "Recent advancements in large language models, such as GPT-4, have demonstrated remarkable capabilities in processing standard queries. Despite these advancements, their performance substantially declines in \\textbf{advanced mathematical problems requiring complex, multi-step logical reasoning}. To enhance their inferential capabilities, current research has delved into \\textit{prompting engineering}, exemplified by methodologies such as the Tree of Thought and Graph of Thought. Nonetheless, these existing approaches encounter two significant limitations. Firstly, their effectiveness in tackling complex mathematical problems is somewhat constrained. Secondly, the necessity to design distinct prompts for individual problems hampers their generalizability. In response to these limitations, this paper introduces the \\textit{Multi-Agent System for conditional Mining} (\\textbf{MACM}) prompting method. It not only resolves intricate mathematical problems but also demonstrates strong generalization capabilities across various mathematical contexts. With the assistance of MACM, the accuracy of GPT-4 Turbo on the most challenging level five mathematical problems in the MATH dataset increase from $\\mathbf{54.68\\%} \\text{ to } \\mathbf{76.73\\%}$. The code is available in \\url{https://github.com/bin123apple/MACM}.",
+        "code": "https://github.com/bin123apple/macm",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.04735"
+    },
+    "78d78cdb8cb1730baf707d698e12d695": {
+        "title": "Cooperative Sentiment Agents for Multimodal Sentiment Analysis",
+        "authors": [
+            "Shanmin Wang",
+            "Hui Shuai",
+            "Qingshan Liu",
+            "Fei Wang"
+        ],
+        "date": "2024/04/19",
+        "pdf": "http://arxiv.org/pdf/2404.12642",
+        "abstract": "In this paper, we propose a new Multimodal Representation Learning (MRL) method for Multimodal Sentiment Analysis (MSA), which facilitates the adaptive interaction between modalities through Cooperative Sentiment Agents, named Co-SA. Co-SA comprises two critical components: the Sentiment Agents Establishment (SAE) phase and the Sentiment Agents Cooperation (SAC) phase. During the SAE phase, each sentiment agent deals with an unimodal signal and highlights explicit dynamic sentiment variations within the modality via the Modality-Sentiment Disentanglement (MSD) and Deep Phase Space Reconstruction (DPSR) modules. Subsequently, in the SAC phase, Co-SA meticulously designs task-specific interaction mechanisms for sentiment agents so that coordinating multimodal signals to learn the joint representation. Specifically, Co-SA equips an independent policy model for each sentiment agent that captures significant properties within the modality. These policies are optimized mutually through the unified reward adaptive to downstream tasks. Benefitting from the rewarding mechanism, Co-SA transcends the limitation of pre-defined fusion modes and adaptively captures unimodal properties for MRL in the multimodal interaction setting. To demonstrate the effectiveness of Co-SA, we apply it to address Multimodal Sentiment Analysis (MSA) and Multimodal Emotion Recognition (MER) tasks. Our comprehensive experimental results demonstrate that Co-SA excels at discovering diverse cross-modal features, encompassing both common and complementary aspects. The code can be available at https://github.com/smwanghhh/Co-SA.",
+        "code": "https://github.com/smwanghhh/co-sa",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.12642"
+    },
+    "c810addf261e7030b42605755d0746df": {
+        "title": "Towards Human-centered Proactive Conversational Agents",
+        "authors": [
+            "Yang Deng",
+            "Lizi Liao",
+            "Zhonghua Zheng",
+            "Grace Hui Yang",
+            "Tat-Seng Chua"
+        ],
+        "date": "2024/04/19",
+        "pdf": "http://arxiv.org/pdf/2404.12670",
+        "abstract": "Recent research on proactive conversational agents (PCAs) mainly focuses on improving the system&#39;s capabilities in anticipating and planning action sequences to accomplish tasks and achieve goals before users articulate their requests. This perspectives paper highlights the importance of moving towards building human-centered PCAs that emphasize human needs and expectations, and that considers ethical and social implications of these agents, rather than solely focusing on technological capabilities. The distinction between a proactive and a reactive system lies in the proactive system&#39;s initiative-taking nature. Without thoughtful design, proactive systems risk being perceived as intrusive by human users. We address the issue by establishing a new taxonomy concerning three key dimensions of human-centered PCAs, namely Intelligence, Adaptivity, and Civility. We discuss potential research opportunities and challenges based on this new taxonomy upon the five stages of PCA system construction. This perspectives paper lays a foundation for the emerging area of conversational information retrieval research and paves the way towards advancing human-centered proactive conversational systems.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.12670"
     }
 }
