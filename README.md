@@ -35,7 +35,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2024/02/28] **A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems** | [[paper]](https://arxiv.org/abs/2402.18013) | [code]
 
-	- [2024/02/07] **Can Large Language Model Agents Simulate Human Trust Behaviors?** | [[paper]](https://arxiv.org/abs/2402.04559) | [code]
+	- [2024/02/07] **Can Large Language Model Agents Simulate Human Trust Behaviors?** | [[paper]](https://arxiv.org/abs/2402.04559) | [[code]](https://github.com/camel-ai/agent-trust)
 
 	- [2024/02/06] **Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science** | [[paper]](https://arxiv.org/abs/2402.04247) | [code]
 
@@ -547,6 +547,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2024/02/12] **Large Language Models as Agents in Two-Player Games** | [[paper]](https://arxiv.org/abs/2402.08078) | [code]
 
+	- [2024/02/07] **Can Large Language Model Agents Simulate Human Trust Behaviors?** | [[paper]](https://arxiv.org/abs/2402.04559) | [[code]](https://github.com/camel-ai/agent-trust)
+
 	- [2024/02/04] **Enhance Reasoning for Large Language Models in the Game Werewolf** | [[paper]](https://arxiv.org/abs/2402.02330) | [code]
 
 	- [2024/02/02] **PokeLLMon: A Human-Parity Agent for Pokemon Battles with Large Language Models** | [[paper]](https://arxiv.org/abs/2402.01118) | [code]
@@ -599,7 +601,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2024/04/15] **MMInA: Benchmarking Multihop Multimodal Internet Agents** | [[paper]](https://arxiv.org/abs/2404.09992) | [[code]](https://github.com/shulin16/mmina)
 
-	- [2024/04/11] **OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments** | [[paper]](https://arxiv.org/abs/2404.07972) | [code]
+	- [2024/04/11] **OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments** | [[paper]](https://arxiv.org/abs/2404.07972) | [[code]](https://github.com/xlang-ai/OSWorld)
 
 	- [2024/04/11] **Behavior Trees Enable Structured Programming of Language Model Agents** | [[paper]](https://arxiv.org/abs/2404.07439) | [[code]](https://github.com/RichardKelley/dendron)
 
