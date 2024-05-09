@@ -118,7 +118,7 @@
         "pdf": "http://arxiv.org/pdf/2401.01275.pdf",
         "abstract": "Recently, the advent of large language models (LLMs) has revolutionized generative agents. Among them, Role-Playing Conversational Agents (RPCAs) attract considerable attention due to their ability to emotionally engage users. However, the absence of a comprehensive benchmark impedes progress in this field. To bridge this gap, we introduce CharacterEval, a Chinese benchmark for comprehensive RPCA assessment, complemented by a tailored high-quality dataset. The dataset comprises 1,785 multi-turn role-playing dialogues, encompassing 23,020 examples and featuring 77 characters derived from Chinese novels and scripts. It was carefully constructed, beginning with initial dialogue extraction via GPT-4, followed by rigorous human-led quality control, and enhanced with in-depth character profiles sourced from Baidu Baike. CharacterEval employs a multifaceted evaluation approach, encompassing thirteen targeted metrics on four dimensions. Comprehensive experiments on CharacterEval demonstrate that Chinese LLMs exhibit more promising capabilities than GPT-4 in Chinese role-playing conversation. Source code, data source and reward model will be publicly accessible at https://github.com/morecry/CharacterEval.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2401.01275"
     },
@@ -132,7 +132,7 @@
         "pdf": "http://arxiv.org/pdf/2401.02870.pdf",
         "abstract": "The evolution of Large Language Models (LLMs) has introduced a new paradigm for investigating human behavior emulation. Recent research has employed LLM-based Agents to create a sociological research environment, in which agents exhibit behavior based on the unfiltered characteristics of large language models. However, these studies overlook the iterative development within a human-like setting - Human preferences and personalities are complex, shaped by various factors and subject to ongoing change as a result of environmental and subjective influences. In light of this observation, we propose Agent Framework for Shaping Preference and Personality (AFSPP), exploring the multifaceted impact of social networks and subjective consciousness on LLM-based Agents&#39; preference and personality formation. With AFSPP, we have, for the first time, successfully replicated several key findings from human personality experiments. And other AFSPP-based experimental results indicate that plan making, sensory perceptions and social networking with subjective information, wield the most pronounced influence on preference shaping. AFSPP can significantly enhance the efficiency and scope of psychological experiments, while yielding valuable insights for Trustworthy Artificial Intelligence research for strategies to prevent undesirable preference and personality development.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2401.02870"
     },
@@ -374,7 +374,7 @@
         "abstract": "In the era of data-driven decision-making, the complexity of data analysis necessitates advanced expertise and tools of data science, presenting significant challenges even for specialists. Large Language Models (LLMs) have emerged as promising aids as data science agents, assisting humans in data analysis and processing. Yet their practical efficacy remains constrained by the varied demands of real-world applications and complicated analytical process. In this paper, we introduce DSEval -- a novel evaluation paradigm, as well as a series of innovative benchmarks tailored for assessing the performance of these agents throughout the entire data science lifecycle. Incorporating a novel bootstrapped annotation method, we streamline dataset preparation, improve the evaluation coverage, and expand benchmarking comprehensiveness. Our findings uncover prevalent obstacles and provide critical insights to inform future advancements in the field.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2402.17168"
     },
@@ -400,7 +400,7 @@
         "abstract": "Generative models have demonstrated considerable potential in software engineering, particularly in tasks such as code generation and debugging. However, their utilization in the domain of code documentation generation remains underexplored. To this end, we introduce RepoAgent, a large language model powered open-source framework aimed at proactively generating, maintaining, and updating code documentation. Through both qualitative and quantitative evaluations, we have validated the effectiveness of our approach, showing that RepoAgent excels in generating high-quality repository-level documentation. The code and results are publicly accessible at https://github.com/OpenBMB/RepoAgent.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2402.16667"
     },
@@ -779,7 +779,7 @@
         "abstract": "In this paper, we aim to improve the reasoning ability of large language models (LLMs) over knowledge graphs (KGs) to answer complex questions. Inspired by existing methods that design the interaction strategy between LLMs and KG, we propose an autonomous LLM-based agent framework, called KG-Agent, which enables a small LLM to actively make decisions until finishing the reasoning process over KGs. In KG-Agent, we integrate the LLM, multifunctional toolbox, KG-based executor, and knowledge memory, and develop an iteration mechanism that autonomously selects the tool then updates the memory for reasoning over KG. To guarantee the effectiveness, we leverage program language to formulate the multi-hop reasoning process over the KG, and synthesize a code-based instruction dataset to fine-tune the base LLM. Extensive experiments demonstrate that only using 10K samples for tuning LLaMA-7B can outperform state-of-the-art methods using larger LLMs or more data, on both in-domain and out-domain datasets. Our code and data will be publicly released.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2402.11163"
     },
@@ -816,7 +816,7 @@
         "code": "https://github.com/nanshineloong/self-evolving-benchmark",
         "category": [
             "Multi-Agent System",
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2402.11443"
     },
@@ -866,7 +866,7 @@
         "abstract": "Scientific data visualization plays a crucial role in research by enabling the direct display of complex information and assisting researchers in identifying implicit patterns. Despite its importance, the use of Large Language Models (LLMs) for scientific data visualization remains rather unexplored. In this study, we introduce MatPlotAgent, an efficient model-agnostic LLM agent framework designed to automate scientific data visualization tasks. Leveraging the capabilities of both code LLMs and multi-modal LLMs, MatPlotAgent consists of three core modules: query understanding, code generation with iterative debugging, and a visual feedback mechanism for error correction. To address the lack of benchmarks in this field, we present MatPlotBench, a high-quality benchmark consisting of 100 human-verified test cases. Additionally, we introduce a scoring approach that utilizes GPT-4V for automatic evaluation. Experimental results demonstrate that MatPlotAgent can improve the performance of various LLMs, including both commercial and open-source models. Furthermore, the proposed evaluation method shows a strong correlation with human-annotated scores.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2402.11453"
     },
@@ -1274,7 +1274,7 @@
         "abstract": "Recent progress with LLM-based agents has shown promising results across various tasks. However, their use in answering questions from knowledge bases remains largely unexplored. Implementing a KBQA system using traditional methods is challenging due to the shortage of task-specific training data and the complexity of creating task-focused model structures. In this paper, we present Triad, a unified framework that utilizes an LLM-based agent with three roles for KBQA tasks. The agent is assigned three roles to tackle different KBQA subtasks: agent as a generalist for mastering various subtasks, as a decision maker for the selection of candidates, and as an advisor for answering questions with knowledge. Our KBQA framework is executed in four phases, involving the collaboration of the agent&#39;s multiple roles. We evaluated the performance of our framework using three benchmark datasets, and the results show that our framework outperforms state-of-the-art systems on the LC-QuAD and YAGO-QA benchmarks, yielding F1 scores of 11.8% and 20.7%, respectively.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2402.14320"
     },
@@ -1381,7 +1381,7 @@
         "abstract": "Open-ended question answering requires models to find appropriate evidence to form well-reasoned, comprehensive and helpful answers. In practical applications, models also need to engage in extended discussions on potential scenarios closely relevant to the question. With augmentation of retrieval module, open-source Large Language Models (LLMs) can produce coherent answers often with different focuses, but are still sub-optimal in terms of reliable evidence selection and in-depth question analysis. In this paper, we propose a novel Chain-of-Discussion framework to leverage the synergy among multiple open-source LLMs aiming to provide \\textbf{more correct} and \\textbf{more comprehensive} answers for open-ended QA, although they are not strong enough individually. Our experiments show that discussions among multiple LLMs play a vital role in enhancing the quality of answers. We release our data and code at \\url{https://github.com/kobayashikanna01/Chain-of-Discussion}.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework",
+            "Agent Framework",
             "Multi-Agent System"
         ],
         "url": "https://arxiv.org/abs/2402.16313"
@@ -1922,7 +1922,7 @@
         "abstract": "For decades, human-computer interaction has fundamentally been manual. Even today, almost all productive work done on the computer necessitates human input at every step. Autonomous virtual agents represent an exciting step in automating many of these menial tasks. Virtual agents would empower users with limited technical proficiency to harness the full possibilities of computer systems. They could also enable the efficient streamlining of numerous computer tasks, ranging from calendar management to complex travel bookings, with minimal human intervention. In this paper, we introduce OmniACT, the first-of-a-kind dataset and benchmark for assessing an agent&#39;s capability to generate executable programs to accomplish computer tasks. Our scope extends beyond traditional web automation, covering a diverse range of desktop applications. The dataset consists of fundamental tasks such as &#34;Play the next song&#34;, as well as longer horizon tasks such as &#34;Send an email to John Doe mentioning the time and place to meet&#34;. Specifically, given a pair of screen image and a visually-grounded natural language task, the goal is to generate a script capable of fully executing the task. We run several strong baseline language model agents on our benchmark. The strongest baseline, GPT-4, performs the best on our benchmark However, its performance level still reaches only 15% of the human proficiency in generating executable scripts capable of completing the task, demonstrating the challenge of our task for conventional web agents. Our benchmark provides a platform to measure and evaluate the progress of language model agents in automating computer tasks and motivates future work towards building multimodal models that bridge large language models and the visual grounding of computer screens.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2402.17553"
     },
@@ -2169,7 +2169,7 @@
         "code": "",
         "category": [
             "Multi-Agent System",
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2403.11807"
     },
@@ -2190,7 +2190,7 @@
         "abstract": "Recent chatbots have demonstrated impressive ability to understand and communicate in raw-text form. However, there is more to the world than raw text. For example, humans spend long hours of their time on web pages, where text is intertwined with other modalities and tasks are accomplished in the form of various complex interactions. Can state-of-the-art multi-modal models generalize to such complex domains? To address this question, we introduce TurkingBench, a benchmark of tasks formulated as web pages containing textual instructions with multi-modal context. Unlike existing work which employs artificially synthesized web pages, here we use natural HTML pages that were originally designed for crowdsourcing workers for various annotation purposes. The HTML instructions of each task are also instantiated with various values (obtained from the crowdsourcing tasks) to form new instances of the task. This benchmark contains 32.2K instances distributed across 158 tasks. Additionally, to facilitate the evaluation on TurkingBench, we develop an evaluation framework that connects the responses of chatbots to modifications on web pages (modifying a text box, checking a radio, etc.). We evaluate the performance of state-of-the-art models, including language-only, vision-only, and layout-only models, and their combinations, on this benchmark. Our findings reveal that these models perform significantly better than random chance, yet considerable room exists for improvement. We hope this benchmark will help facilitate the evaluation and development of web-based agents.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2403.11905"
     },
@@ -2274,7 +2274,7 @@
         "abstract": "Recent work has embodied LLMs as agents, allowing them to access tools, perform actions, and interact with external content (e.g., emails or websites). However, external content introduces the risk of indirect prompt injection (IPI) attacks, where malicious instructions are embedded within the content processed by LLMs, aiming to manipulate these agents into executing detrimental actions against users. Given the potentially severe consequences of such attacks, establishing benchmarks to assess and mitigate these risks is imperative. In this work, we introduce InjecAgent, a benchmark designed to assess the vulnerability of tool-integrated LLM agents to IPI attacks. InjecAgent comprises 1,054 test cases covering 17 different user tools and 62 attacker tools. We categorize attack intentions into two primary types: direct harm to users and exfiltration of private data. We evaluate 30 different LLM agents and show that agents are vulnerable to IPI attacks, with ReAct-prompted GPT-4 vulnerable to attacks 24% of the time. Further investigation into an enhanced setting, where the attacker instructions are reinforced with a hacking prompt, shows additional increases in success rates, nearly doubling the attack success rate on the ReAct-prompted GPT-4. Our findings raise questions about the widespread deployment of LLM Agents. Our benchmark is available at https://github.com/uiuc-kang-lab/InjecAgent.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework",
+            "Benchmark&Evaluation",
             "Tool Usage&Human-Agent Interaction"
         ],
         "url": "https://arxiv.org/abs/2403.02691"
@@ -2450,7 +2450,7 @@
         "abstract": "Synthetic users are cost-effective proxies for real users in the evaluation of conversational recommender systems. Large language models show promise in simulating human-like behavior, raising the question of their ability to represent a diverse population of users. We introduce a new protocol to measure the degree to which language models can accurately emulate human behavior in conversational recommendation. This protocol is comprised of five tasks, each designed to evaluate a key property that a synthetic user should exhibit: choosing which items to talk about, expressing binary preferences, expressing open-ended preferences, requesting recommendations, and giving feedback. Through evaluation of baseline simulators, we demonstrate these tasks effectively reveal deviations of language models from human behavior, and offer insights on how to reduce the deviations with model selection and prompting strategies.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2403.09738"
     },
@@ -2488,7 +2488,8 @@
         "abstract": "Employing Large Language Models (LLMs) for semantic parsing has achieved remarkable success. However, we find existing methods fall short in terms of reliability and efficiency when hallucinations are encountered. In this paper, we address these challenges with a framework called QueryAgent, which solves a question step-by-step and performs step-wise self-correction. We introduce an environmental feedback-based self-correction method called ERASER. Unlike traditional approaches, ERASER leverages rich environmental feedback in the intermediate steps to perform selective and differentiated self-correction only when necessary. Experimental results demonstrate that QueryAgent notably outperforms all previous few-shot methods using only one example on GrailQA and GraphQ by 7.0 and 15.0 F1. Moreover, our approach exhibits superiority in terms of efficiency, including runtime, query overhead, and API invocation costs. By leveraging ERASER, we further improve another baseline (i.e., AgentBench) by approximately 10 points, revealing the strong transferability of our approach.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Feedback&Reflection",
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2403.11886"
     },
@@ -2568,7 +2569,7 @@
         "abstract": "Large language models (LLMs) have advanced the development of various AI conversational agents, including role-playing conversational agents that mimic diverse characters and human behaviors. While prior research has predominantly focused on enhancing the conversational capability, role-specific knowledge, and stylistic attributes of these agents, there has been a noticeable gap in assessing their social intelligence. In this paper, we introduce RoleInteract, the first benchmark designed to systematically evaluate the sociality of role-playing conversational agents at both individual and group levels of social interactions. The benchmark is constructed from a variety of sources and covers a wide range of 500 characters and over 6,000 question prompts and 30,800 multi-turn role-playing utterances. We conduct comprehensive evaluations on this benchmark using mainstream open-source and closed-source LLMs. We find that agents excelling in individual level does not imply their proficiency in group level. Moreover, the behavior of individuals may drift as a result of the influence exerted by other agents within the group. Experimental results on RoleInteract confirm its significance as a testbed for assessing the social interaction of role-playing conversational agents. The benchmark is publicly accessible at https://github.com/X-PLUG/RoleInteract.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2403.13679"
     },
@@ -2585,7 +2586,7 @@
         "code": "https://github.com/clp-research/cost-sharing-reference-game",
         "category": [
             "Game Playing",
-            "Game Platform"
+            "Environment&Platform"
         ],
         "url": "https://arxiv.org/abs/2403.17497"
     },
@@ -2855,7 +2856,7 @@
         "abstract": "Large Language Models (LLMs) still face challenges in tasks requiring understanding implicit instructions and applying common-sense knowledge. In such scenarios, LLMs may require multiple attempts to achieve human-level performance, potentially leading to inaccurate responses or inferences in practical environments, affecting their long-term consistency and behavior. This paper introduces the Internal Time-Consciousness Machine (ITCM), a computational consciousness structure. We further propose the ITCM-based Agent (ITCMA), which supports behavior generation and reasoning in open-world settings. ITCMA enhances LLMs&#39; ability to understand implicit instructions and apply common-sense knowledge by considering agents&#39; interaction and reasoning with the environment. Evaluations in the Alfworld environment show that trained ITCMA outperforms the state-of-the-art (SOTA) by 9% on the seen set. Even untrained ITCMA achieves a 96% task completion rate on the seen set, 5% higher than SOTA, indicating its superiority over traditional intelligent agents in utility and generalization. In real-world tasks with quadruped robots, the untrained ITCMA achieves an 85% task completion rate, which is close to its performance in the unseen set, demonstrating its comparable utility in real-world settings.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2403.20097"
     },
@@ -2909,7 +2910,7 @@
         "abstract": "The rapid progress of large language models (LLMs) has seen them excel and frequently surpass human performance on standard benchmarks. This has enabled many downstream applications, such as LLM agents, to rely on their sophisticated reasoning to navigate complex task requirements. However, LLMs are known to unexpectedly falter in simple tasks and under seemingly straightforward circumstances - underscoring the need for better and more diverse evaluation setups to measure their true capabilities. To this end, we choose to study compositional and conditional reasoning, two cornerstones of human cognition, and introduce GroundCocoa - a lexically diverse benchmark connecting these reasoning skills to the real-world problem of flight booking. Our task involves aligning detailed user preferences with available flight options presented in a multiple-choice format. Results indicate a significant disparity in performance among current state-of-the-art LLMs with even the best performing model, GPT-4 Turbo, not exceeding 67% accuracy despite advanced prompting techniques.",
         "code": "",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2404.04237"
     },
@@ -3007,7 +3008,7 @@
         "abstract": "The advances made by Large Language Models (LLMs) have led to the pursuit of LLM agents that can solve intricate, multi-step reasoning tasks. As with any research pursuit, benchmarking and evaluation are key corner stones to efficient and reliable progress. However, existing benchmarks are often narrow and simply compute overall task success. To face these issues, we propose AgentQuest -- a framework where (i) both benchmarks and metrics are modular and easily extensible through well documented and easy-to-use APIs; (ii) we offer two new evaluation metrics that can reliably track LLM agent progress while solving a task. We exemplify the utility of the metrics on two use cases wherein we identify common failure points and refine the agent architecture to obtain a significant performance increase. Together with the research community, we hope to extend AgentQuest further and therefore we make it available under https://github.com/nec-research/agentquest.",
         "code": "https://github.com/nec-research/agentquest",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2404.06411"
     },
@@ -3129,7 +3130,7 @@
         "abstract": "Conventional multi-agent simulators often assume perfect information and limitless capabilities, hindering the ecological validity of social interactions. We propose a multi-agent Minecraft simulator, MineLand, that bridges this gap by introducing limited multimodal senses and physical needs. Our simulator supports up to 48 agents with limited visual, auditory, and environmental awareness, forcing them to actively communicate and collaborate to fulfill physical needs like food and resources. This fosters dynamic and valid multi-agent interactions. We further introduce an AI agent framework, Alex, inspired by multitasking theory, enabling agents to handle intricate coordination and scheduling. Our experiments demonstrate that the simulator, the corresponding benchmark, and the AI agent framework contribute to more ecological and nuanced collective behavior. The source code of MineLand and Alex is openly available at https://github.com/cocacola-lab/MineLand.",
         "code": "https://github.com/cocacola-lab/mineland",
         "category": [
-            "Game Platform"
+            "Environment&Platform"
         ],
         "url": "https://arxiv.org/abs/2403.19267"
     },
@@ -3180,7 +3181,7 @@
         "abstract": "Autonomous embodied agents live on an Internet of multimedia websites. Can they hop around multimodal websites to complete complex user tasks? Existing benchmarks fail to assess them in a realistic, evolving environment for their embodiment across websites. To answer this question, we present MMInA, a multihop and multimodal benchmark to evaluate the embodied agents for compositional Internet tasks, with several appealing properties: 1) Evolving real-world multimodal websites. Our benchmark uniquely operates on evolving real-world websites, ensuring a high degree of realism and applicability to natural user tasks. Our data includes 1,050 human-written tasks covering various domains such as shopping and travel, with each task requiring the agent to autonomously extract multimodal information from web pages as observations; 2) Multihop web browsing. Our dataset features naturally compositional tasks that require information from or actions on multiple websites to solve, to assess long-range reasoning capabilities on web tasks; 3) Holistic evaluation. We propose a novel protocol for evaluating an agent&#39;s progress in completing multihop tasks. We experiment with both standalone (multimodal) language models and heuristic-based web agents. Extensive experiments demonstrate that while long-chain multihop web tasks are easy for humans, they remain challenging for state-of-the-art web agents. We identify that agents are more likely to fail on the early hops when solving tasks of more hops, which results in lower task success rates. To address this issue, we propose a simple memory augmentation approach replaying past action trajectories to reflect. Our method significantly improved both the single-hop and multihop web browsing abilities of agents. See our code and data at https://mmina.cliangyu.com",
         "code": "https://github.com/shulin16/mmina",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2404.09992"
     },
@@ -3227,7 +3228,7 @@
         "abstract": "Autonomous agents that accomplish complex computer tasks with minimal human interventions have the potential to transform human-computer interaction, significantly enhancing accessibility and productivity. However, existing benchmarks either lack an interactive environment or are limited to environments specific to certain applications or domains, failing to reflect the diverse and complex nature of real-world computer use, thereby limiting the scope of tasks and agent scalability. To address this issue, we introduce OSWorld, the first-of-its-kind scalable, real computer environment for multimodal agents, supporting task setup, execution-based evaluation, and interactive learning across various operating systems such as Ubuntu, Windows, and macOS. OSWorld can serve as a unified, integrated computer environment for assessing open-ended computer tasks that involve arbitrary applications. Building upon OSWorld, we create a benchmark of 369 computer tasks involving real web and desktop apps in open domains, OS file I/O, and workflows spanning multiple applications. Each task example is derived from real-world computer use cases and includes a detailed initial state setup configuration and a custom execution-based evaluation script for reliable, reproducible evaluation. Extensive evaluation of state-of-the-art LLM/VLM-based agents on OSWorld reveals significant deficiencies in their ability to serve as computer assistants. While humans can accomplish over 72.36% of the tasks, the best model achieves only 12.24% success, primarily struggling with GUI grounding and operational knowledge. Comprehensive analysis using OSWorld provides valuable insights for developing multimodal generalist agents that were not possible with previous benchmarks. Our code, environment, baseline models, and data are publicly available at https://os-world.github.io.",
         "code": "https://github.com/xlang-ai/OSWorld",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2404.07972"
     },
@@ -3261,7 +3262,7 @@
         "abstract": "Language models trained on internet-scale data sets have shown an impressive ability to solve problems in Natural Language Processing and Computer Vision. However, experience is showing that these models are frequently brittle in unexpected ways, and require significant scaffolding to ensure that they operate correctly in the larger systems that comprise &#34;language-model agents.&#34; In this paper, we argue that behavior trees provide a unifying framework for combining language models with classical AI and traditional programming. We introduce Dendron, a Python library for programming language model agents using behavior trees. We demonstrate the approach embodied by Dendron in three case studies: building a chat agent, a camera-based infrastructure inspection agent for use on a mobile robot or vehicle, and an agent that has been built to satisfy safety constraints that it did not receive through instruction tuning or RLHF.",
         "code": "https://github.com/RichardKelley/dendron",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2404.07439"
     },
@@ -3629,7 +3630,7 @@
         "abstract": "We introduce WorkBench: a benchmark dataset for evaluating agents&#39; ability to execute tasks in a workplace setting. WorkBench contains a sandbox environment with five databases, 26 tools, and 690 tasks. These tasks represent common business activities, such as sending emails and scheduling meetings. The tasks in WorkBench are challenging as they require planning, tool selection, and often multiple actions. If a task has been successfully executed, one (or more) of the database values may change. The correct outcome for each task is unique and unambiguous, which allows for robust, automated evaluation. We call this key contribution outcome-centric evaluation. We evaluate five existing ReAct agents on WorkBench, finding they successfully complete as few as 3% of tasks (Llama2-70B), and just 43% for the best-performing (GPT-4). We further find that agents&#39; errors can result in the wrong action being taken, such as an email being sent to the wrong person. WorkBench reveals weaknesses in agents&#39; ability to undertake common business activities, raising questions about their use in high-stakes workplace settings. WorkBench is publicly available as a free resource at https://github.com/olly-styles/WorkBench.",
         "code": "https://github.com/olly-styles/workbench",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2405.00823"
     },

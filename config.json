@@ -1,16 +1,15 @@
 {
   "Name": "LLM-Agents-Papers",
-  "Category_Sort": ["Survey", "Agent Fine-tuning", "Role Playing", "Multi-Agent System", "Feedback&Reflection", "Memory Mechanism", "Planning", "Game Playing", "Game Platform", "Benchmark&Evaluation&Framework", "Tool Usage&Human-Agent Interaction", "Others"],
+  "Category_Sort": ["Survey", "Planning", "Feedback&Reflection", "Memory Mechanism", "Role Playing", "Game Playing", "Tool Usage&Human-Agent Interaction", "Benchmark&Evaluation", "Environment&Platform", "Agent Framework", "Multi-Agent System", "Agent Fine-tuning", "Others"],
   "Description": {
     "description": "A repo lists papers related to LLM based agent. Includes",
     "items": [
-      "methods of role playing, memory mechanism and game playing",
-      "methods of feedback or reflection",
-      "methods of tool usage or human-agent interaction",
-      "multi-agent system",
-      "benchmarks and surveys of the field",
-      "environments or platforms",
-      "agent fine-tuning"
+      ["Survey"],
+      ["Planning","Feedback&Reflection","Memory Mechanism"],
+      ["Role Playing","Game Playing","Tool Usage&Human-Agent Interaction"],
+      ["Benchmark&Evaluation","Environment&Platform"],
+      ["Agent Framework","Multi-Agent System"],
+      ["Agent Fine-tuning"]
     ],
     "date": "Last Updated Time: {}"
   },

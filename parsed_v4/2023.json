@@ -89,7 +89,7 @@
         "code": "https://github.com/project-miracl/hagrid",
         "abstract": " The rise of large language models (LLMs) had a transformative impact on\nsearch, ushering in a new era of search engines that are capable of generating\nsearch results in natural language text, imbued with citations for supporting\nsources. Building generative information-seeking models demands openly\naccessible datasets, which currently remain lacking. In this paper, we\nintroduce a new dataset, HAGRID (Human-in-the-loop Attributable Generative\nRetrieval for Information-seeking Dataset) for building end-to-end generative\ninformation-seeking models that are capable of retrieving candidate quotes and\ngenerating attributed explanations. Unlike recent efforts that focus on human\nevaluation of black-box proprietary search engines, we built our dataset atop\nthe English subset of MIRACL, a publicly available information retrieval\ndataset. HAGRID is constructed based on human and LLM collaboration. We first\nautomatically collect attributed explanations that follow an in-context\ncitation style using an LLM, i.e. GPT-3.5. Next, we ask human annotators to\nevaluate the LLM explanations based on two criteria: informativeness and\nattributability. HAGRID serves as a catalyst for the development of\ninformation-seeking models with better attribution capabilities.\n",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2307.16883"
     },
@@ -124,7 +124,7 @@
         "code": "https://github.com/THUDM/AgentBench",
         "abstract": " Large Language Models (LLMs) are becoming increasingly smart and autonomous,\ntargeting real-world pragmatic missions beyond traditional NLP tasks. As a\nresult, there has been an urgent need to evaluate LLMs as agents on challenging\ntasks in interactive environments. We present AgentBench, a multi-dimensional\nevolving benchmark that currently consists of 8 distinct environments to assess\nLLM-as-Agent&#39;s reasoning and decision-making abilities in a multi-turn\nopen-ended generation setting. Our extensive test over 25 LLMs (including APIs\nand open-sourced models) shows that, while top commercial LLMs present a strong\nability of acting as agents in complex environments, there is a significant\ndisparity in performance between them and open-sourced competitors. It also\nserves as a component of an ongoing project with wider coverage and deeper\nconsideration towards systematic LLM evaluation. Datasets, environments, and an\nintegrated evaluation package for AgentBench are released at\nhttps://github.com/THUDM/AgentBench\n",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2308.03688"
     },
@@ -152,7 +152,7 @@
         "code": "https://github.com/salesforce/BOLAA",
         "abstract": " The massive successes of large language models (LLMs) encourage the emerging\nexploration of LLM-augmented Autonomous Agents (LAAs). An LAA is able to\ngenerate actions with its core LLM and interact with environments, which\nfacilitates the ability to resolve complex tasks by conditioning on past\ninteractions such as observations and actions. Since the investigation of LAA\nis still very recent, limited explorations are available. Therefore, we provide\na comprehensive comparison of LAA in terms of both agent architectures and LLM\nbackbones. Additionally, we propose a new strategy to orchestrate multiple LAAs\nsuch that each labor LAA focuses on one type of action, \\textit{i.e.} BOLAA,\nwhere a controller manages the communication among multiple agents. We conduct\nsimulations on both decision-making and multi-step reasoning environments,\nwhich comprehensively justify the capacity of LAAs. Our performance results\nprovide quantitative suggestions for designing LAA architectures and the\noptimal choice of LLMs, as well as the compatibility of both. We release our\nimplementation code of LAAs to the public at\n\\url{https://github.com/salesforce/BOLAA}.\n",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2308.05960"
     },
@@ -173,7 +173,7 @@
         "code": "https://github.com/OSU-NLP-Group/Mind2Web",
         "abstract": " We introduce Mind2Web, the first dataset for developing and evaluating\ngeneralist agents for the web that can follow language instructions to complete\ncomplex tasks on any website. Existing datasets for web agents either use\nsimulated websites or only cover a limited set of websites and tasks, thus not\nsuitable for generalist web agents. With over 2,000 open-ended tasks collected\nfrom 137 websites spanning 31 domains and crowdsourced action sequences for the\ntasks, Mind2Web provides three necessary ingredients for building generalist\nweb agents: 1) diverse domains, websites, and tasks, 2) use of real-world\nwebsites instead of simulated and simplified ones, and 3) a broad spectrum of\nuser interaction patterns. Based on Mind2Web, we conduct an initial exploration\nof using large language models (LLMs) for building generalist web agents. While\nthe raw HTML of real-world websites are often too large to be fed to LLMs, we\nshow that first filtering it with a small LM significantly improves the\neffectiveness and efficiency of LLMs. Our solution demonstrates a decent level\nof performance, even on websites or entire domains the model has never seen\nbefore, but there is still a substantial room to improve towards truly\ngeneralizable agents. We open-source our dataset, model implementation, and\ntrained models (https://osu-nlp-group.github.io/Mind2Web) to facilitate further\nresearch on building a generalist agent for the web.\n",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2306.06070"
     },
@@ -203,7 +203,7 @@
         "code": "https://github.com/aiwaves-cn/agents",
         "abstract": " Recent advances on large language models (LLMs) enable researchers and\ndevelopers to build autonomous language agents that can automatically solve\nvarious tasks and interact with environments, humans, and other agents using\nnatural language interfaces. We consider language agents as a promising\ndirection towards artificial general intelligence and release Agents, an\nopen-source library with the goal of opening up these advances to a wider\nnon-specialist audience. Agents is carefully engineered to support important\nfeatures including planning, memory, tool usage, multi-agent communication, and\nfine-grained symbolic control. Agents is user-friendly as it enables\nnon-specialists to build, customize, test, tune, and deploy state-of-the-art\nautonomous language agents without much coding. The library is also\nresearch-friendly as its modularized design makes it easily extensible for\nresearchers. Agents is available at https://github.com/aiwaves-cn/agents.\n",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2309.07870"
     },
@@ -221,7 +221,7 @@
         "code": "https://github.com/jiangjiechen/auction-arena",
         "abstract": "Can Large Language Models (LLMs) simulate human behavior in complex environments? LLMs have recently been shown to exhibit advanced reasoning skills but much of NLP evaluation still relies on static benchmarks. Answering this requires evaluation environments that probe strategic reasoning in competitive, dynamic scenarios that involve long-term planning. We introduce AucArena, a novel simulation environment for evaluating LLMs within auctions, a setting chosen for being highly unpredictable and involving many skills related to resource and risk management, while also being easy to evaluate. We conduct several controlled simulations using state-of-the-art LLMs as bidding agents. We find that through simple prompting, LLMs do indeed demonstrate many of the skills needed for effectively engaging in auctions (e.g., managing budget, adhering to long-term goals and priorities), skills that we find can be sharpened by explicitly encouraging models to be adaptive and observe strategies in past auctions. These results are significant as they show the potential of using LLM agents to model intricate social dynamics, especially in competitive settings. However, we also observe considerable variability in the capabilities of individual LLMs. Notably, even our most advanced models (GPT-4) are occasionally surpassed by heuristic baselines and human agents, highlighting the potential for further improvements in the design of LLM agents and the important role that our simulation environment can play in further testing and refining agent architectures.",
         "category": [
-            "Benchmark&Evaluation&Framework",
+            "Benchmark&Evaluation",
             "Planning"
         ],
         "url": "https://arxiv.org/abs/2310.05746"
@@ -239,7 +239,7 @@
         "code": "https://github.com/microsoft/SmartPlay",
         "abstract": "Recent large language models (LLMs) have demonstrated great potential toward intelligent agents and next-gen automation, but there currently lacks a systematic benchmark for evaluating LLMs&#39; abilities as agents. We introduce SmartPlay: both a challenging benchmark and a methodology for evaluating LLMs as agents. SmartPlay consists of 6 different games, including Rock-Paper-Scissors, Tower of Hanoi, Minecraft. Each game features a unique setting, providing up to 20 evaluation settings and infinite environment variations. Each game in SmartPlay uniquely challenges a subset of 9 important capabilities of an intelligent LLM agent, including reasoning with object dependencies, planning ahead, spatial reasoning, learning from history, and understanding randomness. The distinction between the set of capabilities each game test allows us to analyze each capability separately. SmartPlay serves not only as a rigorous testing ground for evaluating the overall performance of LLM agents but also as a road-map for identifying gaps in current methodologies. We release our benchmark at github.com/microsoft/SmartPlay",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2310.01557"
     },
@@ -259,7 +259,7 @@
         "code": "https://github.com/agentification/RAFA_code",
         "abstract": " Large language models (LLMs) demonstrate impressive reasoning abilities, but\ntranslating reasoning into actions in the real world remains challenging. In\nparticular, it remains unclear how to complete a given task provably within a\nminimum number of interactions with the external environment, e.g., through an\ninternal mechanism of reasoning. To this end, we propose a principled framework\nwith provable regret guarantees to orchestrate reasoning and acting, which we\ncall &#34;reason for future, act for now&#34; (\\texttt{RAFA}). Specifically, we design\na prompt template for reasoning that learns from the memory buffer and plans a\nfuture trajectory over a long horizon (&#34;reason for future&#34;). At each step, the\nLLM agent takes the initial action of the planned trajectory (&#34;act for now&#34;),\nstores the collected feedback in the memory buffer, and reinvokes the reasoning\nroutine to replan the future trajectory from the new state. The key idea is to cast reasoning in LLMs as learning and planning in\nBayesian adaptive Markov decision processes (MDPs). Correspondingly, we prompt\nLLMs to form an updated posterior of the unknown environment from the memory\nbuffer (learning) and generate an optimal trajectory for multiple future steps\nthat maximizes a value function (planning). The learning and planning\nsubroutines are performed in an &#34;in-context&#34; manner to emulate the actor-critic\nupdate for MDPs. Our theoretical analysis proves that the novel combination of\nlong-term reasoning and short-term acting achieves a $\\sqrt{T}$ regret. In\nparticular, the regret bound highlights an intriguing interplay between the\nprior knowledge obtained through pretraining and the uncertainty reduction\nachieved by reasoning and acting. Our empirical validation shows that it\noutperforms various existing frameworks and achieves nearly perfect scores on a\nfew benchmarks.\n",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2309.17382"
     },
@@ -274,7 +274,7 @@
         "code": "https://github.com/microsoft/ToolTalk",
         "abstract": "Large language models (LLMs) have displayed massive improvements in reasoning and decision-making skills and can hold natural conversations with users. Many recent works seek to augment LLM-based assistants with external tools so they can access private or up-to-date information and carry out actions on behalf of users. To better measure the performance of these assistants, this paper introduces ToolTalk, a benchmark consisting of complex user intents requiring multi-step tool usage specified through dialogue. ToolTalk contains 28 tools grouped into 7 plugins, and includes a complete simulated implementation of each tool, allowing for fully automated evaluation of assistants that rely on execution feedback. ToolTalk also emphasizes tools that externally affect the world rather than only tools for referencing or searching information. We evaluate GPT-3.5 and GPT-4 on ToolTalk resulting in success rates of 26% and 50% respectively. Our analysis of the errors reveals three major categories and suggests some future directions for improvement. We release ToolTalk at https://github.com/microsoft/ToolTalk.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2311.10775"
     },
@@ -299,7 +299,7 @@
         "code": "https://github.com/OpenBMB/ProAgent",
         "abstract": "From ancient water wheels to robotic process automation (RPA), automation technology has evolved throughout history to liberate human beings from arduous tasks. Yet, RPA struggles with tasks needing human-like intelligence, especially in elaborate design of workflow construction and dynamic decision-making in workflow execution. As Large Language Models (LLMs) have emerged human-like intelligence, this paper introduces Agentic Process Automation (APA), a groundbreaking automation paradigm using LLM-based agents for advanced automation by offloading the human labor to agents associated with construction and execution. We then instantiate ProAgent, an LLM-based agent designed to craft workflows from human instructions and make intricate decisions by coordinating specialized agents. Empirical experiments are conducted to detail its construction and execution procedure of workflow, showcasing the feasibility of APA, unveiling the possibility of a new paradigm of automation driven by agents. Our code is public at https://github.com/OpenBMB/ProAgent.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2311.10751"
     },
@@ -319,7 +319,7 @@
         "pdf": "https://arxiv.org/pdf/2311.10538.pdf",
         "abstract": "A prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wild. Yet real-world autonomous tests face several unique safety challenges, both due to the possibility of causing harm during a test, as well as the risk of encountering new unsafe agent behavior through interactions with real-world and potentially malicious actors. We propose a framework for conducting safe autonomous agent tests on the open internet: agent actions are audited by a context-sensitive monitor that enforces a stringent safety boundary to stop an unsafe test, with suspect behavior ranked and logged to be examined by humans. We a design a basic safety monitor that is flexible enough to monitor existing LLM agents, and, using an adversarial simulated agent, we measure its ability to identify and stop unsafe situations. Then we apply the safety monitor on a battery of real-world tests of AutoGPT, and we identify several limitations and challenges that will face the creation of safe in-the-wild tests as autonomous agents grow more capable.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2311.10538"
     },
@@ -358,7 +358,7 @@
         "code": "https://ml-bench.github.io/",
         "abstract": "Large language models have shown promising performance in code generation benchmarks. However, a considerable divide exists between these benchmark achievements and their practical applicability, primarily attributed to real-world programming&#39;s reliance on pre-existing libraries. Instead of evaluating LLMs to code from scratch, this work aims to propose a new evaluation setup where LLMs use open-source libraries to finish machine learning tasks. Therefore, we propose ML-Bench, an expansive benchmark developed to assess the effectiveness of LLMs in leveraging existing functions in open-source libraries. Consisting of 10044 samples spanning 130 tasks over 14 notable machine learning GitHub repositories. In this setting, given a specific machine learning task instruction and the accompanying README in a codebase, an LLM is tasked to generate code to accomplish the task. This necessitates the comprehension of long and language-code interleaved documents, as well as the understanding of complex cross-file code structures, introducing new challenges. Notably, while GPT-4 exhibits remarkable improvement over other LLMs, it manages to accomplish only 39.73\\% of the tasks, leaving a huge space for improvement. We address these challenges by proposing ML-Agent, designed to effectively navigate the codebase, locate documentation, retrieve code, and generate executable code. Empirical results demonstrate that ML-Agent, built upon GPT-4, results in further improvements. Code, data, and models are available at \\url{https://ml-bench.github.io/}.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2311.09835"
     },
@@ -386,7 +386,7 @@
         "code": "https://github.com/PKU-Alignment/ProAgent",
         "abstract": "Building AIs with adaptive behaviors in human-AI cooperation stands as a pivotal focus in AGI research. Current methods for developing cooperative agents predominantly rely on learning-based methods, where policy generalization heavily hinges on past interactions with specific teammates. These approaches constrain the agent&#39;s capacity to recalibrate its strategy when confronted with novel teammates. We propose \\textbf{ProAgent}, a novel framework that harnesses large language models (LLMs) to fashion a \\textit{pro}active \\textit{agent} empowered with the ability to anticipate teammates&#39; forthcoming decisions and formulate enhanced plans for itself. ProAgent excels at cooperative reasoning with the capacity to dynamically adapt its behavior to enhance collaborative efforts with teammates. Moreover, the ProAgent framework exhibits a high degree of modularity and interpretability, facilitating seamless integration to address a wide array of coordination scenarios. Experimental evaluations conducted within the framework of \\textit{Overcook-AI} unveil the remarkable performance superiority of ProAgent, outperforming five methods based on self-play and population-based training in cooperation with AI agents. Further, when cooperating with human proxy models, its performance exhibits an average improvement exceeding 10\\% compared to the current state-of-the-art, COLE. The advancement was consistently observed across diverse scenarios involving interactions with both AI agents of varying characteristics and human counterparts. These findings inspire future research for human-robot collaborations. For a hands-on demonstration, please visit \\url{https://pku-proagent.github.io}.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Agent Framework"
         ],
         "url": "https://arxiv.org/abs/2308.11339"
     },
@@ -401,7 +401,7 @@
         "pdf": "http://arxiv.org/pdf/2312.16132.pdf",
         "abstract": "The rapid evolution of large language models (LLMs) necessitates effective benchmarks for evaluating their role knowledge, which is essential for establishing connections with the real world and providing more immersive interactions. This paper introduces RoleEval, a bilingual benchmark designed to assess the memorization, utilization, and reasoning capabilities of role knowledge. RoleEval comprises RoleEval-Global (including internationally recognized characters) and RoleEval-Chinese (including characters popular in China), with 6,000 Chinese-English parallel multiple-choice questions focusing on 300 influential people and fictional characters drawn from a variety of domains including celebrities, anime, comics, movies, TV series, games, and fiction. These questions cover basic knowledge and multi-hop reasoning abilities, aiming to systematically probe various aspects such as personal information, relationships, abilities, and experiences of the characters. To maintain high standards, we perform a hybrid quality check process combining automatic and human verification, ensuring that the questions are diverse, challenging, and discriminative. Our extensive evaluations of RoleEval across various open-source and proprietary large language models, under both the zero- and few-shot settings, reveal insightful findings. Notably, while GPT-4 outperforms other models on RoleEval-Global, Chinese LLMs excel on RoleEval-Chinese, highlighting significant knowledge distribution differences. We expect that RoleEval will highlight the significance of assessing role knowledge for foundation models across various languages and cultural settings.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2312.16132"
     },
@@ -419,7 +419,7 @@
         "pdf": "http://arxiv.org/pdf/2312.17115.pdf",
         "abstract": "Human behavior simulation of AI agents necessitates the agents to possess a quality of believability, which is crucial as it facilitates users in establishing trust toward the agents and streamlines the fulfillment of the agents&#39; goal. While recent advancements in Large Language Model (LLM) based agents have improved human behavior simulation, challenges inherent to LLMs (e.g., long context modeling) can undermine their believability. Consequently, evaluating AI agent believability becomes imperative. Unfortunately, prior research often neglects the negative impacts of LLM deficiencies. To address these gaps, we introduce two metrics for assessing LLM-based agent believability: consistency, and robustness, together with a benchmark, SimulateBench, with which, we evaluate the consistency and robustness of agents implemented with popular LLMs. We find that agents (i) struggle to accurately depict character information when presented with lengthy profile inputs; (ii) exhibit vulnerability to profile perturbations; and (iii) are significantly affected by certain key factors that impact their overall believability. Code and SimulateBench are public at https://github.com/GAIR-NLP/GPTMan.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2312.17115"
     },
@@ -438,7 +438,7 @@
         "pdf": "http://arxiv.org/pdf/2310.15421.pdf",
         "abstract": "Theory of mind (ToM) evaluations currently focus on testing models using passive narratives that inherently lack interactivity. We introduce FANToM, a new benchmark designed to stress-test ToM within information-asymmetric conversational contexts via question answering. Our benchmark draws upon important theoretical requisites from psychology and necessary empirical considerations when evaluating large language models (LLMs). In particular, we formulate multiple types of questions that demand the same underlying reasoning to identify illusory or false sense of ToM capabilities in LLMs. We show that FANToM is challenging for state-of-the-art LLMs, which perform significantly worse than humans even with chain-of-thought reasoning or fine-tuning.",
         "category": [
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2310.15421"
     },
@@ -655,7 +655,7 @@
         "code": "https://github.com/lil-lab/cb2",
         "abstract": " CB2 is a multi-agent platform to study collaborative natural language\ninteraction in a grounded task-oriented scenario. It includes a 3D game\nenvironment, a backend server designed to serve trained models to human agents,\nand various tools and processes to enable scalable studies. We deploy CB2 at\nhttps://cb2.ai as a system demonstration with a learned instruction following\nmodel.\n",
         "category": [
-            "Game Platform"
+            "Environment&Platform"
         ],
         "url": "https://arxiv.org/abs/2303.08127"
     },
@@ -2467,7 +2467,7 @@
         "category": [
             "Multi-Agent System",
             "Game Playing",
-            "Benchmark&Evaluation&Framework"
+            "Benchmark&Evaluation"
         ],
         "url": "https://arxiv.org/abs/2309.09971"
     },
