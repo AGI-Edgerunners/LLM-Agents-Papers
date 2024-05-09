@@ -51,7 +51,8 @@ def parse_description_section(data: dict) -> str:
                     data.get('date', '').format(f"{now.tm_year}/{now.tm_mon}/{now.tm_mday}\n"),
                     data.get('description', '')]
     for item in data.get('items', []):
-        readme_lines.append(f"* {item}")
+        temp_item = [f"[{i}](#{i.replace(' ','-').replace('&','')})" for i in item]
+        readme_lines.append(f"* {', '.join(temp_item)}")
     return '\n'.join(readme_lines)
 
 
@@ -70,12 +71,12 @@ def parse_paper_item(data: dict) -> str:
         code_tag = f'[[code]]({code})'
     else:
         code_tag = '[code]'
-    readme_line = f"""\t- [{date}] **{title}** | {url_tag} | {code_tag}\n"""
+    readme_line = f"""- [{date}] **{title}** | {url_tag} | {code_tag}\n"""
     return readme_line
 
 
 def parse_paper_block(block_title, block_datas) -> str:
-    readme_lines = [f"- {block_title}"]
+    readme_lines = [f"### {block_title}"]
     block_datas = sorted(block_datas, key=lambda x: x.get('date', ''), reverse=True)
     for data in block_datas:
         readme_line = parse_paper_item(data)
