@@ -4,9 +4,9 @@ Last Updated Time: 2024/5/9
 
 A repo lists papers related to LLM based agent. Includes
 * [Survey](#Survey)
-* [Planning](#Planning), [Feedback&Reflection](#Feedback-Reflection), [Memory Mechanism](#Memory-Mechanism)
-* [Role Playing](#Role-Playing), [Game Playing](#Game-Playing), [Tool Usage&Human-Agent Interaction](#Tool-Usage-Human-Agent-Interaction)
-* [Benchmark&Evaluation](#Benchmark-Evaluation), [Environment&Platform](#Environment-Platform)
+* [Planning](#Planning), [Feedback&Reflection](#FeedbackReflection), [Memory Mechanism](#Memory-Mechanism)
+* [Role Playing](#Role-Playing), [Game Playing](#Game-Playing), [Tool Usage&Human-Agent Interaction](#Tool-UsageHuman-Agent-Interaction)
+* [Benchmark&Evaluation](#BenchmarkEvaluation), [Environment&Platform](#EnvironmentPlatform)
 * [Agent Framework](#Agent-Framework), [Multi-Agent System](#Multi-Agent-System)
 * [Agent Fine-tuning](#Agent-Fine-tuning)
 ## :yellow_heart: Recommendation
