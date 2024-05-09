@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/4/22
+Last Updated Time: 2024/5/9
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
@@ -26,6 +26,8 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2024/04/03] **Empowering Biomedical Discovery with AI Agents** | [[paper]](https://arxiv.org/abs/2404.02831) | [code]
 
 	- [2024/04/02] **A Survey on Large Language Model-Based Game Agents** | [[paper]](https://arxiv.org/abs/2404.02039) | [[code]](https://github.com/git-disl/awesome-LLM-game-agent-papers)
+
+	- [2024/03/26] **Large Language Models for Human-Robot Interaction: Opportunities and Risks** | [[paper]](https://arxiv.org/abs/2405.00693) | [code]
 
 	- [2024/03/07] **Promising and worth-to-try future directions for advancing state-of-the-art surrogates methods of agent-based models in social and health computational sciences** | [[paper]](https://arxiv.org/abs/2403.04417) | [code]
 
@@ -57,6 +59,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
+	- [2024/05/01] **Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2405.00516) | [code]
+
 	- [2024/04/16] **Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2404.10887) | [code]
 
 	- [2024/04/05] **Social Skill Training with Large Language Models** | [[paper]](https://arxiv.org/abs/2404.04204) | [code]
@@ -101,6 +105,22 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2024/05/02] **GAIA: A General AI Assistant for Intelligent Accelerator Operations** | [[paper]](https://arxiv.org/abs/2405.01359) | [code]
+
+	- [2024/05/01] **&#34;Ask Me Anything&#34;: How Comcast Uses LLMs to Assist Agents in Real Time** | [[paper]](https://arxiv.org/abs/2405.00801) | [code]
+
+	- [2024/04/30] **PANGeA: Procedural Artificial Narrative using Generative AI for Turn-Based Video Games** | [[paper]](https://arxiv.org/abs/2404.19721) | [code]
+
+	- [2024/04/30] **Large Language Model Agent for Fake News Detection** | [[paper]](https://arxiv.org/abs/2405.01593) | [code]
+
+	- [2024/04/27] **CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments** | [[paper]](https://arxiv.org/abs/2404.18021) | [code]
+
+	- [2024/04/26] **Large Language Model Agent as a Mechanical Designer** | [[paper]](https://arxiv.org/abs/2404.17525) | [code]
+
+	- [2024/04/25] **Cooperate or Collapse: Emergence of Sustainability Behaviors in a Society of LLM Agents** | [[paper]](https://arxiv.org/abs/2404.16698) | [code]
+
+	- [2024/04/22] **How Well Can LLMs Echo Us? Evaluating AI Chatbots&#39; Role-Play Ability with ECHO** | [[paper]](https://arxiv.org/abs/2404.13957) | [code]
+
 	- [2024/04/19] **Cooperative Sentiment Agents for Multimodal Sentiment Analysis** | [[paper]](https://arxiv.org/abs/2404.12642) | [[code]](https://github.com/smwanghhh/co-sa)
 
 	- [2024/04/19] **Towards Human-centered Proactive Conversational Agents** | [[paper]](https://arxiv.org/abs/2404.12670) | [code]
@@ -255,6 +275,16 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Multi-Agent System
+	- [2024/05/06] **Conformity, Confabulation, and Impersonation: Persona Inconstancy in Multi-Agent LLM Collaboration** | [[paper]](https://arxiv.org/abs/2405.03862) | [code]
+
+	- [2024/04/28] **ComposerX: Multi-Agent Symbolic Music Composition with LLMs** | [[paper]](https://arxiv.org/abs/2404.18081) | [[code]](https://github.com/lllindsey0615/composerx)
+
+	- [2024/04/25] **Cooperate or Collapse: Emergence of Sustainability Behaviors in a Society of LLM Agents** | [[paper]](https://arxiv.org/abs/2404.16698) | [code]
+
+	- [2024/04/23] **BattleAgent: Multi-modal Dynamic Emulation on Historical Battles to Complement Historical Analysis** | [[paper]](https://arxiv.org/abs/2404.15532) | [[code]](https://github.com/agiresearch/battleagent)
+
+	- [2024/04/23] **CT-Agent: Clinical Trial Multi-Agent with Large Language Model-based Reasoning** | [[paper]](https://arxiv.org/abs/2404.14777) | [code]
+
 	- [2024/04/14] **Confidence Calibration and Rationalization for LLMs via Multi-Agent Deliberation** | [[paper]](https://arxiv.org/abs/2404.09127) | [code]
 
 	- [2024/04/12] **Leveraging Multi-AI Agents for Cross-Domain Knowledge Discovery** | [[paper]](https://arxiv.org/abs/2404.08511) | [code]
@@ -453,6 +483,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Planning
+	- [2024/04/28] **Logic Agent: Enhancing Validity with Logic Rule Invocation** | [[paper]](https://arxiv.org/abs/2404.18130) | [code]
+
+	- [2024/04/21] **Socratic Planner: Inquiry-Based Zero-Shot Planning for Embodied Instruction Following** | [[paper]](https://arxiv.org/abs/2404.15190) | [code]
+
 	- [2024/03/13] **AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents** | [[paper]](https://arxiv.org/abs/2403.08978) | [code]
 
 	- [2024/03/12] **AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production** | [[paper]](https://arxiv.org/abs/2403.07952) | [code]
@@ -561,6 +595,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2024/05/01] **WorkBench: a Benchmark Dataset for Agents in a Realistic Workplace Setting** | [[paper]](https://arxiv.org/abs/2405.00823) | [[code]](https://github.com/olly-styles/workbench)
+
 	- [2024/04/15] **MMInA: Benchmarking Multihop Multimodal Internet Agents** | [[paper]](https://arxiv.org/abs/2404.09992) | [[code]](https://github.com/shulin16/mmina)
 
 	- [2024/04/11] **OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments** | [[paper]](https://arxiv.org/abs/2404.07972) | [code]
@@ -641,6 +677,14 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Tool Usage&Human-Agent Interaction
+	- [2024/05/02] **CACTUS: Chemistry Agent Connecting Tool-Usage to Science** | [[paper]](https://arxiv.org/abs/2405.00972) | [[code]](https://github.com/pnnl/cactus)
+
+	- [2024/05/01] **Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2405.00516) | [code]
+
+	- [2024/05/01] **&#34;Ask Me Anything&#34;: How Comcast Uses LLMs to Assist Agents in Real Time** | [[paper]](https://arxiv.org/abs/2405.00801) | [code]
+
+	- [2024/04/23] **Aligning LLM Agents by Learning Latent Preference from User Edits** | [[paper]](https://arxiv.org/abs/2404.15269) | [code]
+
 	- [2024/04/16] **Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2404.10887) | [code]
 
 	- [2024/04/09] **SurveyAgent: A Conversational System for Personalized and Efficient Research Survey** | [[paper]](https://arxiv.org/abs/2404.06364) | [code]

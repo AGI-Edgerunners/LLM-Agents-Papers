@@ -3313,5 +3313,357 @@
             "Role Playing"
         ],
         "url": "https://arxiv.org/abs/2404.12670"
+    },
+    "f0ed13204545aa097b36058baa5bc6a0": {
+        "title": "Cooperate or Collapse: Emergence of Sustainability Behaviors in a Society of LLM Agents",
+        "authors": [
+            "Giorgio Piatti",
+            "Zhijing Jin",
+            "Max Kleiman-Weiner",
+            "Bernhard Schölkopf",
+            "Mrinmaya Sachan",
+            "Rada Mihalcea"
+        ],
+        "date": "2024/04/25",
+        "pdf": "http://arxiv.org/pdf/2404.16698",
+        "abstract": "In the rapidly evolving field of artificial intelligence, ensuring safe decision-making of Large Language Models (LLMs) is a significant challenge. This paper introduces Governance of the Commons Simulation (GovSim), a simulation platform designed to study strategic interactions and cooperative decision-making in LLMs. Through this simulation environment, we explore the dynamics of resource sharing among AI agents, highlighting the importance of ethical considerations, strategic planning, and negotiation skills. GovSim is versatile and supports any text-based agent, including LLMs agents. Using the Generative Agent framework, we create a standard agent that facilitates the integration of different LLMs. Our findings reveal that within GovSim, only two out of 15 tested LLMs managed to achieve a sustainable outcome, indicating a significant gap in the ability of models to manage shared resources. Furthermore, we find that by removing the ability of agents to communicate, they overuse the shared resource, highlighting the importance of communication for cooperation. Interestingly, most LLMs lack the ability to make universalized hypotheses, which highlights a significant weakness in their reasoning skills. We open source the full suite of our research results, including the simulation environment, agent prompts, and a comprehensive web interface.",
+        "code": "",
+        "category": [
+            "Role Playing",
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.16698"
+    },
+    "d98e6b8727b73e0711f9da1f804b2a3a": {
+        "title": "BattleAgent: Multi-modal Dynamic Emulation on Historical Battles to Complement Historical Analysis",
+        "authors": [
+            "Shuhang Lin",
+            "Wenyue Hua",
+            "Lingyao Li",
+            "Che-Jui Chang",
+            "Lizhou Fan",
+            "Jianchao Ji",
+            "Hang Hua",
+            "Mingyu Jin",
+            "Jiebo Luo",
+            "Yongfeng Zhang"
+        ],
+        "date": "2024/04/23",
+        "pdf": "http://arxiv.org/pdf/2404.15532",
+        "abstract": "This paper presents BattleAgent, an emulation system that combines the Large Vision-Language Model and Multi-agent System. This novel system aims to simulate complex dynamic interactions among multiple agents, as well as between agents and their environments, over a period of time. It emulates both the decision-making processes of leaders and the viewpoints of ordinary participants, such as soldiers. The emulation showcases the current capabilities of agents, featuring fine-grained multi-modal interactions between agents and landscapes. It develops customizable agent structures to meet specific situational requirements, for example, a variety of battle-related activities like scouting and trench digging. These components collaborate to recreate historical events in a lively and comprehensive manner while offering insights into the thoughts and feelings of individuals from diverse viewpoints. The technological foundations of BattleAgent establish detailed and immersive settings for historical battles, enabling individual agents to partake in, observe, and dynamically respond to evolving battle scenarios. This methodology holds the potential to substantially deepen our understanding of historical events, particularly through individual accounts. Such initiatives can also aid historical research, as conventional historical narratives often lack documentation and prioritize the perspectives of decision-makers, thereby overlooking the experiences of ordinary individuals. BattelAgent illustrates AI&#39;s potential to revitalize the human aspect in crucial social events, thereby fostering a more nuanced collective understanding and driving the progressive development of human society.",
+        "code": "https://github.com/agiresearch/battleagent",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.15532"
+    },
+    "9eff76117627bac573c318dd183c049a": {
+        "title": "Aligning LLM Agents by Learning Latent Preference from User Edits",
+        "authors": [
+            "Ge Gao",
+            "Alexey Taymanov",
+            "Eduardo Salinas",
+            "Paul Mineiro",
+            "Dipendra Misra"
+        ],
+        "date": "2024/04/23",
+        "pdf": "http://arxiv.org/pdf/2404.15269",
+        "abstract": "We study interactive learning of language agents based on user edits made to the agent&#39;s output. In a typical setting such as writing assistants, the user interacts with a language agent to generate a response given a context, and may optionally edit the agent response to personalize it based on their latent preference, in addition to improving the correctness. The edit feedback is naturally generated, making it a suitable candidate for improving the agent&#39;s alignment with the user&#39;s preference, and for reducing the cost of user edits over time. We propose a learning framework, PRELUDE that infers a description of the user&#39;s latent preference based on historic edit data and using it to define a prompt policy that drives future response generation. This avoids fine-tuning the agent, which is costly, challenging to scale with the number of users, and may even degrade its performance on other tasks. Furthermore, learning descriptive preference improves interpretability, allowing the user to view and modify the learned preference. However, user preference can be complex and vary based on context, making it challenging to learn. To address this, we propose a simple yet effective algorithm named CIPHER that leverages a large language model (LLM) to infer the user preference for a given context based on user edits. In the future, CIPHER retrieves inferred preferences from the k-closest contexts in the history, and forms an aggregate preference for response generation. We introduce two interactive environments -- summarization and email writing, for evaluation using a GPT-4 simulated user. We compare with algorithms that directly retrieve user edits but do not learn descriptive preference, and algorithms that learn context-agnostic preference. On both tasks, CIPHER achieves the lowest edit distance cost and learns preferences that show significant similarity to the ground truth preferences",
+        "code": "",
+        "category": [
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2404.15269"
+    },
+    "340f5e4367036a333e81bf97cd732408": {
+        "title": "CT-Agent: Clinical Trial Multi-Agent with Large Language Model-based Reasoning",
+        "authors": [
+            "Ling Yue",
+            "Tianfan Fu"
+        ],
+        "date": "2024/04/23",
+        "pdf": "http://arxiv.org/pdf/2404.14777",
+        "abstract": "Large Language Models (LLMs) and multi-agent systems have shown impressive capabilities in natural language tasks but face challenges in clinical trial applications, primarily due to limited access to external knowledge. Recognizing the potential of advanced clinical trial tools that aggregate and predict based on the latest medical data, we propose an integrated solution to enhance their accessibility and utility. We introduce Clinical Agent System (CT-Agent), a Clinical multi-agent system designed for clinical trial tasks, leveraging GPT-4, multi-agent architectures, LEAST-TO-MOST, and ReAct reasoning technology. This integration not only boosts LLM performance in clinical contexts but also introduces novel functionalities. Our system autonomously manages the entire clinical trial process, demonstrating significant efficiency improvements in our evaluations, which include both computational benchmarks and expert feedback.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.14777"
+    },
+    "e04c3f9762fe447296eb9a790f67c49b": {
+        "title": "Socratic Planner: Inquiry-Based Zero-Shot Planning for Embodied Instruction Following",
+        "authors": [
+            "Suyeon Shin",
+            "Sujin jeon",
+            "Junghyun Kim",
+            "Gi-Cheon Kang",
+            "Byoung-Tak Zhang"
+        ],
+        "date": "2024/04/21",
+        "pdf": "http://arxiv.org/pdf/2404.15190",
+        "abstract": "Embodied Instruction Following (EIF) is the task of executing natural language instructions by navigating and interacting with objects in 3D environments. One of the primary challenges in EIF is compositional task planning, which is often addressed with supervised or in-context learning with labeled data. To this end, we introduce the Socratic Planner, the first zero-shot planning method that infers without the need for any training data. Socratic Planner first decomposes the instructions into substructural information of the task through self-questioning and answering, translating it into a high-level plan, i.e., a sequence of subgoals. Subgoals are executed sequentially, with our visually grounded re-planning mechanism adjusting plans dynamically through a dense visual feedback. We also introduce an evaluation metric of high-level plans, RelaxedHLP, for a more comprehensive evaluation. Experiments demonstrate the effectiveness of the Socratic Planner, achieving competitive performance on both zero-shot and few-shot task planning in the ALFRED benchmark, particularly excelling in tasks requiring higher-dimensional inference. Additionally, a precise adjustments in the plan were achieved by incorporating environmental visual information.",
+        "code": "",
+        "category": [
+            "Planning"
+        ],
+        "url": "https://arxiv.org/abs/2404.15190"
+    },
+    "35ce08a40e0cdaf207031e3d97ba4c6e": {
+        "title": "How Well Can LLMs Echo Us? Evaluating AI Chatbots&#39; Role-Play Ability with ECHO",
+        "authors": [
+            "Man Tik Ng",
+            "Hui Tung Tse",
+            "Jen-tse Huang",
+            "Jingjing Li",
+            "Wenxuan Wang",
+            "Michael R. Lyu"
+        ],
+        "date": "2024/04/22",
+        "pdf": "http://arxiv.org/pdf/2404.13957",
+        "abstract": "The role-play ability of Large Language Models (LLMs) has emerged as a popular research direction. However, existing studies focus on imitating well-known public figures or fictional characters, overlooking the potential for simulating ordinary individuals. Such an oversight limits the potential for advancements in digital human clones and non-player characters in video games. To bridge this gap, we introduce ECHO, an evaluative framework inspired by the Turing test. This framework engages the acquaintances of the target individuals to distinguish between human and machine-generated responses. Notably, our framework focuses on emulating average individuals rather than historical or fictional figures, presenting a unique advantage to apply the Turing Test. We evaluated three role-playing LLMs using ECHO, with GPT-3.5 and GPT-4 serving as foundational models, alongside the online application GPTs from OpenAI. Our results demonstrate that GPT-4 more effectively deceives human evaluators, and GPTs achieves a leading success rate of 48.3%. Furthermore, we investigated whether LLMs could discern between human-generated and machine-generated texts. While GPT-4 can identify differences, it could not determine which texts were human-produced. Our code and results of reproducing the role-playing LLMs are made publicly available via https://github.com/CUHK-ARISE/ECHO.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.13957"
+    },
+    "ab48f35dec492ad32cc00c50276c7f36": {
+        "title": "PANGeA: Procedural Artificial Narrative using Generative AI for Turn-Based Video Games",
+        "authors": [
+            "Steph Buongiorno",
+            "Lawrence Jake Klinkert",
+            "Tanishq Chawla",
+            "Zixin Zhuang",
+            "Corey Clark"
+        ],
+        "date": "2024/04/30",
+        "pdf": "http://arxiv.org/pdf/2404.19721",
+        "abstract": "This research introduces Procedural Artificial Narrative using Generative AI (PANGeA), a structured approach for leveraging large language models (LLMs), guided by a game designer&#39;s high-level criteria, to generate narrative content for turn-based role-playing video games (RPGs). Distinct from prior applications of LLMs used for video game design, PANGeA innovates by not only generating game level data (which includes, but is not limited to, setting, key items, and non-playable characters (NPCs)), but by also fostering dynamic, free-form interactions between the player and the environment that align with the procedural game narrative. The NPCs generated by PANGeA are personality-biased and express traits from the Big 5 Personality Model in their generated responses. PANGeA addresses challenges behind ingesting free-form text input, which can prompt LLM responses beyond the scope of the game narrative. A novel validation system that uses the LLM&#39;s intelligence evaluates text input and aligns generated responses with the unfolding narrative. Making these interactions possible, PANGeA is supported by a server that hosts a custom memory system that supplies context for augmenting generated responses thus aligning them with the procedural narrative. For its broad application, the server has a REST interface enabling any game engine to integrate directly with PANGeA, as well as an LLM interface adaptable with local or private LLMs. PANGeA&#39;s ability to foster dynamic narrative generation by aligning responses with the procedural narrative is demonstrated through an empirical study and ablation test of two versions of a demo game. These are, a custom, browser-based GPT and a Unity demo. As the results show, PANGeA holds potential to assist game designers in using LLMs to generate narrative-consistent content even when provided varied and unpredictable, free-form text input.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.19721"
+    },
+    "d3be68d8e8d6464c35b2ccdf320e52e2": {
+        "title": "Large Language Model Agent as a Mechanical Designer",
+        "authors": [
+            "Yayati Jadhav",
+            "Amir Barati Farimani"
+        ],
+        "date": "2024/04/26",
+        "pdf": "http://arxiv.org/pdf/2404.17525",
+        "abstract": "Conventional mechanical design paradigms rely on experts systematically refining concepts through experience-guided modification and FEA to meet specific requirements. However, this approach can be time-consuming and heavily dependent on prior knowledge and experience. While numerous machine learning models have been developed to streamline this intensive and expert-driven iterative process, these methods typically demand extensive training data and considerable computational resources. Furthermore, methods based on deep learning are usually restricted to the specific domains and tasks for which they were trained, limiting their applicability across different tasks. This creates a trade-off between the efficiency of automation and the demand for resources. In this study, we present a novel approach that integrates pre-trained LLMs with a FEM module. The FEM module evaluates each design and provides essential feedback, guiding the LLMs to continuously learn, plan, generate, and optimize designs without the need for domain-specific training. We demonstrate the effectiveness of our proposed framework in managing the iterative optimization of truss structures, showcasing its capability to reason about and refine designs according to structured feedback and criteria. Our results reveal that these LLM-based agents can successfully generate truss designs that comply with natural language specifications with a success rate of up to 90%, which varies according to the applied constraints. By employing prompt-based optimization techniques we show that LLM based agents exhibit optimization behavior when provided with solution-score pairs to iteratively refine designs to meet specifications. This ability of LLM agents to produce viable designs and optimize them based on their inherent reasoning capabilities highlights their potential to develop and implement effective design strategies autonomously.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.17525"
+    },
+    "aef6e27e25eb64666e2bbb9373ac3d70": {
+        "title": "CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments",
+        "authors": [
+            "Kaixuan Huang",
+            "Yuanhao Qu",
+            "Henry Cousins",
+            "William A. Johnson",
+            "Di Yin",
+            "Mihir Shah",
+            "Denny Zhou",
+            "Russ Altman",
+            "Mengdi Wang",
+            "Le Cong"
+        ],
+        "date": "2024/04/27",
+        "pdf": "http://arxiv.org/pdf/2404.18021",
+        "abstract": "The introduction of genome engineering technology has transformed biomedical research, making it possible to make precise changes to genetic information. However, creating an efficient gene-editing system requires a deep understanding of CRISPR technology, and the complex experimental systems under investigation. While Large Language Models (LLMs) have shown promise in various tasks, they often lack specific knowledge and struggle to accurately solve biological design problems. In this work, we introduce CRISPR-GPT, an LLM agent augmented with domain knowledge and external tools to automate and enhance the design process of CRISPR-based gene-editing experiments. CRISPR-GPT leverages the reasoning ability of LLMs to facilitate the process of selecting CRISPR systems, designing guide RNAs, recommending cellular delivery methods, drafting protocols, and designing validation experiments to confirm editing outcomes. We showcase the potential of CRISPR-GPT for assisting non-expert researchers with gene-editing experiments from scratch and validate the agent&#39;s effectiveness in a real-world use case. Furthermore, we explore the ethical and regulatory considerations associated with automated gene-editing design, highlighting the need for responsible and transparent use of these tools. Our work aims to bridge the gap between beginner biological researchers and CRISPR genome engineering techniques, and demonstrate the potential of LLM agents in facilitating complex biological discovery tasks.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2404.18021"
+    },
+    "c20a9be3f493bc58a9706b98f5bfcb38": {
+        "title": "ComposerX: Multi-Agent Symbolic Music Composition with LLMs",
+        "authors": [
+            "Qixin Deng",
+            "Qikai Yang",
+            "Ruibin Yuan",
+            "Yipeng Huang",
+            "Yi Wang",
+            "Xubo Liu",
+            "Zeyue Tian",
+            "Jiahao Pan",
+            "Ge Zhang",
+            "Hanfeng Lin",
+            "Yizhi Li",
+            "Yinghao Ma",
+            "Jie Fu",
+            "Chenghua Lin",
+            "Emmanouil Benetos",
+            "Wenwu Wang",
+            "Guangyu Xia",
+            "Wei Xue",
+            "Yike Guo"
+        ],
+        "date": "2024/04/28",
+        "pdf": "http://arxiv.org/pdf/2404.18081",
+        "abstract": "Music composition represents the creative side of humanity, and itself is a complex task that requires abilities to understand and generate information with long dependency and harmony constraints. While demonstrating impressive capabilities in STEM subjects, current LLMs easily fail in this task, generating ill-written music even when equipped with modern techniques like In-Context-Learning and Chain-of-Thoughts. To further explore and enhance LLMs&#39; potential in music composition by leveraging their reasoning ability and the large knowledge base in music history and theory, we propose ComposerX, an agent-based symbolic music generation framework. We find that applying a multi-agent approach significantly improves the music composition quality of GPT-4. The results demonstrate that ComposerX is capable of producing coherent polyphonic music compositions with captivating melodies, while adhering to user instructions.",
+        "code": "https://github.com/lllindsey0615/composerx",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2404.18081"
+    },
+    "96c56a428d90415310188fa9a434d00c": {
+        "title": "Logic Agent: Enhancing Validity with Logic Rule Invocation",
+        "authors": [
+            "Hanmeng Liu",
+            "Zhiyang Teng",
+            "Chaoli Zhang",
+            "Yue Zhang"
+        ],
+        "date": "2024/04/28",
+        "pdf": "http://arxiv.org/pdf/2404.18130",
+        "abstract": "Chain-of-Thought (CoT) prompting has emerged as a pivotal technique for augmenting the inferential capabilities of language models during reasoning tasks. Despite its advancements, CoT often grapples with challenges in validating reasoning validity and ensuring informativeness. Addressing these limitations, this paper introduces the Logic Agent (LA), an agent-based framework aimed at enhancing the validity of reasoning processes in Large Language Models (LLMs) through strategic logic rule invocation. Unlike conventional approaches, LA transforms LLMs into logic agents that dynamically apply propositional logic rules, initiating the reasoning process by converting natural language inputs into structured logic forms. The logic agent leverages a comprehensive set of predefined functions to systematically navigate the reasoning process. This methodology not only promotes the structured and coherent generation of reasoning constructs but also significantly improves their interpretability and logical coherence. Through extensive experimentation, we demonstrate LA&#39;s capacity to scale effectively across various model sizes, markedly improving the precision of complex reasoning across diverse tasks.",
+        "code": "",
+        "category": [
+            "Planning"
+        ],
+        "url": "https://arxiv.org/abs/2404.18130"
+    },
+    "bf68ceff02d38dac075c997707f0632e": {
+        "title": "Large Language Model Agent for Fake News Detection",
+        "authors": [
+            "Xinyi Li",
+            "Yongfeng Zhang",
+            "Edward C. Malthouse"
+        ],
+        "date": "2024/04/30",
+        "pdf": "http://arxiv.org/pdf/2405.01593",
+        "abstract": "In the current digital era, the rapid spread of misinformation on online platforms presents significant challenges to societal well-being, public trust, and democratic processes, influencing critical decision making and public opinion. To address these challenges, there is a growing need for automated fake news detection mechanisms. Pre-trained large language models (LLMs) have demonstrated exceptional capabilities across various natural language processing (NLP) tasks, prompting exploration into their potential for verifying news claims. Instead of employing LLMs in a non-agentic way, where LLMs generate responses based on direct prompts in a single shot, our work introduces FactAgent, an agentic approach of utilizing LLMs for fake news detection. FactAgent enables LLMs to emulate human expert behavior in verifying news claims without any model training, following a structured workflow. This workflow breaks down the complex task of news veracity checking into multiple sub-steps, where LLMs complete simple tasks using their internal knowledge or external tools. At the final step of the workflow, LLMs integrate all findings throughout the workflow to determine the news claim&#39;s veracity. Compared to manual human verification, FactAgent offers enhanced efficiency. Experimental studies demonstrate the effectiveness of FactAgent in verifying claims without the need for any training process. Moreover, FactAgent provides transparent explanations at each step of the workflow and during final decision-making, offering insights into the reasoning process of fake news detection for end users. FactAgent is highly adaptable, allowing for straightforward updates to its tools that LLMs can leverage within the workflow, as well as updates to the workflow itself using domain knowledge. This adaptability enables FactAgent&#39;s application to news verification across various domains.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2405.01593"
+    },
+    "d7fa003b09d2ebcde7ea089949ad402a": {
+        "title": "Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning",
+        "authors": [
+            "Lucas-Andreï Thil",
+            "Mirela Popa",
+            "Gerasimos Spanakis"
+        ],
+        "date": "2024/05/01",
+        "pdf": "http://arxiv.org/pdf/2405.00516",
+        "abstract": "Recent advancements in language models have demonstrated remarkable improvements in various natural language processing (NLP) tasks such as web navigation. Supervised learning (SL) approaches have achieved impressive performance while utilizing significantly less training data compared to previous methods. However, these SL-based models fall short when compared to reinforcement learning (RL) approaches, which have shown superior results. In this paper, we propose a novel approach that combines SL and RL techniques over the MiniWoB benchmark to leverage the strengths of both methods. We also address a critical limitation in previous models&#39; understanding of HTML content, revealing a tendency to memorize target elements rather than comprehend the underlying structure. To rectify this, we propose methods to enhance true understanding and present a new baseline of results. Our experiments demonstrate that our approach outperforms previous SL methods on certain tasks using less data and narrows the performance gap with RL models, achieving 43.58\\% average accuracy in SL and 36.69\\% when combined with a multimodal RL approach. This study sets a new direction for future web navigation and offers insights into the limitations and potential of language modeling for computer tasks.",
+        "code": "",
+        "category": [
+            "Tool Usage&Human-Agent Interaction",
+            "Agent Fine-tuning"
+        ],
+        "url": "https://arxiv.org/abs/2405.00516"
+    },
+    "c1e0294614a29fc390d87c06d71e7a1e": {
+        "title": "Large Language Models for Human-Robot Interaction: Opportunities and Risks",
+        "authors": [
+            "Jesse Atuhurra"
+        ],
+        "date": "2024/03/26",
+        "pdf": "http://arxiv.org/pdf/2405.00693",
+        "abstract": "The tremendous development in large language models (LLM) has led to a new wave of innovations and applications and yielded research results that were initially forecast to take longer. In this work, we tap into these recent developments and present a meta-study about the potential of large language models if deployed in social robots. We place particular emphasis on the applications of social robots: education, healthcare, and entertainment. Before being deployed in social robots, we also study how these language models could be safely trained to ``understand&#39;&#39; societal norms and issues, such as trust, bias, ethics, cognition, and teamwork. We hope this study provides a resourceful guide to other robotics researchers interested in incorporating language models in their robots.",
+        "code": "",
+        "category": [
+            "Survey"
+        ],
+        "url": "https://arxiv.org/abs/2405.00693"
+    },
+    "78997b038dfb5f3e70c52686b5d86257": {
+        "title": "Conformity, Confabulation, and Impersonation: Persona Inconstancy in Multi-Agent LLM Collaboration",
+        "authors": [
+            "Razan Baltaji",
+            "Babak Hemmatian",
+            "Lav R. Varshney"
+        ],
+        "date": "2024/05/06",
+        "pdf": "http://arxiv.org/pdf/2405.03862",
+        "abstract": "This study explores the sources of instability in maintaining cultural personas and opinions within multi-agent LLM systems. Drawing on simulations of inter-cultural collaboration and debate, we analyze agents&#39; pre- and post-discussion private responses alongside chat transcripts to assess the stability of cultural personas and the impact of opinion diversity on group outcomes. Our findings suggest that multi-agent discussions can encourage collective decisions that reflect diverse perspectives, yet this benefit is tempered by the agents&#39; susceptibility to conformity due to perceived peer pressure and challenges in maintaining consistent personas and opinions. Counterintuitively, instructions that encourage debate in support of one&#39;s opinions increase the rate of inconstancy. Without addressing the factors we identify, the full potential of multi-agent frameworks for producing more culturally diverse AI outputs will remain untapped.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2405.03862"
+    },
+    "77b2c05422904b637fe33ddffdddc2ff": {
+        "title": "&#34;Ask Me Anything&#34;: How Comcast Uses LLMs to Assist Agents in Real Time",
+        "authors": [
+            "Scott Rome",
+            "Tianwen Chen",
+            "Raphael Tang",
+            "Luwei Zhou",
+            "Ferhan Ture"
+        ],
+        "date": "2024/05/01",
+        "pdf": "http://arxiv.org/pdf/2405.00801",
+        "abstract": "Customer service is how companies interface with their customers. It can contribute heavily towards the overall customer satisfaction. However, high-quality service can become expensive, creating an incentive to make it as cost efficient as possible and prompting most companies to utilize AI-powered assistants, or &#34;chat bots&#34;. On the other hand, human-to-human interaction is still desired by customers, especially when it comes to complex scenarios such as disputes and sensitive topics like bill payment. This raises the bar for customer service agents. They need to accurately understand the customer&#39;s question or concern, identify a solution that is acceptable yet feasible (and within the company&#39;s policy), all while handling multiple conversations at once. In this work, we introduce &#34;Ask Me Anything&#34; (AMA) as an add-on feature to an agent-facing customer service interface. AMA allows agents to ask questions to a large language model (LLM) on demand, as they are handling customer conversations -- the LLM provides accurate responses in real-time, reducing the amount of context switching the agent needs. In our internal experiments, we find that agents using AMA versus a traditional search experience spend approximately 10% fewer seconds per conversation containing a search, translating to millions of dollars of savings annually. Agents that used the AMA feature provided positive feedback nearly 80% of the time, demonstrating its usefulness as an AI-assisted feature for customer care.",
+        "code": "",
+        "category": [
+            "Role Playing",
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2405.00801"
+    },
+    "2704c7e4d3813e67bbf40356965122ec": {
+        "title": "WorkBench: a Benchmark Dataset for Agents in a Realistic Workplace Setting",
+        "authors": [
+            "Olly Styles",
+            "Sam Miller",
+            "Patricio Cerda-Mardini",
+            "Tanaya Guha",
+            "Victor Sanchez",
+            "Bertie Vidgen"
+        ],
+        "date": "2024/05/01",
+        "pdf": "http://arxiv.org/pdf/2405.00823",
+        "abstract": "We introduce WorkBench: a benchmark dataset for evaluating agents&#39; ability to execute tasks in a workplace setting. WorkBench contains a sandbox environment with five databases, 26 tools, and 690 tasks. These tasks represent common business activities, such as sending emails and scheduling meetings. The tasks in WorkBench are challenging as they require planning, tool selection, and often multiple actions. If a task has been successfully executed, one (or more) of the database values may change. The correct outcome for each task is unique and unambiguous, which allows for robust, automated evaluation. We call this key contribution outcome-centric evaluation. We evaluate five existing ReAct agents on WorkBench, finding they successfully complete as few as 3% of tasks (Llama2-70B), and just 43% for the best-performing (GPT-4). We further find that agents&#39; errors can result in the wrong action being taken, such as an email being sent to the wrong person. WorkBench reveals weaknesses in agents&#39; ability to undertake common business activities, raising questions about their use in high-stakes workplace settings. WorkBench is publicly available as a free resource at https://github.com/olly-styles/WorkBench.",
+        "code": "https://github.com/olly-styles/workbench",
+        "category": [
+            "Benchmark&Evaluation&Framework"
+        ],
+        "url": "https://arxiv.org/abs/2405.00823"
+    },
+    "b72d2bd1cbea4425300fafee4f089549": {
+        "title": "CACTUS: Chemistry Agent Connecting Tool-Usage to Science",
+        "authors": [
+            "Andrew D. McNaughton",
+            "Gautham Ramalaxmi",
+            "Agustin Kruel",
+            "Carter R. Knutson",
+            "Rohith A. Varikoti",
+            "Neeraj Kumar"
+        ],
+        "date": "2024/05/02",
+        "pdf": "http://arxiv.org/pdf/2405.00972",
+        "abstract": "Large language models (LLMs) have shown remarkable potential in various domains, but they often lack the ability to access and reason over domain-specific knowledge and tools. In this paper, we introduced CACTUS (Chemistry Agent Connecting Tool-Usage to Science), an LLM-based agent that integrates cheminformatics tools to enable advanced reasoning and problem-solving in chemistry and molecular discovery. We evaluate the performance of CACTUS using a diverse set of open-source LLMs, including Gemma-7b, Falcon-7b, MPT-7b, Llama2-7b, and Mistral-7b, on a benchmark of thousands of chemistry questions. Our results demonstrate that CACTUS significantly outperforms baseline LLMs, with the Gemma-7b and Mistral-7b models achieving the highest accuracy regardless of the prompting strategy used. Moreover, we explore the impact of domain-specific prompting and hardware configurations on model performance, highlighting the importance of prompt engineering and the potential for deploying smaller models on consumer-grade hardware without significant loss in accuracy. By combining the cognitive capabilities of open-source LLMs with domain-specific tools, CACTUS can assist researchers in tasks such as molecular property prediction, similarity searching, and drug-likeness assessment. Furthermore, CACTUS represents a significant milestone in the field of cheminformatics, offering an adaptable tool for researchers engaged in chemistry and molecular discovery. By integrating the strengths of open-source LLMs with domain-specific tools, CACTUS has the potential to accelerate scientific advancement and unlock new frontiers in the exploration of novel, effective, and safe therapeutic candidates, catalysts, and materials. Moreover, CACTUS&#39;s ability to integrate with automated experimentation platforms and make data-driven decisions in real time opens up new possibilities for autonomous discovery.",
+        "code": "https://github.com/pnnl/cactus",
+        "category": [
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2405.00972"
+    },
+    "ba077a6c1f1f572103b1bcfa943cb42b": {
+        "title": "GAIA: A General AI Assistant for Intelligent Accelerator Operations",
+        "authors": [
+            "Frank Mayet"
+        ],
+        "date": "2024/05/02",
+        "pdf": "http://arxiv.org/pdf/2405.01359",
+        "abstract": "Large-scale machines like particle accelerators are usually run by a team of experienced operators. In case of a particle accelerator, these operators possess suitable background knowledge on both accelerator physics and the technology comprising the machine. Due to the complexity of the machine, particular subsystems of the machine are taken care of by experts, who the operators can turn to. In this work the reasoning and action (ReAct) prompting paradigm is used to couple an open-weights large language model (LLM) with a high-level machine control system framework and other tools, e.g. the electronic logbook or machine design documentation. By doing so, a multi-expert retrieval augmented generation (RAG) system is implemented, which assists operators in knowledge retrieval tasks, interacts with the machine directly if needed, or writes high level control system scripts. This consolidation of expert knowledge and machine interaction can simplify and speed up machine operation tasks for both new and experienced human operators.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2405.01359"
     }
 }
