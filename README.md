@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/5/9
+Last Updated Time: 2024/5/23
 
 A repo lists papers related to LLM based agent. Includes
 * [Survey](#Survey)
@@ -212,6 +212,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Role Playing
+- [2024/05/12] **Exploring the Potential of Conversational AI Support for Agent-Based Social Simulation Model Design** | [[paper]](https://arxiv.org/abs/2405.08032) | [code]
+
+- [2024/05/10] **LLM Discussion: Enhancing the Creativity of Large Language Models via Discussion Framework and Role-Play** | [[paper]](https://arxiv.org/abs/2405.06373) | [code]
+
 - [2024/05/02] **GAIA: A General AI Assistant for Intelligent Accelerator Operations** | [[paper]](https://arxiv.org/abs/2405.01359) | [code]
 
 - [2024/05/01] **&#34;Ask Me Anything&#34;: How Comcast Uses LLMs to Assist Agents in Real Time** | [[paper]](https://arxiv.org/abs/2405.00801) | [code]
@@ -382,6 +386,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Game Playing
+- [2024/05/08] **LLMs with Personalities in Multi-issue Negotiation Games** | [[paper]](https://arxiv.org/abs/2405.05248) | [code]
+
 - [2024/04/03] **Learn to Disguise: Avoid Refusal Responses in LLM&#39;s Defense via a Multi-agent Attacker-Disguiser Game** | [[paper]](https://arxiv.org/abs/2404.02532) | [code]
 
 - [2024/03/26] **Sharing the Cost of Success: A Game for Evaluating and Learning Collaborative Multi-Agent Instruction Giving and Following Policies** | [[paper]](https://arxiv.org/abs/2403.17497) | [[code]](https://github.com/clp-research/cost-sharing-reference-game)
@@ -508,6 +514,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Benchmark&Evaluation
+- [2024/05/16] **Speaker Verification in Agent-Generated Conversations** | [[paper]](https://arxiv.org/abs/2405.10150) | [code]
+
+- [2024/05/13] **AgentClinic: a multimodal agent benchmark to evaluate AI in simulated clinical environments** | [[paper]](https://arxiv.org/abs/2405.07960) | [code]
+
 - [2024/05/01] **WorkBench: a Benchmark Dataset for Agents in a Realistic Workplace Setting** | [[paper]](https://arxiv.org/abs/2405.00823) | [[code]](https://github.com/olly-styles/workbench)
 
 - [2024/04/15] **MMInA: Benchmarking Multihop Multimodal Internet Agents** | [[paper]](https://arxiv.org/abs/2404.09992) | [[code]](https://github.com/shulin16/mmina)
@@ -600,7 +610,13 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Multi-Agent System
+- [2024/05/20] **(Perhaps) Beyond Human Translation: Harnessing Multi-Agent Collaboration for Translating Ultra-Long Literary Texts** | [[paper]](https://arxiv.org/abs/2405.11804) | [code]
+
+- [2024/05/17] **LLM-based Multi-Agent Reinforcement Learning: Current and Future Directions** | [[paper]](https://arxiv.org/abs/2405.11106) | [code]
+
 - [2024/05/06] **Conformity, Confabulation, and Impersonation: Persona Inconstancy in Multi-Agent LLM Collaboration** | [[paper]](https://arxiv.org/abs/2405.03862) | [code]
+
+- [2024/05/05] **Language Evolution for Evading Social Media Regulation via LLM-based Multi-agent Simulation** | [[paper]](https://arxiv.org/abs/2405.02858) | [code]
 
 - [2024/04/28] **ComposerX: Multi-Agent Symbolic Music Composition with LLMs** | [[paper]](https://arxiv.org/abs/2404.18081) | [[code]](https://github.com/lllindsey0615/composerx)
 
@@ -710,7 +726,11 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Agent Fine-tuning
+- [2024/05/16] **Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2405.10292) | [code]
+
 - [2024/05/01] **Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2405.00516) | [code]
+
+- [2024/04/17] **Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent** | [[paper]](https://arxiv.org/abs/2404.11459) | [code]
 
 - [2024/04/16] **Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2404.10887) | [code]
 

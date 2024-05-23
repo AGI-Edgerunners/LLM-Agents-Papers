@@ -1692,7 +1692,8 @@
         "abstract": "Large Language Model (LLM) agents have been increasingly adopted as simulation tools to model humans in applications such as social science. However, one fundamental question remains: can LLM agents really simulate human behaviors? In this paper, we focus on one of the most critical behaviors in human interactions, trust, and aim to investigate whether or not LLM agents can simulate human trust behaviors. We first find that LLM agents generally exhibit trust behaviors, referred to as agent trust, under the framework of Trust Games, which are widely recognized in behavioral economics. Then, we discover that LLM agents can have high behavioral alignment with humans regarding trust behaviors, particularly for GPT-4, indicating the feasibility to simulate human trust behaviors with LLM agents. In addition, we probe into the biases in agent trust and the differences in agent trust towards agents and humans. We also explore the intrinsic properties of agent trust under conditions including advanced reasoning strategies and external manipulations. We further offer important implications of our discoveries for various scenarios where trust is paramount. Our study provides new insights into the behaviors of LLM agents and the fundamental analogy between LLMs and humans.",
         "code": "https://github.com/camel-ai/agent-trust",
         "category": [
-            "Survey","Game Playing"
+            "Survey",
+            "Game Playing"
         ],
         "url": "https://arxiv.org/abs/2402.04559"
     },
@@ -3666,5 +3667,181 @@
             "Role Playing"
         ],
         "url": "https://arxiv.org/abs/2405.01359"
+    },
+    "6d2bc9f35fcd10c0a43d0bb13c364676": {
+        "title": "Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent",
+        "authors": [
+            "Wei Chen",
+            "Zhiyuan Li"
+        ],
+        "date": "2024/04/17",
+        "pdf": "http://arxiv.org/pdf/2404.11459",
+        "abstract": "A multimodal AI agent is characterized by its ability to process and learn from various types of data, including natural language, visual, and audio inputs, to inform its actions. Despite advancements in large language models that incorporate visual data, such as GPT-4V, effectively translating image-based data into actionable outcomes for AI agents continues to be challenging. In this paper, we introduce a multimodal model that incorporates the concept of functional token specifically designed for AI agent applications. To ensure compatibility with edge devices, our model is optimized to a compact size of less than 1B parameters. Like GPT-4, our model can process both English and Chinese. We demonstrate that this model is capable of operating efficiently on a wide range of edge devices, including as constrained as a Raspberry Pi.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning"
+        ],
+        "url": "https://arxiv.org/abs/2404.11459"
+    },
+    "b87a4cc0c759e31d54cf32e846c59ee9": {
+        "title": "LLM-based Multi-Agent Reinforcement Learning: Current and Future Directions",
+        "authors": [
+            "Chuanneng Sun",
+            "Songjun Huang",
+            "Dario Pompili"
+        ],
+        "date": "2024/05/17",
+        "pdf": "http://arxiv.org/pdf/2405.11106",
+        "abstract": "In recent years, Large Language Models (LLMs) have shown great abilities in various tasks, including question answering, arithmetic problem solving, and poem writing, among others. Although research on LLM-as-an-agent has shown that LLM can be applied to Reinforcement Learning (RL) and achieve decent results, the extension of LLM-based RL to Multi-Agent System (MAS) is not trivial, as many aspects, such as coordination and communication between agents, are not considered in the RL frameworks of a single agent. To inspire more research on LLM-based MARL, in this letter, we survey the existing LLM-based single-agent and multi-agent RL frameworks and provide potential research directions for future research. In particular, we focus on the cooperative tasks of multiple agents with a common goal and communication among them. We also consider human-in/on-the-loop scenarios enabled by the language component in the framework.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2405.11106"
+    },
+    "f042f087ecadcb354329fbcd38bbc000": {
+        "title": "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+        "authors": [
+            "Yuexiang Zhai",
+            "Hao Bai",
+            "Zipeng Lin",
+            "Jiayi Pan",
+            "Shengbang Tong",
+            "Yifei Zhou",
+            "Alane Suhr",
+            "Saining Xie",
+            "Yann LeCun",
+            "Yi Ma",
+            "Sergey Levine"
+        ],
+        "date": "2024/05/16",
+        "pdf": "http://arxiv.org/pdf/2405.10292",
+        "abstract": "Large vision-language models (VLMs) fine-tuned on specialized visual instruction-following data have exhibited impressive language reasoning capabilities across various scenarios. However, this fine-tuning paradigm may not be able to efficiently learn optimal decision-making agents in multi-step goal-directed tasks from interactive environments. To address this challenge, we propose an algorithmic framework that fine-tunes VLMs with reinforcement learning (RL). Specifically, our framework provides a task description and then prompts the VLM to generate chain-of-thought (CoT) reasoning, enabling the VLM to efficiently explore intermediate reasoning steps that lead to the final text-based action. Next, the open-ended text output is parsed into an executable action to interact with the environment to obtain goal-directed task rewards. Finally, our framework uses these task rewards to fine-tune the entire VLM with RL. Empirically, we demonstrate that our proposed framework enhances the decision-making capabilities of VLM agents across various tasks, enabling 7b models to outperform commercial models such as GPT4-V or Gemini. Furthermore, we find that CoT reasoning is a crucial component for performance improvement, as removing the CoT reasoning results in a significant decrease in the overall performance of our method.",
+        "code": "",
+        "category": [
+            "Agent Fine-tuning"
+        ],
+        "url": "https://arxiv.org/abs/2405.10292"
+    },
+    "d9495626913b689d9b5dbe9d90df8923": {
+        "title": "Exploring the Potential of Conversational AI Support for Agent-Based Social Simulation Model Design",
+        "authors": [
+            "Peer-Olaf Siebers"
+        ],
+        "date": "2024/05/12",
+        "pdf": "http://arxiv.org/pdf/2405.08032",
+        "abstract": "ChatGPT, the AI-powered chatbot with a massive user base of hundreds of millions, has become a global phenomenon. However, the use of Conversational AI Systems (CAISs) like ChatGPT for research in the field of Social Simulation is still limited. Specifically, there is no evidence of its usage in Agent-Based Social Simulation (ABSS) model design. While scepticism towards anything new is inherent to human nature, we firmly believe it is imperative to initiate the use of this innovative technology to support ABSS model design. This paper presents a proof-of-concept that demonstrates how CAISs can facilitate the development of innovative conceptual ABSS models in a concise timeframe and with minimal required upfront case-based knowledge. By employing advanced prompt engineering techniques and adhering to the Engineering ABSS framework, we have constructed a comprehensive prompt script that enables the design of ABSS models with or by the CAIS. The effectiveness of the script is demonstrated through an illustrative case study concerning the use of adaptive architecture in museums. Despite occasional inaccuracies and divergences in conversation, the CAIS proved to be a valuable companion for ABSS modellers.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2405.08032"
+    },
+    "bcf1e07dcc3653511e08f61ae367e0bb": {
+        "title": "AgentClinic: a multimodal agent benchmark to evaluate AI in simulated clinical environments",
+        "authors": [
+            "Samuel Schmidgall",
+            "Rojin Ziaei",
+            "Carl Harris",
+            "Eduardo Reis",
+            "Jeffrey Jopling",
+            "Michael Moor"
+        ],
+        "date": "2024/05/13",
+        "pdf": "http://arxiv.org/pdf/2405.07960",
+        "abstract": "Diagnosing and managing a patient is a complex, sequential decision making process that requires physicians to obtain information -- such as which tests to perform -- and to act upon it. Recent advances in artificial intelligence (AI) and large language models (LLMs) promise to profoundly impact clinical care. However, current evaluation schemes overrely on static medical question-answering benchmarks, falling short on interactive decision-making that is required in real-life clinical work. Here, we present AgentClinic: a multimodal benchmark to evaluate LLMs in their ability to operate as agents in simulated clinical environments. In our benchmark, the doctor agent must uncover the patient&#39;s diagnosis through dialogue and active data collection. We present two open benchmarks: a multimodal image and dialogue environment, AgentClinic-NEJM, and a dialogue-only environment, AgentClinic-MedQA. We embed cognitive and implicit biases both in patient and doctor agents to emulate realistic interactions between biased agents. We find that introducing bias leads to large reductions in diagnostic accuracy of the doctor agents, as well as reduced compliance, confidence, and follow-up consultation willingness in patient agents. Evaluating a suite of state-of-the-art LLMs, we find that several models that excel in benchmarks like MedQA are performing poorly in AgentClinic-MedQA. We find that the LLM used in the patient agent is an important factor for performance in the AgentClinic benchmark. We show that both having limited interactions as well as too many interaction reduces diagnostic accuracy in doctor agents. The code and data for this work is publicly available at https://AgentClinic.github.io.",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation"
+        ],
+        "url": "https://arxiv.org/abs/2405.07960"
+    },
+    "a7ce7a0960bfdb2e0e3d36c076b3386c": {
+        "title": "Language Evolution for Evading Social Media Regulation via LLM-based Multi-agent Simulation",
+        "authors": [
+            "Jinyu Cai",
+            "Jialong Li",
+            "Mingyue Zhang",
+            "Munan Li",
+            "Chen-Shu Wang",
+            "Kenji Tei"
+        ],
+        "date": "2024/05/05",
+        "pdf": "http://arxiv.org/pdf/2405.02858",
+        "abstract": "Social media platforms such as Twitter, Reddit, and Sina Weibo play a crucial role in global communication but often encounter strict regulations in geopolitically sensitive regions. This situation has prompted users to ingeniously modify their way of communicating, frequently resorting to coded language in these regulated social media environments. This shift in communication is not merely a strategy to counteract regulation, but a vivid manifestation of language evolution, demonstrating how language naturally evolves under societal and technological pressures. Studying the evolution of language in regulated social media contexts is of significant importance for ensuring freedom of speech, optimizing content moderation, and advancing linguistic research. This paper proposes a multi-agent simulation framework using Large Language Models (LLMs) to explore the evolution of user language in regulated social media environments. The framework employs LLM-driven agents: supervisory agent who enforce dialogue supervision and participant agents who evolve their language strategies while engaging in conversation, simulating the evolution of communication styles under strict regulations aimed at evading social media regulation. The study evaluates the framework&#39;s effectiveness through a range of scenarios from abstract scenarios to real-world situations. Key findings indicate that LLMs are capable of simulating nuanced language dynamics and interactions in constrained settings, showing improvement in both evading supervision and information accuracy as evolution progresses. Furthermore, it was found that LLM agents adopt different strategies for different scenarios.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2405.02858"
+    },
+    "b43b5affaaf41cfdf9e94780c8081629": {
+        "title": "(Perhaps) Beyond Human Translation: Harnessing Multi-Agent Collaboration for Translating Ultra-Long Literary Texts",
+        "authors": [
+            "Minghao Wu",
+            "Yulin Yuan",
+            "Gholamreza Haffari",
+            "Longyue Wang"
+        ],
+        "date": "2024/05/20",
+        "pdf": "http://arxiv.org/pdf/2405.11804",
+        "abstract": "Recent advancements in machine translation (MT) have significantly enhanced translation quality across various domains. However, the translation of literary texts remains a formidable challenge due to their complex language, figurative expressions, and cultural nuances. In this work, we introduce a novel multi-agent framework based on large language models (LLMs) for literary translation, implemented as a company called TransAgents, which mirrors traditional translation publication process by leveraging the collective capabilities of multiple agents, to address the intricate demands of translating literary works. To evaluate the effectiveness of our system, we propose two innovative evaluation strategies: Monolingual Human Preference (MHP) and Bilingual LLM Preference (BLP). MHP assesses translations from the perspective of monolingual readers of the target language, while BLP uses advanced LLMs to compare translations directly with the original texts. Empirical findings indicate that despite lower d-BLEU scores, translations from TransAgents are preferred by both human evaluators and LLMs over human-written references, particularly in genres requiring domain-specific knowledge. We also highlight the strengths and limitations of TransAgents through case studies and suggests directions for future research.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2405.11804"
+    },
+    "795c4f39e715ad150c279b8e75ac567a": {
+        "title": "Speaker Verification in Agent-Generated Conversations",
+        "authors": [
+            "Yizhe Yang",
+            "Heyan Huang",
+            "Palakorn Achananuparp",
+            "Jing Jiang",
+            "Ee-Peng Lim"
+        ],
+        "date": "2024/05/16",
+        "pdf": "http://arxiv.org/pdf/2405.10150",
+        "abstract": "The recent success of large language models (LLMs) has attracted widespread interest to develop role-playing conversational agents personalized to the characteristics and styles of different speakers to enhance their abilities to perform both general and special purpose dialogue tasks. However, the ability to personalize the generated utterances to speakers, whether conducted by human or LLM, has not been well studied. To bridge this gap, our study introduces a novel evaluation challenge: speaker verification in agent-generated conversations, which aimed to verify whether two sets of utterances originate from the same speaker. To this end, we assemble a large dataset collection encompassing thousands of speakers and their utterances. We also develop and evaluate speaker verification models under experiment setups. We further utilize the speaker verification models to evaluate the personalization abilities of LLM-based role-playing models. Comprehensive experiments suggest that the current role-playing models fail in accurately mimicking speakers, primarily due to their inherent linguistic characteristics.",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation"
+        ],
+        "url": "https://arxiv.org/abs/2405.10150"
+    },
+    "d42b631cc1afc305dd8e925f98cfee2e": {
+        "title": "LLM Discussion: Enhancing the Creativity of Large Language Models via Discussion Framework and Role-Play",
+        "authors": [
+            "Li-Chun Lu",
+            "Shou-Jen Chen",
+            "Tsung-Min Pai",
+            "Chan-Hung Yu",
+            "Hung-yi Lee",
+            "Shao-Hua Sun"
+        ],
+        "date": "2024/05/10",
+        "pdf": "http://arxiv.org/pdf/2405.06373",
+        "abstract": "Large language models (LLMs) have shown exceptional proficiency in natural language processing but often fall short of generating creative and original responses to open-ended questions. To enhance LLM creativity, our key insight is to emulate the human process of inducing collective creativity through engaging discussions with participants from diverse backgrounds and perspectives. To this end, we propose LLM Discussion, a three-phase discussion framework that facilitates vigorous and diverging idea exchanges and ensures convergence to creative answers. Moreover, we adopt a role-playing technique by assigning distinct roles to LLMs to combat the homogeneity of LLMs. We evaluate the efficacy of the proposed framework with the Alternative Uses Test, Similarities Test, Instances Test, and Scientific Creativity Test through both LLM evaluation and human study. Our proposed framework outperforms single-LLM approaches and existing multi-LLM frameworks across various creativity metrics.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2405.06373"
+    },
+    "cefe1287a3a99a48008bf93f0f79e333": {
+        "title": "LLMs with Personalities in Multi-issue Negotiation Games",
+        "authors": [
+            "Sean Noh",
+            "Ho-Chun Herbert Chang"
+        ],
+        "date": "2024/05/08",
+        "pdf": "http://arxiv.org/pdf/2405.05248",
+        "abstract": "Powered by large language models (LLMs), AI agents have become capable of many human tasks. Using the most canonical definitions of the Big Five personality, we measure the ability of LLMs to negotiate within a game-theoretical framework, as well as methodological challenges to measuring notions of fairness and risk. Simulations (n=1,500) for both single-issue and multi-issue negotiation reveal increase in domain complexity with asymmetric issue valuations improve agreement rates but decrease surplus from aggressive negotiation. Through gradient-boosted regression and Shapley explainers, we find high openness, conscientiousness, and neuroticism are associated with fair tendencies; low agreeableness and low openness are associated with rational tendencies. Low conscientiousness is associated with high toxicity. These results indicate that LLMs may have built-in guardrails that default to fair behavior, but can be &#34;jail broken&#34; to exploit agreeable opponents. We also offer pragmatic insight in how negotiation bots can be designed, and a framework of assessing negotiation behavior based on game theory and computational social science.",
+        "code": "",
+        "category": [
+            "Game Playing"
+        ],
+        "url": "https://arxiv.org/abs/2405.05248"
     }
 }
