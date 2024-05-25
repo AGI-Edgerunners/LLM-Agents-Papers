@@ -3843,5 +3843,206 @@
             "Game Playing"
         ],
         "url": "https://arxiv.org/abs/2405.05248"
+    },
+    "8056aba2da622463a647edc55787daf9": {
+        "title": "Enhancing the Efficiency and Accuracy of Underlying Asset Reviews in Structured Finance: The Application of Multi-agent Framework",
+        "authors": [
+            "Xiangpeng Wan",
+            "Haicheng Deng",
+            "Kai Zou",
+            "Shiqi Xu"
+        ],
+        "date": "2024/05/07",
+        "pdf": "http://arxiv.org/pdf/2405.04294",
+        "abstract": "Structured finance, which involves restructuring diverse assets into securities like MBS, ABS, and CDOs, enhances capital market efficiency but presents significant due diligence challenges. This study explores the integration of artificial intelligence (AI) with traditional asset review processes to improve efficiency and accuracy in structured finance. Using both open-sourced and close-sourced large language models (LLMs), we demonstrate that AI can automate the verification of information between loan applications and bank statements effectively. While close-sourced models such as GPT-4 show superior performance, open-sourced models like LLAMA3 offer a cost-effective alternative. Dual-agent systems further increase accuracy, though this comes with higher operational costs. This research highlights AI&#39;s potential to minimize manual errors and streamline due diligence, suggesting a broader application of AI in financial document analysis and risk management.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2405.04294"
+    },
+    "ce0125bf6fd7254260d4181c039c17dc": {
+        "title": "Agent Design Pattern Catalogue: A Collection of Architectural Patterns for Foundation Model based Agents",
+        "authors": [
+            "Yue Liu",
+            "Sin Kit Lo",
+            "Qinghua Lu",
+            "Liming Zhu",
+            "Dehai Zhao",
+            "Xiwei Xu",
+            "Stefan Harrer",
+            "Jon Whittle"
+        ],
+        "date": "2024/05/16",
+        "pdf": "http://arxiv.org/pdf/2405.10467",
+        "abstract": "Foundation model-enabled generative artificial intelligence facilitates the development and implementation of agents, which can leverage distinguished reasoning and language processing capabilities to takes a proactive, autonomous role to pursue users&#39; goals. Nevertheless, there is a lack of systematic knowledge to guide practitioners in designing the agents considering challenges of goal-seeking (including generating instrumental goals and plans), such as hallucinations inherent in foundation models, explainability of reasoning process, complex accountability, etc. To address this issue, we have performed a systematic literature review to understand the state-of-the-art foundation model-based agents and the broader ecosystem. In this paper, we present a pattern catalogue consisting of 16 architectural patterns with analyses of the context, forces, and trade-offs as the outcomes from the previous literature review. The proposed catalogue can provide holistic guidance for the effective use of patterns, and support the architecture design of foundation model-based agents by facilitating goal-seeking and plan generation.",
+        "code": "",
+        "category": [
+            "Survey"
+        ],
+        "url": "https://arxiv.org/abs/2405.10467"
+    },
+    "94a565cf17ac32e1846fc0b3fffad4ec": {
+        "title": "Latent State Estimation Helps UI Agents to Reason",
+        "authors": [
+            "William E Bishop",
+            "Alice Li",
+            "Christopher Rawles",
+            "Oriana Riva"
+        ],
+        "date": "2024/05/17",
+        "pdf": "http://arxiv.org/pdf/2405.11120",
+        "abstract": "A common problem for agents operating in real-world environments is that the response of an environment to their actions may be non-deterministic and observed through noise. This renders environmental state and progress towards completing a task latent. Despite recent impressive demonstrations of LLM&#39;s reasoning abilities on various benchmarks, whether LLMs can build estimates of latent state and leverage them for reasoning has not been explicitly studied. We investigate this problem in the real-world domain of autonomous UI agents. We establish that appropriately prompting LLMs in a zero-shot manner can be formally understood as forming point estimates of latent state in a textual space. In the context of autonomous UI agents we then show that LLMs used in this manner are more than $76\\%$ accurate at inferring various aspects of latent state, such as performed (vs. commanded) actions and task progression. Using both public and internal benchmarks and three reasoning methods (zero-shot, CoT-SC &amp; ReAct), we show that LLM-powered agents that explicitly estimate and reason about latent state are able to successfully complete up to 1.6x more tasks than those that do not.",
+        "code": "",
+        "category": [
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2405.11120"
+    },
+    "750790b50612eb08e2ba6127a791d3c7": {
+        "title": "ALI-Agent: Assessing LLMs&#39; Alignment with Human Values via Agent-based Evaluation",
+        "authors": [
+            "Jingnan Zheng",
+            "Han Wang",
+            "An Zhang",
+            "Tai D. Nguyen",
+            "Jun Sun",
+            "Tat-Seng Chua"
+        ],
+        "date": "2024/05/23",
+        "pdf": "http://arxiv.org/pdf/2405.14125",
+        "abstract": "Large Language Models (LLMs) can elicit unintended and even harmful content when misaligned with human values, posing severe risks to users and society. To mitigate these risks, current evaluation benchmarks predominantly employ expert-designed contextual scenarios to assess how well LLMs align with human values. However, the labor-intensive nature of these benchmarks limits their test scope, hindering their ability to generalize to the extensive variety of open-world use cases and identify rare but crucial long-tail risks. Additionally, these static tests fail to adapt to the rapid evolution of LLMs, making it hard to evaluate timely alignment issues. To address these challenges, we propose ALI-Agent, an evaluation framework that leverages the autonomous abilities of LLM-powered agents to conduct in-depth and adaptive alignment assessments. ALI-Agent operates through two principal stages: Emulation and Refinement. During the Emulation stage, ALI-Agent automates the generation of realistic test scenarios. In the Refinement stage, it iteratively refines the scenarios to probe long-tail risks. Specifically, ALI-Agent incorporates a memory module to guide test scenario generation, a tool-using module to reduce human labor in tasks such as evaluating feedback from target LLMs, and an action module to refine tests. Extensive experiments across three aspects of human values--stereotypes, morality, and legality--demonstrate that ALI-Agent, as a general evaluation framework, effectively identifies model misalignment. Systematic analysis also validates that the generated test scenarios represent meaningful use cases, as well as integrate enhanced measures to probe long-tail risks. Our code is available at https://github.com/SophieZheng998/ALI-Agent.git",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation"
+        ],
+        "url": "https://arxiv.org/abs/2405.14125"
+    },
+    "b2904bbe6b5faeec0f25208fc522269e": {
+        "title": "Human-Agent Cooperation in Games under Incomplete Information through Natural Language Communication",
+        "authors": [
+            "Shenghui Chen",
+            "Daniel Fried",
+            "Ufuk Topcu"
+        ],
+        "date": "2024/05/23",
+        "pdf": "http://arxiv.org/pdf/2405.14173",
+        "abstract": "Developing autonomous agents that can strategize and cooperate with humans under information asymmetry is challenging without effective communication in natural language. We introduce a shared-control game, where two players collectively control a token in alternating turns to achieve a common objective under incomplete information. We formulate a policy synthesis problem for an autonomous agent in this game with a human as the other player. To solve this problem, we propose a communication-based approach comprising a language module and a planning module. The language module translates natural language messages into and from a finite set of flags, a compact representation defined to capture player intents. The planning module leverages these flags to compute a policy using an asymmetric information-set Monte Carlo tree search with flag exchange algorithm we present. We evaluate the effectiveness of this approach in a testbed based on Gnomes at Night, a search-and-find maze board game. Results of human subject experiments show that communication narrows the information gap between players and enhances human-agent cooperation efficiency with fewer turns.",
+        "code": "",
+        "category": [
+            "Game Playing",
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2405.14173"
+    },
+    "4d296b8ae0f8197119be49892f53d198": {
+        "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+        "authors": [
+            "Christopher Rawles",
+            "Sarah Clinckemaillie",
+            "Yifan Chang",
+            "Jonathan Waltz",
+            "Gabrielle Lau",
+            "Marybeth Fair",
+            "Alice Li",
+            "William Bishop",
+            "Wei Li",
+            "Folawiyo Campbell-Ajala",
+            "Daniel Toyama",
+            "Robert Berry",
+            "Divya Tyamagundlu",
+            "Timothy Lillicrap",
+            "Oriana Riva"
+        ],
+        "date": "2024/05/23",
+        "pdf": "http://arxiv.org/pdf/2405.14573",
+        "abstract": "Autonomous agents that execute human tasks by controlling computers can enhance human productivity and application accessibility. Yet, progress in this field will be driven by realistic and reproducible benchmarks. We present AndroidWorld, a fully functioning Android environment that provides reward signals for 116 programmatic task workflows across 20 real world Android applications. Unlike existing interactive environments, which provide a static test set, AndroidWorld dynamically constructs tasks that are parameterized and expressed in natural language in unlimited ways, thus enabling testing on a much larger and realistic suite of tasks. Reward signals are derived from the computer&#39;s system state, making them durable across task variations and extensible across different apps. To demonstrate AndroidWorld&#39;s benefits and mode of operation, we introduce a new computer control agent, M3A. M3A can complete 30.6% of the AndroidWorld&#39;s tasks, leaving ample room for future work. Furthermore, we adapt a popular desktop web agent to work on Android, which we find to be less effective on mobile, suggesting future research is needed to achieve universal, cross-domain agents. Finally, we conduct a robustness analysis by testing M3A against a range of task variations on a representative subset of tasks, demonstrating that variations in task parameters can significantly alter the complexity of a task and therefore an agent&#39;s performance, highlighting the importance of testing agents under diverse conditions. AndroidWorld and the experiments in this paper are available at https://github.com/google-research/android_world.",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation",
+            "Environment&Platform"
+        ],
+        "url": "https://arxiv.org/abs/2405.14573"
+    },
+    "241a53b94a75c87f40db449ad7d7c09f": {
+        "title": "CityGPT: Towards Urban IoT Learning, Analysis and Interaction with Multi-Agent System",
+        "authors": [
+            "Qinghua Guan",
+            "Jinhui Ouyang",
+            "Di Wu",
+            "Weiren Yu"
+        ],
+        "date": "2024/05/23",
+        "pdf": "http://arxiv.org/pdf/2405.14691",
+        "abstract": "The spatiotemporal data generated by massive sensors in the Internet of Things (IoT) is extremely dynamic, heterogeneous, large scale and time-dependent. It poses great challenges (e.g. accuracy, reliability, and stability) in real-time analysis and decision making for different IoT applications. The complexity of IoT data prevents the common people from gaining a deeper understanding of it. Agentized systems help address the lack of data insight for the common people. We propose a generic framework, namely CityGPT, to facilitate the learning and analysis of IoT time series with an end-to-end paradigm. CityGPT employs three agents to accomplish the spatiotemporal analysis of IoT data. The requirement agent facilitates user inputs based on natural language. Then, the analysis tasks are decomposed into temporal and spatial analysis processes, completed by corresponding data analysis agents (temporal and spatial agents). Finally, the spatiotemporal fusion agent visualizes the system&#39;s analysis results by receiving analysis results from data analysis agents and invoking sub-visualization agents, and can provide corresponding textual descriptions based on user demands. To increase the insight for common people using our framework, we have agnentized the framework, facilitated by a large language model (LLM), to increase the data comprehensibility. Our evaluation results on real-world data with different time dependencies show that the CityGPT framework can guarantee robust performance in IoT computing.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2405.14691"
+    },
+    "71fde0ae3293374724587616030740e8": {
+        "title": "Evaluating Tool-Augmented Agents in Remote Sensing Platforms",
+        "authors": [
+            "Simranjit Singh",
+            "Michael Fore",
+            "Dimitrios Stamoulis"
+        ],
+        "date": "2024/04/23",
+        "pdf": "http://arxiv.org/pdf/2405.00709",
+        "abstract": "Tool-augmented Large Language Models (LLMs) have shown impressive capabilities in remote sensing (RS) applications. However, existing benchmarks assume question-answering input templates over predefined image-text data pairs. These standalone instructions neglect the intricacies of realistic user-grounded tasks. Consider a geospatial analyst: they zoom in a map area, they draw a region over which to collect satellite imagery, and they succinctly ask &#34;Detect all objects here&#34;. Where is `here`, if it is not explicitly hardcoded in the image-text template, but instead is implied by the system state, e.g., the live map positioning? To bridge this gap, we present GeoLLM-QA, a benchmark designed to capture long sequences of verbal, visual, and click-based actions on a real UI platform. Through in-depth evaluation of state-of-the-art LLMs over a diverse set of 1,000 tasks, we offer insights towards stronger agents for RS applications.",
+        "code": "",
+        "category": [
+            "Benchmark&Evaluation"
+        ],
+        "url": "https://arxiv.org/abs/2405.00709"
+    },
+    "adf670f5c071558cd2fe0713eb34f114": {
+        "title": "LLMSat: A Large Language Model-Based Goal-Oriented Agent for Autonomous Space Exploration",
+        "authors": [
+            "David Maranto"
+        ],
+        "date": "2024/04/13",
+        "pdf": "http://arxiv.org/pdf/2405.01392",
+        "abstract": "As spacecraft journey further from Earth with more complex missions, systems of greater autonomy and onboard intelligence are called for. Reducing reliance on human-based mission control becomes increasingly critical if we are to increase our rate of solar-system-wide exploration. Recent work has explored AI-based goal-oriented systems to increase the level of autonomy in mission execution. These systems make use of symbolic reasoning managers to make inferences from the state of a spacecraft and a handcrafted knowledge base, enabling autonomous generation of tasks and re-planning. Such systems have proven to be successful in controlled cases, but they are difficult to implement as they require human-crafted ontological models to allow the spacecraft to understand the world. Reinforcement learning has been applied to train robotic agents to pursue a goal. A new architecture for autonomy is called for. This work explores the application of Large Language Models (LLMs) as the high-level control system of a spacecraft. Using a systems engineering approach, this work presents the design and development of an agentic spacecraft controller by leveraging an LLM as a reasoning engine, to evaluate the utility of such an architecture in achieving higher levels of spacecraft autonomy. A series of deep space mission scenarios simulated within the popular game engine Kerbal Space Program (KSP) are used as case studies to evaluate the implementation against the requirements. It is shown the reasoning and planning abilities of present-day LLMs do not scale well as the complexity of a mission increases, but this can be alleviated with adequate prompting frameworks and strategic selection of the agent&#39;s level of authority over the host spacecraft. This research evaluates the potential of LLMs in augmenting autonomous decision-making systems for future robotic space applications.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2405.01392"
+    },
+    "84c6d6849a4e01526b03a20d54035cbb": {
+        "title": "Rapid Mobile App Development for Generative AI Agents on MIT App Inventor",
+        "authors": [
+            "Jaida Gao",
+            "Calab Su",
+            "Etai Miller",
+            "Kevin Lu",
+            "Yu Meng"
+        ],
+        "date": "2024/04/01",
+        "pdf": "http://arxiv.org/pdf/2405.01561",
+        "abstract": "The evolution of Artificial Intelligence (AI) stands as a pivotal force shaping our society, finding applications across diverse domains such as education, sustainability, and safety. Leveraging AI within mobile applications makes it easily accessible to the public, catalyzing its transformative potential. In this paper, we present a methodology for the rapid development of AI agent applications using the development platform provided by MIT App Inventor. To demonstrate its efficacy, we share the development journey of three distinct mobile applications: SynchroNet for fostering sustainable communities; ProductiviTeams for addressing procrastination; and iHELP for enhancing community safety. All three applications seamlessly integrate a spectrum of generative AI features, leveraging OpenAI APIs. Furthermore, we offer insights gleaned from overcoming challenges in integrating diverse tools and AI functionalities, aiming to inspire young developers to join our efforts in building practical AI agent applications.",
+        "code": "",
+        "category": [
+            "Environment&Platform"
+        ],
+        "url": "https://arxiv.org/abs/2405.01561"
+    },
+    "a3bec6082d05d452c748821b265713b1": {
+        "title": "Large Language Models (LLMs) as Agents for Augmented Democracy",
+        "authors": [
+            "Jairo Gudiño-Rosero",
+            "Umberto Grandi",
+            "César A. Hidalgo"
+        ],
+        "date": "2024/05/06",
+        "pdf": "http://arxiv.org/pdf/2405.03452",
+        "abstract": "We explore the capabilities of an augmented democracy system built on off-the-shelf LLMs fine-tuned on data summarizing individual preferences across 67 policy proposals collected during the 2022 Brazilian presidential elections. We use a train-test cross-validation setup to estimate the accuracy with which the LLMs predict both: a subject&#39;s individual political choices and the aggregate preferences of the full sample of participants. At the individual level, the accuracy of the out of sample predictions lie in the range 69%-76% and are significantly better at predicting the preferences of liberal and college educated participants. At the population level, we aggregate preferences using an adaptation of the Borda score and compare the ranking of policy proposals obtained from a probabilistic sample of participants and from data augmented using LLMs. We find that the augmented data predicts the preferences of the full population of participants better than probabilistic samples alone when these represent less than 30% to 40% of the total population. These results indicate that LLMs are potentially useful for the construction of systems of augmented democracy.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2405.03452"
     }
 }
