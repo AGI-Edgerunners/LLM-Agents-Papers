@@ -60,6 +60,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Planning
+- [2024/04/28] **Intelligent Go-Explore: Standing on the Shoulders of Giant Foundation Models** | [[paper]](https://arxiv.org/abs/2405.15143) | [[code]](https://github.com/conglu1997/intelligent-go-explore)
+
 - [2024/04/28] **Logic Agent: Enhancing Validity with Logic Rule Invocation** | [[paper]](https://arxiv.org/abs/2404.18130) | [code]
 
 - [2024/04/21] **Socratic Planner: Inquiry-Based Zero-Shot Planning for Embodied Instruction Following** | [[paper]](https://arxiv.org/abs/2404.15190) | [code]
