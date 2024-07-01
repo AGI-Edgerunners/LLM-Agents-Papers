@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2024/6/18
+Last Updated Time: 2024/7/1
 
 A repo lists papers related to LLM based agent. Includes
 * [Survey](#Survey)
@@ -234,6 +234,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Role Playing
+- [2024/06/26] **Mental Modeling of Reinforcement Learning Agents by Language Models** | [[paper]](https://arxiv.org/abs/2406.18505) | [code]
+
+- [2024/06/19] **StackRAG Agent: Improving Developer Answers with Retrieval-Augmented Generation** | [[paper]](https://arxiv.org/abs/2406.13840) | [code]
+
 - [2024/06/17] **Small Agent Can Also Rock! Empowering Small Language Models as Hallucination Detector** | [[paper]](https://arxiv.org/abs/2406.11277) | [code]
 
 - [2024/06/17] **Input Conditioned Graph Generation for Language Agents** | [[paper]](https://arxiv.org/abs/2406.11555) | [[code]](https://github.com/lukasvierling/dynamicgptswarm)
@@ -494,6 +498,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Tool Usage&Human-Agent Interaction
+- [2024/06/28] **Designing and Evaluating Multi-Chatbot Interface for Human-AI Communication: Preliminary Findings from a Persuasion Task** | [[paper]](https://arxiv.org/abs/2406.19648) | [code]
+
 - [2024/06/17] **GUICourse: From General Vision Language Models to Versatile GUI Agents** | [[paper]](https://arxiv.org/abs/2406.11317) | [[code]](https://github.com/yiye3/guicourse)
 
 - [2024/06/11] **Towards Human-AI Collaboration in Healthcare: Guided Deferral Systems with Large Language Models** | [[paper]](https://arxiv.org/abs/2406.07212) | [code]
@@ -501,6 +507,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2024/06/06] **Tool-Planner: Dynamic Solution Tree Planning for Large Language Model with Tool Clustering** | [[paper]](https://arxiv.org/abs/2406.03807) | [[code]](https://github.com/OceannTwT/Tool-Planner)
 
 - [2024/06/03] **Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration** | [[paper]](https://arxiv.org/abs/2406.01014) | [[code]](https://github.com/x-plug/mobileagent)
+
+- [2024/06/02] **Towards a copilot in BIM authoring tool using a large language model-based agent for intelligent human-machine interaction** | [[paper]](https://arxiv.org/abs/2406.16903) | [code]
 
 - [2024/05/30] **Large Language Models Can Self-Improve At Web Agent Tasks** | [[paper]](https://arxiv.org/abs/2405.20309) | [code]
 
@@ -582,6 +590,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Benchmark&Evaluation
+- [2024/06/28] **Designing and Evaluating Multi-Chatbot Interface for Human-AI Communication: Preliminary Findings from a Persuasion Task** | [[paper]](https://arxiv.org/abs/2406.19648) | [code]
+
 - [2024/06/16] **GUI-WORLD: A Dataset for GUI-oriented Multimodal LLM-based Agents** | [[paper]](https://arxiv.org/abs/2406.10819) | [code]
 
 - [2024/06/13] **ResearchArena: Benchmarking LLMs&#39; Ability to Collect and Organize Information as Research Agents** | [[paper]](https://arxiv.org/abs/2406.10291) | [code]
@@ -672,6 +682,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Agent Framework
+- [2024/06/24] **OmAgent: A Multi-modal Agent Framework for Complex Video Understanding with Task Divide-and-Conquer** | [[paper]](https://arxiv.org/abs/2406.16620) | [code]
+
 - [2024/04/11] **Behavior Trees Enable Structured Programming of Language Model Agents** | [[paper]](https://arxiv.org/abs/2404.07439) | [[code]](https://github.com/RichardKelley/dendron)
 
 - [2024/04/05] **Cleared for Takeoff? Compositional &amp; Conditional Reasoning may be the Achilles Heel to (Flight-Booking) Language Agents** | [[paper]](https://arxiv.org/abs/2404.04237) | [code]
@@ -702,6 +714,12 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Multi-Agent System
+- [2024/06/26] **Simulating The U.S. Senate: An LLM-Driven Agent Approach to Modeling Legislative Behavior and Bipartisanship** | [[paper]](https://arxiv.org/abs/2406.18702) | [code]
+
+- [2024/06/21] **Autonomous Agents for Collaborative Task under Information Asymmetry** | [[paper]](https://arxiv.org/abs/2406.14928) | [code]
+
+- [2024/06/20] **Artificial Leviathan: Exploring Social Evolution of LLM Agents Through the Lens of Hobbesian Social Contract Theory** | [[paper]](https://arxiv.org/abs/2406.14373) | [code]
+
 - [2024/06/17] **Improving Multi-Agent Debate with Sparse Communication Topology** | [[paper]](https://arxiv.org/abs/2406.11776) | [code]
 
 - [2024/06/13] **Multi-Agent Software Development through Cross-Team Collaboration** | [[paper]](https://arxiv.org/abs/2406.08979) | [[code]](https://github.com/openbmb/chatdev)

@@ -4890,5 +4890,148 @@
             "Survey"
         ],
         "url": "https://arxiv.org/abs/2406.05804"
+    },
+    "be0c09dd961ea2086e7d2141de2db776": {
+        "title": "OmAgent: A Multi-modal Agent Framework for Complex Video Understanding with Task Divide-and-Conquer",
+        "authors": [
+            "Lu Zhang",
+            "Tiancheng Zhao",
+            "Heting Ying",
+            "Yibo Ma",
+            "Kyusong Lee"
+        ],
+        "date": "2024/06/24",
+        "pdf": "http://arxiv.org/pdf/2406.16620",
+        "abstract": "Recent advancements in Large Language Models (LLMs) have expanded their capabilities to multimodal contexts, including comprehensive video understanding. However, processing extensive videos such as 24-hour CCTV footage or full-length films presents significant challenges due to the vast data and processing demands. Traditional methods, like extracting key frames or converting frames to text, often result in substantial information loss. To address these shortcomings, we develop OmAgent, efficiently stores and retrieves relevant video frames for specific queries, preserving the detailed content of videos. Additionally, it features an Divide-and-Conquer Loop capable of autonomous reasoning, dynamically invoking APIs and tools to enhance query processing and accuracy. This approach ensures robust video understanding, significantly reducing information loss. Experimental results affirm OmAgent&#39;s efficacy in handling various types of videos and complex tasks. Moreover, we have endowed it with greater autonomy and a robust tool-calling system, enabling it to accomplish even more intricate tasks.",
+        "code": "",
+        "category": [
+            "Agent Framework"
+        ],
+        "url": "https://arxiv.org/abs/2406.16620"
+    },
+    "4f90372ee36cb883295d4b7c9812be96": {
+        "title": "Towards a copilot in BIM authoring tool using a large language model-based agent for intelligent human-machine interaction",
+        "authors": [
+            "Changyu Du",
+            "Stavros Nousias",
+            "André Borrmann"
+        ],
+        "date": "2024/06/02",
+        "pdf": "http://arxiv.org/pdf/2406.16903",
+        "abstract": "Facing increasingly complex BIM authoring software and the accompanying expensive learning costs, designers often seek to interact with the software in a more intelligent and lightweight manner. They aim to automate modeling workflows, avoiding obstacles and difficulties caused by software usage, thereby focusing on the design process itself. To address this issue, we proposed an LLM-based autonomous agent framework that can function as a copilot in the BIM authoring tool, answering software usage questions, understanding the user&#39;s design intentions from natural language, and autonomously executing modeling tasks by invoking the appropriate tools. In a case study based on the BIM authoring software Vectorworks, we implemented a software prototype to integrate the proposed framework seamlessly into the BIM authoring scenario. We evaluated the planning and reasoning capabilities of different LLMs within this framework when faced with complex instructions. Our work demonstrates the significant potential of LLM-based agents in design automation and intelligent interaction.",
+        "code": "",
+        "category": [
+            "Tool Usage&Human-Agent Interaction"
+        ],
+        "url": "https://arxiv.org/abs/2406.16903"
+    },
+    "a6eae169a20cd0773a8b09bdf50dc8b8": {
+        "title": "Mental Modeling of Reinforcement Learning Agents by Language Models",
+        "authors": [
+            "Wenhao Lu",
+            "Xufeng Zhao",
+            "Josua Spisak",
+            "Jae Hee Lee",
+            "Stefan Wermter"
+        ],
+        "date": "2024/06/26",
+        "pdf": "http://arxiv.org/pdf/2406.18505",
+        "abstract": "Can emergent language models faithfully model the intelligence of decision-making agents? Though modern language models exhibit already some reasoning ability, and theoretically can potentially express any probable distribution over tokens, it remains underexplored how the world knowledge these pretrained models have memorized can be utilized to comprehend an agent&#39;s behaviour in the physical world. This study empirically examines, for the first time, how well large language models (LLMs) can build a mental model of agents, termed agent mental modelling, by reasoning about an agent&#39;s behaviour and its effect on states from agent interaction history. This research may unveil the potential of leveraging LLMs for elucidating RL agent behaviour, addressing a key challenge in eXplainable reinforcement learning (XRL). To this end, we propose specific evaluation metrics and test them on selected RL task datasets of varying complexity, reporting findings on agent mental model establishment. Our results disclose that LLMs are not yet capable of fully mental modelling agents through inference alone without further innovations. This work thus provides new insights into the capabilities and limitations of modern LLMs.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2406.18505"
+    },
+    "3d25b7e8de61314b3f8d0abd8bd17354": {
+        "title": "Simulating The U.S. Senate: An LLM-Driven Agent Approach to Modeling Legislative Behavior and Bipartisanship",
+        "authors": [
+            "Zachary R. Baker",
+            "Zarif L. Azher"
+        ],
+        "date": "2024/06/26",
+        "pdf": "http://arxiv.org/pdf/2406.18702",
+        "abstract": "This study introduces a novel approach to simulating legislative processes using LLM-driven virtual agents, focusing on the U.S. Senate Intelligence Committee. We developed agents representing individual senators and placed them in simulated committee discussions. The agents demonstrated the ability to engage in realistic debate, provide thoughtful reflections, and find bipartisan solutions under certain conditions. Notably, the simulation also showed promise in modeling shifts towards bipartisanship in response to external perturbations. Our results indicate that this LLM-driven approach could become a valuable tool for understanding and potentially improving legislative processes, supporting a broader pattern of findings highlighting how LLM-based agents can usefully model real-world phenomena. Future works will focus on enhancing agent complexity, expanding the simulation scope, and exploring applications in policy testing and negotiation.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2406.18702"
+    },
+    "0350140c12a50fafc423f99240ef5982": {
+        "title": "Designing and Evaluating Multi-Chatbot Interface for Human-AI Communication: Preliminary Findings from a Persuasion Task",
+        "authors": [
+            "Sion Yoon",
+            "Tae Eun Kim",
+            "Yoo Jung Oh"
+        ],
+        "date": "2024/06/28",
+        "pdf": "http://arxiv.org/pdf/2406.19648",
+        "abstract": "The dynamics of human-AI communication have been reshaped by language models such as ChatGPT. However, extant research has primarily focused on dyadic communication, leaving much to be explored regarding the dynamics of human-AI communication in group settings. The availability of multiple language model chatbots presents a unique opportunity for scholars to better understand the interaction between humans and multiple chatbots. This study examines the impact of multi-chatbot communication in a specific persuasion setting: promoting charitable donations. We developed an online environment that enables multi-chatbot communication and conducted a pilot experiment utilizing two GPT-based chatbots, Save the Children and UNICEF chatbots, to promote charitable donations. In this study, we present our development process of the multi-chatbot interface and present preliminary findings from a pilot experiment. Analysis of qualitative and quantitative feedback are presented, and limitations are addressed.",
+        "code": "",
+        "category": [
+            "Tool Usage&Human-Agent Interaction",
+            "Benchmark&Evaluation"
+        ],
+        "url": "https://arxiv.org/abs/2406.19648"
+    },
+    "26ee161c0e282de1d2129fbca847c08a": {
+        "title": "StackRAG Agent: Improving Developer Answers with Retrieval-Augmented Generation",
+        "authors": [
+            "Davit Abrahamyan",
+            "Fatemeh H. Fard"
+        ],
+        "date": "2024/06/19",
+        "pdf": "http://arxiv.org/pdf/2406.13840",
+        "abstract": "Developers spend much time finding information that is relevant to their questions. Stack Overflow has been the leading resource, and with the advent of Large Language Models (LLMs), generative models such as ChatGPT are used frequently. However, there is a catch in using each one separately. Searching for answers is time-consuming and tedious, as shown by the many tools developed by researchers to address this issue. On the other, using LLMs is not reliable, as they might produce irrelevant or unreliable answers (i.e., hallucination). In this work, we present StackRAG, a retrieval-augmented Multiagent generation tool based on LLMs that combines the two worlds: aggregating the knowledge from SO to enhance the reliability of the generated answers. Initial evaluations show that the generated answers are correct, accurate, relevant, and useful.",
+        "code": "",
+        "category": [
+            "Role Playing"
+        ],
+        "url": "https://arxiv.org/abs/2406.13840"
+    },
+    "7a938c81e0fdf170539ea6aaae2db7e8": {
+        "title": "Artificial Leviathan: Exploring Social Evolution of LLM Agents Through the Lens of Hobbesian Social Contract Theory",
+        "authors": [
+            "Gordon Dai",
+            "Weijia Zhang",
+            "Jinhan Li",
+            "Siqi Yang",
+            "Chidera Onochie lbe",
+            "Srihas Rao",
+            "Arthur Caetano",
+            "Misha Sra"
+        ],
+        "date": "2024/06/20",
+        "pdf": "http://arxiv.org/pdf/2406.14373",
+        "abstract": "The emergence of Large Language Models (LLMs) and advancements in Artificial Intelligence (AI) offer an opportunity for computational social science research at scale. Building upon prior explorations of LLM agent design, our work introduces a simulated agent society where complex social relationships dynamically form and evolve over time. Agents are imbued with psychological drives and placed in a sandbox survival environment. We conduct an evaluation of the agent society through the lens of Thomas Hobbes&#39;s seminal Social Contract Theory (SCT). We analyze whether, as the theory postulates, agents seek to escape a brutish &#34;state of nature&#34; by surrendering rights to an absolute sovereign in exchange for order and security. Our experiments unveil an alignment: Initially, agents engage in unrestrained conflict, mirroring Hobbes&#39;s depiction of the state of nature. However, as the simulation progresses, social contracts emerge, leading to the authorization of an absolute sovereign and the establishment of a peaceful commonwealth founded on mutual cooperation. This congruence between our LLM agent society&#39;s evolutionary trajectory and Hobbes&#39;s theoretical account indicates LLMs&#39; capability to model intricate social dynamics and potentially replicate forces that shape human societies. By enabling such insights into group behavior and emergent societal phenomena, LLM-driven multi-agent simulations, while unable to simulate all the nuances of human behavior, may hold potential for advancing our understanding of social structures, group dynamics, and complex human systems.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2406.14373"
+    },
+    "83b4a2a041739b48014ccadeb9369b2b": {
+        "title": "Autonomous Agents for Collaborative Task under Information Asymmetry",
+        "authors": [
+            "Wei Liu",
+            "Chenxi Wang",
+            "Yifei Wang",
+            "Zihao Xie",
+            "Rennai Qiu",
+            "Yufan Dang",
+            "Zhuoyun Du",
+            "Weize Chen",
+            "Cheng Yang",
+            "Chen Qian"
+        ],
+        "date": "2024/06/21",
+        "pdf": "http://arxiv.org/pdf/2406.14928",
+        "abstract": "Large Language Model Multi-Agent Systems (LLM-MAS) have achieved great progress in solving complex tasks. It performs communication among agents within the system to collaboratively solve tasks, under the premise of shared information. However, when agents&#39; communication is leveraged to enhance human cooperation, a new challenge arises due to information asymmetry, since each agent can only access the information of its human user. Previous MAS struggle to complete tasks under this condition. To address this, we propose a new MAS paradigm termed iAgents, which denotes Informative Multi-Agent Systems. In iAgents, the human social network is mirrored in the agent network, where agents proactively exchange human information necessary for task resolution, thereby overcoming information asymmetry. iAgents employs a novel agent reasoning mechanism, InfoNav, to navigate agents&#39; communication towards effective information exchange. Together with InfoNav, iAgents organizes human information in a mixed memory to provide agents with accurate and comprehensive information for exchange. Additionally, we introduce InformativeBench, the first benchmark tailored for evaluating LLM agents&#39; task-solving ability under information asymmetry. Experimental results show that iAgents can collaborate within a social network of 140 individuals and 588 relationships, autonomously communicate over 30 turns, and retrieve information from nearly 70,000 messages to complete tasks within 3 minutes.",
+        "code": "",
+        "category": [
+            "Multi-Agent System"
+        ],
+        "url": "https://arxiv.org/abs/2406.14928"
     }
 }
