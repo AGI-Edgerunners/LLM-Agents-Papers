@@ -756,7 +756,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2024/04/23] **BattleAgent: Multi-modal Dynamic Emulation on Historical Battles to Complement Historical Analysis** | [[paper]](https://arxiv.org/abs/2404.15532) | [[code]](https://github.com/agiresearch/battleagent)
 
-- [2024/04/23] **CT-Agent: Clinical Trial Multi-Agent with Large Language Model-based Reasoning** | [[paper]](https://arxiv.org/abs/2404.14777) | [code]
+- [2024/04/23] **ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning** | [[paper]](https://arxiv.org/abs/2404.14777) | [code]
 
 - [2024/04/14] **Confidence Calibration and Rationalization for LLMs via Multi-Agent Deliberation** | [[paper]](https://arxiv.org/abs/2404.09127) | [code]
 
