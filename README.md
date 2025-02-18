@@ -666,6 +666,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 ### Environment&Platform
+- [2025/02/14] **The Ann Arbor Architecture for Agent-Oriented Programming** | [[paper]](https://arxiv.org/abs/2502.09903) | [[code]](https://github.com/aaalgo/postline_0.1)
+
 - [2024/06/06] **AgentGym: Evolving Large Language Model-based Agents across Diverse Environments** | [[paper]](https://arxiv.org/abs/2406.04151) | [[code]](https://github.com/woooodyy/agentgym)
 
 - [2024/05/24] **Hacc-Man: An Arcade Game for Jailbreaking LLMs** | [[paper]](https://arxiv.org/abs/2405.15902) | [code]
