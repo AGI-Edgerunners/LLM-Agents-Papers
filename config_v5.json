@@ -1,0 +1,51 @@
+{
+  "Name": "LLM-Agents-Papers",
+  "Category_Sort": ["Survey", "Technique For Enhancement", "Interaction", "Application", "Automation", "Training", "Scaling","Stability", "Infrastructure","Others"],
+  "Description": {
+    "description": "A repo lists papers related to LLM based agent. Includes",
+    "items":{
+      "Survey": [],
+      "Technique For Enhancement": ["Planning","Memory Mechanism","Feedback&Reflection","RAG","Search"],
+      "Interaction": ["Role Playing","Conversation","Game Playing","Human-Agent Interaction","Tool Usage","Simulation"],
+      "Application": ["Math","Chemistry","Biology","Physics","Geography","Art","Medicine","Finance","Software Engineering","Research"],
+      "Automation": ["Workflow","Automatic Evaluation"],
+      "Training": ["Fine tuning","RL","DPO"],
+      "Scaling": ["Single-Agent Framework","Multi-Agent System"],
+      "Stability": ["Safety","Bias","Hallucination"],
+      "Infrastructure": ["Benchmark&Evaluation","Environment&Platform","Dataset"],
+      "Others": []
+    },
+    "date": "Last Updated Time: {}"
+  },
+  "Recommendation": {
+    "description": "For more comprehensive reading, we also recommend other paper lists:",
+    "items": [
+      {
+        "name": "zjunlp/LLMAgentPapers",
+        "url": "https://github.com/zjunlp/LLMAgentPapers",
+        "description": "Must-read Papers on Large Language Model Agents."
+      },
+      {
+        "name": "teacherpeterpan/self-correction-llm-papers",
+        "url": "https://github.com/teacherpeterpan/self-correction-llm-papers",
+        "description": "This is a collection of research papers for Self-Correcting Large Language Models with Automated Feedback."
+      },
+      {
+        "name": "Paitesanshi/LLM-Agent-Survey",
+        "url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+        "description": "A Survey on LLM-based Autonomous Agents."
+      },
+      {
+        "name": "woooodyy/llm-agent-paper-list",
+        "url": "https://github.com/woooodyy/llm-agent-paper-list",
+        "description": "Must-read papers for LLM-based agents."
+      },
+      {
+        "name": "git-disl/awesome-LLM-game-agent-papers",
+        "url": "https://github.com/git-disl/awesome-LLM-game-agent-papers",
+        "description": "Must-read papers for LLM-based Game agents."
+      }
+    ]
+  },
+  "Star_History": "## :star: Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=AGI-Edgerunners/LLM-Agents-Papers&type=Date)](https://star-history.com/#AGI-Edgerunners/LLM-Agents-Papers&Date)\n"
+}
