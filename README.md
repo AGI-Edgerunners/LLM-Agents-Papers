@@ -864,6 +864,9 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2025/02/12] **Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model** | [[paper]](https://arxiv.org/abs/2502.08820) | [code]
 
+
+- [2024/04/23] **ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning** | [[paper]](https://arxiv.org/abs/2404.14777) | [code]
+
 - [2025/02/07] **Agentic Reasoning: Reasoning LLMs with Tools for the Deep Research** | [[paper]](https://arxiv.org/abs/2502.04644) | [code]
 
 - [2025/02/06] **Division-of-Thoughts: Harnessing Hybrid Language Model Synergy for Efficient On-Device Agents** | [[paper]](https://arxiv.org/abs/2502.04392) | [code]
