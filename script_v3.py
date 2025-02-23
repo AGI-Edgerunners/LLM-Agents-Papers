@@ -16,7 +16,7 @@ CONFIG_FILE = "config.json"
 USE_CSS = False
 
 HEADERS = {}
-PROXY = None
+PROXY = {"https": "127.0.0.1:4780", "http": "127.0.0.1:4780"}
 
 PARSED_DATA = []
 
