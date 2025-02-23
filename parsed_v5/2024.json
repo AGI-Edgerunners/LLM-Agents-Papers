@@ -4053,26 +4053,6 @@
         ],
         "url": "https://arxiv.org/abs/2404.15269"
     },
-    "340f5e4367036a333e81bf97cd732408": {
-        "title": "ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning",
-        "authors": [
-            "Ling Yue",
-            "Sixue Xing",
-            "Jintai Chen",
-            "Tianfan Fu"
-        ],
-        "date": "2024/04/23",
-        "pdf": "http://arxiv.org/pdf/2404.14777",
-        "abstract": "Large Language Models (LLMs) and multi-agent systems have shown impressive capabilities in natural language tasks but face challenges in clinical trial applications, primarily due to limited access to external knowledge. Recognizing the potential of advanced clinical trial tools that aggregate and predict based on the latest medical data, we propose an integrated solution to enhance their accessibility and utility. We introduce Clinical Agent System (ClinicalAgent), a clinical multi-agent system designed for clinical trial tasks, leveraging GPT-4, multi-agent architectures, LEAST-TO-MOST, and ReAct reasoning technology. This integration not only boosts LLM performance in clinical contexts but also introduces novel functionalities. The proposed method achieves competitive predictive performance in clinical trial outcome prediction (0.7908 PR-AUC), obtaining a 0.3326 improvement over the standard prompt Method. Publicly available code can be found at https://anonymous.4open.science/r/ClinicalAgent-6671.",
-        "code": "",
-        "category": [
-            [
-                "Scaling",
-                "Multi-Agent System"
-            ]
-        ],
-        "url": "https://arxiv.org/abs/2404.14777"
-    },
     "e04c3f9762fe447296eb9a790f67c49b": {
         "title": "Socratic Planner: Inquiry-Based Zero-Shot Planning for Embodied Instruction Following",
         "authors": [
@@ -6361,7 +6341,7 @@
         "date": "2024/10/08",
         "pdf": "http://arxiv.org/pdf/2410.06153",
         "abstract": "Recent advancements in Large Language Models (LLMs) have led to a rapid growth of agentic systems capable of handling a wide range of complex tasks. However, current research largely relies on manual, task-specific design, limiting their adaptability to novel tasks. In this paper, we introduce a new research problem: Modularized LLM Agent Search (MoLAS). We propose a modular design space that abstracts existing LLM agent designs into four fundamental modules with uniform IO interface: Planning, Reasoning, Tool Use, and Memory. Building on this design space, we present a novel LLM agent search framework called AgentSquare, which introduces two core mechanisms, i.e., module evolution and recombination, to efficiently search for optimized LLM agents. To further accelerate the process, we design a performance predictor that uses in-context surrogate models to skip unpromising agent designs. Extensive experiments across six benchmarks, covering the diverse scenarios of web, embodied, tool use and game applications, show that AgentSquare substantially outperforms hand-crafted agents, achieving an average performance gain of 17.2% against best-known human designs. Moreover, AgentSquare can generate interpretable design insights, enabling a deeper understanding of agentic architecture and its impact on task performance. We believe that the modular design space and AgentSquare search framework offer a platform for fully exploiting the potential of prior successful designs and consolidating the collective efforts of research community. Code repo is available at https://github.com/tsinghua-fib-lab/AgentSquare.",
-        "code": "",
+        "code": "https://github.com/tsinghua-fib-lab/AgentSquare",
         "category": [
             [
                 "Scaling",
@@ -15385,7 +15365,7 @@
         "date": "2024/07/26",
         "pdf": "http://arxiv.org/pdf/2407.18901",
         "abstract": "Autonomous agents that address day-to-day digital tasks (e.g., ordering groceries for a household), must not only operate multiple apps (e.g., notes, messaging, shopping app) via APIs, but also generate rich code with complex control flow in an iterative manner based on their interaction with the environment. However, existing benchmarks for tool use are inadequate, as they only cover tasks that require a simple sequence of API calls. To remedy this gap, we built $\\textbf{AppWorld Engine}$, a high-quality execution environment (60K lines of code) of 9 day-to-day apps operable via 457 APIs and populated with realistic digital activities simulating the lives of ~100 fictitious users. We then created $\\textbf{AppWorld Benchmark}$ (40K lines of code), a suite of 750 natural, diverse, and challenging autonomous agent tasks requiring rich and interactive code generation. It supports robust programmatic evaluation with state-based unit tests, allowing for different ways of completing a task while also checking for unexpected changes, i.e., collateral damage. The state-of-the-art LLM, GPT-4o, solves only ~49% of our &#39;normal&#39; tasks and ~30% of &#39;challenge&#39; tasks, while other models solve at least 16% fewer. This highlights the benchmark&#39;s difficulty and AppWorld&#39;s potential to push the frontiers of interactive coding agents. The project website is available at https://appworld.dev/.",
-        "code": "",
+        "code": "https://github.com/stonybrooknlp/appworld",
         "category": [
             [
                 "Infrastructure",
@@ -15421,5 +15401,29 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2407.21024"
+    },
+    "340f5e4367036a333e81bf97cd732408": {
+        "title": "ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning",
+        "authors": [
+            "Ling Yue",
+            "Sixue Xing",
+            "Jintai Chen",
+            "Tianfan Fu"
+        ],
+        "date": "2024/04/23",
+        "pdf": "http://arxiv.org/pdf/2404.14777",
+        "abstract": "Large Language Models (LLMs) and multi-agent systems have shown impressive capabilities in natural language tasks but face challenges in clinical trial applications, primarily due to limited access to external knowledge. Recognizing the potential of advanced clinical trial tools that aggregate and predict based on the latest medical data, we propose an integrated solution to enhance their accessibility and utility. We introduce Clinical Agent System (ClinicalAgent), a clinical multi-agent system designed for clinical trial tasks, leveraging GPT-4, multi-agent architectures, LEAST-TO-MOST, and ReAct reasoning technology. This integration not only boosts LLM performance in clinical contexts but also introduces novel functionalities. The proposed method achieves competitive predictive performance in clinical trial outcome prediction (0.7908 PR-AUC), obtaining a 0.3326 improvement over the standard prompt Method. Publicly available code can be found at https://anonymous.4open.science/r/ClinicalAgent-6671.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2404.14777"
     }
 }

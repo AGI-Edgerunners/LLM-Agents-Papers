@@ -193,6 +193,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2023/11/19] **TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems** | [[paper]](https://arxiv.org/abs/2311.11315) | [code]
 
+- [2023/10/12] **Tree-Planner: Efficient Close-loop Task Planning with Large Language Models** | [[paper]](https://arxiv.org/abs/2310.08582) | [code]
+
 - [2023/10/09] **Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena** | [[paper]](https://arxiv.org/abs/2310.05746) | [code]
 
 - [2023/08/07] **TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage** | [[paper]](https://arxiv.org/abs/2308.03427) | [code]
@@ -761,13 +763,6 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2024/08/05] **Evaluating and Enhancing LLMs Agent based on Theory of Mind in Guandan: A Multi-Player Cooperative Game under Imperfect Information** | [[paper]](https://arxiv.org/abs/2408.02559) | [code]
 
-
----
-### Environment&Platform
-- [2025/02/14] **The Ann Arbor Architecture for Agent-Oriented Programming** | [[paper]](https://arxiv.org/abs/2502.09903) | [[code]](https://github.com/aaalgo/postline_0.1)
-
-- [2024/06/06] **AgentGym: Evolving Large Language Model-based Agents across Diverse Environments** | [[paper]](https://arxiv.org/abs/2406.04151) | [[code]](https://github.com/woooodyy/agentgym)
-
 - [2024/07/23] **AMONGAGENTS: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game** | [[paper]](https://arxiv.org/abs/2407.16521) | [code]
 
 - [2024/07/17] **A LLM Benchmark based on the Minecraft Builder Dialog Agent Task** | [[paper]](https://arxiv.org/abs/2407.12734) | [code]
@@ -864,9 +859,6 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2025/02/12] **Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model** | [[paper]](https://arxiv.org/abs/2502.08820) | [code]
 
-
-- [2024/04/23] **ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning** | [[paper]](https://arxiv.org/abs/2404.14777) | [code]
-
 - [2025/02/07] **Agentic Reasoning: Reasoning LLMs with Tools for the Deep Research** | [[paper]](https://arxiv.org/abs/2502.04644) | [code]
 
 - [2025/02/06] **Division-of-Thoughts: Harnessing Hybrid Language Model Synergy for Efficient On-Device Agents** | [[paper]](https://arxiv.org/abs/2502.04392) | [code]
@@ -957,7 +949,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2024/08/01] **OmniParser for Pure Vision Based GUI Agent** | [[paper]](https://arxiv.org/abs/2408.00203) | [code]
 
-- [2024/07/26] **AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents** | [[paper]](https://arxiv.org/abs/2407.18901) | [code]
+- [2024/07/26] **AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents** | [[paper]](https://arxiv.org/abs/2407.18901) | [[code]](https://github.com/stonybrooknlp/appworld)
 
 - [2024/07/22] **AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?** | [[paper]](https://arxiv.org/abs/2407.15711) | [code]
 
@@ -1242,6 +1234,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2024/07/02] **MMedAgent: Learning to Use Medical Tools with Multi-modal Agent** | [[paper]](https://arxiv.org/abs/2407.02483) | [code]
 
+- [2024/04/23] **ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning** | [[paper]](https://arxiv.org/abs/2404.14777) | [code]
+
 - [2024/04/03] **Empowering Biomedical Discovery with AI Agents** | [[paper]](https://arxiv.org/abs/2404.02831) | [code]
 
 - [2024/02/20] **Can Large Language Models be Used to Provide Psychological Counselling? An Analysis of GPT-4-Generated Responses Using Role-play Dialogues** | [[paper]](https://arxiv.org/abs/2402.12738) | [code]
@@ -1288,6 +1282,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2025/02/18] **UXAgent: An LLM Agent-Based Usability Testing Framework for Web Design** | [[paper]](https://arxiv.org/abs/2502.12561) | [code]
 
+- [2025/02/14] **The Ann Arbor Architecture for Agent-Oriented Programming** | [[paper]](https://arxiv.org/abs/2502.09903) | [[code]](https://github.com/aaalgo/postline_0.1)
+
 - [2025/02/11] **Multi-Agent Collaboration for Multilingual Code Instruction Tuning** | [[paper]](https://arxiv.org/abs/2502.07487) | [code]
 
 - [2025/02/10] **SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering** | [[paper]](https://arxiv.org/abs/2502.06994) | [code]
@@ -1316,7 +1312,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2024/08/05] **LLM Agents Improve Semantic Code Search** | [[paper]](https://arxiv.org/abs/2408.11058) | [code]
 
-- [2024/07/26] **AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents** | [[paper]](https://arxiv.org/abs/2407.18901) | [code]
+- [2024/07/26] **AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents** | [[paper]](https://arxiv.org/abs/2407.18901) | [[code]](https://github.com/stonybrooknlp/appworld)
 
 - [2024/07/01] **Agentless: Demystifying LLM-based Software Engineering Agents** | [[paper]](https://arxiv.org/abs/2407.01489) | [code]
 
@@ -1634,7 +1630,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2024/10/10] **Agents Thinking Fast and Slow: A Talker-Reasoner Architecture** | [[paper]](https://arxiv.org/abs/2410.08328) | [code]
 
-- [2024/10/08] **AgentSquare: Automatic LLM Agent Search in Modular Design Space** | [[paper]](https://arxiv.org/abs/2410.06153) | [code]
+- [2024/10/08] **AgentSquare: Automatic LLM Agent Search in Modular Design Space** | [[paper]](https://arxiv.org/abs/2410.06153) | [[code]](https://github.com/tsinghua-fib-lab/AgentSquare)
 
 - [2024/10/08] **Applying Refusal-Vector Ablation to Llama 3.1 70B Agents** | [[paper]](https://arxiv.org/abs/2410.10871) | [code]
 
@@ -2289,7 +2285,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2024/07/26] **OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation** | [[paper]](https://arxiv.org/abs/2407.19056) | [code]
 
-- [2024/07/26] **AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents** | [[paper]](https://arxiv.org/abs/2407.18901) | [code]
+- [2024/07/26] **AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents** | [[paper]](https://arxiv.org/abs/2407.18901) | [[code]](https://github.com/stonybrooknlp/appworld)
 
 - [2024/07/25] **PersonaGym: Evaluating Persona Agents and LLMs** | [[paper]](https://arxiv.org/abs/2407.18416) | [code]
 
@@ -2392,6 +2388,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/04/27] **ChatLog: Carefully Evaluating the Evolution of ChatGPT Across Time** | [[paper]](https://arxiv.org/abs/2304.14106) | [code]
 
 #### Environment&Platform
+- [2025/02/14] **The Ann Arbor Architecture for Agent-Oriented Programming** | [[paper]](https://arxiv.org/abs/2502.09903) | [[code]](https://github.com/aaalgo/postline_0.1)
+
 - [2024/12/30] **Training Software Engineering Agents and Verifiers with SWE-Gym** | [[paper]](https://arxiv.org/abs/2412.21139) | [code]
 
 - [2024/11/05] **SAUCE: Synchronous and Asynchronous User-Customizable Environment for Multi-Agent LLM Interaction** | [[paper]](https://arxiv.org/abs/2411.03397) | [code]

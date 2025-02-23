@@ -3343,5 +3343,26 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2501.19056"
+    },
+    "177773166ac1ce4eec643e253a85c0cc": {
+        "title": "The Ann Arbor Architecture for Agent-Oriented Programming",
+        "authors": [
+            "Wei Dong"
+        ],
+        "date": "2025/02/14",
+        "pdf": "http://arxiv.org/pdf/2502.09903",
+        "abstract": "In this paper, we reexamine prompt engineering for large language models through the lens of automata theory. We argue that language models function as automata and, like all automata, should be programmed in the languages they accept, a unified collection of all natural and formal languages. Therefore, traditional software engineering practices--conditioned on the clear separation of programming languages and natural languages--must be rethought. We introduce the Ann Arbor Architecture, a conceptual framework for agent-oriented programming of language models, as a higher-level abstraction over raw token generation, and provide a new perspective on in-context learning. Based on this framework, we present the design of our agent platform Postline, and report on our initial experiments in agent training.",
+        "code": "https://github.com/aaalgo/postline_0.1",
+        "category": [
+            [
+                "Infrastructure",
+                "Environment&Platform"
+            ],
+            [
+                "Application",
+                "Software Engineering"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.09903"
     }
 }
