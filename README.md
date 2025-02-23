@@ -761,6 +761,13 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2024/08/05] **Evaluating and Enhancing LLMs Agent based on Theory of Mind in Guandan: A Multi-Player Cooperative Game under Imperfect Information** | [[paper]](https://arxiv.org/abs/2408.02559) | [code]
 
+
+---
+### Environment&Platform
+- [2025/02/14] **The Ann Arbor Architecture for Agent-Oriented Programming** | [[paper]](https://arxiv.org/abs/2502.09903) | [[code]](https://github.com/aaalgo/postline_0.1)
+
+- [2024/06/06] **AgentGym: Evolving Large Language Model-based Agents across Diverse Environments** | [[paper]](https://arxiv.org/abs/2406.04151) | [[code]](https://github.com/woooodyy/agentgym)
+
 - [2024/07/23] **AMONGAGENTS: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game** | [[paper]](https://arxiv.org/abs/2407.16521) | [code]
 
 - [2024/07/17] **A LLM Benchmark based on the Minecraft Builder Dialog Agent Task** | [[paper]](https://arxiv.org/abs/2407.12734) | [code]
