@@ -137,3 +137,8 @@ script_v3.py
 readmeBeforeREADME.md
 papers/
 parsed/
+parsed_v4/
+papers_v4.json
+script_v4_step1.py
+script_v4_step2.py
+script_v3.py
