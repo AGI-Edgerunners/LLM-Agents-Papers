@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2025/2/23
+Last Updated Time: 2025/3/2
 
 A repo lists papers related to LLM based agent. Includes
 - [Survey](#Survey)
@@ -372,6 +372,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/03/30] **Self-Refine: Iterative Refinement with Self-Feedback** | [[paper]](https://arxiv.org/abs/2303.17651) | [code]
 
 #### RAG
+- [2025/02/25] **ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents** | [[paper]](https://arxiv.org/abs/2502.18017) | [code]
+
 - [2025/02/19] **RAG-Gym: Optimizing Reasoning and Search Agents with Process Supervision** | [[paper]](https://arxiv.org/abs/2502.13957) | [code]
 
 - [2025/02/08] **On Memory Construction and Retrieval for Personalized Conversational Agents** | [[paper]](https://arxiv.org/abs/2502.05589) | [code]
@@ -612,6 +614,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/09] **TidyBot: Personalized Robot Assistance with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.05658) | [code]
 
 #### Conversation
+- [2025/02/24] **Turning Conversations into Workflows: A Framework to Extract and Evaluate Dialog Workflows for Service AI Agents** | [[paper]](https://arxiv.org/abs/2502.17321) | [code]
+
 - [2025/02/20] **Enhancing Conversational Agents with Theory of Mind: Aligning Beliefs, Desires, and Intentions for Human-Like Interaction** | [[paper]](https://arxiv.org/abs/2502.14171) | [code]
 
 - [2025/02/18] **One Size doesn&#39;t Fit All: A Personalized Conversational Tutoring Agent for Mathematics Instruction** | [[paper]](https://arxiv.org/abs/2502.12633) | [code]
@@ -851,6 +855,12 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/04/26] **Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models** | [[paper]](https://arxiv.org/abs/2304.13835) | [code]
 
 #### Tool Usage
+- [2025/02/27] **Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis** | [[paper]](https://arxiv.org/abs/2502.20383) | [code]
+
+- [2025/02/24] **MobileSteward: Integrating Multiple App-Oriented Agents with Self-Evolution to Automate Cross-App Instructions** | [[paper]](https://arxiv.org/abs/2502.16796) | [code]
+
+- [2025/02/24] **Mobile-Agent-V: Learning Mobile Device Operation Through Video-Guided Multi-Agent Collaboration** | [[paper]](https://arxiv.org/abs/2502.17110) | [[code]](https://github.com/X-PLUG/MobileAgent)
+
 - [2025/02/17] **LLM Agents Making Agent Tools** | [[paper]](https://arxiv.org/abs/2502.11705) | [code]
 
 - [2025/02/17] **SMART: Self-Aware Agent for Tool Overuse Mitigation** | [[paper]](https://arxiv.org/abs/2502.11435) | [code]
@@ -1106,6 +1116,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Application
 #### Math
+- [2025/02/25] **LLM Knows Geometry Better than Algebra: Numerical Understanding of LLM-Based Agents in A Trading Arena** | [[paper]](https://arxiv.org/abs/2502.17967) | [code]
+
 - [2025/02/18] **One Size doesn&#39;t Fit All: A Personalized Conversational Tutoring Agent for Mathematics Instruction** | [[paper]](https://arxiv.org/abs/2502.12633) | [code]
 
 - [2024/10/29] **Flow-DPO: Improving LLM Mathematical Reasoning through Online Multi-Agent Learning** | [[paper]](https://arxiv.org/abs/2410.22304) | [code]
@@ -1172,6 +1184,12 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/10/18] **MusicAgent: An AI Agent for Music Understanding and Generation with Large Language Models** | [[paper]](https://arxiv.org/abs/2310.11954) | [code]
 
 #### Medicine
+- [2025/02/27] **M^3Builder: A Multi-Agent System for Automated Machine Learning in Medical Imaging** | [[paper]](https://arxiv.org/abs/2502.20301) | [code]
+
+- [2025/02/26] **MEDDxAgent: A Unified Modular Agent Framework for Explainable Automatic Differential Diagnosis** | [[paper]](https://arxiv.org/abs/2502.19175) | [code]
+
+- [2025/02/25] **Scaffolding Empathy: Training Counselors with Simulated Patients and Utterance-level Performance Visualizations** | [[paper]](https://arxiv.org/abs/2502.18673) | [code]
+
 - [2025/02/19] **LIDDIA: Language-based Intelligent Drug Discovery Agent** | [[paper]](https://arxiv.org/abs/2502.13959) | [code]
 
 - [2025/02/18] **An LLM-Powered Agent for Physiological Data Analysis: A Case Study on PPG-based Heart Rate Estimation** | [[paper]](https://arxiv.org/abs/2502.12836) | [code]
@@ -1251,6 +1269,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/10/03] **Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View** | [[paper]](https://arxiv.org/abs/2310.02124) | [code]
 
 #### Finance
+- [2025/02/25] **LLM Knows Geometry Better than Algebra: Numerical Understanding of LLM-Based Agents in A Trading Arena** | [[paper]](https://arxiv.org/abs/2502.17967) | [code]
+
 - [2025/02/08] **Agentic AI Systems Applied to tasks in Financial Services: Modeling and model risk management crews** | [[paper]](https://arxiv.org/abs/2502.05439) | [code]
 
 - [2025/02/01] **MarketSenseAI 2.0: Enhancing Stock Analysis through LLM Agents** | [[paper]](https://arxiv.org/abs/2502.00415) | [code]
@@ -1345,6 +1365,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/04/15] **Self-collaboration Code Generation via ChatGPT** | [[paper]](https://arxiv.org/abs/2304.07590) | [code]
 
 #### Research
+- [2025/02/25] **LAG: LLM agents for Leaderboard Auto Generation on Demanding** | [[paper]](https://arxiv.org/abs/2502.18209) | [code]
+
 - [2025/02/20] **MLGym: A New Framework and Benchmark for Advancing AI Research Agents** | [[paper]](https://arxiv.org/abs/2502.14499) | [code]
 
 - [2025/02/07] **Agentic Reasoning: Reasoning LLMs with Tools for the Deep Research** | [[paper]](https://arxiv.org/abs/2502.04644) | [code]
@@ -1391,6 +1413,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Automation
 #### Workflow
+- [2025/02/24] **Turning Conversations into Workflows: A Framework to Extract and Evaluate Dialog Workflows for Service AI Agents** | [[paper]](https://arxiv.org/abs/2502.17321) | [code]
+
 - [2025/02/11] **EvoFlow: Evolving Diverse Agentic Workflows On The Fly** | [[paper]](https://arxiv.org/abs/2502.07373) | [code]
 
 - [2025/02/07] **nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow** | [[paper]](https://arxiv.org/abs/2502.05036) | [code]
@@ -1438,6 +1462,12 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2024/03/05] **ChatCite: LLM Agent with Human Workflow Guidance for Comparative Literature Summary** | [[paper]](https://arxiv.org/abs/2403.02574) | [code]
 
 #### Automatic Evaluation
+- [2025/02/26] **Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals for Reliable Reward Systems** | [[paper]](https://arxiv.org/abs/2502.19328) | [[code]](https://github.com/THU-KEG/Agentic-Reward-Modeling)
+
+- [2025/02/25] **Debt Collection Negotiations with Large Language Models: An Evaluation System and Optimizing Decision Making with Multi-Agent** | [[paper]](https://arxiv.org/abs/2502.18228) | [code]
+
+- [2025/02/25] **FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models** | [[paper]](https://arxiv.org/abs/2502.17924) | [code]
+
 - [2025/02/14] **Automated Hypothesis Validation with Agentic Sequential Falsifications** | [[paper]](https://arxiv.org/abs/2502.09858) | [code]
 
 - [2025/01/19] **IntellAgent: A Multi-Agent Framework for Evaluating Conversational AI Systems** | [[paper]](https://arxiv.org/abs/2501.11067) | [code]
@@ -1468,6 +1498,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Training
 #### Fine tuning
+- [2025/02/24] **Training a Generally Curious Agent** | [[paper]](https://arxiv.org/abs/2502.17543) | [code]
+
 - [2025/02/19] **UM_FHS at TREC 2024 PLABA: Exploration of Fine-tuning and AI agent approach for plain language adaptations of biomedical text** | [[paper]](https://arxiv.org/abs/2502.14144) | [code]
 
 - [2025/02/18] **Training Turn-by-Turn Verifiers for Dialogue Tutoring Agents: The Curious Case of LLMs as Your Coding Tutors** | [[paper]](https://arxiv.org/abs/2502.13311) | [code]
@@ -1531,6 +1563,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/26] **Training Socially Aligned Language Models on Simulated Social Interactions** | [[paper]](https://arxiv.org/abs/2305.16960) | [code]
 
 #### RL
+- [2025/02/25] **AgentRM: Enhancing Agent Generalization with Reward Modeling** | [[paper]](https://arxiv.org/abs/2502.18407) | [code]
+
 - [2025/02/09] **Training Language Models for Social Deduction with Multi-Agent Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2502.06060) | [code]
 
 - [2025/02/06] **Multi-Agent Reinforcement Learning with Focal Diversity Optimization** | [[paper]](https://arxiv.org/abs/2502.04492) | [code]
@@ -1578,6 +1612,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/03/29] **Skill Reinforcement Learning and Planning for Open-World Long-Horizon Tasks** | [[paper]](https://arxiv.org/abs/2303.16563) | [code]
 
 #### DPO
+- [2025/02/26] **Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals for Reliable Reward Systems** | [[paper]](https://arxiv.org/abs/2502.19328) | [[code]](https://github.com/THU-KEG/Agentic-Reward-Modeling)
+
 - [2025/01/03] **SDPO: Segment-Level Direct Preference Optimization for Social Agents** | [[paper]](https://arxiv.org/abs/2501.01821) | [code]
 
 - [2024/10/29] **Flow-DPO: Improving LLM Mathematical Reasoning through Online Multi-Agent Learning** | [[paper]](https://arxiv.org/abs/2410.22304) | [code]
@@ -1586,6 +1622,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Scaling
 #### Single-Agent Framework
+- [2025/02/26] **TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding** | [[paper]](https://arxiv.org/abs/2502.19400) | [code]
+
 - [2025/02/14] **Agentic Verification for Ambiguous Query Disambiguation** | [[paper]](https://arxiv.org/abs/2502.10352) | [code]
 
 - [2025/02/12] **SPeCtrum: A Grounded Framework for Multidimensional Identity Representation in LLM-Based Agent** | [[paper]](https://arxiv.org/abs/2502.08599) | [code]
@@ -1717,6 +1755,28 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/25] **Voyager: An Open-Ended Embodied Agent with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16291) | [code]
 
 #### Multi-Agent System
+- [2025/02/27] **M^3Builder: A Multi-Agent System for Automated Machine Learning in Medical Imaging** | [[paper]](https://arxiv.org/abs/2502.20301) | [code]
+
+- [2025/02/26] **Stay Focused: Problem Drift in Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2502.19559) | [code]
+
+- [2025/02/26] **Voting or Consensus? Decision-Making in Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2502.19130) | [code]
+
+- [2025/02/25] **Enhancing Text Classification with a Novel Multi-Agent Collaboration Framework Leveraging BERT** | [[paper]](https://arxiv.org/abs/2502.18653) | [code]
+
+- [2025/02/25] **A Cooperative Multi-Agent Framework for Zero-Shot Named Entity Recognition** | [[paper]](https://arxiv.org/abs/2502.18702) | [code]
+
+- [2025/02/25] **Debt Collection Negotiations with Large Language Models: An Evaluation System and Optimizing Decision Making with Multi-Agent** | [[paper]](https://arxiv.org/abs/2502.18228) | [code]
+
+- [2025/02/25] **FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models** | [[paper]](https://arxiv.org/abs/2502.17924) | [code]
+
+- [2025/02/24] **MobileSteward: Integrating Multiple App-Oriented Agents with Self-Evolution to Automate Cross-App Instructions** | [[paper]](https://arxiv.org/abs/2502.16796) | [code]
+
+- [2025/02/24] **Mobile-Agent-V: Learning Mobile Device Operation Through Video-Guided Multi-Agent Collaboration** | [[paper]](https://arxiv.org/abs/2502.17110) | [[code]](https://github.com/X-PLUG/MobileAgent)
+
+- [2025/02/24] **METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling** | [[paper]](https://arxiv.org/abs/2502.17651) | [code]
+
+- [2025/02/23] **The Hidden Strength of Disagreement: Unraveling the Consensus-Diversity Tradeoff in Adaptive Multi-Agent Systems** | [[paper]](https://arxiv.org/abs/2502.16565) | [[code]](https://github.com/wuzengqing001225/ConsensusDiversityTradeoffMAS)
+
 - [2025/02/20] **Enhancing Language Multi-Agent Learning with Multi-Agent Credit Re-Assignment for Interactive Environment Generalization** | [[paper]](https://arxiv.org/abs/2502.14496) | [code]
 
 - [2025/02/20] **CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models** | [[paper]](https://arxiv.org/abs/2502.14529) | [code]
@@ -2183,6 +2243,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2024/01/09] **Agent Alignment in Evolving Social Norms** | [[paper]](https://arxiv.org/abs/2401.04620) | [code]
 
 #### Hallucination
+- [2025/02/26] **Winning Big with Small Models: Knowledge Distillation vs. Self-Training for Reducing Hallucination in QA Agents** | [[paper]](https://arxiv.org/abs/2502.19545) | [code]
+
 - [2025/02/14] **Automated Hypothesis Validation with Agentic Sequential Falsifications** | [[paper]](https://arxiv.org/abs/2502.09858) | [code]
 
 - [2025/02/04] **Position: Stop Acting Like Language Model Agents Are Normal Agents** | [[paper]](https://arxiv.org/abs/2502.10420) | [code]
@@ -2209,6 +2271,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Infrastructure
 #### Benchmark&Evaluation
+- [2025/02/26] **TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding** | [[paper]](https://arxiv.org/abs/2502.19400) | [code]
+
+- [2025/02/25] **RefuteBench 2.0 -- Agentic Benchmark for Dynamic Evaluation of LLM Responses to Refutation Instruction** | [[paper]](https://arxiv.org/abs/2502.18308) | [[code]](https://github.com/ElliottYan/RefuteBench-2.0)
+
 - [2025/02/20] **MLGym: A New Framework and Benchmark for Advancing AI Research Agents** | [[paper]](https://arxiv.org/abs/2502.14499) | [code]
 
 - [2025/02/19] **DataSciBench: An LLM Agent Benchmark for Data Science** | [[paper]](https://arxiv.org/abs/2502.13897) | [code]

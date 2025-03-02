@@ -3364,5 +3364,566 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2502.09903"
+    },
+    "6f9c1ac089493ef3ed381bcddd216a44": {
+        "title": "The Hidden Strength of Disagreement: Unraveling the Consensus-Diversity Tradeoff in Adaptive Multi-Agent Systems",
+        "authors": [
+            "Zengqing Wu",
+            "Takayuki Ito"
+        ],
+        "date": "2025/02/23",
+        "pdf": "http://arxiv.org/pdf/2502.16565",
+        "abstract": "Consensus formation is pivotal in multi-agent systems (MAS), balancing collective coherence with individual diversity. Conventional LLM-based MAS primarily rely on explicit coordination, e.g., prompts or voting, risking premature homogenization. We argue that implicit consensus, where agents exchange information yet independently form decisions via in-context learning, can be more effective in dynamic environments that require long-horizon adaptability. By retaining partial diversity, systems can better explore novel strategies and cope with external shocks. We formalize a consensus-diversity tradeoff, showing conditions where implicit methods outperform explicit ones. Experiments on three scenarios -- Dynamic Disaster Response, Information Spread and Manipulation, and Dynamic Public-Goods Provision -- confirm partial deviation from group norms boosts exploration, robustness, and performance. We highlight emergent coordination via in-context learning, underscoring the value of preserving diversity for resilient decision-making.",
+        "code": "https://github.com/wuzengqing001225/ConsensusDiversityTradeoffMAS",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.16565"
+    },
+    "99419075ed21de8e2af08ee4afa13062": {
+        "title": "MobileSteward: Integrating Multiple App-Oriented Agents with Self-Evolution to Automate Cross-App Instructions",
+        "authors": [
+            "Yuxuan Liu",
+            "Hongda Sun",
+            "Wei Liu",
+            "Jian Luan",
+            "Bo Du",
+            "Rui Yan"
+        ],
+        "date": "2025/02/24",
+        "pdf": "http://arxiv.org/pdf/2502.16796",
+        "abstract": "Mobile phone agents can assist people in automating daily tasks on their phones, which have emerged as a pivotal research spotlight. However, existing procedure-oriented agents struggle with cross-app instructions, due to the following challenges: (1) complex task relationships, (2) diverse app environment, and (3) error propagation and information loss in multi-step execution. Drawing inspiration from object-oriented programming principles, we recognize that object-oriented solutions is more suitable for cross-app instruction. To address these challenges, we propose a self-evolving multi-agent framework named MobileSteward, which integrates multiple app-oriented StaffAgents coordinated by a centralized StewardAgent. We design three specialized modules in MobileSteward: (1) Dynamic Recruitment generates a scheduling graph guided by information flow to explicitly associate tasks among apps. (2) Assigned Execution assigns the task to app-oriented StaffAgents, each equipped with app-specialized expertise to address the diversity between apps. (3) Adjusted Evaluation conducts evaluation to provide reflection tips or deliver key information, which alleviates error propagation and information loss during multi-step execution. To continuously improve the performance of MobileSteward, we develop a Memory-based Self-evolution mechanism, which summarizes the experience from successful execution, to improve the performance of MobileSteward. We establish the first English Cross-APP Benchmark (CAPBench) in the real-world environment to evaluate the agents&#39; capabilities of solving complex cross-app instructions. Experimental results demonstrate that MobileSteward achieves the best performance compared to both single-agent and multi-agent frameworks, highlighting the superiority of MobileSteward in better handling user instructions with diverse complexity.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.16796"
+    },
+    "9c6712e928529179d418e2f944f501a6": {
+        "title": "Mobile-Agent-V: Learning Mobile Device Operation Through Video-Guided Multi-Agent Collaboration",
+        "authors": [
+            "Junyang Wang",
+            "Haiyang Xu",
+            "Xi Zhang",
+            "Ming Yan",
+            "Ji Zhang",
+            "Fei Huang",
+            "Jitao Sang"
+        ],
+        "date": "2025/02/24",
+        "pdf": "http://arxiv.org/pdf/2502.17110",
+        "abstract": "The rapid increase in mobile device usage necessitates improved automation for seamless task management. However, many AI-driven frameworks struggle due to insufficient operational knowledge. Manually written knowledge helps but is labor-intensive and inefficient. To address these challenges, we introduce Mobile-Agent-V, a framework that leverages video guidance to provide rich and cost-effective operational knowledge for mobile automation. Mobile-Agent-V enhances task execution capabilities by leveraging video inputs without requiring specialized sampling or preprocessing. Mobile-Agent-V integrates a sliding window strategy and incorporates a video agent and deep-reflection agent to ensure that actions align with user instructions. Through this innovative approach, users can record task processes with guidance, enabling the system to autonomously learn and execute tasks efficiently. Experimental results show that Mobile-Agent-V achieves a 30% performance improvement compared to existing frameworks. The code will be open-sourced at https://github.com/X-PLUG/MobileAgent.",
+        "code": "https://github.com/X-PLUG/MobileAgent",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.17110"
+    },
+    "3331d194b7f2bf339cf564c4b2e98a9e": {
+        "title": "Stay Focused: Problem Drift in Multi-Agent Debate",
+        "authors": [
+            "Jonas Becker",
+            "Lars Benedikt Kaesberg",
+            "Andreas Stephan",
+            "Jan Philip Wahle",
+            "Terry Ruas",
+            "Bela Gipp"
+        ],
+        "date": "2025/02/26",
+        "pdf": "http://arxiv.org/pdf/2502.19559",
+        "abstract": "Multi-agent debate - multiple instances of large language models discussing problems in turn-based interaction - has shown promise for solving knowledge and reasoning tasks. However, these methods show limitations, particularly when scaling them to longer reasoning chains. In this study, we unveil a new issue of multi-agent debate: discussions drift away from the initial problem over multiple turns. We define this phenomenon as problem drift and quantify its presence across ten tasks (i.e., three generative, three knowledge, three reasoning, and one instruction-following task). To identify the reasons for this issue, we perform a human study with eight experts on discussions suffering from problem drift, who find the most common issues are a lack of progress (35% of cases), low-quality feedback (26% of cases), and a lack of clarity (25% of cases). To systematically address the issue of problem drift, we propose DRIFTJudge, a method based on LLM-as-a-judge, to detect problem drift at test-time. We further propose DRIFTPolicy, a method to mitigate 31% of problem drift cases. Our study can be seen as a first step to understanding a key limitation of multi-agent debate, highlighting pathways for improving their effectiveness in the future.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.19559"
+    },
+    "cf78b1c292d49a864a8fed69270d38b7": {
+        "title": "Winning Big with Small Models: Knowledge Distillation vs. Self-Training for Reducing Hallucination in QA Agents",
+        "authors": [
+            "Ashley Lewis",
+            "Michael White",
+            "Jing Liu",
+            "Toshiaki Koike-Akino",
+            "Kieran Parsons",
+            "Ye Wang"
+        ],
+        "date": "2025/02/26",
+        "pdf": "http://arxiv.org/pdf/2502.19545",
+        "abstract": "The deployment of Large Language Models (LLMs) in customer support is constrained by hallucination-generating false information-and the high cost of proprietary models. To address these challenges, we propose a retrieval-augmented question-answering (QA) pipeline and explore how to balance human input and automation. Using a dataset of questions about a Samsung Smart TV user manual, we demonstrate that synthetic data generated by LLMs outperforms crowdsourced data in reducing hallucination in finetuned models. We also compare self-training (fine-tuning models on their own outputs) and knowledge distillation (fine-tuning on stronger models&#39; outputs, e.g., GPT-4o), and find that self-training achieves comparable hallucination reduction. We conjecture that this surprising finding can be attributed to increased exposure bias issues in the knowledge distillation case and support this conjecture with post hoc analysis. We also improve robustness to unanswerable questions and retrieval failures with contextualized &#34;I don&#39;t know&#34; responses. These findings show that scalable, cost-efficient QA systems can be built using synthetic data and self-training with open-source models, reducing reliance on proprietary tools or costly human annotations.",
+        "code": "",
+        "category": [
+            [
+                "Stability",
+                "Hallucination"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.19545"
+    },
+    "d1c5e4d780996dc488d652dbb43e3a14": {
+        "title": "Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis",
+        "authors": [
+            "Jeffrey Yang Fan Chiang",
+            "Seungjae Lee",
+            "Jia-Bin Huang",
+            "Furong Huang",
+            "Yizheng Chen"
+        ],
+        "date": "2025/02/27",
+        "pdf": "http://arxiv.org/pdf/2502.20383",
+        "abstract": "Recent advancements in Web AI agents have demonstrated remarkable capabilities in addressing complex web navigation tasks. However, emerging research shows that these agents exhibit greater vulnerability compared to standalone Large Language Models (LLMs), despite both being built upon the same safety-aligned models. This discrepancy is particularly concerning given the greater flexibility of Web AI Agent compared to standalone LLMs, which may expose them to a wider range of adversarial user inputs. To build a scaffold that addresses these concerns, this study investigates the underlying factors that contribute to the increased vulnerability of Web AI agents. Notably, this disparity stems from the multifaceted differences between Web AI agents and standalone LLMs, as well as the complex signals - nuances that simple evaluation metrics, such as success rate, often fail to capture. To tackle these challenges, we propose a component-level analysis and a more granular, systematic evaluation framework. Through this fine-grained investigation, we identify three critical factors that amplify the vulnerability of Web AI agents; (1) embedding user goals into the system prompt, (2) multi-step action generation, and (3) observational capabilities. Our findings highlights the pressing need to enhance security and robustness in AI agent design and provide actionable insights for targeted defense strategies.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.20383"
+    },
+    "653218e7695b65021161f0517044ac67": {
+        "title": "M^3Builder: A Multi-Agent System for Automated Machine Learning in Medical Imaging",
+        "authors": [
+            "Jinghao Feng",
+            "Qiaoyu Zheng",
+            "Chaoyi Wu",
+            "Ziheng Zhao",
+            "Ya Zhang",
+            "Yanfeng Wang",
+            "Weidi Xie"
+        ],
+        "date": "2025/02/27",
+        "pdf": "http://arxiv.org/pdf/2502.20301",
+        "abstract": "Agentic AI systems have gained significant attention for their ability to autonomously perform complex tasks. However, their reliance on well-prepared tools limits their applicability in the medical domain, which requires to train specialized models. In this paper, we make three contributions: (i) We present M3Builder, a novel multi-agent system designed to automate machine learning (ML) in medical imaging. At its core, M3Builder employs four specialized agents that collaborate to tackle complex, multi-step medical ML workflows, from automated data processing and environment configuration to self-contained auto debugging and model training. These agents operate within a medical imaging ML workspace, a structured environment designed to provide agents with free-text descriptions of datasets, training codes, and interaction tools, enabling seamless communication and task execution. (ii) To evaluate progress in automated medical imaging ML, we propose M3Bench, a benchmark comprising four general tasks on 14 training datasets, across five anatomies and three imaging modalities, covering both 2D and 3D data. (iii) We experiment with seven state-of-the-art large language models serving as agent cores for our system, such as Claude series, GPT-4o, and DeepSeek-V3. Compared to existing ML agentic designs, M3Builder shows superior performance on completing ML tasks in medical imaging, achieving a 94.29% success rate using Claude-3.7-Sonnet as the agent core, showing huge potential towards fully automated machine learning in medical imaging.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.20301"
+    },
+    "33eceb2cc2ba664c62485d4f0ca022af": {
+        "title": "Voting or Consensus? Decision-Making in Multi-Agent Debate",
+        "authors": [
+            "Lars Benedikt Kaesberg",
+            "Jonas Becker",
+            "Jan Philip Wahle",
+            "Terry Ruas",
+            "Bela Gipp"
+        ],
+        "date": "2025/02/26",
+        "pdf": "http://arxiv.org/pdf/2502.19130",
+        "abstract": "Much of the success of multi-agent debates depends on carefully choosing the right parameters. Among them, the decision-making protocol stands out. Systematic comparison of decision protocols is difficult because studies alter multiple discussion parameters beyond the protocol. So far, it has been largely unknown how decision-making addresses the challenges of different tasks. This work systematically evaluates the impact of seven decision protocols (e.g., majority voting, unanimity consensus). We change only one variable at a time (i.e., decision protocol) to analyze how different methods affect the collaboration between agents and test different protocols on knowledge (MMLU, MMLU-Pro, GPQA) and reasoning datasets (StrategyQA, MuSR, SQuAD 2.0). Our results show that voting protocols improve performance by 13.2% in reasoning tasks and consensus protocols by 2.8% in knowledge tasks over the other decision protocol. Increasing the number of agents improves performance, while more discussion rounds before voting reduces it. To improve decision-making by increasing answer diversity, we propose two new methods, All-Agents Drafting (AAD) and Collective Improvement (CI). Our methods improve task performance by up to 3.3% with AAD and up to 7.4% with CI. This work demonstrates the importance of decision-making in multi-agent debates beyond scaling.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.19130"
+    },
+    "f5de8450ff665a0dd1c99cb1221a1488": {
+        "title": "Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals for Reliable Reward Systems",
+        "authors": [
+            "Hao Peng",
+            "Yunjia Qi",
+            "Xiaozhi Wang",
+            "Zijun Yao",
+            "Bin Xu",
+            "Lei Hou",
+            "Juanzi Li"
+        ],
+        "date": "2025/02/26",
+        "pdf": "http://arxiv.org/pdf/2502.19328",
+        "abstract": "Reward models (RMs) are crucial for the training and inference-time scaling up of large language models (LLMs). However, existing reward models primarily focus on human preferences, neglecting verifiable correctness signals which have shown strong potential in training LLMs. In this paper, we propose agentic reward modeling, a reward system that combines reward models with verifiable correctness signals from different aspects to provide reliable rewards. We empirically implement a reward agent, named RewardAgent, that combines human preference rewards with two verifiable signals: factuality and instruction following, to provide more reliable rewards. We conduct comprehensive experiments on existing reward model benchmarks and inference time best-of-n searches on real-world downstream tasks. RewardAgent significantly outperforms vanilla reward models, demonstrating its effectiveness. We further construct training preference pairs using RewardAgent and train an LLM with the DPO objective, achieving superior performance on various NLP benchmarks compared to conventional reward models. Our codes are publicly released to facilitate further research (https://github.com/THU-KEG/Agentic-Reward-Modeling).",
+        "code": "https://github.com/THU-KEG/Agentic-Reward-Modeling",
+        "category": [
+            [
+                "Automation",
+                "Automatic Evaluation"
+            ],
+            [
+                "Training",
+                "DPO"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.19328"
+    },
+    "3fe124c386a094c51407860228416e77": {
+        "title": "MEDDxAgent: A Unified Modular Agent Framework for Explainable Automatic Differential Diagnosis",
+        "authors": [
+            "Daniel Rose",
+            "Chia-Chien Hung",
+            "Marco Lepri",
+            "Israa Alqassem",
+            "Kiril Gashteovski",
+            "Carolin Lawrence"
+        ],
+        "date": "2025/02/26",
+        "pdf": "http://arxiv.org/pdf/2502.19175",
+        "abstract": "Differential Diagnosis (DDx) is a fundamental yet complex aspect of clinical decision-making, in which physicians iteratively refine a ranked list of possible diseases based on symptoms, antecedents, and medical knowledge. While recent advances in large language models have shown promise in supporting DDx, existing approaches face key limitations, including single-dataset evaluations, isolated optimization of components, unrealistic assumptions about complete patient profiles, and single-attempt diagnosis. We introduce a Modular Explainable DDx Agent (MEDDxAgent) framework designed for interactive DDx, where diagnostic reasoning evolves through iterative learning, rather than assuming a complete patient profile is accessible. MEDDxAgent integrates three modular components: (1) an orchestrator (DDxDriver), (2) a history taking simulator, and (3) two specialized agents for knowledge retrieval and diagnosis strategy. To ensure robust evaluation, we introduce a comprehensive DDx benchmark covering respiratory, skin, and rare diseases. We analyze single-turn diagnostic approaches and demonstrate the importance of iterative refinement when patient profiles are not available at the outset. Our broad evaluation demonstrates that MEDDxAgent achieves over 10% accuracy improvements in interactive DDx across both large and small LLMs, while offering critical explainability into its diagnostic reasoning process.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.19175"
+    },
+    "bad7c9860f3358a986e817507d081e4b": {
+        "title": "Enhancing Text Classification with a Novel Multi-Agent Collaboration Framework Leveraging BERT",
+        "authors": [
+            "Hediyeh Baban",
+            "Sai A Pidapar",
+            "Aashutosh Nema",
+            "Sichen Lu"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.18653",
+        "abstract": "We introduce a novel multi-agent collaboration framework designed to enhance the accuracy and robustness of text classification models. Leveraging BERT as the primary classifier, our framework dynamically escalates low-confidence predictions to a specialized multi-agent system comprising Lexical, Contextual, Logic, Consensus, and Explainability agents. This collaborative approach allows for comprehensive analysis and consensus-driven decision-making, significantly improving classification performance across diverse text classification tasks. Empirical evaluations on benchmark datasets demonstrate that our framework achieves a 5.5% increase in accuracy compared to standard BERT-based classifiers, underscoring its effectiveness and academic novelty in advancing multi-agent systems within natural language processing.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.18653"
+    },
+    "6c11b5a1ee6175776c6a68083bedff85": {
+        "title": "TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding",
+        "authors": [
+            "Max Ku",
+            "Thomas Chong",
+            "Jonathan Leung",
+            "Krish Shah",
+            "Alvin Yu",
+            "Wenhu Chen"
+        ],
+        "date": "2025/02/26",
+        "pdf": "http://arxiv.org/pdf/2502.19400",
+        "abstract": "Understanding domain-specific theorems often requires more than just text-based reasoning; effective communication through structured visual explanations is crucial for deeper comprehension. While large language models (LLMs) demonstrate strong performance in text-based theorem reasoning, their ability to generate coherent and pedagogically meaningful visual explanations remains an open challenge. In this work, we introduce TheoremExplainAgent, an agentic approach for generating long-form theorem explanation videos (over 5 minutes) using Manim animations. To systematically evaluate multimodal theorem explanations, we propose TheoremExplainBench, a benchmark covering 240 theorems across multiple STEM disciplines, along with 5 automated evaluation metrics. Our results reveal that agentic planning is essential for generating detailed long-form videos, and the o3-mini agent achieves a success rate of 93.8% and an overall score of 0.77. However, our quantitative and qualitative studies show that most of the videos produced exhibit minor issues with visual element layout. Furthermore, multimodal explanations expose deeper reasoning flaws that text-based explanations fail to reveal, highlighting the importance of multimodal explanations.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ],
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.19400"
+    },
+    "929d8ef67b10589b81a331f50b04b5b8": {
+        "title": "A Cooperative Multi-Agent Framework for Zero-Shot Named Entity Recognition",
+        "authors": [
+            "Zihan Wang",
+            "Ziqi Zhao",
+            "Yougang Lyu",
+            "Zhumin Chen",
+            "Maarten de Rijke",
+            "Zhaochun Ren"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.18702",
+        "abstract": "Zero-shot named entity recognition (NER) aims to develop entity recognition systems from unannotated text corpora. This task presents substantial challenges due to minimal human intervention. Recent work has adapted large language models (LLMs) for zero-shot NER by crafting specialized prompt templates. It advances model self-learning abilities by incorporating self-annotated demonstrations. However, two important challenges persist: (i) Correlations between contexts surrounding entities are overlooked, leading to wrong type predictions or entity omissions. (ii) The indiscriminate use of task demonstrations, retrieved through shallow similarity-based strategies, severely misleads LLMs during inference. In this paper, we introduce the cooperative multi-agent system (CMAS), a novel framework for zero-shot NER that uses the collective intelligence of multiple agents to address the challenges outlined above. CMAS has four main agents: (i) a self-annotator, (ii) a type-related feature (TRF) extractor, (iii) a demonstration discriminator, and (iv) an overall predictor. To explicitly capture correlations between contexts surrounding entities, CMAS reformulates NER into two subtasks: recognizing named entities and identifying entity type-related features within the target sentence. To enable controllable utilization of demonstrations, a demonstration discriminator is established to incorporate the self-reflection mechanism, automatically evaluating helpfulness scores for the target sentence. Experimental results show that CMAS significantly improves zero-shot NER performance across six benchmarks, including both domain-specific and general-domain scenarios. Furthermore, CMAS demonstrates its effectiveness in few-shot settings and with various LLM backbones.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.18702"
+    },
+    "b7d328538c325c921ce66febff2a3c75": {
+        "title": "Scaffolding Empathy: Training Counselors with Simulated Patients and Utterance-level Performance Visualizations",
+        "authors": [
+            "Ian Steenstra",
+            "Farnaz Nouraei",
+            "Timothy W. Bickmore"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.18673",
+        "abstract": "Learning therapeutic counseling involves significant role-play experience with mock patients, with current manual training methods providing only intermittent granular feedback. We seek to accelerate and optimize counselor training by providing frequent, detailed feedback to trainees as they interact with a simulated patient. Our first application domain involves training motivational interviewing skills for counselors. Motivational interviewing is a collaborative counseling style in which patients are guided to talk about changing their behavior, with empathetic counseling an essential ingredient. We developed and evaluated an LLM-powered training system that features a simulated patient and visualizations of turn-by-turn performance feedback tailored to the needs of counselors learning motivational interviewing. We conducted an evaluation study with professional and student counselors, demonstrating high usability and satisfaction with the system. We present design implications for the development of automated systems that train users in counseling skills and their generalizability to other types of social skills training.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.18673"
+    },
+    "69e70ffee7c91c8f86a98df96a2933e8": {
+        "title": "AgentRM: Enhancing Agent Generalization with Reward Modeling",
+        "authors": [
+            "Yu Xia",
+            "Jingru Fan",
+            "Weize Chen",
+            "Siyu Yan",
+            "Xin Cong",
+            "Zhong Zhang",
+            "Yaxi Lu",
+            "Yankai Lin",
+            "Zhiyuan Liu",
+            "Maosong Sun"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.18407",
+        "abstract": "Existing LLM-based agents have achieved strong performance on held-in tasks, but their generalizability to unseen tasks remains poor. Hence, some recent work focus on fine-tuning the policy model with more diverse tasks to improve the generalizability. In this work, we find that finetuning a reward model to guide the policy model is more robust than directly finetuning the policy model. Based on this finding, we propose AgentRM, a generalizable reward model, to guide the policy model for effective test-time search. We comprehensively investigate three approaches to construct the reward model, including explicit reward modeling, implicit reward modeling and LLM-as-a-judge. We then use AgentRM to guide the answer generation with Best-of-N sampling and step-level beam search. On four types of nine agent tasks, AgentRM enhances the base policy model by $8.8$ points on average, surpassing the top general agent by $4.0$. Moreover, it demonstrates weak-to-strong generalization, yielding greater improvement of $12.6$ on LLaMA-3-70B policy model. As for the specializability, AgentRM can also boost a finetuned policy model and outperform the top specialized agent by $11.4$ on three held-in tasks. Further analysis verifies its effectiveness in test-time scaling. Codes will be released to facilitate the research in this area.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "RL"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.18407"
+    },
+    "40b0a9827149a058e2153598bbe02542": {
+        "title": "RefuteBench 2.0 -- Agentic Benchmark for Dynamic Evaluation of LLM Responses to Refutation Instruction",
+        "authors": [
+            "Jianhao Yan",
+            "Yun Luo",
+            "Yue Zhang"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.18308",
+        "abstract": "In the multi-turn interaction schema, large language models (LLMs) can leverage user feedback to enhance the quality and relevance of their responses. However, evaluating an LLM&#39;s ability to incorporate user refutation feedback is crucial yet challenging. In this study, we introduce RefuteBench 2.0, which significantly extends the original RefuteBench by incorporating LLM agents as refuters and evaluators, which allows for flexible and comprehensive assessment. We design both transient and persistent refutation instructions with different validity periods. Meta-evaluation shows that the LLM-based refuter could generate more human-like refutations and the evaluators could assign scores with high correlation with humans. Experimental results of various LLMs show that current models could effectively satisfy the refutation but fail to memorize the refutation information. Interestingly, we also observe that the performance of the initial task decreases as the refutations increase. Analysis of the attention scores further shows a potential weakness of current LLMs: they struggle to retain and correctly use previous information during long context dialogues. https://github.com/ElliottYan/RefuteBench-2.0",
+        "code": "https://github.com/ElliottYan/RefuteBench-2.0",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.18308"
+    },
+    "31071f7714f91d731ef370175c9eec55": {
+        "title": "Debt Collection Negotiations with Large Language Models: An Evaluation System and Optimizing Decision Making with Multi-Agent",
+        "authors": [
+            "Xiaofeng Wang",
+            "Zhixin Zhang",
+            "Jinguang Zheng",
+            "Yiming Ai",
+            "Rui Wang"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.18228",
+        "abstract": "Debt collection negotiations (DCN) are vital for managing non-performing loans (NPLs) and reducing creditor losses. Traditional methods are labor-intensive, while large language models (LLMs) offer promising automation potential. However, prior systems lacked dynamic negotiation and real-time decision-making capabilities. This paper explores LLMs in automating DCN and proposes a novel evaluation framework with 13 metrics across 4 aspects. Our experiments reveal that LLMs tend to over-concede compared to human negotiators. To address this, we propose the Multi-Agent Debt Negotiation (MADeN) framework, incorporating planning and judging modules to improve decision rationality. We also apply post-training techniques, including DPO with rejection sampling, to optimize performance. Our studies provide valuable insights for practitioners and researchers seeking to enhance efficiency and outcomes in this domain.",
+        "code": "",
+        "category": [
+            [
+                "Automation",
+                "Automatic Evaluation"
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.18228"
+    },
+    "08a4ce85e4e77cacad09ecb623d02ad6": {
+        "title": "LAG: LLM agents for Leaderboard Auto Generation on Demanding",
+        "authors": [
+            "Jian Wu",
+            "Jiayu Zhang",
+            "Dongyuan Li",
+            "Linyi Yang",
+            "Aoxiao Zhong",
+            "Renhe Jiang",
+            "Qingsong Wen",
+            "Yue Zhang"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.18209",
+        "abstract": "This paper introduces Leaderboard Auto Generation (LAG), a novel and well-organized framework for automatic generation of leaderboards on a given research topic in rapidly evolving fields like Artificial Intelligence (AI). Faced with a large number of AI papers updated daily, it becomes difficult for researchers to track every paper&#39;s proposed methods, experimental results, and settings, prompting the need for efficient automatic leaderboard construction. While large language models (LLMs) offer promise in automating this process, challenges such as multi-document summarization, leaderboard generation, and experiment fair comparison still remain under exploration. LAG solves these challenges through a systematic approach that involves the paper collection, experiment results extraction and integration, leaderboard generation, and quality evaluation. Our contributions include a comprehensive solution to the leaderboard construction problem, a reliable evaluation method, and experimental results showing the high quality of leaderboards.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Research"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.18209"
+    },
+    "f4db64903e9b8877fbfba9827856f04b": {
+        "title": "FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models",
+        "authors": [
+            "Hongzhan Lin",
+            "Yang Deng",
+            "Yuxuan Gu",
+            "Wenxuan Zhang",
+            "Jing Ma",
+            "See-Kiong Ng",
+            "Tat-Seng Chua"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.17924",
+        "abstract": "Large Language Models (LLMs) have significantly advanced the fact-checking studies. However, existing automated fact-checking evaluation methods rely on static datasets and classification metrics, which fail to automatically evaluate the justification production and uncover the nuanced limitations of LLMs in fact-checking. In this work, we introduce FACT-AUDIT, an agent-driven framework that adaptively and dynamically assesses LLMs&#39; fact-checking capabilities. Leveraging importance sampling principles and multi-agent collaboration, FACT-AUDIT generates adaptive and scalable datasets, performs iterative model-centric evaluations, and updates assessments based on model-specific responses. By incorporating justification production alongside verdict prediction, this framework provides a comprehensive and evolving audit of LLMs&#39; factual reasoning capabilities, to investigate their trustworthiness. Extensive experiments demonstrate that FACT-AUDIT effectively differentiates among state-of-the-art LLMs, providing valuable insights into model strengths and limitations in model-centric fact-checking analysis.",
+        "code": "",
+        "category": [
+            [
+                "Automation",
+                "Automatic Evaluation"
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.17924"
+    },
+    "710a7abc2158db6d47ede7575e9a90b1": {
+        "title": "ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents",
+        "authors": [
+            "Qiuchen Wang",
+            "Ruixue Ding",
+            "Zehui Chen",
+            "Weiqi Wu",
+            "Shihang Wang",
+            "Pengjun Xie",
+            "Feng Zhao"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.18017",
+        "abstract": "Understanding information from visually rich documents remains a significant challenge for traditional Retrieval-Augmented Generation (RAG) methods. Existing benchmarks predominantly focus on image-based question answering (QA), overlooking the fundamental challenges of efficient retrieval, comprehension, and reasoning within dense visual documents. To bridge this gap, we introduce ViDoSeek, a novel dataset designed to evaluate RAG performance on visually rich documents requiring complex reasoning. Based on it, we identify key limitations in current RAG approaches: (i) purely visual retrieval methods struggle to effectively integrate both textual and visual features, and (ii) previous approaches often allocate insufficient reasoning tokens, limiting their effectiveness. To address these challenges, we propose ViDoRAG, a novel multi-agent RAG framework tailored for complex reasoning across visual documents. ViDoRAG employs a Gaussian Mixture Model (GMM)-based hybrid strategy to effectively handle multi-modal retrieval. To further elicit the model&#39;s reasoning capabilities, we introduce an iterative agent workflow incorporating exploration, summarization, and reflection, providing a framework for investigating test-time scaling in RAG domains. Extensive experiments on ViDoSeek validate the effectiveness and generalization of our approach. Notably, ViDoRAG outperforms existing methods by over 10% on the competitive ViDoSeek benchmark.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.18017"
+    },
+    "aeee067bd0d4eb3c4a4a866683b07066": {
+        "title": "LLM Knows Geometry Better than Algebra: Numerical Understanding of LLM-Based Agents in A Trading Arena",
+        "authors": [
+            "Tianmi Ma",
+            "Jiawei Du",
+            "Wenxin Huang",
+            "Wenjie Wang",
+            "Liang Xie",
+            "Xian Zhong",
+            "Joey Tianyi Zhou"
+        ],
+        "date": "2025/02/25",
+        "pdf": "http://arxiv.org/pdf/2502.17967",
+        "abstract": "Recent advancements in large language models (LLMs) have significantly improved performance in natural language processing tasks. However, their ability to generalize to dynamic, unseen tasks, particularly in numerical reasoning, remains a challenge. Existing benchmarks mainly evaluate LLMs on problems with predefined optimal solutions, which may not align with real-world scenarios where clear answers are absent. To bridge this gap, we design the Agent Trading Arena, a virtual numerical game simulating complex economic systems through zero-sum games, where agents invest in stock portfolios. Our experiments reveal that LLMs, including GPT-4o, struggle with algebraic reasoning when dealing with plain-text stock data, often focusing on local details rather than global trends. In contrast, LLMs perform significantly better with geometric reasoning when presented with visual data, such as scatter plots or K-line charts, suggesting that visual representations enhance numerical reasoning. This capability is further improved by incorporating the reflection module, which aids in the analysis and interpretation of complex data. We validate our findings on NASDAQ Stock dataset, where LLMs demonstrate stronger reasoning with visual data compared to text. Our code and data are publicly available at https://github.com/wekjsdvnm/Agent-Trading-Arena.git.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Math"
+            ],
+            [
+                "Application",
+                "Finance"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.17967"
+    },
+    "b72e503d6aad3525a17bee4add471676": {
+        "title": "METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling",
+        "authors": [
+            "Bingxuan Li",
+            "Yiwei Wang",
+            "Jiuxiang Gu",
+            "Kai-Wei Chang",
+            "Nanyun Peng"
+        ],
+        "date": "2025/02/24",
+        "pdf": "http://arxiv.org/pdf/2502.17651",
+        "abstract": "Chart generation aims to generate code to produce charts satisfying the desired visual properties, e.g., texts, layout, color, and type. It has great potential to empower the automatic professional report generation in financial analysis, research presentation, education, and healthcare. In this work, we build a vision-language model (VLM) based multi-agent framework for effective automatic chart generation. Generating high-quality charts requires both strong visual design skills and precise coding capabilities that embed the desired visual properties into code. Such a complex multi-modal reasoning process is difficult for direct prompting of VLMs. To resolve these challenges, we propose METAL, a multi-agent framework that decomposes the task of chart generation into the iterative collaboration among specialized agents. METAL achieves 5.2% improvement in accuracy over the current best result in the chart generation task. The METAL framework exhibits the phenomenon of test-time scaling: its performance increases monotonically as the logarithmic computational budget grows from 512 to 8192 tokens. In addition, we find that separating different modalities during the critique process of METAL boosts the self-correction capability of VLMs in the multimodal context.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.17651"
+    },
+    "2be39e1583cea697b224e3752c123671": {
+        "title": "Training a Generally Curious Agent",
+        "authors": [
+            "Fahim Tajwar",
+            "Yiding Jiang",
+            "Abitha Thankaraj",
+            "Sumaita Sadia Rahman",
+            "J Zico Kolter",
+            "Jeff Schneider",
+            "Ruslan Salakhutdinov"
+        ],
+        "date": "2025/02/24",
+        "pdf": "http://arxiv.org/pdf/2502.17543",
+        "abstract": "Efficient exploration is essential for intelligent systems interacting with their environment, but existing language models often fall short in scenarios that require strategic information gathering. In this paper, we present PAPRIKA, a fine-tuning approach that enables language models to develop general decision-making capabilities that are not confined to particular environments. By training on synthetic interaction data from different tasks that require diverse strategies, PAPRIKA teaches models to explore and adapt their behavior on a new task based on environment feedback in-context without more gradient updates. Experimental results show that models fine-tuned with PAPRIKA can effectively transfer their learned decision-making capabilities to entirely unseen tasks without additional training. Unlike traditional training, our approach&#39;s primary bottleneck lies in sampling useful interaction data instead of model updates. To improve sample efficiency, we propose a curriculum learning strategy that prioritizes sampling trajectories from tasks with high learning potential. These results suggest a promising path towards AI systems that can autonomously solve novel sequential decision-making problems that require interactions with the external world.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "Fine tuning"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.17543"
+    },
+    "8d04925aa85c0d1934ad4dbbb502c5ec": {
+        "title": "Turning Conversations into Workflows: A Framework to Extract and Evaluate Dialog Workflows for Service AI Agents",
+        "authors": [
+            "Prafulla Kumar Choubey",
+            "Xiangyu Peng",
+            "Shilpa Bhagavath",
+            "Caiming Xiong",
+            "Shiva Kumar Pentyala",
+            "Chien-Sheng Wu"
+        ],
+        "date": "2025/02/24",
+        "pdf": "http://arxiv.org/pdf/2502.17321",
+        "abstract": "Automated service agents require well-structured workflows to provide consistent and accurate responses to customer queries. However, these workflows are often undocumented, and their automatic extraction from conversations remains unexplored. In this work, we present a novel framework for extracting and evaluating dialog workflows from historical interactions. Our extraction process consists of two key stages: (1) a retrieval step to select relevant conversations based on key procedural elements, and (2) a structured workflow generation process using a question-answer-based chain-of-thought (QA-CoT) prompting. To comprehensively assess the quality of extracted workflows, we introduce an automated agent and customer bots simulation framework that measures their effectiveness in resolving customer issues. Extensive experiments on the ABCD and SynthABCD datasets demonstrate that our QA-CoT technique improves workflow extraction by 12.16\\% in average macro accuracy over the baseline. Moreover, our evaluation method closely aligns with human assessments, providing a reliable and scalable framework for future research.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Conversation"
+            ],
+            [
+                "Automation",
+                "Workflow"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.17321"
     }
 }

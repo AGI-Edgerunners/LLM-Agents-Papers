@@ -2761,19 +2761,76 @@
         "url": "https://arxiv.org/abs/2310.08582"
     },
     {
-        "url": ""
+        "url": "https://arxiv.org/abs/2502.16565","code": "https://github.com/wuzengqing001225/ConsensusDiversityTradeoffMAS"
     },
     {
-        "url": ""
+        "url": "https://arxiv.org/abs/2502.16796"
     },
     {
-        "url": ""
+        "url": "https://arxiv.org/abs/2502.17110","code": "https://github.com/X-PLUG/MobileAgent"
     },
     {
-        "url": ""
+        "url": "https://arxiv.org/abs/2502.19559"
     },
     {
-        "url": ""
+        "url": "https://arxiv.org/abs/2502.19545"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.20383"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.20301"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.19130"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.19328","code": "https://github.com/THU-KEG/Agentic-Reward-Modeling"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.19175"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.18653"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.19400"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.18702"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.18673"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.18407"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.18308","code": "https://github.com/ElliottYan/RefuteBench-2.0"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.18228"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.18209"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.17924"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.18017"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.17967"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.17651"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.17543"
+    },
+    {
+        "url": "https://arxiv.org/abs/2502.17321"
     },
     {
         "url": ""
