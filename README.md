@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2025/3/2
+Last Updated Time: 2025/3/9
 
 A repo lists papers related to LLM based agent. Includes
 - [Survey](#Survey)
@@ -117,6 +117,10 @@ For more comprehensive reading, we also recommend other paper lists:
 ---
 ### Technique For Enhancement
 #### Planning
+- [2025/03/04] **MPO: Boosting LLM Agents with Meta Plan Optimization** | [[paper]](https://arxiv.org/abs/2503.02682) | [code]
+
+- [2025/03/03] **Improving Retrospective Language Agents via Joint Policy Gradient Optimization** | [[paper]](https://arxiv.org/abs/2503.01490) | [code]
+
 - [2025/02/08] **CODESIM: Multi-Agent Code Generation and Problem Solving through Simulation-Driven Planning and Debugging** | [[paper]](https://arxiv.org/abs/2502.05664) | [code]
 
 - [2025/02/06] **Robotouille: An Asynchronous Planning Benchmark for LLM Agents** | [[paper]](https://arxiv.org/abs/2502.05227) | [code]
@@ -271,6 +275,10 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/04/21] **Emergent and Predictable Memorization in Large Language Models** | [[paper]](https://arxiv.org/abs/2304.11158) | [code]
 
 #### Feedback&Reflection
+- [2025/03/04] **Generator-Assistant Stepwise Rollback Framework for Large Language Model Agent** | [[paper]](https://arxiv.org/abs/2503.02519) | [code]
+
+- [2025/03/03] **Improving Retrospective Language Agents via Joint Policy Gradient Optimization** | [[paper]](https://arxiv.org/abs/2503.01490) | [code]
+
 - [2025/02/20] **STeCa: Step-level Trajectory Calibration for LLM Agent Learning** | [[paper]](https://arxiv.org/abs/2502.14276) | [code]
 
 - [2025/02/17] **Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning** | [[paper]](https://arxiv.org/abs/2502.11799) | [code]
@@ -855,6 +863,12 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/04/26] **Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models** | [[paper]](https://arxiv.org/abs/2304.13835) | [code]
 
 #### Tool Usage
+- [2025/03/06] **Measuring temporal effects of agent knowledge by date-controlled tool use** | [[paper]](https://arxiv.org/abs/2503.04188) | [code]
+
+- [2025/03/04] **LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications** | [[paper]](https://arxiv.org/abs/2503.02950) | [code]
+
+- [2025/03/01] **Smoothing Grounding and Reasoning for MLLM-Powered GUI Agents with Query-Oriented Pivot Tasks** | [[paper]](https://arxiv.org/abs/2503.00401) | [code]
+
 - [2025/02/27] **Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis** | [[paper]](https://arxiv.org/abs/2502.20383) | [code]
 
 - [2025/02/24] **MobileSteward: Integrating Multiple App-Oriented Agents with Self-Evolution to Automate Cross-App Instructions** | [[paper]](https://arxiv.org/abs/2502.16796) | [code]
@@ -1116,6 +1130,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Application
 #### Math
+- [2025/03/05] **MA-LoT: Multi-Agent Lean-based Long Chain-of-Thought Reasoning enhances Formal Theorem Proving** | [[paper]](https://arxiv.org/abs/2503.03205) | [code]
+
 - [2025/02/25] **LLM Knows Geometry Better than Algebra: Numerical Understanding of LLM-Based Agents in A Trading Arena** | [[paper]](https://arxiv.org/abs/2502.17967) | [code]
 
 - [2025/02/18] **One Size doesn&#39;t Fit All: A Personalized Conversational Tutoring Agent for Mathematics Instruction** | [[paper]](https://arxiv.org/abs/2502.12633) | [code]
@@ -1498,6 +1514,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Training
 #### Fine tuning
+- [2025/03/05] **MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems** | [[paper]](https://arxiv.org/abs/2503.03686) | [code]
+
+- [2025/03/04] **ATLaS: Agent Tuning via Learning Critical Steps** | [[paper]](https://arxiv.org/abs/2503.02197) | [code]
+
 - [2025/02/24] **Training a Generally Curious Agent** | [[paper]](https://arxiv.org/abs/2502.17543) | [code]
 
 - [2025/02/19] **UM_FHS at TREC 2024 PLABA: Exploration of Fine-tuning and AI agent approach for plain language adaptations of biomedical text** | [[paper]](https://arxiv.org/abs/2502.14144) | [code]
@@ -1563,6 +1583,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/26] **Training Socially Aligned Language Models on Simulated Social Interactions** | [[paper]](https://arxiv.org/abs/2305.16960) | [code]
 
 #### RL
+- [2025/03/03] **Improving Retrospective Language Agents via Joint Policy Gradient Optimization** | [[paper]](https://arxiv.org/abs/2503.01490) | [code]
+
 - [2025/02/25] **AgentRM: Enhancing Agent Generalization with Reward Modeling** | [[paper]](https://arxiv.org/abs/2502.18407) | [code]
 
 - [2025/02/09] **Training Language Models for Social Deduction with Multi-Agent Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2502.06060) | [code]
@@ -1755,6 +1777,18 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/25] **Voyager: An Open-Ended Embodied Agent with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16291) | [code]
 
 #### Multi-Agent System
+- [2025/03/05] **MA-LoT: Multi-Agent Lean-based Long Chain-of-Thought Reasoning enhances Formal Theorem Proving** | [[paper]](https://arxiv.org/abs/2503.03205) | [code]
+
+- [2025/03/05] **MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems** | [[paper]](https://arxiv.org/abs/2503.03686) | [code]
+
+- [2025/03/05] **Multi-Agent Systems Powered by Large Language Models: Applications in Swarm Intelligence** | [[paper]](https://arxiv.org/abs/2503.03800) | [code]
+
+- [2025/03/04] **BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modelling** | [[paper]](https://arxiv.org/abs/2503.02445) | [code]
+
+- [2025/03/01] **Structured Reasoning for Fairness: A Multi-Agent Approach to Bias Detection in Textual Data** | [[paper]](https://arxiv.org/abs/2503.00355) | [code]
+
+- [2025/02/28] **PreMind: Multi-Agent Video Understanding for Advanced Indexing of Presentation-style Videos** | [[paper]](https://arxiv.org/abs/2503.00162) | [code]
+
 - [2025/02/27] **M^3Builder: A Multi-Agent System for Automated Machine Learning in Medical Imaging** | [[paper]](https://arxiv.org/abs/2502.20301) | [code]
 
 - [2025/02/26] **Stay Focused: Problem Drift in Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2502.19559) | [code]
@@ -2220,6 +2254,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/11/17] **Testing Language Model Agents Safely in the Wild** | [[paper]](https://arxiv.org/abs/2311.10538) | [code]
 
 #### Bias
+- [2025/03/01] **Structured Reasoning for Fairness: A Multi-Agent Approach to Bias Detection in Textual Data** | [[paper]](https://arxiv.org/abs/2503.00355) | [code]
+
 - [2025/01/29] **Actions Speak Louder than Words: Agent Decisions Reveal Implicit Biases in Language Models** | [[paper]](https://arxiv.org/abs/2501.17420) | [code]
 
 - [2025/01/24] **Unmasking Conversational Bias in AI Multiagent Systems** | [[paper]](https://arxiv.org/abs/2501.14844) | [code]
@@ -2271,6 +2307,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Infrastructure
 #### Benchmark&Evaluation
+- [2025/03/03] **MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents** | [[paper]](https://arxiv.org/abs/2503.01935) | [code]
+
 - [2025/02/26] **TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding** | [[paper]](https://arxiv.org/abs/2502.19400) | [code]
 
 - [2025/02/25] **RefuteBench 2.0 -- Agentic Benchmark for Dynamic Evaluation of LLM Responses to Refutation Instruction** | [[paper]](https://arxiv.org/abs/2502.18308) | [[code]](https://github.com/ElliottYan/RefuteBench-2.0)
@@ -2454,6 +2492,10 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/04/27] **ChatLog: Carefully Evaluating the Evolution of ChatGPT Across Time** | [[paper]](https://arxiv.org/abs/2304.14106) | [code]
 
 #### Environment&Platform
+- [2025/03/05] **Unified Mind Model: Reimagining Autonomous Agents in the LLM Era** | [[paper]](https://arxiv.org/abs/2503.03459) | [code]
+
+- [2025/03/04] **LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications** | [[paper]](https://arxiv.org/abs/2503.02950) | [code]
+
 - [2025/02/14] **The Ann Arbor Architecture for Agent-Oriented Programming** | [[paper]](https://arxiv.org/abs/2502.09903) | [[code]](https://github.com/aaalgo/postline_0.1)
 
 - [2024/12/30] **Training Software Engineering Agents and Verifiers with SWE-Gym** | [[paper]](https://arxiv.org/abs/2412.21139) | [code]
