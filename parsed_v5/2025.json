@@ -3925,5 +3925,363 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2502.17321"
+    },
+    "bca4b1f6624b83e6b83c47eebd6f5952": {
+        "title": "Structured Reasoning for Fairness: A Multi-Agent Approach to Bias Detection in Textual Data",
+        "authors": [
+            "Tianyi Huang",
+            "Elsa Fan"
+        ],
+        "date": "2025/03/01",
+        "pdf": "http://arxiv.org/pdf/2503.00355",
+        "abstract": "From disinformation spread by AI chatbots to AI recommendations that inadvertently reinforce stereotypes, textual bias poses a significant challenge to the trustworthiness of large language models (LLMs). In this paper, we propose a multi-agent framework that systematically identifies biases by disentangling each statement as fact or opinion, assigning a bias intensity score, and providing concise, factual justifications. Evaluated on 1,500 samples from the WikiNPOV dataset, the framework achieves 84.9% accuracy$\\unicode{x2014}$an improvement of 13.0% over the zero-shot baseline$\\unicode{x2014}$demonstrating the efficacy of explicitly modeling fact versus opinion prior to quantifying bias intensity. By combining enhanced detection accuracy with interpretable explanations, this approach sets a foundation for promoting fairness and accountability in modern language models.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Stability",
+                "Bias"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.00355"
+    },
+    "2433ebab4f4ee9f7d1255f99a80ace07": {
+        "title": "Smoothing Grounding and Reasoning for MLLM-Powered GUI Agents with Query-Oriented Pivot Tasks",
+        "authors": [
+            "Zongru Wu",
+            "Pengzhou Cheng",
+            "Zheng Wu",
+            "Tianjie Ju",
+            "Zhuosheng Zhang",
+            "Gongshen Liu"
+        ],
+        "date": "2025/03/01",
+        "pdf": "http://arxiv.org/pdf/2503.00401",
+        "abstract": "Perception-enhanced pre-training, particularly through grounding techniques, is widely adopted to enhance the performance of graphical user interface (GUI) agents. However, in resource-constrained scenarios, the format discrepancy between coordinate-oriented grounding and action-oriented reasoning limits the effectiveness of grounding for reasoning tasks. To address this challenge, we propose a query-oriented pivot approach called query inference, which serves as a bridge between GUI grounding and reasoning. By inferring potential user queries from a screenshot and its associated element coordinates, query inference improves the understanding of coordinates while aligning more closely with reasoning tasks. Experimental results show that query inference outperforms previous grounding techniques under the same training data scale. Notably, query inference achieves comparable or even better performance to large-scale grounding-enhanced OS-Atlas with less than 0.1% of training data. Furthermore, we explore the impact of reasoning formats and demonstrate that integrating additional semantic information into the input further boosts reasoning performance. The code is publicly available at https://github.com/ZrW00/GUIPivot.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.00401"
+    },
+    "a86efc9b62297533bb868f58f75d4758": {
+        "title": "Improving Retrospective Language Agents via Joint Policy Gradient Optimization",
+        "authors": [
+            "Xueyang Feng",
+            "Bo Lan",
+            "Quanyu Dai",
+            "Lei Wang",
+            "Jiakai Tang",
+            "Xu Chen",
+            "Zhenhua Dong",
+            "Ji-Rong Wen"
+        ],
+        "date": "2025/03/03",
+        "pdf": "http://arxiv.org/pdf/2503.01490",
+        "abstract": "In recent research advancements within the community, large language models (LLMs) have sparked great interest in creating autonomous agents. However, current prompt-based agents often heavily rely on large-scale LLMs. Meanwhile, although fine-tuning methods significantly enhance the capabilities of smaller LLMs, the fine-tuned agents often lack the potential for self-reflection and self-improvement. To address these challenges, we introduce a novel agent framework named RetroAct, which is a framework that jointly optimizes both task-planning and self-reflective evolution capabilities in language agents. Specifically, we develop a two-stage joint optimization process that integrates imitation learning and reinforcement learning, and design an off-policy joint policy gradient optimization algorithm with imitation learning regularization to enhance the data efficiency and training stability in agent tasks. RetroAct significantly improves the performance of open-source models, reduces dependency on closed-source LLMs, and enables fine-tuned agents to learn and evolve continuously. We conduct extensive experiments across various testing environments, demonstrating RetroAct has substantial improvements in task performance and decision-making processes.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Planning"
+            ],
+            [
+                "Technique For Enhancement",
+                "Feedback&Reflection"
+            ],
+            [
+                "Training",
+                "RL"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.01490"
+    },
+    "a69dad462d5c2ed209611c5855132b06": {
+        "title": "ATLaS: Agent Tuning via Learning Critical Steps",
+        "authors": [
+            "Zhixun Chen",
+            "Ming Li",
+            "Yuxuan Huang",
+            "Yali Du",
+            "Meng Fang",
+            "Tianyi Zhou"
+        ],
+        "date": "2025/03/04",
+        "pdf": "http://arxiv.org/pdf/2503.02197",
+        "abstract": "Large Language Model (LLM) agents have demonstrated remarkable generalization capabilities across multi-domain tasks. Existing agent tuning approaches typically employ supervised finetuning on entire expert trajectories. However, behavior-cloning of full trajectories can introduce expert bias and weaken generalization to states not covered by the expert data. Additionally, critical steps, such as planning, complex reasoning for intermediate subtasks, and strategic decision-making, are essential to success in agent tasks, so learning these steps is the key to improving LLM agents. For more effective and efficient agent tuning, we propose ATLaS that identifies the critical steps in expert trajectories and finetunes LLMs solely on these steps with reduced costs. By steering the training&#39;s focus to a few critical steps, our method mitigates the risk of overfitting entire trajectories and promotes generalization across different environments and tasks. In extensive experiments, an LLM finetuned on only 30% critical steps selected by ATLaS outperforms the LLM finetuned on all steps and recent open-source LLM agents. ATLaS maintains and improves base LLM skills as generalist agents interacting with diverse environments.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "Fine tuning"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.02197"
+    },
+    "bf02b3247bcd402f5ac26cca0992eaa1": {
+        "title": "Generator-Assistant Stepwise Rollback Framework for Large Language Model Agent",
+        "authors": [
+            "Xingzuo Li",
+            "Kehai Chen",
+            "Yunfei Long",
+            "Xuefeng Bai",
+            "Yong Xu",
+            "Min Zhang"
+        ],
+        "date": "2025/03/04",
+        "pdf": "http://arxiv.org/pdf/2503.02519",
+        "abstract": "Large language model (LLM) agents typically adopt a step-by-step reasoning framework, in which they interleave the processes of thinking and acting to accomplish the given task. However, this paradigm faces a deep-rooted one-pass issue whereby each generated intermediate thought is plugged into the trajectory regardless of its correctness, which can cause irreversible error propagation. To address the issue, this paper proposes a novel framework called Generator-Assistant Stepwise Rollback (GA-Rollback) to induce better decision-making for LLM agents. Particularly, GA-Rollback utilizes a generator to interact with the environment and an assistant to examine each action produced by the generator, where the assistant triggers a rollback operation upon detection of incorrect actions. Moreover, we introduce two additional strategies tailored for the rollback scenario to further improve its effectiveness. Extensive experiments show that GA-Rollback achieves significant improvements over several strong baselines on three widely used benchmarks. Our analysis further reveals that GA-Rollback can function as a robust plug-and-play module, integrating seamlessly with other methods.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Feedback&Reflection"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.02519"
+    },
+    "6c0c2a1aa25b10122be50884b469956a": {
+        "title": "MPO: Boosting LLM Agents with Meta Plan Optimization",
+        "authors": [
+            "Weimin Xiong",
+            "Yifan Song",
+            "Qingxiu Dong",
+            "Bingchan Zhao",
+            "Feifan Song",
+            "Xun Wang",
+            "Sujian Li"
+        ],
+        "date": "2025/03/04",
+        "pdf": "http://arxiv.org/pdf/2503.02682",
+        "abstract": "Recent advancements in large language models (LLMs) have enabled LLM-based agents to successfully tackle interactive planning tasks. However, despite their successes, existing approaches often suffer from planning hallucinations and require retraining for each new agent. To address these challenges, we propose the Meta Plan Optimization (MPO) framework, which enhances agent planning capabilities by directly incorporating explicit guidance. Unlike previous methods that rely on complex knowledge, which either require significant human effort or lack quality assurance, MPO leverages high-level general guidance through meta plans to assist agent planning and enables continuous optimization of the meta plans based on feedback from the agent&#39;s task execution. Our experiments conducted on two representative tasks demonstrate that MPO significantly outperforms existing baselines. Moreover, our analysis indicates that MPO provides a plug-and-play solution that enhances both task completion efficiency and generalization capabilities in previous unseen scenarios.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Planning"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.02682"
+    },
+    "2a0ccb233db8bb358cf267a1d83129bb": {
+        "title": "MA-LoT: Multi-Agent Lean-based Long Chain-of-Thought Reasoning enhances Formal Theorem Proving",
+        "authors": [
+            "Ruida Wang",
+            "Rui Pan",
+            "Yuxin Li",
+            "Jipeng Zhang",
+            "Yizhen Jia",
+            "Shizhe Diao",
+            "Renjie Pi",
+            "Junjie Hu",
+            "Tong Zhang"
+        ],
+        "date": "2025/03/05",
+        "pdf": "http://arxiv.org/pdf/2503.03205",
+        "abstract": "Solving mathematical problems using computer-verifiable languages like Lean has significantly impacted mathematical and computer science communities. State-of-the-art methods utilize single Large Language Models (LLMs) as agents or provers to either generate complete proof or perform tree searches. However, single-agent methods inherently lack a structured way to combine high-level reasoning in Natural Language (NL) with Formal Language (FL) verification feedback. To solve these issues, we propose MA-LoT: Multi-Agent Lean-based Long Chain-of-Thought framework, (to the best of our knowledge), the first multi-agent framework for Lean4 theorem proving that balance high-level NL reasoning and FL verification in Long CoT. Using this structured interaction, our approach enables deeper insights and long-term coherence in proof generation, with which past methods struggle. We do this by leveraging emergent formal reasoning ability in Long CoT using our novel LoT-Transfer Learning training-inference pipeline. Extensive experiments show that our framework achieves 54.51% accuracy rate on the Lean4 version of MiniF2F-Test dataset, largely outperforming GPT-4 (22.95%), single-agent tree search (InternLM-Step-Prover, 50.70%), and whole-proof generation (DeepSeek-Prover-v1.5, 48.36%) baselines. Furthermore, our findings highlight the potential of combining Long CoT with formal verification for a more insightful generation in a broader perspective.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Application",
+                "Math"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.03205"
+    },
+    "91d1c46c1506ae6e222d3f66227a1cb5": {
+        "title": "MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems",
+        "authors": [
+            "Rui Ye",
+            "Shuo Tang",
+            "Rui Ge",
+            "Yaxin Du",
+            "Zhenfei Yin",
+            "Siheng Chen",
+            "Jing Shao"
+        ],
+        "date": "2025/03/05",
+        "pdf": "http://arxiv.org/pdf/2503.03686",
+        "abstract": "LLM-based multi-agent systems (MAS) have shown significant potential in tackling diverse tasks. However, to design effective MAS, existing approaches heavily rely on manual configurations or multiple calls of advanced LLMs, resulting in inadaptability and high inference costs. In this paper, we simplify the process of building an MAS by reframing it as a generative language task, where the input is a user query and the output is a corresponding MAS. To address this novel task, we unify the representation of MAS as executable code and propose a consistency-oriented data construction pipeline to create a high-quality dataset comprising coherent and consistent query-MAS pairs. Using this dataset, we train MAS-GPT, an open-source medium-sized LLM that is capable of generating query-adaptive MAS within a single LLM inference. The generated MAS can be seamlessly applied to process user queries and deliver high-quality responses. Extensive experiments on 9 benchmarks and 5 LLMs show that the proposed MAS-GPT consistently outperforms 10+ baseline MAS methods on diverse settings, indicating MAS-GPT&#39;s high effectiveness, efficiency and strong generalization ability. Code will be available at https://github.com/rui-ye/MAS-GPT.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Training",
+                "Fine tuning"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.03686"
+    },
+    "4fc071aaaffd1b4a23a5fdd07b601e42": {
+        "title": "Measuring temporal effects of agent knowledge by date-controlled tool use",
+        "authors": [
+            "R. Patrick Xian",
+            "Qiming Cui",
+            "Stefan Bauer",
+            "Reza Abbasi-Asl"
+        ],
+        "date": "2025/03/06",
+        "pdf": "http://arxiv.org/pdf/2503.04188",
+        "abstract": "Temporal progression is an integral part of knowledge accumulation and update. Web search is frequently adopted as grounding for agent knowledge, yet its inappropriate configuration affects the quality of agent responses. Here, we construct a tool-based out-of-sample testing framework to measure the knowledge variability of large language model (LLM) agents from distinct date-controlled tools (DCTs). We demonstrate the temporal effects of an LLM agent as a writing assistant, which can use web search to help complete scientific publication abstracts. We show that temporal effects of the search engine translates into tool-dependent agent performance but can be alleviated with base model choice and explicit reasoning instructions such as chain-of-thought prompting. Our results indicate that agent evaluation should take a dynamical view and account for the temporal influence of tools and the updates of external resources.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.04188"
+    },
+    "8eee22be7cee0f74a475f80af5cb6428": {
+        "title": "PreMind: Multi-Agent Video Understanding for Advanced Indexing of Presentation-style Videos",
+        "authors": [
+            "Kangda Wei",
+            "Zhengyu Zhou",
+            "Bingqing Wang",
+            "Jun Araki",
+            "Lukas Lange",
+            "Ruihong Huang",
+            "Zhe Feng"
+        ],
+        "date": "2025/02/28",
+        "pdf": "http://arxiv.org/pdf/2503.00162",
+        "abstract": "In recent years, online lecture videos have become an increasingly popular resource for acquiring new knowledge. Systems capable of effectively understanding/indexing lecture videos are thus highly desirable, enabling downstream tasks like question answering to help users efficiently locate specific information within videos. This work proposes PreMind, a novel multi-agent multimodal framework that leverages various large models for advanced understanding/indexing of presentation-style videos. PreMind first segments videos into slide-presentation segments using a Vision-Language Model (VLM) to enhance modern shot-detection techniques. Each segment is then analyzed to generate multimodal indexes through three key steps: (1) extracting slide visual content, (2) transcribing speech narratives, and (3) consolidating these visual and speech contents into an integrated understanding. Three innovative mechanisms are also proposed to improve performance: leveraging prior lecture knowledge to refine visual understanding, detecting/correcting speech transcription errors using a VLM, and utilizing a critic agent for dynamic iterative self-reflection in vision analysis. Compared to traditional video indexing methods, PreMind captures rich, reliable multimodal information, allowing users to search for details like abbreviations shown only on slides. Systematic evaluations on the public LPM dataset and an internal enterprise dataset are conducted to validate PreMind&#39;s effectiveness, supported by detailed analyses.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.00162"
+    },
+    "2659d842cae295662ec22d68402d3e6b": {
+        "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
+        "authors": [
+            "Kunlun Zhu",
+            "Hongyi Du",
+            "Zhaochen Hong",
+            "Xiaocheng Yang",
+            "Shuyi Guo",
+            "Zhe Wang",
+            "Zhenhailong Wang",
+            "Cheng Qian",
+            "Xiangru Tang",
+            "Heng Ji",
+            "Jiaxuan You"
+        ],
+        "date": "2025/03/03",
+        "pdf": "http://arxiv.org/pdf/2503.01935",
+        "abstract": "Large Language Models (LLMs) have shown remarkable capabilities as autonomous agents, yet existing benchmarks either focus on single-agent tasks or are confined to narrow domains, failing to capture the dynamics of multi-agent coordination and competition. In this paper, we introduce MultiAgentBench, a comprehensive benchmark designed to evaluate LLM-based multi-agent systems across diverse, interactive scenarios. Our framework measures not only task completion but also the quality of collaboration and competition using novel, milestone-based key performance indicators. Moreover, we evaluate various coordination protocols (including star, chain, tree, and graph topologies) and innovative strategies such as group discussion and cognitive planning. Notably, gpt-4o-mini reaches the average highest task score, graph structure performs the best among coordination protocols in the research scenario, and cognitive planning improves milestone achievement rates by 3%. Code and datasets are public available at https://github.com/MultiagentBench/MARBLE.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.01935"
+    },
+    "65c60ff242d27a0ebd6709bae5e75ef2": {
+        "title": "BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modelling",
+        "authors": [
+            "Hao Li",
+            "Yu-Hao Huang",
+            "Chang Xu",
+            "Viktor Schlegel",
+            "Ren-He Jiang",
+            "Riza Batista-Navarro",
+            "Goran Nenadic",
+            "Jiang Bian"
+        ],
+        "date": "2025/03/04",
+        "pdf": "http://arxiv.org/pdf/2503.02445",
+        "abstract": "Time-series Generation (TSG) is a prominent research area with broad applications in simulations, data augmentation, and counterfactual analysis. While existing methods have shown promise in unconditional single-domain TSG, real-world applications demand for cross-domain approaches capable of controlled generation tailored to domain-specific constraints and instance-level requirements. In this paper, we argue that text can provide semantic insights, domain information and instance-specific temporal patterns, to guide and improve TSG. We introduce ``Text-Controlled TSG&#39;&#39;, a task focused on generating realistic time series by incorporating textual descriptions. To address data scarcity in this setting, we propose a novel LLM-based Multi-Agent framework that synthesizes diverse, realistic text-to-TS datasets. Furthermore, we introduce BRIDGE, a hybrid text-controlled TSG framework that integrates semantic prototypes with text description for supporting domain-level guidance. This approach achieves state-of-the-art generation fidelity on 11 of 12 datasets, and improves controllability by 12.52% on MSE and 6.34% MAE compared to no text input generation, highlighting its potential for generating tailored time-series data.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.02445"
+    },
+    "8848ad517b3ee7778c1809830b35142f": {
+        "title": "LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications",
+        "authors": [
+            "Danqing Zhang",
+            "Balaji Rama",
+            "Jingyi Ni",
+            "Shiying He",
+            "Fu Zhao",
+            "Kunyu Chen",
+            "Arnold Chen",
+            "Junyu Cao"
+        ],
+        "date": "2025/03/04",
+        "pdf": "http://arxiv.org/pdf/2503.02950",
+        "abstract": "We introduce LiteWebAgent, an open-source suite for VLM-based web agent applications. Our framework addresses a critical gap in the web agent ecosystem with a production-ready solution that combines minimal serverless backend configuration, intuitive user and browser interfaces, and extensible research capabilities in agent planning, memory, and tree search. For the core LiteWebAgent agent framework, we implemented a simple yet effective baseline using recursive function calling, providing with decoupled action generation and action grounding. In addition, we integrate advanced research components such as agent planning, agent workflow memory, and tree search in a modular and extensible manner. We then integrate the LiteWebAgent agent framework with frontend and backend as deployed systems in two formats: (1) a production Vercel-based web application, which provides users with an agent-controlled remote browser, (2) a Chrome extension leveraging LiteWebAgent&#39;s API to control an existing Chrome browser via CDP (Chrome DevTools Protocol). The LiteWebAgent framework is available at https://github.com/PathOnAI/LiteWebAgent, with deployed frontend at https://lite-web-agent.vercel.app/.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ],
+            [
+                "Infrastructure",
+                "Environment&Platform"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.02950"
+    },
+    "d7323d56eb84e078d18f7f314a606b04": {
+        "title": "Unified Mind Model: Reimagining Autonomous Agents in the LLM Era",
+        "authors": [
+            "Pengbo Hu",
+            "Xiang Ying"
+        ],
+        "date": "2025/03/05",
+        "pdf": "http://arxiv.org/pdf/2503.03459",
+        "abstract": "Large language models (LLMs) have recently demonstrated remarkable capabilities across domains, tasks, and languages (e.g., ChatGPT and GPT-4), reviving the research of general autonomous agents with human-like cognitive abilities. Such human-level agents require semantic comprehension and instruction-following capabilities, which exactly fall into the strengths of LLMs. Although there have been several initial attempts to build human-level agents based on LLMs, the theoretical foundation remains a challenging open problem. In this paper, we propose a novel theoretical cognitive architecture, the Unified Mind Model (UMM), which offers guidance to facilitate the rapid creation of autonomous agents with human-level cognitive abilities. Specifically, our UMM starts with the global workspace theory and further leverage LLMs to enable the agent with various cognitive abilities, such as multi-modal perception, planning, reasoning, tool use, learning, memory, reflection and motivation. Building upon UMM, we then develop an agent-building engine, MindOS, which allows users to quickly create domain-/task-specific autonomous agents without any programming effort.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Environment&Platform"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.03459"
+    },
+    "b615ad93e66685fd45e5227addf662a6": {
+        "title": "Multi-Agent Systems Powered by Large Language Models: Applications in Swarm Intelligence",
+        "authors": [
+            "Cristian Jimenez-Romero",
+            "Alper Yegenoglu",
+            "Christian Blum"
+        ],
+        "date": "2025/03/05",
+        "pdf": "http://arxiv.org/pdf/2503.03800",
+        "abstract": "This work examines the integration of large language models (LLMs) into multi-agent simulations by replacing the hard-coded programs of agents with LLM-driven prompts. The proposed approach is showcased in the context of two examples of complex systems from the field of swarm intelligence: ant colony foraging and bird flocking. Central to this study is a toolchain that integrates LLMs with the NetLogo simulation platform, leveraging its Python extension to enable communication with GPT-4o via the OpenAI API. This toolchain facilitates prompt-driven behavior generation, allowing agents to respond adaptively to environmental data. For both example applications mentioned above, we employ both structured, rule-based prompts and autonomous, knowledge-driven prompts. Our work demonstrates how this toolchain enables LLMs to study self-organizing processes and induce emergent behaviors within multi-agent environments, paving the way for new approaches to exploring intelligent systems and modeling swarm intelligence inspired by natural phenomena. We provide the code, including simulation files and data at https://github.com/crjimene/swarm_gpt.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.03800"
     }
 }
