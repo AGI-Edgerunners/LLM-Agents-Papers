@@ -4283,5 +4283,726 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2503.03800"
+    },
+    "3a433f91fa4ce9d60c858dbe2393bf8e": {
+        "title": "Multi-Agent System for AI-Assisted Extraction of Narrative Arcs in TV Series",
+        "authors": [
+            "Roberto Balestri",
+            "Guglielmo Pescatore"
+        ],
+        "date": "2025/03/04",
+        "pdf": "http://arxiv.org/pdf/2503.04817",
+        "abstract": "Serialized TV shows are built on complex storylines that can be hard to track and evolve in ways that defy straightforward analysis. This paper introduces a multi-agent system designed to extract and analyze these narrative arcs. Tested on the first season of Grey&#39;s Anatomy (ABC 2005-), the system identifies three types of arcs: Anthology (self-contained), Soap (relationship-focused), and Genre-Specific (strictly related to the series&#39; genre). Episodic progressions of these arcs are stored in both relational and semantic (vectorial) databases, enabling structured analysis and comparison. To bridge the gap between automation and critical interpretation, the system is paired with a graphical interface that allows for human refinement using tools to enhance and visualize the data. The system performed strongly in identifying Anthology Arcs and character entities, but its reliance on textual paratexts (such as episode summaries) revealed limitations in recognizing overlapping arcs and subtler dynamics. This approach highlights the potential of combining computational and human expertise in narrative analysis. Beyond television, it offers promise for serialized written formats, where the narrative resides entirely in the text. Future work will explore the integration of multimodal inputs, such as dialogue and visuals, and expand testing across a wider range of genres to refine the system further.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.04817"
+    },
+    "93b0123769b5d1ad82af92e8ba53fbcc": {
+        "title": "Preserving Cultural Identity with Context-Aware Translation Through Multi-Agent AI Systems",
+        "authors": [
+            "Mahfuz Ahmed Anik",
+            "Abdur Rahman",
+            "Azmine Toushik Wasi",
+            "Md Manjurul Ahsan"
+        ],
+        "date": "2025/03/05",
+        "pdf": "http://arxiv.org/pdf/2503.04827",
+        "abstract": "Language is a cornerstone of cultural identity, yet globalization and the dominance of major languages have placed nearly 3,000 languages at risk of extinction. Existing AI-driven translation models prioritize efficiency but often fail to capture cultural nuances, idiomatic expressions, and historical significance, leading to translations that marginalize linguistic diversity. To address these challenges, we propose a multi-agent AI framework designed for culturally adaptive translation in underserved language communities. Our approach leverages specialized agents for translation, interpretation, content synthesis, and bias evaluation, ensuring that linguistic accuracy and cultural relevance are preserved. Using CrewAI and LangChain, our system enhances contextual fidelity while mitigating biases through external validation. Comparative analysis shows that our framework outperforms GPT-4o, producing contextually rich and culturally embedded translations, a critical advancement for Indigenous, regional, and low-resource languages. This research underscores the potential of multi-agent AI in fostering equitable, sustainable, and culturally sensitive NLP technologies, aligning with the AI Governance, Cultural NLP, and Sustainable NLP pillars of Language Models for Underserved Communities. Our full experimental codebase is publicly available at: https://github.com/ciol-researchlab/Context-Aware_Translation_MAS",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.04827"
+    },
+    "d10d79664866bf586b54857d871cdae1": {
+        "title": "Cite Before You Speak: Enhancing Context-Response Grounding in E-commerce Conversational LLM-Agents",
+        "authors": [
+            "Jingying Zeng",
+            "Hui Liu",
+            "Zhenwei Dai",
+            "Xianfeng Tang",
+            "Chen Luo",
+            "Samarth Varshney",
+            "Zhen Li",
+            "Qi He"
+        ],
+        "date": "2025/03/05",
+        "pdf": "http://arxiv.org/pdf/2503.04830",
+        "abstract": "With the advancement of conversational large language models (LLMs), several LLM-based Conversational Shopping Agents (CSA) have been developed to help customers answer questions and smooth their shopping journey in e-commerce domain. The primary objective in building a trustworthy CSA is to ensure the agent&#39;s responses are accurate and factually grounded, which is essential for building customer trust and encouraging continuous engagement. However, two challenges remain. First, LLMs produce hallucinated or unsupported claims. Such inaccuracies risk spreading misinformation and diminishing customer trust. Second, without providing knowledge source attribution in CSA response, customers struggle to verify LLM-generated information. To address these challenges, we present an easily productionized solution that enables a &#34;citation experience&#34; utilizing In-context Learning (ICL) and Multi-UX-Inference (MUI) to generate responses with citations to attribute its original sources without interfering other existing UX features. With proper UX design, these citation marks can be linked to the related product information and display the source to our customers. In this work, we also build auto-metrics and scalable benchmarks to holistically evaluate LLM&#39;s grounding and attribution capabilities. Our experiments demonstrate that incorporating this citation generation paradigm can substantially enhance the grounding of LLM responses by 13.83% on the real-world data. As such, our solution not only addresses the immediate challenges of LLM grounding issues but also adds transparency to conversational AI.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Conversation"
+            ],
+            [
+                "Application",
+                "Finance"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.04830"
+    },
+    "2e343af2d215e8ed471330cb2f977c48": {
+        "title": "Enhancing Collective Intelligence in Large Language Models Through Emotional Integration",
+        "authors": [
+            "Likith Kadiyala",
+            "Ramteja Sajja",
+            "Yusuf Sermet",
+            "Ibrahim Demir"
+        ],
+        "date": "2025/03/05",
+        "pdf": "http://arxiv.org/pdf/2503.04849",
+        "abstract": "This research investigates the integration of emotional diversity into Large Language Models (LLMs) to enhance collective intelligence. Inspired by the human wisdom of crowds phenomenon, where group decisions often outperform individual judgments, we fine-tuned the DarkIdol-Llama-3.1-8B model using Google&#39;s GoEmotions dataset and Low-Rank Adaptation (LoRA) to simulate emotionally diverse responses. Evaluating the model on a distance estimation task between Fargo, ND, and Seattle, WA, across 15,064 unique persona configurations, we analyzed how emotional states and social attributes influence decision-making. Our findings demonstrate that emotional integration shapes response patterns while maintaining acceptable prediction accuracy, revealing its potential to enhance artificial collective intelligence. This study provides valuable insights into the interplay of emotional diversity and decision-making in LLMs, suggesting pathways for creating emotionally aware AI systems that balance emotional depth with analytical precision.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "Fine tuning"
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.04849"
+    },
+    "5f941837291f315e0572978ad8229411": {
+        "title": "VQEL: Enabling Self-Developed Symbolic Language in Agents through Vector Quantization in Emergent Language Games",
+        "authors": [
+            "Mohammad Mahdi Samiei Paqaleh",
+            "Mahdieh Soleymani Baghshah"
+        ],
+        "date": "2025/03/06",
+        "pdf": "http://arxiv.org/pdf/2503.04940",
+        "abstract": "In the field of emergent language, efforts have traditionally focused on developing communication protocols through interactions between agents in referential games. However, the aspect of internal language learning, where language serves not only as a communicative tool with others but also as a means for individual thinking, self-reflection, and problem-solving remains underexplored. Developing a language through self-play, without another agent&#39;s involvement, poses a unique challenge. It requires an agent to craft symbolic representations and train them using direct gradient methods. The challenge here is that if an agent attempts to learn symbolic representations through self-play using conventional modeling and techniques such as REINFORCE, the solution will offer no advantage over previous multi-agent approaches. We introduce VQEL, a novel method that incorporates Vector Quantization into the agents&#39; architecture, enabling them to autonomously invent and develop discrete symbolic representations in a self-play referential game. Following the self-play phase, agents can enhance their language through reinforcement learning and interactions with other agents in the mutual-play phase. Our experiments across various datasets demonstrate that VQEL not only outperforms the traditional REINFORCE method but also benefits from improved control and reduced susceptibility to collapse, thanks to the incorporation of vector quantization.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Game Playing"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.04940"
+    },
+    "84b36d72f7cbe637c81e22714582d943": {
+        "title": "MM-StoryAgent: Immersive Narrated Storybook Video Generation with a Multi-Agent Paradigm across Text, Image and Audio",
+        "authors": [
+            "Xuenan Xu",
+            "Jiahao Mei",
+            "Chenliang Li",
+            "Yuning Wu",
+            "Ming Yan",
+            "Shaopeng Lai",
+            "Ji Zhang",
+            "Mengyue Wu"
+        ],
+        "date": "2025/03/07",
+        "pdf": "http://arxiv.org/pdf/2503.05242",
+        "abstract": "The rapid advancement of large language models (LLMs) and artificial intelligence-generated content (AIGC) has accelerated AI-native applications, such as AI-based storybooks that automate engaging story production for children. However, challenges remain in improving story attractiveness, enriching storytelling expressiveness, and developing open-source evaluation benchmarks and frameworks. Therefore, we propose and opensource MM-StoryAgent, which creates immersive narrated video storybooks with refined plots, role-consistent images, and multi-channel audio. MM-StoryAgent designs a multi-agent framework that employs LLMs and diverse expert tools (generative models and APIs) across several modalities to produce expressive storytelling videos. The framework enhances story attractiveness through a multi-stage writing pipeline. In addition, it improves the immersive storytelling experience by integrating sound effects with visual, music and narrative assets. MM-StoryAgent offers a flexible, open-source platform for further development, where generative modules can be substituted. Both objective and subjective evaluation regarding textual story quality and alignment between modalities validate the effectiveness of our proposed MM-StoryAgent system. The demo and source code are available.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.05242"
+    },
+    "4f1fa0b4324132fd8d732715647f5513": {
+        "title": "GEMA-Score: Granular Explainable Multi-Agent Score for Radiology Report Evaluation",
+        "authors": [
+            "Zhenxuan Zhang",
+            "Kinhei Lee",
+            "Weihang Deng",
+            "Huichi Zhou",
+            "Zihao Jin",
+            "Jiahao Huang",
+            "Zhifan Gao",
+            "Dominic C Marshall",
+            "Yingying Fang",
+            "Guang Yang"
+        ],
+        "date": "2025/03/07",
+        "pdf": "http://arxiv.org/pdf/2503.05347",
+        "abstract": "Automatic medical report generation supports clinical diagnosis, reduces the workload of radiologists, and holds the promise of improving diagnosis consistency. However, existing evaluation metrics primarily assess the accuracy of key medical information coverage in generated reports compared to human-written reports, while overlooking crucial details such as the location and certainty of reported abnormalities. These limitations hinder the comprehensive assessment of the reliability of generated reports and pose risks in their selection for clinical use. Therefore, we propose a Granular Explainable Multi-Agent Score (GEMA-Score) in this paper, which conducts both objective quantification and subjective evaluation through a large language model-based multi-agent workflow. Our GEMA-Score parses structured reports and employs NER-F1 calculations through interactive exchanges of information among agents to assess disease diagnosis, location, severity, and uncertainty. Additionally, an LLM-based scoring agent evaluates completeness, readability, and clinical terminology while providing explanatory feedback. Extensive experiments validate that GEMA-Score achieves the highest correlation with human expert evaluations on a public dataset, demonstrating its effectiveness in clinical scoring (Kendall coefficient = 0.70 for Rexval dataset and Kendall coefficient = 0.54 for RadEvalX dataset). The anonymous project demo is available at: https://github.com/Zhenxuan-Zhang/GEMA_score.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Application",
+                "Medicine"
+            ],
+            [
+                "Automation",
+                "Automatic Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.05347"
+    },
+    "1b886b0c530807ee9ffd2e564d21571c": {
+        "title": "DatawiseAgent: A Notebook-Centric LLM Agent Framework for Automated Data Science",
+        "authors": [
+            "Ziming You",
+            "Yumiao Zhang",
+            "Dexuan Xu",
+            "Yiwei Lou",
+            "Yandong Yan",
+            "Wei Wang",
+            "Huaming Zhang",
+            "Yu Huang"
+        ],
+        "date": "2025/03/10",
+        "pdf": "http://arxiv.org/pdf/2503.07044",
+        "abstract": "Data Science tasks are multifaceted, dynamic, and often domain-specific. Existing LLM-based approaches largely concentrate on isolated phases, neglecting the interdependent nature of many data science tasks and limiting their capacity for comprehensive end-to-end support. We propose DatawiseAgent, a notebook-centric LLM agent framework that unifies interactions among user, agent and the computational environment through markdown and executable code cells, supporting flexible and adaptive automated data science. Built on a Finite State Transducer(FST), DatawiseAgent orchestrates four stages, including DSF-like planning, incremental execution, self-debugging, and post-filtering. Specifically, the DFS-like planning stage systematically explores the solution space, while incremental execution harnesses real-time feedback and accommodates LLM&#39;s limited capabilities to progressively complete tasks. The self-debugging and post-filtering modules further enhance reliability by diagnosing and correcting errors and pruning extraneous information. Extensive experiments on diverse tasks, including data analysis, visualization, and data modeling, show that DatawiseAgent consistently outperforms or matches state-of-the-art methods across multiple model settings. These results highlight its potential to generalize across data science scenarios and lay the groundwork for more efficient, fully automated workflows.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.07044"
+    },
+    "dd09b677a3dcc943afe402930cfd15a3": {
+        "title": "ASTRA: A Negotiation Agent with Adaptive and Strategic Reasoning through Action in Dynamic Offer Optimization",
+        "authors": [
+            "Deuksin Kwon",
+            "Jiwon Hae",
+            "Emma Clift",
+            "Daniel Shamsoddini",
+            "Jonathan Gratch",
+            "Gale M. Lucas"
+        ],
+        "date": "2025/03/10",
+        "pdf": "http://arxiv.org/pdf/2503.07129",
+        "abstract": "Negotiation requires dynamically balancing self-interest and cooperation to maximize one&#39;s own utility. Yet, existing agents struggle due to bounded rationality in human data, low adaptability to counterpart behavior, and limited strategic reasoning. To address this, we introduce principle-driven negotiation agents, powered by ASTRA, a novel framework for turn-level offer optimization grounded in two core principles: opponent modeling and Tit-for-Tat reciprocity. ASTRA operates in three stages: (1) interpreting counterpart behavior, (2) optimizing counteroffers via a linear programming (LP) solver, and (3) selecting offers based on negotiation tactics and the partner&#39;s acceptance probability. Through simulations and human evaluations, our agent effectively adapts to an opponent&#39;s shifting stance and achieves favorable outcomes through enhanced adaptability and strategic reasoning. Beyond improving negotiation performance, it also serves as a powerful coaching tool, offering interpretable strategic feedback and optimal offer recommendations.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.07129"
+    },
+    "d45b96c8298e8580d4a8a23840b54b75": {
+        "title": "MedAgentsBench: Benchmarking Thinking Models and Agent Frameworks for Complex Medical Reasoning",
+        "authors": [
+            "Xiangru Tang",
+            "Daniel Shao",
+            "Jiwoong Sohn",
+            "Jiapeng Chen",
+            "Jiayi Zhang",
+            "Jinyu Xiang",
+            "Fang Wu",
+            "Yilun Zhao",
+            "Chenglin Wu",
+            "Wenqi Shi",
+            "Arman Cohan",
+            "Mark Gerstein"
+        ],
+        "date": "2025/03/10",
+        "pdf": "http://arxiv.org/pdf/2503.07459",
+        "abstract": "Large Language Models (LLMs) have shown impressive performance on existing medical question-answering benchmarks. This high performance makes it increasingly difficult to meaningfully evaluate and differentiate advanced methods. We present MedAgentsBench, a benchmark that focuses on challenging medical questions requiring multi-step clinical reasoning, diagnosis formulation, and treatment planning-scenarios where current models still struggle despite their strong performance on standard tests. Drawing from seven established medical datasets, our benchmark addresses three key limitations in existing evaluations: (1) the prevalence of straightforward questions where even base models achieve high performance, (2) inconsistent sampling and evaluation protocols across studies, and (3) lack of systematic analysis of the interplay between performance, cost, and inference time. Through experiments with various base models and reasoning methods, we demonstrate that the latest thinking models, DeepSeek R1 and OpenAI o3, exhibit exceptional performance in complex medical reasoning tasks. Additionally, advanced search-based agent methods offer promising performance-to-cost ratios compared to traditional approaches. Our analysis reveals substantial performance gaps between model families on complex questions and identifies optimal model selections for different computational constraints. Our benchmark and evaluation framework are publicly available at https://github.com/gersteinlab/medagents-benchmark.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ],
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.07459"
+    },
+    "bdc771b5efeac8623a2dd2e1d6c7bdb9": {
+        "title": "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents",
+        "authors": [
+            "Zhen Tan",
+            "Jun Yan",
+            "I-Hung Hsu",
+            "Rujun Han",
+            "Zifeng Wang",
+            "Long T. Le",
+            "Yiwen Song",
+            "Yanfei Chen",
+            "Hamid Palangi",
+            "George Lee",
+            "Anand Iyer",
+            "Tianlong Chen",
+            "Huan Liu",
+            "Chen-Yu Lee",
+            "Tomas Pfister"
+        ],
+        "date": "2025/03/11",
+        "pdf": "http://arxiv.org/pdf/2503.08026",
+        "abstract": "Large Language Models (LLMs) have made significant progress in open-ended dialogue, yet their inability to retain and retrieve relevant information from long-term interactions limits their effectiveness in applications requiring sustained personalization. External memory mechanisms have been proposed to address this limitation, enabling LLMs to maintain conversational continuity. However, existing approaches struggle with two key challenges. First, rigid memory granularity fails to capture the natural semantic structure of conversations, leading to fragmented and incomplete representations. Second, fixed retrieval mechanisms cannot adapt to diverse dialogue contexts and user interaction patterns. In this work, we propose Reflective Memory Management (RMM), a novel mechanism for long-term dialogue agents, integrating forward- and backward-looking reflections: (1) Prospective Reflection, which dynamically summarizes interactions across granularities-utterances, turns, and sessions-into a personalized memory bank for effective future retrieval, and (2) Retrospective Reflection, which iteratively refines the retrieval in an online reinforcement learning (RL) manner based on LLMs&#39; cited evidence. Experiments show that RMM demonstrates consistent improvement across various metrics and benchmarks. For example, RMM shows more than 10% accuracy improvement over the baseline without memory management on the LongMemEval dataset.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Feedback&Reflection"
+            ],
+            [
+                "Technique For Enhancement",
+                "Memory Mechanism"
+            ],
+            [
+                "Interaction",
+                "Conversation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.08026"
+    },
+    "7589557b1ebf73ece2a977f592b10c6a": {
+        "title": "ReviewAgents: Bridging the Gap Between Human and AI-Generated Paper Reviews",
+        "authors": [
+            "Xian Gao",
+            "Jiacheng Ruan",
+            "Jingsheng Gao",
+            "Ting Liu",
+            "Yuzhuo Fu"
+        ],
+        "date": "2025/03/11",
+        "pdf": "http://arxiv.org/pdf/2503.08506",
+        "abstract": "Academic paper review is a critical yet time-consuming task within the research community. With the increasing volume of academic publications, automating the review process has become a significant challenge. The primary issue lies in generating comprehensive, accurate, and reasoning-consistent review comments that align with human reviewers&#39; judgments. In this paper, we address this challenge by proposing ReviewAgents, a framework that leverages large language models (LLMs) to generate academic paper reviews. We first introduce a novel dataset, Review-CoT, consisting of 142k review comments, designed for training LLM agents. This dataset emulates the structured reasoning process of human reviewers-summarizing the paper, referencing relevant works, identifying strengths and weaknesses, and generating a review conclusion. Building upon this, we train LLM reviewer agents capable of structured reasoning using a relevant-paper-aware training method. Furthermore, we construct ReviewAgents, a multi-role, multi-LLM agent review framework, to enhance the review comment generation process. Additionally, we propose ReviewBench, a benchmark for evaluating the review comments generated by LLMs. Our experimental results on ReviewBench demonstrate that while existing LLMs exhibit a certain degree of potential for automating the review process, there remains a gap when compared to human-generated reviews. Moreover, our ReviewAgents framework further narrows this gap, outperforming advanced LLMs in generating review comments.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Research"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.08506"
+    },
+    "5eea5e3f0e1815a1338d740b2ae9ad71": {
+        "title": "AgentOrca: A Dual-System Framework to Evaluate Language Agents on Operational Routine and Constraint Adherence",
+        "authors": [
+            "Zekun Li",
+            "Shinda Huang",
+            "Jiangtian Wang",
+            "Nathan Zhang",
+            "Antonis Antoniades",
+            "Wenyue Hua",
+            "Kaijie Zhu",
+            "Sirui Zeng",
+            "William Yang Wang",
+            "Xifeng Yan"
+        ],
+        "date": "2025/03/11",
+        "pdf": "http://arxiv.org/pdf/2503.08669",
+        "abstract": "As language agents progressively automate critical tasks across domains, their ability to operate within operational constraints and safety protocols becomes essential. While extensive research has demonstrated these agents&#39; effectiveness in downstream task completion, their reliability in following operational procedures and constraints remains largely unexplored. To this end, we present AgentOrca, a dual-system framework for evaluating language agents&#39; compliance with operational constraints and routines. Our framework encodes action constraints and routines through both natural language prompts for agents and corresponding executable code serving as ground truth for automated verification. Through an automated pipeline of test case generation and evaluation across five real-world domains, we quantitatively assess current language agents&#39; adherence to operational constraints. Our findings reveal notable performance gaps among state-of-the-art models, with large reasoning models like o1 demonstrating superior compliance while others show significantly lower performance, particularly when encountering complex constraints or user persuasion attempts.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.08669"
+    },
+    "71e6a4bac3df7dda75ae7d06c814f628": {
+        "title": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+        "authors": [
+            "Mourad Gridach",
+            "Jay Nanavati",
+            "Khaldoun Zine El Abidine",
+            "Lenon Mendes",
+            "Christina Mack"
+        ],
+        "date": "2025/03/12",
+        "pdf": "http://arxiv.org/pdf/2503.08979",
+        "abstract": "The integration of Agentic AI into scientific discovery marks a new frontier in research automation. These AI systems, capable of reasoning, planning, and autonomous decision-making, are transforming how scientists perform literature review, generate hypotheses, conduct experiments, and analyze results. This survey provides a comprehensive overview of Agentic AI for scientific discovery, categorizing existing systems and tools, and highlighting recent progress across fields such as chemistry, biology, and materials science. We discuss key evaluation metrics, implementation frameworks, and commonly used datasets to offer a detailed understanding of the current state of the field. Finally, we address critical challenges, such as literature review automation, system reliability, and ethical concerns, while outlining future research directions that emphasize human-AI collaboration and enhanced system calibration.",
+        "code": "",
+        "category": [
+            [
+                "Survey",
+                null
+            ],
+            [
+                "Application",
+                "Research"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.08979"
+    },
+    "82a101ffb49d4dcadd90c77b90c3de64": {
+        "title": "Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks",
+        "authors": [
+            "Lutfi Eren Erdogan",
+            "Nicholas Lee",
+            "Sehoon Kim",
+            "Suhong Moon",
+            "Hiroki Furuta",
+            "Gopala Anumanchipalli",
+            "Kurt Keutzer",
+            "Amir Gholami"
+        ],
+        "date": "2025/03/12",
+        "pdf": "http://arxiv.org/pdf/2503.09572",
+        "abstract": "Large language models (LLMs) have shown remarkable advancements in enabling language agents to tackle simple tasks. However, applying them for complex, multi-step, long-horizon tasks remains a challenge. Recent work have found success by separating high-level planning from low-level execution, which enables the model to effectively balance high-level planning objectives and low-level execution details. However, generating accurate plans remains difficult since LLMs are not inherently trained for this task. To address this, we propose Plan-and-Act, a novel framework that incorporates explicit planning into LLM-based agents and introduces a scalable method to enhance plan generation through a novel synthetic data generation method. Plan-and-Act consists of a Planner model which generates structured, high-level plans to achieve user goals, and an Executor model that translates these plans into environment-specific actions. To train the Planner effectively, we introduce a synthetic data generation method that annotates ground-truth trajectories with feasible plans, augmented with diverse and extensive examples to enhance generalization. We evaluate Plan-and-Act using web navigation as a representative long-horizon planning environment, demonstrating a state-of the-art 54% success rate on the WebArena-Lite benchmark.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Planning"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.09572"
+    },
+    "3a03c1c0ddb611408734756cc711da9b": {
+        "title": "Learning to Contextualize Web Pages for Enhanced Decision Making by LLM Agents",
+        "authors": [
+            "Dongjun Lee",
+            "Juyong Lee",
+            "Kyuyoung Kim",
+            "Jihoon Tack",
+            "Jinwoo Shin",
+            "Yee Whye Teh",
+            "Kimin Lee"
+        ],
+        "date": "2025/03/12",
+        "pdf": "http://arxiv.org/pdf/2503.10689",
+        "abstract": "Recent advances in large language models (LLMs) have led to a growing interest in developing LLM-based agents for automating web tasks. However, these agents often struggle with even simple tasks on real-world websites due to their limited capability to understand and process complex web page structures. In this work, we introduce LCoW, a framework for Learning language models to Contextualize complex Web pages into a more comprehensible form, thereby enhancing decision making by LLM agents. LCoW decouples web page understanding from decision making by training a separate contextualization module to transform complex web pages into comprehensible format, which are then utilized by the decision-making agent. We demonstrate that our contextualization module effectively integrates with LLM agents of various scales to significantly enhance their decision-making capabilities in web automation tasks. Notably, LCoW improves the success rates of closed-source LLMs (e.g., Gemini-1.5-flash, GPT-4o, Claude-3.5-Sonnet) by an average of 15.6%, and demonstrates a 23.7% average improvement in success rates for open-source LMs (e.g., Llama-3.1-8B, Llama-3.1-70B) on the WorkArena benchmark. Moreover, the Gemini-1.5-flash agent with LCoW achieves state-of-the-art results on the WebShop benchmark, outperforming human experts. The relevant code materials are available at our project page: https://lcowiclr2025.github.io.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.10689"
+    },
+    "e22446cf9c1268138eb33d5b0fcae7c2": {
+        "title": "DeskVision: Large Scale Desktop Region Captioning for Advanced GUI Agents",
+        "authors": [
+            "Yibin Xu",
+            "Liang Yang",
+            "Hao Chen",
+            "Hua Wang",
+            "Zhi Chen",
+            "Yaohua Tang"
+        ],
+        "date": "2025/03/14",
+        "pdf": "http://arxiv.org/pdf/2503.11170",
+        "abstract": "The limitation of graphical user interface (GUI) data has been a significant barrier to the development of GUI agents today, especially for the desktop / computer use scenarios. To address this, we propose an automated GUI data generation pipeline, AutoCaptioner, which generates data with rich descriptions while minimizing human effort. Using AutoCaptioner, we created a novel large-scale desktop GUI dataset, DeskVision, along with the largest desktop test benchmark, DeskVision-Eval, which reflects daily usage and covers diverse systems and UI elements, each with rich descriptions. With DeskVision, we train a new GUI understanding model, GUIExplorer. Results show that GUIExplorer achieves state-of-the-art (SOTA) performance in understanding/grounding visual elements without the need for complex architectural designs. We further validated the effectiveness of the DeskVision dataset through ablation studies on various large visual language models (LVLMs). We believe that AutoCaptioner and DeskVision will significantly advance the development of GUI agents, and will open-source them for the community.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.11170"
+    },
+    "f34ab1d71cd38e25cc1f194db27e012d": {
+        "title": "GNNs as Predictors of Agentic Workflow Performances",
+        "authors": [
+            "Yuanshuo Zhang",
+            "Yuchen Hou",
+            "Bohan Tang",
+            "Shuo Chen",
+            "Muhan Zhang",
+            "Xiaowen Dong",
+            "Siheng Chen"
+        ],
+        "date": "2025/03/14",
+        "pdf": "http://arxiv.org/pdf/2503.11301",
+        "abstract": "Agentic workflows invoked by Large Language Models (LLMs) have achieved remarkable success in handling complex tasks. However, optimizing such workflows is costly and inefficient in real-world applications due to extensive invocations of LLMs. To fill this gap, this position paper formulates agentic workflows as computational graphs and advocates Graph Neural Networks (GNNs) as efficient predictors of agentic workflow performances, avoiding repeated LLM invocations for evaluation. To empirically ground this position, we construct FLORA-Bench, a unified platform for benchmarking GNNs for predicting agentic workflow performances. With extensive experiments, we arrive at the following conclusion: GNNs are simple yet effective predictors. This conclusion supports new applications of GNNs and a novel direction towards automating agentic workflow optimization. All codes, models, and data are available at https://github.com/youngsoul0731/Flora-Bench.",
+        "code": "",
+        "category": [
+            [
+                "Others",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.11301"
+    },
+    "f37f12bbfd5a31aee1107ecdcc90226b": {
+        "title": "AIstorian lets AI be a historian: A KG-powered multi-agent system for accurate biography generation",
+        "authors": [
+            "Fengyu Li",
+            "Yilin Li",
+            "Junhao Zhu",
+            "Lu Chen",
+            "Yanfei Zhang",
+            "Jia Zhou",
+            "Hui Zu",
+            "Jingwen Zhao",
+            "Yunjun Gao"
+        ],
+        "date": "2025/03/14",
+        "pdf": "http://arxiv.org/pdf/2503.11346",
+        "abstract": "Huawei has always been committed to exploring the AI application in historical research. Biography generation, as a specialized form of abstractive summarization, plays a crucial role in historical research but faces unique challenges that existing large language models (LLMs) struggle to address. These challenges include maintaining stylistic adherence to historical writing conventions, ensuring factual fidelity, and handling fragmented information across multiple documents. We present AIstorian, a novel end-to-end agentic system featured with a knowledge graph (KG)-powered retrieval-augmented generation (RAG) and anti-hallucination multi-agents. Specifically, AIstorian introduces an in-context learning based chunking strategy and a KG-based index for accurate and efficient reference retrieval. Meanwhile, AIstorian orchestrates multi-agents to conduct on-the-fly hallucination detection and error-type-aware correction. Additionally, to teach LLMs a certain language style, we finetune LLMs based on a two-step training approach combining data augmentation-enhanced supervised fine-tuning with stylistic preference optimization. Extensive experiments on a real-life historical Jinshi dataset demonstrate that AIstorian achieves a 3.8x improvement in factual accuracy and a 47.6% reduction in hallucination rate compared to existing baselines. The data and code are available at: https://github.com/ZJU-DAILY/AIstorian.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Interaction",
+                "Role Playing"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.11346"
+    },
+    "3b472d8f1d74627b8a4b76905acf9de6": {
+        "title": "Large Reasoning Models in Agent Scenarios: Exploring the Necessity of Reasoning Capabilities",
+        "authors": [
+            "Xueyang Zhou",
+            "Guiyao Tie",
+            "Guowen Zhang",
+            "Weidong Wang",
+            "Zhigang Zuo",
+            "Di Wu",
+            "Duanfeng Chu",
+            "Pan Zhou",
+            "Lichao Sun",
+            "Neil Zhenqiang Gong"
+        ],
+        "date": "2025/03/14",
+        "pdf": "http://arxiv.org/pdf/2503.11074",
+        "abstract": "The rise of Large Reasoning Models (LRMs) signifies a paradigm shift toward advanced computational reasoning. Yet, this progress disrupts traditional agent frameworks, traditionally anchored by execution-oriented Large Language Models (LLMs). To explore this transformation, we propose the LaRMA framework, encompassing nine tasks across Tool Usage, Plan Design, and Problem Solving, assessed with three top LLMs (e.g., Claude3.5-sonnet) and five leading LRMs (e.g., DeepSeek-R1). Our findings address four research questions: LRMs surpass LLMs in reasoning-intensive tasks like Plan Design, leveraging iterative reflection for superior outcomes; LLMs excel in execution-driven tasks such as Tool Usage, prioritizing efficiency; hybrid LLM-LRM configurations, pairing LLMs as actors with LRMs as reflectors, optimize agent performance by blending execution speed with reasoning depth; and LRMs&#39; enhanced reasoning incurs higher computational costs, prolonged processing, and behavioral challenges, including overthinking and fact-ignoring tendencies. This study fosters deeper inquiry into LRMs&#39; balance of deep thinking and overthinking, laying a critical foundation for future agent design advancements.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.11074"
+    },
+    "68afc1df36640456afee26fa41632e72": {
+        "title": "Cerebrum (AIOS SDK): A Platform for Agent Development, Deployment, Distribution, and Discovery",
+        "authors": [
+            "Balaji Rama",
+            "Kai Mei",
+            "Yongfeng Zhang"
+        ],
+        "date": "2025/03/14",
+        "pdf": "http://arxiv.org/pdf/2503.11444",
+        "abstract": "Autonomous LLM-based agents have emerged as a powerful paradigm for complex task execution, yet the field lacks standardized tools for development, deployment, distribution and discovery of agents. We present Cerebrum, an Agent SDK for AIOS that addresses this gap through three key components: (1) a comprehensive SDK featuring a modular four-layer architecture for agent development, encompassing LLM, memory, storage, and tool management; (2) a community-driven Agent Hub for sharing and discovering agents, complete with version control and dependency management; (3) an interactive web interface for testing and evaluating agents. The platform&#39;s effectiveness is demonstrated through implementations of various agent architectures, including Chain of Thought (CoT), ReAct, and tool-use agents. Cerebrum advances the field by providing a unified framework that standardizes agent development while maintaining flexibility for researchers and developers to innovate and distribute their agents. The live website is at https://app.aios.foundation, the code is at https://github.com/agiresearch/Cerebrum, and video is at https://app.aios.foundation/video-demo.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Environment&Platform"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.11444"
+    },
+    "e4a9de64131ed45863b1bbf22aff2382": {
+        "title": "Prompt Injection Detection and Mitigation via AI Multi-Agent NLP Frameworks",
+        "authors": [
+            "Diego Gosmar",
+            "Deborah A. Dahl",
+            "Dario Gosmar"
+        ],
+        "date": "2025/03/14",
+        "pdf": "http://arxiv.org/pdf/2503.11517",
+        "abstract": "Prompt injection constitutes a significant challenge for generative AI systems by inducing unintended outputs. We introduce a multi-agent NLP framework specifically designed to address prompt injection vulnerabilities through layered detection and enforcement mechanisms. The framework orchestrates specialized agents for generating responses, sanitizing outputs, and enforcing policy compliance. Evaluation on 500 engineered injection prompts demonstrates a marked reduction in injection success and policy breaches. Novel metrics, including Injection Success Rate (ISR), Policy Override Frequency (POF), Prompt Sanitization Rate (PSR), and Compliance Consistency Score (CCS), are proposed to derive a composite Total Injection Vulnerability Score (TIVS). The system utilizes the OVON (Open Voice Network) framework for inter-agent communication via structured JSON messages, extending a previously established multi-agent architecture from hallucination mitigation to address the unique challenges of prompt injection.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Stability",
+                "Hallucination"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.11517"
+    },
+    "7f91926edeb6ef52ee6dae176a2bd7fa": {
+        "title": "ProjectEval: A Benchmark for Programming Agents Automated Evaluation on Project-Level Code Generation",
+        "authors": [
+            "Kaiyuan Liu",
+            "Youcheng Pan",
+            "Jing Li",
+            "Daojing He",
+            "Yang Xiang",
+            "Yexing Du",
+            "Tianrun Gao"
+        ],
+        "date": "2025/03/10",
+        "pdf": "http://arxiv.org/pdf/2503.07010",
+        "abstract": "Recently, LLM agents have made rapid progress in improving their programming capabilities. However, existing benchmarks lack the ability to automatically evaluate from users&#39; perspective, and also lack the explainability of the results of LLM agents&#39; code generation capabilities. Thus, we introduce ProjectEval, a new benchmark for LLM agents project-level code generation&#39;s automated evaluation by simulating user interaction. ProjectEval is constructed by LLM with human reviewing. It has three different level inputs of natural languages or code skeletons. ProjectEval can evaluate the generated projects by user interaction simulation for execution, and by code similarity through existing objective indicators. Through ProjectEval, we find that systematic engineering project code, overall understanding of the project and comprehensive analysis capability are the keys for LLM agents to achieve practical projects. Our findings and benchmark provide valuable insights for developing more effective programming agents that can be deployed in future real-world production.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ],
+            [
+                "Application",
+                "Software Engineering"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.07010"
+    },
+    "0b0222a69bb4d3e9734f347c4889a86d": {
+        "title": "RefactorBench: Evaluating Stateful Reasoning in Language Agents Through Code",
+        "authors": [
+            "Dhruv Gautam",
+            "Spandan Garg",
+            "Jinu Jang",
+            "Neel Sundaresan",
+            "Roshanak Zilouchian Moghaddam"
+        ],
+        "date": "2025/03/10",
+        "pdf": "http://arxiv.org/pdf/2503.07832",
+        "abstract": "Recent advances in language model (LM) agents and function calling have enabled autonomous, feedback-driven systems to solve problems across various digital domains. To better understand the unique limitations of LM agents, we introduce RefactorBench, a benchmark consisting of 100 large handcrafted multi-file refactoring tasks in popular open-source repositories. Solving tasks within RefactorBench requires thorough exploration of dependencies across multiple files and strong adherence to relevant instructions. Every task is defined by 3 natural language instructions of varying specificity and is mutually exclusive, allowing for the creation of longer combined tasks on the same repository. Baselines on RefactorBench reveal that current LM agents struggle with simple compositional tasks, solving only 22% of tasks with base instructions, in contrast to a human developer with short time constraints solving 87%. Through trajectory analysis, we identify various unique failure modes of LM agents, and further explore the failure mode of tracking past actions. By adapting a baseline agent to condition on representations of state, we achieve a 43.9% improvement in solving RefactorBench tasks. We further extend our state-aware approach to encompass entire digital environments and outline potential directions for future research. RefactorBench aims to support the study of LM agents by providing a set of real-world, multi-hop tasks within the realm of code.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.07832"
+    },
+    "fe786f6903fcdf3bb37e717b5d479c9f": {
+        "title": "BEARCUBS: A benchmark for computer-using web agents",
+        "authors": [
+            "Yixiao Song",
+            "Katherine Thai",
+            "Chau Minh Pham",
+            "Yapei Chang",
+            "Mazin Nadaf",
+            "Mohit Iyyer"
+        ],
+        "date": "2025/03/10",
+        "pdf": "http://arxiv.org/pdf/2503.07919",
+        "abstract": "Modern web agents possess computer use abilities that allow them to interact with webpages by sending commands to a virtual keyboard and mouse. While such agents have considerable potential to assist human users with complex tasks, evaluating their capabilities in real-world settings poses a major challenge. To this end, we introduce BEARCUBS, a &#34;small but mighty&#34; benchmark of 111 information-seeking questions designed to evaluate a web agent&#39;s ability to search, browse, and identify factual information from the web. Unlike prior web agent benchmarks, solving BEARCUBS requires (1) accessing live web content rather than synthetic or simulated pages, which captures the unpredictability of real-world web interactions; and (2) performing a broad range of multimodal interactions (e.g., video understanding, 3D navigation) that cannot be bypassed via text-based workarounds. Each question in BEARCUBS has a corresponding short, unambiguous answer and a human-validated browsing trajectory, allowing for transparent evaluation of agent performance and strategies. A human study confirms that BEARCUBS questions are solvable but non-trivial (84.7% human accuracy), revealing search inefficiencies and domain knowledge gaps as common failure points. By contrast, state-of-the-art computer-using agents underperform, with the best-scoring system (OpenAI&#39;s Operator) reaching only 24.3% accuracy. These results highlight critical areas for improvement, including reliable source selection and more powerful multimodal capabilities. To facilitate future research, BEARCUBS will be updated periodically to replace invalid or contaminated questions, keeping the benchmark fresh for future generations of web agents.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ],
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.07919"
+    },
+    "2808666d6676ab9e856d077010922df3": {
+        "title": "LocAgent: Graph-Guided LLM Agents for Code Localization",
+        "authors": [
+            "Zhaoling Chen",
+            "Xiangru Tang",
+            "Gangda Deng",
+            "Fang Wu",
+            "Jialong Wu",
+            "Zhiwei Jiang",
+            "Viktor Prasanna",
+            "Arman Cohan",
+            "Xingyao Wang"
+        ],
+        "date": "2025/03/12",
+        "pdf": "http://arxiv.org/pdf/2503.09089",
+        "abstract": "Code localization--identifying precisely where in a codebase changes need to be made--is a fundamental yet challenging task in software maintenance. Existing approaches struggle to efficiently navigate complex codebases when identifying relevant code sections. The challenge lies in bridging natural language problem descriptions with the appropriate code elements, often requiring reasoning across hierarchical structures and multiple dependencies. We introduce LocAgent, a framework that addresses code localization through graph-based representation. By parsing codebases into directed heterogeneous graphs, LocAgent creates a lightweight representation that captures code structures (files, classes, functions) and their dependencies (imports, invocations, inheritance), enabling LLM agents to effectively search and locate relevant entities through powerful multi-hop reasoning. Experimental results on real-world benchmarks demonstrate that our approach significantly enhances accuracy in code localization. Notably, our method with the fine-tuned Qwen-2.5-Coder-Instruct-32B model achieves comparable results to SOTA proprietary models at greatly reduced cost (approximately 86% reduction), reaching up to 92.7% accuracy on file-level localization while improving downstream GitHub issue resolution success rates by 12% for multiple attempts (Pass@10). Our code is available at https://github.com/gersteinlab/LocAgent.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Software Engineering"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.09089"
+    },
+    "c7938c2a855107580bff21151d018254": {
+        "title": "ReMA: Learning to Meta-think for LLMs with Multi-Agent Reinforcement Learning",
+        "authors": [
+            "Ziyu Wan",
+            "Yunxiang Li",
+            "Yan Song",
+            "Hanjing Wang",
+            "Linyi Yang",
+            "Mark Schmidt",
+            "Jun Wang",
+            "Weinan Zhang",
+            "Shuyue Hu",
+            "Ying Wen"
+        ],
+        "date": "2025/03/12",
+        "pdf": "http://arxiv.org/pdf/2503.09501",
+        "abstract": "Recent research on Reasoning of Large Language Models (LLMs) has sought to further enhance their performance by integrating meta-thinking -- enabling models to monitor, evaluate, and control their reasoning processes for more adaptive and effective problem-solving. However, current single-agent work lacks a specialized design for acquiring meta-thinking, resulting in low efficacy. To address this challenge, we introduce Reinforced Meta-thinking Agents (ReMA), a novel framework that leverages Multi-Agent Reinforcement Learning (MARL) to elicit meta-thinking behaviors, encouraging LLMs to think about thinking. ReMA decouples the reasoning process into two hierarchical agents: a high-level meta-thinking agent responsible for generating strategic oversight and plans, and a low-level reasoning agent for detailed executions. Through iterative reinforcement learning with aligned objectives, these agents explore and learn collaboration, leading to improved generalization and robustness. Experimental results demonstrate that ReMA outperforms single-agent RL baselines on complex reasoning tasks, including competitive-level mathematical benchmarks and LLM-as-a-Judge benchmarks. Comprehensive ablation studies further illustrate the evolving dynamics of each distinct agent, providing valuable insights into how the meta-thinking reasoning process enhances the reasoning capabilities of LLMs.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "RL"
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.09501"
+    },
+    "bac6b47f3aaeaab4718b9606271c4ce4": {
+        "title": "Factorio Learning Environment",
+        "authors": [
+            "Jack Hopkins",
+            "Mart Bakler",
+            "Akbir Khan"
+        ],
+        "date": "2025/03/06",
+        "pdf": "http://arxiv.org/pdf/2503.09617",
+        "abstract": "Large Language Models (LLMs) are rapidly saturating existing benchmarks, necessitating new open-ended evaluations. We introduce the Factorio Learning Environment (FLE), based on the game of Factorio, that tests agents in long-term planning, program synthesis, and resource optimization. FLE provides exponentially scaling challenges -- from basic automation to complex factories processing millions of resource units per second. We provide two settings: (1) lab-play consisting of eight structured tasks with fixed resources, and (2) open-play with the unbounded task of building the largest factory on an procedurally generated map. We demonstrate across both settings that models still lack strong spatial reasoning. In lab-play, we find that LLMs exhibit promising short-horizon skills, yet are unable to operate effectively in constrained environments, reflecting limitations in error analysis. In open-play, while LLMs discover automation strategies that improve growth (e.g electric-powered drilling), they fail to achieve complex automation (e.g electronic-circuit manufacturing).",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Game Playing"
+            ],
+            [
+                "Infrastructure",
+                "Environment&Platform"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.09617"
+    },
+    "56ff3940cfa84ad8b291b9e7c49f0625": {
+        "title": "Can A Society of Generative Agents Simulate Human Behavior and Inform Public Health Policy? A Case Study on Vaccine Hesitancy",
+        "authors": [
+            "Abe Bohan Hou",
+            "Hongru Du",
+            "Yichen Wang",
+            "Jingyu Zhang",
+            "Zixiao Wang",
+            "Paul Pu Liang",
+            "Daniel Khashabi",
+            "Lauren Gardner",
+            "Tianxing He"
+        ],
+        "date": "2025/03/12",
+        "pdf": "http://arxiv.org/pdf/2503.09639",
+        "abstract": "Can we simulate a sandbox society with generative agents to model human behavior, thereby reducing the over-reliance on real human trials for assessing public policies? In this work, we investigate the feasibility of simulating health-related decision-making, using vaccine hesitancy, defined as the delay in acceptance or refusal of vaccines despite the availability of vaccination services (MacDonald, 2015), as a case study. To this end, we introduce the VacSim framework with 100 generative agents powered by Large Language Models (LLMs). VacSim simulates vaccine policy outcomes with the following steps: 1) instantiate a population of agents with demographics based on census data; 2) connect the agents via a social network and model vaccine attitudes as a function of social dynamics and disease-related information; 3) design and evaluate various public health interventions aimed at mitigating vaccine hesitancy. To align with real-world results, we also introduce simulation warmup and attitude modulation to adjust agents&#39; attitudes. We propose a series of evaluations to assess the reliability of various LLM simulations. Experiments indicate that models like Llama and Qwen can simulate aspects of human behavior but also highlight real-world alignment challenges, such as inconsistent responses with demographic profiles. This early exploration of LLM-driven simulations is not meant to serve as definitive policy guidance; instead, it serves as a call for action to examine social simulation for policy development.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2503.09639"
     }
 }
