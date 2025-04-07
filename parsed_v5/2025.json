@@ -6312,5 +6312,465 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2503.22038"
+    },
+    "c3d5c0cddc1bcca3c3ff3a6628c40791": {
+        "title": "SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers",
+        "authors": [
+            "Yanzheng Xiang",
+            "Hanqi Yan",
+            "Shuyin Ouyang",
+            "Lin Gui",
+            "Yulan He"
+        ],
+        "date": "2025/03/31",
+        "pdf": "http://arxiv.org/pdf/2504.00255",
+        "abstract": "This study evaluates large language models (LLMs) in generating code from algorithm descriptions from recent NLP papers. The task requires two key competencies: (1) algorithm comprehension: synthesizing information from papers and academic literature to understand implementation logic, and (2) coding expertise: identifying dependencies and correctly implementing necessary APIs. To facilitate rigorous evaluation, we introduce SciReplicate-Bench, a benchmark of 100 tasks from 36 NLP papers published in 2024, featuring detailed annotations and comprehensive test cases. Building on SciReplicate-Bench, we propose Sci-Reproducer, a multi-agent framework consisting of a Paper Agent that interprets algorithmic concepts from literature and a Code Agent that retrieves dependencies from repositories and implement solutions. To assess algorithm understanding, we introduce reasoning graph accuracy, which quantifies similarity between generated and reference reasoning graphs derived from code comments and structure. For evaluating implementation quality, we employ execution accuracy, CodeBLEU, and repository dependency/API recall metrics. In our experiments, we evaluate various powerful Non-Reasoning LLMs and Reasoning LLMs as foundational models. The best-performing LLM using Sci-Reproducer achieves only 39% execution accuracy, highlighting the benchmark&#39;s difficulty.Our analysis identifies missing or inconsistent algorithm descriptions as key barriers to successful reproduction. We will open-source our benchmark, and code at https://github.com/xyzCS/SciReplicate-Bench.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.00255"
+    },
+    "869bee540143ad8df01c0ae32f1dc629": {
+        "title": "When Persuasion Overrides Truth in Multi-Agent LLM Debates: Introducing a Confidence-Weighted Persuasion Override Rate (CW-POR)",
+        "authors": [
+            "Mahak Agarwal",
+            "Divyam Khanna"
+        ],
+        "date": "2025/04/01",
+        "pdf": "http://arxiv.org/pdf/2504.00374",
+        "abstract": "In many real-world scenarios, a single Large Language Model (LLM) may encounter contradictory claims-some accurate, others forcefully incorrect-and must judge which is true. We investigate this risk in a single-turn, multi-agent debate framework: one LLM-based agent provides a factual answer from TruthfulQA, another vigorously defends a falsehood, and the same LLM architecture serves as judge. We introduce the Confidence-Weighted Persuasion Override Rate (CW-POR), which captures not only how often the judge is deceived but also how strongly it believes the incorrect choice. Our experiments on five open-source LLMs (3B-14B parameters), where we systematically vary agent verbosity (30-300 words), reveal that even smaller models can craft persuasive arguments that override truthful answers-often with high confidence. These findings underscore the importance of robust calibration and adversarial testing to prevent LLMs from confidently endorsing misinformation.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.00374"
+    },
+    "651adb5d58cb69adcddabac87519905a": {
+        "title": "VerifiAgent: a Unified Verification Agent in Language Model Reasoning",
+        "authors": [
+            "Jiuzhou Han",
+            "Wray Buntine",
+            "Ehsan Shareghi"
+        ],
+        "date": "2025/04/01",
+        "pdf": "http://arxiv.org/pdf/2504.00406",
+        "abstract": "Large language models demonstrate remarkable reasoning capabilities but often produce unreliable or incorrect responses. Existing verification methods are typically model-specific or domain-restricted, requiring significant computational resources and lacking scalability across diverse reasoning tasks. To address these limitations, we propose VerifiAgent, a unified verification agent that integrates two levels of verification: meta-verification, which assesses completeness and consistency in model responses, and tool-based adaptive verification, where VerifiAgent autonomously selects appropriate verification tools based on the reasoning type, including mathematical, logical, or commonsense reasoning. This adaptive approach ensures both efficiency and robustness across different verification scenarios. Experimental results show that VerifiAgent outperforms baseline verification methods (e.g., deductive verifier, backward verifier) among all reasoning tasks. Additionally, it can further enhance reasoning accuracy by leveraging feedback from verification results. VerifiAgent can also be effectively applied to inference scaling, achieving better results with fewer generated samples and costs compared to existing process reward models in the mathematical reasoning domain. Code is available at https://github.com/Jiuzhouh/VerifiAgent",
+        "code": "",
+        "category": [
+            [
+                "Automation",
+                "Automatic Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.00406"
+    },
+    "e598e2e2537ec06e7c4cb01ab5b2b3cb": {
+        "title": "On the Robustness of Agentic Function Calling",
+        "authors": [
+            "Ella Rabinovich",
+            "Ateret Anaby-Tavor"
+        ],
+        "date": "2025/04/01",
+        "pdf": "http://arxiv.org/pdf/2504.00914",
+        "abstract": "Large Language Models (LLMs) are increasingly acting as autonomous agents, with function calling (FC) capabilities enabling them to invoke specific tools for tasks. While prior research has primarily focused on improving FC accuracy, little attention has been given to the robustness of these agents to perturbations in their input. We introduce a benchmark assessing FC robustness in two key areas: resilience to naturalistic query variations, and stability in function calling when the toolkit expands with semantically related tools. Evaluating best-performing FC models on a carefully expanded subset of the Berkeley function calling leaderboard (BFCL), we identify critical weaknesses in existing evaluation methodologies, and highlight areas for improvement in real-world agentic deployments.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.00914"
+    },
+    "8e058bc67633854b1e830ffd69c3e49f": {
+        "title": "Review, Refine, Repeat: Understanding Iterative Decoding of AI Agents with Dynamic Evaluation and Selection",
+        "authors": [
+            "Souradip Chakraborty",
+            "Mohammadreza Pourreza",
+            "Ruoxi Sun",
+            "Yiwen Song",
+            "Nino Scherrer",
+            "Jindong Gu",
+            "Furong Huang",
+            "Amrit Singh Bedi",
+            "Ahmad Beirami",
+            "Hamid Palangi",
+            "Tomas Pfister"
+        ],
+        "date": "2025/04/02",
+        "pdf": "http://arxiv.org/pdf/2504.01931",
+        "abstract": "While AI agents have shown remarkable performance at various tasks, they still struggle with complex multi-modal applications, structured generation and strategic planning. Improvements via standard fine-tuning is often impractical, as solving agentic tasks usually relies on black box API access without control over model parameters. Inference-time methods such as Best-of-N (BON) sampling offer a simple yet effective alternative to improve performance. However, BON lacks iterative feedback integration mechanism. Hence, we propose Iterative Agent Decoding (IAD) which combines iterative refinement with dynamic candidate evaluation and selection guided by a verifier. IAD differs in how feedback is designed and integrated, specifically optimized to extract maximal signal from reward scores. We conduct a detailed comparison of baselines across key metrics on Sketch2Code, Text2SQL, and Webshop where IAD consistently outperforms baselines, achieving 3--6% absolute gains on Sketch2Code and Text2SQL (with and without LLM judges) and 8--10% gains on Webshop across multiple metrics. To better understand the source of IAD&#39;s gains, we perform controlled experiments to disentangle the effect of adaptive feedback from stochastic sampling, and find that IAD&#39;s improvements are primarily driven by verifier-guided refinement, not merely sampling diversity. We also show that both IAD and BON exhibit inference-time scaling with increased compute when guided by an optimal verifier. Our analysis highlights the critical role of verifier quality in effective inference-time optimization and examines the impact of noisy and sparse rewards on scaling behavior. Together, these findings offer key insights into the trade-offs and principles of effective inference-time optimization.",
+        "code": "",
+        "category": [
+            [
+                "Others",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.01931"
+    },
+    "cb60bbcab95e7d11cc2b6339a2a8f004": {
+        "title": "LLMs as Deceptive Agents: How Role-Based Prompting Induces Semantic Ambiguity in Puzzle Tasks",
+        "authors": [
+            "Seunghyun Yoo"
+        ],
+        "date": "2025/04/03",
+        "pdf": "http://arxiv.org/pdf/2504.02254",
+        "abstract": "Recent advancements in Large Language Models (LLMs) have not only showcased impressive creative capabilities but also revealed emerging agentic behaviors that exploit linguistic ambiguity in adversarial settings. In this study, we investigate how an LLM, acting as an autonomous agent, leverages semantic ambiguity to generate deceptive puzzles that mislead and challenge human users. Inspired by the popular puzzle game &#34;Connections&#34;, we systematically compare puzzles produced through zero-shot prompting, role-injected adversarial prompts, and human-crafted examples, with an emphasis on understanding the underlying agent decision-making processes. Employing computational analyses with HateBERT to quantify semantic ambiguity, alongside subjective human evaluations, we demonstrate that explicit adversarial agent behaviors significantly heighten semantic ambiguity -- thereby increasing cognitive load and reducing fairness in puzzle solving. These findings provide critical insights into the emergent agentic qualities of LLMs and underscore important ethical considerations for evaluating and safely deploying autonomous language systems in both educational technologies and entertainment.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Role Playing"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.02254"
+    },
+    "dd08795743487f7e05abb8dc97d2fb5d": {
+        "title": "Multi-Agent LLM Judge: automatic personalized LLM judge design for evaluating natural language generation applications",
+        "authors": [
+            "Hongliu Cao",
+            "Ilias Driouich",
+            "Robin Singh",
+            "Eoin Thomas"
+        ],
+        "date": "2025/04/01",
+        "pdf": "http://arxiv.org/pdf/2504.02867",
+        "abstract": "Large Language Models (LLMs) have demonstrated impressive performance across diverse domains, yet they still encounter challenges such as insufficient domain-specific knowledge, biases, and hallucinations. This underscores the need for robust evaluation methodologies to accurately assess LLM-based applications. Traditional evaluation methods, which rely on word overlap or text embeddings, are inadequate for capturing the nuanced semantic information necessary to evaluate dynamic, open-ended text generation. Recent research has explored leveraging LLMs to mimic human reasoning and decision-making processes for evaluation purposes known as LLM-as-a-judge framework. However, these existing frameworks have two significant limitations. First, they lack the flexibility to adapt to different text styles, including various answer and ground truth styles, thereby reducing their generalization performance. Second, the evaluation scores produced by these frameworks are often skewed and hard to interpret, showing a low correlation with human judgment. To address these challenges, we propose a novel dynamic multi-agent system that automatically designs personalized LLM judges for various natural language generation applications. This system iteratively refines evaluation prompts and balances the trade-off between the adaptive requirements of downstream tasks and the alignment with human perception. Our experimental results show that the proposed multi-agent LLM Judge framework not only enhances evaluation accuracy compared to existing methods but also produces evaluation scores that better align with human perception.",
+        "code": "",
+        "category": [
+            [
+                "Automation",
+                "Automatic Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.02867"
+    },
+    "5b4e54c0d1b19adb3af364d5dede720e": {
+        "title": "AI Hiring with LLMs: A Context-Aware and Explainable Multi-Agent Framework for Resume Screening",
+        "authors": [
+            "Frank P. -W. Lo",
+            "Jianing Qiu",
+            "Zeyu Wang",
+            "Haibao Yu",
+            "Yeming Chen",
+            "Gao Zhang",
+            "Benny Lo"
+        ],
+        "date": "2025/04/01",
+        "pdf": "http://arxiv.org/pdf/2504.02870",
+        "abstract": "Resume screening is a critical yet time-intensive process in talent acquisition, requiring recruiters to analyze vast volume of job applications while remaining objective, accurate, and fair. With the advancements in Large Language Models (LLMs), their reasoning capabilities and extensive knowledge bases demonstrate new opportunities to streamline and automate recruitment workflows. In this work, we propose a multi-agent framework for resume screening using LLMs to systematically process and evaluate resumes. The framework consists of four core agents, including a resume extractor, an evaluator, a summarizer, and a score formatter. To enhance the contextual relevance of candidate assessments, we integrate Retrieval-Augmented Generation (RAG) within the resume evaluator, allowing incorporation of external knowledge sources, such as industry-specific expertise, professional certifications, university rankings, and company-specific hiring criteria. This dynamic adaptation enables personalized recruitment, bridging the gap between AI automation and talent acquisition. We assess the effectiveness of our approach by comparing AI-generated scores with ratings provided by HR professionals on a dataset of anonymized online resumes. The findings highlight the potential of multi-agent RAG-LLM systems in automating resume screening, enabling more efficient and scalable hiring workflows.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.02870"
+    },
+    "a70c1b702a56414e2cc1382419bb06eb": {
+        "title": "Automated Survey Collection with LLM-based Conversational Agents",
+        "authors": [
+            "Kurmanbek Kaiyrbekov",
+            "Nicholas J Dobbins",
+            "Sean D Mooney"
+        ],
+        "date": "2025/04/02",
+        "pdf": "http://arxiv.org/pdf/2504.02891",
+        "abstract": "Objective: Traditional phone-based surveys are among the most accessible and widely used methods to collect biomedical and healthcare data, however, they are often costly, labor intensive, and difficult to scale effectively. To overcome these limitations, we propose an end-to-end survey collection framework driven by conversational Large Language Models (LLMs). Materials and Methods: Our framework consists of a researcher responsible for designing the survey and recruiting participants, a conversational phone agent powered by an LLM that calls participants and administers the survey, a second LLM (GPT-4o) that analyzes the conversation transcripts generated during the surveys, and a database for storing and organizing the results. To test our framework, we recruited 8 participants consisting of 5 native and 3 non-native english speakers and administered 40 surveys. We evaluated the correctness of LLM-generated conversation transcripts, accuracy of survey responses inferred by GPT-4o and overall participant experience. Results: Survey responses were successfully extracted by GPT-4o from conversation transcripts with an average accuracy of 98% despite transcripts exhibiting an average per-line word error rate of 7.7%. While participants noted occasional errors made by the conversational LLM agent, they reported that the agent effectively conveyed the purpose of the survey, demonstrated good comprehension, and maintained an engaging interaction. Conclusions: Our study highlights the potential of LLM agents in conducting and analyzing phone surveys for healthcare applications. By reducing the workload on human interviewers and offering a scalable solution, this approach paves the way for real-world, end-to-end AI-powered phone survey collection systems.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Research"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.02891"
+    },
+    "8e41e0ff92cd02812d3fcf7135b9e855": {
+        "title": "Learning Natural Language Constraints for Safe Reinforcement Learning of Language Agents",
+        "authors": [
+            "Jaymari Chua",
+            "Chen Wang",
+            "Lina Yao"
+        ],
+        "date": "2025/04/04",
+        "pdf": "http://arxiv.org/pdf/2504.03185",
+        "abstract": "Generalizable alignment is a core challenge for deploying Large Language Models (LLMs) safely in real-world NLP applications. Current alignment methods, including Reinforcement Learning from Human Feedback (RLHF), often fail to guarantee constraint satisfaction outside their training distribution due to their reliance on implicit, post-hoc preferences. Inspired by a paradigm shift to first curate data before tuning, we introduce a new framework for safe language alignment that learns natural language constraints from positive and negative demonstrations as a primary step. From inferring both a task-specific reward function and latent constraint functions, our approach fosters adaptation to novel safety requirements and robust generalization under domain shifts and adversarial inputs. We formalize the framework within a Constrained Markov Decision Process (CMDP) and validate it via a text-based navigation environment, demonstrating safe adaptation to changing danger zones. Our experiments show fewer violations upon domain shift when following a safe navigation path, and we achieve zero violations by applying learned constraints to a distilled BERT model as a fine-tuning technique. This work offers a promising path toward building safety-critical and more generalizable LLMs for practical NLP settings.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "RL"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.03185"
+    },
+    "f1e7f650d24b258f5ca46a80709373e3": {
+        "title": "Agentic Knowledgeable Self-awareness",
+        "authors": [
+            "Shuofei Qiao",
+            "Zhisong Qiu",
+            "Baochang Ren",
+            "Xiaobin Wang",
+            "Xiangyuan Ru",
+            "Ningyu Zhang",
+            "Xiang Chen",
+            "Yong Jiang",
+            "Pengjun Xie",
+            "Fei Huang",
+            "Huajun Chen"
+        ],
+        "date": "2025/04/04",
+        "pdf": "http://arxiv.org/pdf/2504.03553",
+        "abstract": "Large Language Models (LLMs) have achieved considerable performance across various agentic planning tasks. However, traditional agent planning approaches adopt a &#34;flood irrigation&#34; methodology that indiscriminately injects gold trajectories, external feedback, and domain knowledge into agent models. This practice overlooks the fundamental human cognitive principle of situational self-awareness during decision-making-the ability to dynamically assess situational demands and strategically employ resources during decision-making. We propose agentic knowledgeable self-awareness to address this gap, a novel paradigm enabling LLM-based agents to autonomously regulate knowledge utilization. Specifically, we propose KnowSelf, a data-centric approach that applies agents with knowledgeable self-awareness like humans. Concretely, we devise a heuristic situation judgement criterion to mark special tokens on the agent&#39;s self-explored trajectories for collecting training data. Through a two-stage training process, the agent model can switch between different situations by generating specific special tokens, achieving optimal planning effects with minimal costs. Our experiments demonstrate that KnowSelf can outperform various strong baselines on different tasks and models with minimal use of external knowledge. Code is available at https://github.com/zjunlp/KnowSelf.",
+        "code": "",
+        "category": [
+            [
+                "Others",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.03553"
+    },
+    "7f41b5e225a4622d908b1745fc77dee3": {
+        "title": "SynWorld: Virtual Scenario Synthesis for Agentic Action Knowledge Refinement",
+        "authors": [
+            "Runnan Fang",
+            "Xiaobin Wang",
+            "Yuan Liang",
+            "Shuofei Qiao",
+            "Jialong Wu",
+            "Zekun Xi",
+            "Ningyu Zhang",
+            "Yong Jiang",
+            "Pengjun Xie",
+            "Fei Huang",
+            "Huajun Chen"
+        ],
+        "date": "2025/04/04",
+        "pdf": "http://arxiv.org/pdf/2504.03561",
+        "abstract": "In the interaction between agents and their environments, agents expand their capabilities by planning and executing actions. However, LLM-based agents face substantial challenges when deployed in novel environments or required to navigate unconventional action spaces. To empower agents to autonomously explore environments, optimize workflows, and enhance their understanding of actions, we propose SynWorld, a framework that allows agents to synthesize possible scenarios with multi-step action invocation within the action space and perform Monte Carlo Tree Search (MCTS) exploration to effectively refine their action knowledge in the current environment. Our experiments demonstrate that SynWorld is an effective and general approach to learning action knowledge in new environments. Code is available at https://github.com/zjunlp/SynWorld.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Search"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.03561"
+    },
+    "a0851d5e71d927ddf0522d160534778d": {
+        "title": "APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay",
+        "authors": [
+            "Akshara Prabhakar",
+            "Zuxin Liu",
+            "Weiran Yao",
+            "Jianguo Zhang",
+            "Ming Zhu",
+            "Shiyu Wang",
+            "Zhiwei Liu",
+            "Tulika Awalgaonkar",
+            "Haolin Chen",
+            "Thai Hoang",
+            "Juan Carlos Niebles",
+            "Shelby Heinecke",
+            "Huan Wang",
+            "Silvio Savarese",
+            "Caiming Xiong"
+        ],
+        "date": "2025/04/04",
+        "pdf": "http://arxiv.org/pdf/2504.03601",
+        "abstract": "Training effective AI agents for multi-turn interactions requires high-quality data that captures realistic human-agent dynamics, yet such data is scarce and expensive to collect manually. We introduce APIGen-MT, a two-phase framework that generates verifiable and diverse multi-turn agent data. In the first phase, our agentic pipeline produces detailed task blueprints with ground-truth actions, leveraging a committee of LLM reviewers and iterative feedback loops. These blueprints are then transformed into complete interaction trajectories through simulated human-agent interplay. We train a family of models -- the xLAM-2-fc-r series with sizes ranging from 1B to 70B parameters. Our models outperform frontier models such as GPT-4o and Claude 3.5 on $\\tau$-bench and BFCL benchmarks, with the smaller models surpassing their larger counterparts, particularly in multi-turn settings, while maintaining superior consistency across multiple trials. Comprehensive experiments demonstrate that our verified blueprint-to-details approach yields high-quality training data, enabling the development of more reliable, efficient, and capable agents. We open-source both the synthetic data collected and the trained xLAM-2-fc-r models to advance research in AI agents. Models are available on HuggingFace at https://huggingface.co/collections/Salesforce/xlam-2-67ef5be12949d8dcdae354c4 and project website is https://apigen-mt.github.io",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.03601"
+    },
+    "12764ab8f05768ddb96724bc25ecf7f4": {
+        "title": "$\\textit{Agents Under Siege}$: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks",
+        "authors": [
+            "Rana Muhammad Shahroz Khan",
+            "Zhen Tan",
+            "Sukwon Yun",
+            "Charles Flemming",
+            "Tianlong Chen"
+        ],
+        "date": "2025/03/31",
+        "pdf": "http://arxiv.org/pdf/2504.00218",
+        "abstract": "Most discussions about Large Language Model (LLM) safety have focused on single-agent settings but multi-agent LLM systems now create novel adversarial risks because their behavior depends on communication between agents and decentralized reasoning. In this work, we innovatively focus on attacking pragmatic systems that have constrains such as limited token bandwidth, latency between message delivery, and defense mechanisms. We design a $\\textit{permutation-invariant adversarial attack}$ that optimizes prompt distribution across latency and bandwidth-constraint network topologies to bypass distributed safety mechanisms within the system. Formulating the attack path as a problem of $\\textit{maximum-flow minimum-cost}$, coupled with the novel $\\textit{Permutation-Invariant Evasion Loss (PIEL)}$, we leverage graph-based optimization to maximize attack success rate while minimizing detection risk. Evaluating across models including $\\texttt{Llama}$, $\\texttt{Mistral}$, $\\texttt{Gemma}$, $\\texttt{DeepSeek}$ and other variants on various datasets like $\\texttt{JailBreakBench}$ and $\\texttt{AdversarialBench}$, our method outperforms conventional attacks by up to $7\\times$, exposing critical vulnerabilities in multi-agent systems. Moreover, we demonstrate that existing defenses, including variants of $\\texttt{Llama-Guard}$ and $\\texttt{PromptGuard}$, fail to prohibit our attack, emphasizing the urgent need for multi-agent specific safety mechanisms.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.00218"
+    },
+    "d431300dd5ec7f09b642bdc1a951c612": {
+        "title": "AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems",
+        "authors": [
+            "Yingxuan Yang",
+            "Huacan Chai",
+            "Shuai Shao",
+            "Yuanyi Song",
+            "Siyuan Qi",
+            "Renting Rui",
+            "Weinan Zhang"
+        ],
+        "date": "2025/04/01",
+        "pdf": "http://arxiv.org/pdf/2504.00587",
+        "abstract": "The rapid advancement of Large Language Models (LLMs) has catalyzed the development of multi-agent systems, where multiple LLM-based agents collaborate to solve complex tasks. However, existing systems predominantly rely on centralized coordination, which introduces scalability bottlenecks, limits adaptability, and creates single points of failure. Additionally, concerns over privacy and proprietary knowledge sharing hinder cross-organizational collaboration, leading to siloed expertise. To address these challenges, we propose AgentNet, a decentralized, Retrieval-Augmented Generation (RAG)-based framework that enables LLM-based agents to autonomously evolve their capabilities and collaborate efficiently in a Directed Acyclic Graph (DAG)-structured network. Unlike traditional multi-agent systems that depend on static role assignments or centralized control, AgentNet allows agents to specialize dynamically, adjust their connectivity, and route tasks without relying on predefined workflows. AgentNet&#39;s core design is built upon several key innovations: (1) Fully Decentralized Paradigm: Removing the central orchestrator, allowing agents to coordinate and specialize autonomously, fostering fault tolerance and emergent collective intelligence. (2) Dynamically Evolving Graph Topology: Real-time adaptation of agent connections based on task demands, ensuring scalability and resilience.(3) Adaptive Learning for Expertise Refinement: A retrieval-based memory system that enables agents to continuously update and refine their specialized skills. By eliminating centralized control, AgentNet enhances fault tolerance, promotes scalable specialization, and enables privacy-preserving collaboration across organizations. Through decentralized coordination and minimal data exchange, agents can leverage diverse knowledge sources while safeguarding sensitive information.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.00587"
+    },
+    "96a937d20277044f3eac65e33ebe67a5": {
+        "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+        "authors": [
+            "Saaket Agashe",
+            "Kyle Wong",
+            "Vincent Tu",
+            "Jiachen Yang",
+            "Ang Li",
+            "Xin Eric Wang"
+        ],
+        "date": "2025/04/01",
+        "pdf": "http://arxiv.org/pdf/2504.00906",
+        "abstract": "Computer use agents automate digital tasks by directly interacting with graphical user interfaces (GUIs) on computers and mobile devices, offering significant potential to enhance human productivity by completing an open-ended space of user queries. However, current agents face significant challenges: imprecise grounding of GUI elements, difficulties with long-horizon task planning, and performance bottlenecks from relying on single generalist models for diverse cognitive tasks. To this end, we introduce Agent S2, a novel compositional framework that delegates cognitive responsibilities across various generalist and specialist models. We propose a novel Mixture-of-Grounding technique to achieve precise GUI localization and introduce Proactive Hierarchical Planning, dynamically refining action plans at multiple temporal scales in response to evolving observations. Evaluations demonstrate that Agent S2 establishes new state-of-the-art (SOTA) performance on three prominent computer use benchmarks. Specifically, Agent S2 achieves 18.9% and 32.7% relative improvements over leading baseline agents such as Claude Computer Use and UI-TARS on the OSWorld 15-step and 50-step evaluation. Moreover, Agent S2 generalizes effectively to other operating systems and applications, surpassing previous best methods by 52.8% on WindowsAgentArena and by 16.52% on AndroidWorld relatively. Code available at https://github.com/simular-ai/Agent-S.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.00906"
+    },
+    "5e77490cfe3998c72dcaacb6832c305d": {
+        "title": "An Illusion of Progress? Assessing the Current State of Web Agents",
+        "authors": [
+            "Tianci Xue",
+            "Weijian Qi",
+            "Tianneng Shi",
+            "Chan Hee Song",
+            "Boyu Gou",
+            "Dawn Song",
+            "Huan Sun",
+            "Yu Su"
+        ],
+        "date": "2025/04/02",
+        "pdf": "http://arxiv.org/pdf/2504.01382",
+        "abstract": "As digitalization and cloud technologies evolve, the web is becoming increasingly important in the modern society. Autonomous web agents based on large language models (LLMs) hold a great potential in work automation. It is therefore important to accurately measure and monitor the progression of their capabilities. In this work, we conduct a comprehensive and rigorous assessment of the current state of web agents. Our results depict a very different picture of the competency of current agents, suggesting over-optimism in previously reported results. This gap can be attributed to shortcomings in existing benchmarks. We introduce Online-Mind2Web, an online evaluation benchmark consisting of 300 diverse and realistic tasks spanning 136 websites. It enables us to evaluate web agents under a setting that approximates how real users use these agents. To facilitate more scalable evaluation and development, we also develop a novel LLM-as-a-Judge automatic evaluation method and show that it can achieve around 85% agreement with human judgment, substantially higher than existing methods. Finally, we present the first comprehensive comparative analysis of current web agents, highlighting both their strengths and limitations to inspire future research.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.01382"
+    },
+    "c0935b16b561f9ad742d8149e1d32ef6": {
+        "title": "LLMs Working in Harmony: A Survey on the Technological Aspects of Building Effective LLM-Based Multi Agent Systems",
+        "authors": [
+            "R. M. Aratchige",
+            "W. M. K. S. Ilmini"
+        ],
+        "date": "2025/03/13",
+        "pdf": "http://arxiv.org/pdf/2504.01963",
+        "abstract": "This survey investigates foundational technologies essential for developing effective Large Language Model (LLM)-based multi-agent systems. Aiming to answer how best to optimize these systems for collaborative, dynamic environments, we focus on four critical areas: Architecture, Memory, Planning, and Technologies/Frameworks. By analyzing recent advancements and their limitations - such as scalability, real-time response challenges, and agent coordination constraints, we provide a detailed view of the technological landscape. Frameworks like the Mixture of Agents architecture and the ReAct planning model exemplify current innovations, showcasing improvements in role assignment and decision-making. This review synthesizes key strengths and persistent challenges, offering practical recommendations to enhance system scalability, agent collaboration, and adaptability. Our findings provide a roadmap for future research, supporting the creation of robust, efficient multi-agent systems that advance both individual agent performance and collective system resilience.",
+        "code": "",
+        "category": [
+            [
+                "Survey",
+                null
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.01963"
+    },
+    "d320b94a2f0a9406ba6bc990ca004ebd": {
+        "title": "Self-Resource Allocation in Multi-Agent LLM Systems",
+        "authors": [
+            "Alfonso Amayuelas",
+            "Jingbo Yang",
+            "Saaket Agashe",
+            "Ashwin Nagarajan",
+            "Antonis Antoniades",
+            "Xin Eric Wang",
+            "William Wang"
+        ],
+        "date": "2025/04/02",
+        "pdf": "http://arxiv.org/pdf/2504.02051",
+        "abstract": "With the development of LLMs as agents, there is a growing interest in connecting multiple agents into multi-agent systems to solve tasks concurrently, focusing on their role in task assignment and coordination. This paper explores how LLMs can effectively allocate computational tasks among multiple agents, considering factors such as cost, efficiency, and performance. In this work, we address key questions, including the effectiveness of LLMs as orchestrators and planners, comparing their effectiveness in task assignment and coordination. Our experiments demonstrate that LLMs can achieve high validity and accuracy in resource allocation tasks. We find that the planner method outperforms the orchestrator method in handling concurrent actions, resulting in improved efficiency and better utilization of agents. Additionally, we show that providing explicit information about worker capabilities enhances the allocation strategies of planners, particularly when dealing with suboptimal workers.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.02051"
+    },
+    "bb24a3a2b05728444d59fd3bca4010b1": {
+        "title": "Achieving Unanimous Consensus in Decision Making Using Multi-Agents",
+        "authors": [
+            "Apurba Pokharel",
+            "Ram Dantu",
+            "Shakila Zaman",
+            "Sirisha Talapuru",
+            "Vinh Quach"
+        ],
+        "date": "2025/04/02",
+        "pdf": "http://arxiv.org/pdf/2504.02128",
+        "abstract": "Blockchain consensus mechanisms have relied on algorithms such as Proof-of-Work (PoW) and Proof-of-Stake (PoS) to ensure network functionality and integrity. However, these approaches struggle with adaptability for decision-making where the opinions of each matter rather than reaching an agreement based on honest majority or weighted consensus. This paper introduces a novel deliberation-based consensus mechanism where Large Language Models (LLMs) act as rational agents engaging in structured discussions to reach a unanimous consensus. By leveraging graded consensus and a multi-round deliberation process, our approach ensures both unanimous consensus for definitive problems and graded confidence for prioritized decisions and policies. We provide a formalization of our system and use it to show that the properties of blockchains: consistency, agreement, liveness, and determinism are maintained. Moreover, experimental results demonstrate our system&#39;s feasibility, showcasing how our deliberation method&#39;s convergence, block properties, and accuracy enable decision-making on blockchain networks. We also address key challenges with this novel approach such as degeneration of thoughts, hallucinations, malicious models and nodes, resource consumption, and scalability.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.02128"
+    },
+    "2e1105998bfe886b039781b55af1b916": {
+        "title": "Inherent and emergent liability issues in LLM-based agentic systems: a principal-agent perspective",
+        "authors": [
+            "Garry A. Gabison",
+            "R. Patrick Xian"
+        ],
+        "date": "2025/04/04",
+        "pdf": "http://arxiv.org/pdf/2504.03255",
+        "abstract": "Agentic systems powered by large language models (LLMs) are becoming progressively more complex and capable. Their increasing agency and expanding deployment settings attract growing attention over effective governance policies, monitoring and control protocols. Based on emerging landscapes of the agentic market, we analyze the potential liability issues stemming from delegated use of LLM agents and their extended systems from a principal-agent perspective. Our analysis complements existing risk-based studies on artificial agency and covers the spectrum of important aspects of the principal-agent relationship and their potential consequences at deployment. Furthermore, we motivate method developments for technical governance along the directions of interpretability and behavior evaluations, reward and conflict management, and the mitigation of misalignment and misconduct through principled engineering of detection and fail-safe mechanisms. By illustrating the outstanding issues in AI liability for LLM-based agentic systems, we aim to inform the system design, auditing and monitoring approaches to enhancing transparency and accountability.",
+        "code": "",
+        "category": [
+            [
+                "Others",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.03255"
     }
 }
