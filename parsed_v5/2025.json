@@ -6772,5 +6772,446 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2504.03255"
+    },
+    "4304608933a6b567340702fb3726f01e": {
+        "title": "YaleNLP @ PerAnsSumm 2025: Multi-Perspective Integration via Mixture-of-Agents for Enhanced Healthcare QA Summarization",
+        "authors": [
+            "Dongsuk Jang",
+            "Alan Li",
+            "Arman Cohan"
+        ],
+        "date": "2025/04/04",
+        "pdf": "http://arxiv.org/pdf/2504.03932",
+        "abstract": "Automated summarization of healthcare community question-answering forums is challenging due to diverse perspectives presented across multiple user responses to each question. The PerAnsSumm Shared Task was therefore proposed to tackle this challenge by identifying perspectives from different answers and then generating a comprehensive answer to the question. In this study, we address the PerAnsSumm Shared Task using two complementary paradigms: (i) a training-based approach through QLoRA fine-tuning of LLaMA-3.3-70B-Instruct, and (ii) agentic approaches including zero- and few-shot prompting with frontier LLMs (LLaMA-3.3-70B-Instruct and GPT-4o) and a Mixture-of-Agents (MoA) framework that leverages a diverse set of LLMs by combining outputs from multi-layer feedback aggregation. For perspective span identification/classification, GPT-4o zero-shot achieves an overall score of 0.57, substantially outperforming the 0.40 score of the LLaMA baseline. With a 2-layer MoA configuration, we were able to improve LLaMA performance up by 28 percent to 0.51. For perspective-based summarization, GPT-4o zero-shot attains an overall score of 0.42 compared to 0.28 for the best LLaMA zero-shot, and our 2-layer MoA approach boosts LLaMA performance by 32 percent to 0.37. Furthermore, in few-shot setting, our results show that the sentence-transformer embedding-based exemplar selection provides more gain than manually selected exemplars on LLaMA models, although the few-shot prompting is not always helpful for GPT-4o. The YaleNLP team&#39;s approach ranked the overall second place in the shared task.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.03932"
+    },
+    "46b7ba6cea59476d0d699c4b4f30720e": {
+        "title": "CO-Bench: Benchmarking Language Model Agents in Algorithm Search for Combinatorial Optimization",
+        "authors": [
+            "Weiwei Sun",
+            "Shengyu Feng",
+            "Shanda Li",
+            "Yiming Yang"
+        ],
+        "date": "2025/04/06",
+        "pdf": "http://arxiv.org/pdf/2504.04310",
+        "abstract": "Although LLM-based agents have attracted significant attention in domains such as software engineering and machine learning research, their role in advancing combinatorial optimization (CO) remains relatively underexplored. This gap underscores the need for a deeper understanding of their potential in tackling structured, constraint-intensive problems-a pursuit currently limited by the absence of comprehensive benchmarks for systematic investigation. To address this, we introduce CO-Bench, a benchmark suite featuring 36 real-world CO problems drawn from a broad range of domains and complexity levels. CO-Bench includes structured problem formulations and curated data to support rigorous investigation of LLM agents. We evaluate multiple agent frameworks against established human-designed algorithms, revealing key strengths and limitations of current approaches and identifying promising directions for future research. CO-Bench is publicly available at https://github.com/sunnweiwei/CO-Bench.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.04310"
+    },
+    "32a7978023ee5560285f9c4e3422152f": {
+        "title": "scAgent: Universal Single-Cell Annotation via a LLM Agent",
+        "authors": [
+            "Yuren Mao",
+            "Yu Mi",
+            "Peigen Liu",
+            "Mengfei Zhang",
+            "Hanqing Liu",
+            "Yunjun Gao"
+        ],
+        "date": "2025/04/07",
+        "pdf": "http://arxiv.org/pdf/2504.04698",
+        "abstract": "Cell type annotation is critical for understanding cellular heterogeneity. Based on single-cell RNA-seq data and deep learning models, good progress has been made in annotating a fixed number of cell types within a specific tissue. However, universal cell annotation, which can generalize across tissues, discover novel cell types, and extend to novel cell types, remains less explored. To fill this gap, this paper proposes scAgent, a universal cell annotation framework based on Large Language Models (LLMs). scAgent can identify cell types and discover novel cell types in diverse tissues; furthermore, it is data efficient to learn novel cell types. Experimental studies in 160 cell types and 35 tissues demonstrate the superior performance of scAgent in general cell-type annotation, novel cell discovery, and extensibility to novel cell type.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Biology"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.04698"
+    },
+    "6c0d24ef48c97344a1595b6fcd138183": {
+        "title": "AI for Climate Finance: Agentic Retrieval and Multi-Step Reasoning for Early Warning System Investments",
+        "authors": [
+            "Saeid Ario Vaghefi",
+            "Aymane Hachcham",
+            "Veronica Grasso",
+            "Jiska Manicus",
+            "Nakiete Msemo",
+            "Chiara Colesanti Senni",
+            "Markus Leippold"
+        ],
+        "date": "2025/04/07",
+        "pdf": "http://arxiv.org/pdf/2504.05104",
+        "abstract": "Tracking financial investments in climate adaptation is a complex and expertise-intensive task, particularly for Early Warning Systems (EWS), which lack standardized financial reporting across multilateral development banks (MDBs) and funds. To address this challenge, we introduce an LLM-based agentic AI system that integrates contextual retrieval, fine-tuning, and multi-step reasoning to extract relevant financial data, classify investments, and ensure compliance with funding guidelines. Our study focuses on a real-world application: tracking EWS investments in the Climate Risk and Early Warning Systems (CREWS) Fund. We analyze 25 MDB project documents and evaluate multiple AI-driven classification methods, including zero-shot and few-shot learning, fine-tuned transformer-based classifiers, chain-of-thought (CoT) prompting, and an agent-based retrieval-augmented generation (RAG) approach. Our results show that the agent-based RAG approach significantly outperforms other methods, achieving 87\\% accuracy, 89\\% precision, and 83\\% recall. Additionally, we contribute a benchmark dataset and expert-annotated corpus, providing a valuable resource for future research in AI-driven financial tracking and climate finance transparency.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Finance"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.05104"
+    },
+    "86ccdbad00f5f489af483287e734c540": {
+        "title": "DoCIA: An Online Document-Level Context Incorporation Agent for Speech Translation",
+        "authors": [
+            "Xinglin Lyu",
+            "Wei Tang",
+            "Yuang Li",
+            "Xiaofeng Zhao",
+            "Ming Zhu",
+            "Junhui Li",
+            "Yunfei Lu",
+            "Min Zhang",
+            "Daimeng Wei",
+            "Hao Yang",
+            "Min Zhang"
+        ],
+        "date": "2025/04/07",
+        "pdf": "http://arxiv.org/pdf/2504.05122",
+        "abstract": "Document-level context is crucial for handling discourse challenges in text-to-text document-level machine translation (MT). Despite the increased discourse challenges introduced by noise from automatic speech recognition (ASR), the integration of document-level context in speech translation (ST) remains insufficiently explored. In this paper, we develop DoCIA, an online framework that enhances ST performance by incorporating document-level context. DoCIA decomposes the ST pipeline into four stages. Document-level context is integrated into the ASR refinement, MT, and MT refinement stages through auxiliary LLM (large language model)-based modules. Furthermore, DoCIA leverages document-level information in a multi-level manner while minimizing computational overhead. Additionally, a simple yet effective determination mechanism is introduced to prevent hallucinations from excessive refinement, ensuring the reliability of the final results. Experimental results show that DoCIA significantly outperforms traditional ST baselines in both sentence and discourse metrics across four LLMs, demonstrating its effectiveness in improving ST performance.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.05122"
+    },
+    "48939eba1921b0a5fb1d45aab3507c65": {
+        "title": "Bridging Industrial Expertise and XR with LLM-Powered Conversational Agents",
+        "authors": [
+            "Despina Tomkou",
+            "George Fatouros",
+            "Andreas Andreou",
+            "Georgios Makridis",
+            "Fotis Liarokapis",
+            "Dimitrios Dardanis",
+            "Athanasios Kiourtis",
+            "John Soldatos",
+            "Dimosthenis Kyriazis"
+        ],
+        "date": "2025/04/07",
+        "pdf": "http://arxiv.org/pdf/2504.05527",
+        "abstract": "This paper introduces a novel integration of Retrieval-Augmented Generation (RAG) enhanced Large Language Models (LLMs) with Extended Reality (XR) technologies to address knowledge transfer challenges in industrial environments. The proposed system embeds domain-specific industrial knowledge into XR environments through a natural language interface, enabling hands-free, context-aware expert guidance for workers. We present the architecture of the proposed system consisting of an LLM Chat Engine with dynamic tool orchestration and an XR application featuring voice-driven interaction. Performance evaluation of various chunking strategies, embedding models, and vector databases reveals that semantic chunking, balanced embedding models, and efficient vector stores deliver optimal performance for industrial knowledge retrieval. The system&#39;s potential is demonstrated through early implementation in multiple industrial use cases, including robotic assembly, smart infrastructure maintenance, and aerospace component servicing. Results indicate potential for enhancing training efficiency, remote assistance capabilities, and operational guidance in alignment with Industry 5.0&#39;s human-centric and resilient approach to industrial development.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Conversation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.05527"
+    },
+    "9256c9601d03199cd764506049963c8c": {
+        "title": "FactGuard: Leveraging Multi-Agent Systems to Generate Answerable and Unanswerable Questions for Enhanced Long-Context LLM Extraction",
+        "authors": [
+            "Qian-Wen Zhang",
+            "Fang Li",
+            "Jie Wang",
+            "Lingfeng Qiao",
+            "Yifei Yu",
+            "Di Yin",
+            "Xing Sun"
+        ],
+        "date": "2025/04/08",
+        "pdf": "http://arxiv.org/pdf/2504.05607",
+        "abstract": "Extractive reading comprehension systems are designed to locate the correct answer to a question within a given text. However, a persistent challenge lies in ensuring these models maintain high accuracy in answering questions while reliably recognizing unanswerable queries. Despite significant advances in large language models (LLMs) for reading comprehension, this issue remains critical, particularly as the length of supported contexts continues to expand. To address this challenge, we propose an innovative data augmentation methodology grounded in a multi-agent collaborative framework. Unlike traditional methods, such as the costly human annotation process required for datasets like SQuAD 2.0, our method autonomously generates evidence-based question-answer pairs and systematically constructs unanswerable questions. Using this methodology, we developed the FactGuard-Bench dataset, which comprises 25,220 examples of both answerable and unanswerable question scenarios, with context lengths ranging from 8K to 128K. Experimental evaluations conducted on seven popular LLMs reveal that even the most advanced models achieve only 61.79% overall accuracy. Furthermore, we emphasize the importance of a model&#39;s ability to reason about unanswerable questions to avoid generating plausible but incorrect answers. By implementing efficient data selection and generation within the multi-agent collaborative framework, our method significantly reduces the traditionally high costs associated with manual annotation and provides valuable insights for the training and optimization of LLMs.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.05607"
+    },
+    "12cece4a248f402632f6074f72b52318": {
+        "title": "Inducing Programmatic Skills for Agentic Tasks",
+        "authors": [
+            "Zora Zhiruo Wang",
+            "Apurva Gandhi",
+            "Graham Neubig",
+            "Daniel Fried"
+        ],
+        "date": "2025/04/09",
+        "pdf": "http://arxiv.org/pdf/2504.06821",
+        "abstract": "To succeed in common digital tasks such as web navigation, agents must carry out a variety of specialized tasks such as searching for products or planning a travel route. To tackle these tasks, agents can bootstrap themselves by learning task-specific skills online through interaction with the web environment. In this work, we demonstrate that programs are an effective representation for skills. We propose agent skill induction (ASI), which allows agents to adapt themselves by inducing, verifying, and utilizing program-based skills on the fly. We start with an evaluation on the WebArena agent benchmark and show that ASI outperforms the static baseline agent and its text-skill counterpart by 23.5% and 11.3% in success rate, mainly thanks to the programmatic verification guarantee during the induction phase. ASI also improves efficiency by reducing 10.7-15.3% of the steps over baselines, by composing primitive actions (e.g., click) into higher-level skills (e.g., search product). We then highlight the efficacy of ASI in remaining efficient and accurate under scaled-up web activities. Finally, we examine the generalizability of induced skills when transferring between websites, and find that ASI can effectively reuse common skills, while also updating incompatible skills to versatile website changes.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.06821"
+    },
+    "0cccdaa9e928156ce3f9b9b7493548b2": {
+        "title": "Persona Dynamics: Unveiling the Impact of Personality Traits on Agents in Text-Based Games",
+        "authors": [
+            "Seungwon Lim",
+            "Seungbeen Lee",
+            "Dongjun Min",
+            "Youngjae Yu"
+        ],
+        "date": "2025/04/09",
+        "pdf": "http://arxiv.org/pdf/2504.06868",
+        "abstract": "Artificial agents are increasingly central to complex interactions and decision-making tasks, yet aligning their behaviors with desired human values remains an open challenge. In this work, we investigate how human-like personality traits influence agent behavior and performance within text-based interactive environments. We introduce PANDA: PersonalityAdapted Neural Decision Agents, a novel method for projecting human personality traits onto agents to guide their behavior. To induce personality in a text-based game agent, (i) we train a personality classifier to identify what personality type the agent&#39;s actions exhibit, and (ii) we integrate the personality profiles directly into the agent&#39;s policy-learning pipeline. By deploying agents embodying 16 distinct personality types across 25 text-based games and analyzing their trajectories, we demonstrate that an agent&#39;s action decisions can be guided toward specific personality profiles. Moreover, certain personality types, such as those characterized by higher levels of Openness, display marked advantages in performance. These findings underscore the promise of personality-adapted agents for fostering more aligned, effective, and human-centric decision-making in interactive environments.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Game Playing"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.06868"
+    },
+    "b7f47247380b82e946509b4214574bba": {
+        "title": "AgentAda: Skill-Adaptive Data Analytics for Tailored Insight Discovery",
+        "authors": [
+            "Amirhossein Abaskohi",
+            "Amrutha Varshini Ramesh",
+            "Shailesh Nanisetty",
+            "Chirag Goel",
+            "David Vazquez",
+            "Christopher Pal",
+            "Spandana Gella",
+            "Giuseppe Carenini",
+            "Issam H. Laradji"
+        ],
+        "date": "2025/04/10",
+        "pdf": "http://arxiv.org/pdf/2504.07421",
+        "abstract": "We introduce AgentAda, the first LLM-powered analytics agent that can learn and use new analytics skills to extract more specialized insights. Unlike existing methods that require users to manually decide which data analytics method to apply, AgentAda automatically identifies the skill needed from a library of analytical skills to perform the analysis. This also allows AgentAda to use skills that existing LLMs cannot perform out of the box. The library covers a range of methods, including clustering, predictive modeling, and NLP techniques like BERT, which allow AgentAda to handle complex analytics tasks based on what the user needs. AgentAda&#39;s dataset-to-insight extraction strategy consists of three key steps: (I) a question generator to generate queries relevant to the user&#39;s goal and persona, (II) a hybrid Retrieval-Augmented Generation (RAG)-based skill matcher to choose the best data analytics skill from the skill library, and (III) a code generator that produces executable code based on the retrieved skill&#39;s documentation to extract key patterns. We also introduce KaggleBench, a benchmark of curated notebooks across diverse domains, to evaluate AgentAda&#39;s performance. We conducted a human evaluation demonstrating that AgentAda provides more insightful analytics than existing tools, with 48.78% of evaluators preferring its analyses, compared to 27.67% for the unskilled agent. We also propose a novel LLM-as-a-judge approach that we show is aligned with human evaluation as a way to automate insight quality evaluation at larger scale.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.07421"
+    },
+    "2b0ea1ad90e5a6ffc47493c5d67c2c00": {
+        "title": "MOSAIC: Modeling Social AI for Content Dissemination and Regulation in Multi-Agent Simulations",
+        "authors": [
+            "Genglin Liu",
+            "Salman Rahman",
+            "Elisa Kreiss",
+            "Marzyeh Ghassemi",
+            "Saadia Gabriel"
+        ],
+        "date": "2025/04/10",
+        "pdf": "http://arxiv.org/pdf/2504.07830",
+        "abstract": "We present a novel, open-source social network simulation framework, MOSAIC, where generative language agents predict user behaviors such as liking, sharing, and flagging content. This simulation combines LLM agents with a directed social graph to analyze emergent deception behaviors and gain a better understanding of how users determine the veracity of online social content. By constructing user representations from diverse fine-grained personas, our system enables multi-agent simulations that model content dissemination and engagement dynamics at scale. Within this framework, we evaluate three different content moderation strategies with simulated misinformation dissemination, and we find that they not only mitigate the spread of non-factual content but also increase user engagement. In addition, we analyze the trajectories of popular content in our simulations, and explore whether simulation agents&#39; articulated reasoning for their social interactions truly aligns with their collective engagement patterns. We open-source our simulation software to encourage further research within AI and social sciences.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.07830"
+    },
+    "8863638e2b6f7de82d61144ada15d8e0": {
+        "title": "Are Generative AI Agents Effective Personalized Financial Advisors?",
+        "authors": [
+            "Takehiro Takayanagi",
+            "Kiyoshi Izumi",
+            "Javier Sanz-Cruzado",
+            "Richard McCreadie",
+            "Iadh Ounis"
+        ],
+        "date": "2025/04/08",
+        "pdf": "http://arxiv.org/pdf/2504.05862",
+        "abstract": "Large language model-based agents are becoming increasingly popular as a low-cost mechanism to provide personalized, conversational advice, and have demonstrated impressive capabilities in relatively simple scenarios, such as movie recommendations. But how do these agents perform in complex high-stakes domains, where domain expertise is essential and mistakes carry substantial risk? This paper investigates the effectiveness of LLM-advisors in the finance domain, focusing on three distinct challenges: (1) eliciting user preferences when users themselves may be unsure of their needs, (2) providing personalized guidance for diverse investment preferences, and (3) leveraging advisor personality to build relationships and foster trust. Via a lab-based user study with 64 participants, we show that LLM-advisors often match human advisor performance when eliciting preferences, although they can struggle to resolve conflicting user needs. When providing personalized advice, the LLM was able to positively influence user behavior, but demonstrated clear failure modes. Our results show that accurate preference elicitation is key, otherwise, the LLM-advisor has little impact, or can even direct the investor toward unsuitable assets. More worryingly, users appear insensitive to the quality of advice being given, or worse these can have an inverse relationship. Indeed, users reported a preference for and increased satisfaction as well as emotional trust with LLMs adopting an extroverted persona, even though those agents provided worse advice.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Finance"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.05862"
+    },
+    "867ad89f67f76d491fbaebcdc6cb902b": {
+        "title": "SkillFlow: Efficient Skill and Code Transfer Through Communication in Adapting AI Agents",
+        "authors": [
+            "Pagkratios Tagkopoulos",
+            "Fangzhou Li",
+            "Ilias Tagkopoulos"
+        ],
+        "date": "2025/04/08",
+        "pdf": "http://arxiv.org/pdf/2504.06188",
+        "abstract": "AI agents are autonomous systems that can execute specific tasks based on predefined programming. Here, we present SkillFlow, a modular, technology-agnostic framework that allows agents to expand their functionality in an ad-hoc fashion by acquiring new skills from their environment or other agents. We present a theoretical model that examines under which conditions this framework would be beneficial, and we then explore SkillFlow&#39;s ability to accelerate task completion and lead to lower cumulative costs in a real-world application, namely scheduling agents for calendar events. We demonstrate that within a few iterations, SkillFlow leads to considerable (24.8%, p-value = $6.4\\times10^{-3}$) gains in time and cost, especially when the communication cost is high. Finally, we draw analogies from well-studied biological systems and compare this framework to that of lateral gene transfer, a significant process of adaptation and evolution in novel environments.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Biology"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.06188"
+    },
+    "17ee0472ff52c81203c7508aea0aff04": {
+        "title": "TxGemma: Efficient and Agentic LLMs for Therapeutics",
+        "authors": [
+            "Eric Wang",
+            "Samuel Schmidgall",
+            "Paul F. Jaeger",
+            "Fan Zhang",
+            "Rory Pilgrim",
+            "Yossi Matias",
+            "Joelle Barral",
+            "David Fleet",
+            "Shekoofeh Azizi"
+        ],
+        "date": "2025/04/08",
+        "pdf": "http://arxiv.org/pdf/2504.06196",
+        "abstract": "Therapeutic development is a costly and high-risk endeavor that is often plagued by high failure rates. To address this, we introduce TxGemma, a suite of efficient, generalist large language models (LLMs) capable of therapeutic property prediction as well as interactive reasoning and explainability. Unlike task-specific models, TxGemma synthesizes information from diverse sources, enabling broad application across the therapeutic development pipeline. The suite includes 2B, 9B, and 27B parameter models, fine-tuned from Gemma-2 on a comprehensive dataset of small molecules, proteins, nucleic acids, diseases, and cell lines. Across 66 therapeutic development tasks, TxGemma achieved superior or comparable performance to the state-of-the-art generalist model on 64 (superior on 45), and against state-of-the-art specialist models on 50 (superior on 26). Fine-tuning TxGemma models on therapeutic downstream tasks, such as clinical trial adverse event prediction, requires less training data than fine-tuning base LLMs, making TxGemma suitable for data-limited applications. Beyond these predictive capabilities, TxGemma features conversational models that bridge the gap between general LLMs and specialized property predictors. These allow scientists to interact in natural language, provide mechanistic reasoning for predictions based on molecular structure, and engage in scientific discussions. Building on this, we further introduce Agentic-Tx, a generalist therapeutic agentic system powered by Gemini 2.5 that reasons, acts, manages diverse workflows, and acquires external domain knowledge. Agentic-Tx surpasses prior leading models on the Humanity&#39;s Last Exam benchmark (Chemistry &amp; Biology) with 52.3% relative improvement over o3-mini (high) and 26.7% over o3-mini (high) on GPQA (Chemistry) and excels with improvements of 6.3% (ChemBench-Preference) and 2.4% (ChemBench-Mini) over o3-mini (high).",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.06196"
+    },
+    "e89c7a252e38cd195e762099845ca32b": {
+        "title": "EXCLAIM: An Explainable Cross-Modal Agentic System for Misinformation Detection with Hierarchical Retrieval",
+        "authors": [
+            "Yin Wu",
+            "Zhengxuan Zhang",
+            "Fuling Wang",
+            "Yuyu Luo",
+            "Hui Xiong",
+            "Nan Tang"
+        ],
+        "date": "2025/03/01",
+        "pdf": "http://arxiv.org/pdf/2504.06269",
+        "abstract": "Misinformation continues to pose a significant challenge in today&#39;s information ecosystem, profoundly shaping public perception and behavior. Among its various manifestations, Out-of-Context (OOC) misinformation is particularly obscure, as it distorts meaning by pairing authentic images with misleading textual narratives. Existing methods for detecting OOC misinformation predominantly rely on coarse-grained similarity metrics between image-text pairs, which often fail to capture subtle inconsistencies or provide meaningful explainability. While multi-modal large language models (MLLMs) demonstrate remarkable capabilities in visual reasoning and explanation generation, they have not yet demonstrated the capacity to address complex, fine-grained, and cross-modal distinctions necessary for robust OOC detection. To overcome these limitations, we introduce EXCLAIM, a retrieval-based framework designed to leverage external knowledge through multi-granularity index of multi-modal events and entities. Our approach integrates multi-granularity contextual analysis with a multi-agent reasoning architecture to systematically evaluate the consistency and integrity of multi-modal news content. Comprehensive experiments validate the effectiveness and resilience of EXCLAIM, demonstrating its ability to detect OOC misinformation with 4.3% higher accuracy compared to state-of-the-art approaches, while offering explainable and actionable insights.",
+        "code": "",
+        "category": [
+            [
+                "Stability",
+                "Hallucination"
+            ],
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.06269"
+    },
+    "c633f57a16dc85d5677b9ef3ef6ab51d": {
+        "title": "A Unified Agentic Framework for Evaluating Conditional Image Generation",
+        "authors": [
+            "Jifang Wang",
+            "Xue Yang",
+            "Longyue Wang",
+            "Zhenran Xu",
+            "Yiyu Wang",
+            "Yaowei Wang",
+            "Weihua Luo",
+            "Kaifu Zhang",
+            "Baotian Hu",
+            "Min Zhang"
+        ],
+        "date": "2025/04/09",
+        "pdf": "http://arxiv.org/pdf/2504.07046",
+        "abstract": "Conditional image generation has gained significant attention for its ability to personalize content. However, the field faces challenges in developing task-agnostic, reliable, and explainable evaluation metrics. This paper introduces CIGEval, a unified agentic framework for comprehensive evaluation of conditional image generation tasks. CIGEval utilizes large multimodal models (LMMs) as its core, integrating a multi-functional toolbox and establishing a fine-grained evaluation framework. Additionally, we synthesize evaluation trajectories for fine-tuning, empowering smaller LMMs to autonomously select appropriate tools and conduct nuanced analyses based on tool outputs. Experiments across seven prominent conditional image generation tasks demonstrate that CIGEval (GPT-4o version) achieves a high correlation of 0.4625 with human assessments, closely matching the inter-annotator correlation of 0.47. Moreover, when implemented with 7B open-source LMMs using only 2.3K training trajectories, CIGEval surpasses the previous GPT-4o-based state-of-the-art method. Case studies on GPT-4o image generation highlight CIGEval&#39;s capability in identifying subtle issues related to subject consistency and adherence to control guidance, indicating its great potential for automating evaluation of image generation tasks with human-level reliability.",
+        "code": "",
+        "category": [
+            [
+                "Automation",
+                "Automatic Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.07046"
+    },
+    "0915bfa10e67699468f8c8db7d03f19b": {
+        "title": "SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills",
+        "authors": [
+            "Boyuan Zheng",
+            "Michael Y. Fatemi",
+            "Xiaolong Jin",
+            "Zora Zhiruo Wang",
+            "Apurva Gandhi",
+            "Yueqi Song",
+            "Yu Gu",
+            "Jayanth Srinivasa",
+            "Gaowen Liu",
+            "Graham Neubig",
+            "Yu Su"
+        ],
+        "date": "2025/04/09",
+        "pdf": "http://arxiv.org/pdf/2504.07079",
+        "abstract": "To survive and thrive in complex environments, humans have evolved sophisticated self-improvement mechanisms through environment exploration, hierarchical abstraction of experiences into reuseable skills, and collaborative construction of an ever-growing skill repertoire. Despite recent advancements, autonomous web agents still lack crucial self-improvement capabilities, struggling with procedural knowledge abstraction, refining skills, and skill composition. In this work, we introduce SkillWeaver, a skill-centric framework enabling agents to self-improve by autonomously synthesizing reusable skills as APIs. Given a new website, the agent autonomously discovers skills, executes them for practice, and distills practice experiences into robust APIs. Iterative exploration continually expands a library of lightweight, plug-and-play APIs, significantly enhancing the agent&#39;s capabilities. Experiments on WebArena and real-world websites demonstrate the efficacy of SkillWeaver, achieving relative success rate improvements of 31.8% and 39.8%, respectively. Additionally, APIs synthesized by strong agents substantially enhance weaker agents through transferable skills, yielding improvements of up to 54.3% on WebArena. These results demonstrate the effectiveness of honing diverse website interactions into APIs, which can be seamlessly shared among various web agents.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.07079"
+    },
+    "95165b186634c9078d95a794e3353b26": {
+        "title": "R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents",
+        "authors": [
+            "Naman Jain",
+            "Jaskirat Singh",
+            "Manish Shetty",
+            "Liang Zheng",
+            "Koushik Sen",
+            "Ion Stoica"
+        ],
+        "date": "2025/04/09",
+        "pdf": "http://arxiv.org/pdf/2504.07164",
+        "abstract": "Improving open-source models on real-world SWE tasks (solving GITHUB issues) faces two key challenges: 1) scalable curation of execution environments to train these models, and, 2) optimal scaling of test-time compute. We introduce AgentGym, the largest procedurally-curated executable gym environment for training real-world SWE-agents, consisting of more than 8.7K tasks. AgentGym is powered by two main contributions: 1) SYNGEN: a synthetic data curation recipe that enables scalable curation of executable environments using test-generation and back-translation directly from commits, thereby reducing reliance on human-written issues or unit tests. We show that this enables more scalable training leading to pass@1 performance of 34.4% on SWE-Bench Verified benchmark with our 32B model. 2) Hybrid Test-time Scaling: we provide an in-depth analysis of two test-time scaling axes; execution-based and execution-free verifiers, demonstrating that they exhibit complementary strengths and limitations. Test-based verifiers suffer from low distinguishability, while execution-free verifiers are biased and often rely on stylistic features. Surprisingly, we find that while each approach individually saturates around 42-43%, significantly higher gains can be obtained by leveraging their complementary strengths. Overall, our approach achieves 51% on the SWE-Bench Verified benchmark, reflecting a new state-of-the-art for open-weight SWE-agents and for the first time showing competitive performance with proprietary models such as o1, o1-preview and sonnet-3.5-v2 (with tools). We will open-source our environments, models, and agent trajectories.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Software Engineering"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.07164"
+    },
+    "e07cc067d09d9cbc1da2044afd40bc63": {
+        "title": "CollEX -- A Multimodal Agentic RAG System Enabling Interactive Exploration of Scientific Collections",
+        "authors": [
+            "Florian Schneider",
+            "Narges Baba Ahmadi",
+            "Niloufar Baba Ahmadi",
+            "Iris Vogel",
+            "Martin Semmann",
+            "Chris Biemann"
+        ],
+        "date": "2025/04/10",
+        "pdf": "http://arxiv.org/pdf/2504.07643",
+        "abstract": "In this paper, we introduce CollEx, an innovative multimodal agentic Retrieval-Augmented Generation (RAG) system designed to enhance interactive exploration of extensive scientific collections. Given the overwhelming volume and inherent complexity of scientific collections, conventional search systems often lack necessary intuitiveness and interactivity, presenting substantial barriers for learners, educators, and researchers. CollEx addresses these limitations by employing state-of-the-art Large Vision-Language Models (LVLMs) as multimodal agents accessible through an intuitive chat interface. By abstracting complex interactions via specialized agents equipped with advanced tools, CollEx facilitates curiosity-driven exploration, significantly simplifying access to diverse scientific collections and records therein. Our system integrates textual and visual modalities, supporting educational scenarios that are helpful for teachers, pupils, students, and researchers by fostering independent exploration as well as scientific excitement and curiosity. Furthermore, CollEx serves the research community by discovering interdisciplinary connections and complementing visual data. We illustrate the effectiveness of our system through a proof-of-concept application containing over 64,000 unique records across 32 collections from a local scientific collection from a public university.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ],
+            [
+                "Application",
+                "Research"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.07643"
     }
 }
