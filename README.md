@@ -1166,6 +1166,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2025/03/12] **Can A Society of Generative Agents Simulate Human Behavior and Inform Public Health Policy? A Case Study on Vaccine Hesitancy** | [[paper]](https://arxiv.org/abs/2503.09639) | [code]
 
+- [2025/02/03] **TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets** | [[paper]](https://arxiv.org/abs/2502.01506) | [[code]](https://github.com/TobyYang7/TwinMarket)
+
 - [2025/02/06] **Simulating the Emergence of Differential Case Marking with Communicating Neural-Network Agents** | [[paper]](https://arxiv.org/abs/2502.04038) | [code]
 
 - [2025/02/03] **Eliciting Language Model Behaviors with Investigator Agents** | [[paper]](https://arxiv.org/abs/2502.01236) | [code]
