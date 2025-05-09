@@ -7213,5 +7213,1822 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2504.07643"
+    },
+    "07d3bee7098268616c2aada2f9273902": {
+        "title": "Algorithmic Prompt Generation for Diverse Human-like Teaming and Communication with Large Language Models",
+        "authors": [
+            "Siddharth Srikanth",
+            "Varun Bhatt",
+            "Boshen Zhang",
+            "Werner Hager",
+            "Charles Michael Lewis",
+            "Katia P. Sycara",
+            "Aaquib Tabrez",
+            "Stefanos Nikolaidis"
+        ],
+        "date": "2025/04/04",
+        "pdf": "http://arxiv.org/pdf/2504.03991",
+        "abstract": "Understanding how humans collaborate and communicate in teams is essential for improving human-agent teaming and AI-assisted decision-making. However, relying solely on data from large-scale user studies is impractical due to logistical, ethical, and practical constraints, necessitating synthetic models of multiple diverse human behaviors. Recently, agents powered by Large Language Models (LLMs) have been shown to emulate human-like behavior in social settings. But, obtaining a large set of diverse behaviors requires manual effort in the form of designing prompts. On the other hand, Quality Diversity (QD) optimization has been shown to be capable of generating diverse Reinforcement Learning (RL) agent behavior. In this work, we combine QD optimization with LLM-powered agents to iteratively search for prompts that generate diverse team behavior in a long-horizon, multi-step collaborative environment. We first show, through a human-subjects experiment (n=54 participants), that humans exhibit diverse coordination and communication behavior in this domain. We then show that our approach can effectively replicate trends from human teaming data and also capture behaviors that are not easily observed without collecting large amounts of data. Our findings highlight the combination of QD and LLM-powered agents as an effective tool for studying teaming and communication strategies in multi-agent collaboration.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.03991"
+    },
+    "6da5ea664090dc428d5fb7efcdce8028": {
+        "title": "Beyond Self-Reports: Multi-Observer Agents for Personality Assessment in Large Language Models",
+        "authors": [
+            "Yin Jou Huang",
+            "Rafik Hadfi"
+        ],
+        "date": "2025/04/11",
+        "pdf": "http://arxiv.org/pdf/2504.08399",
+        "abstract": "There is a growing interest in assessing the personality traits of Large language models (LLMs). However, traditional personality assessments based on self-report questionnaires may fail to capture their true behavioral nuances due to inherent biases and meta-knowledge contamination. This paper introduces a novel multi-observer framework for LLM personality assessment that draws inspiration from informant-report methods in psychology. Instead of relying solely on self-assessments, our approach employs multiple observer agents configured with a specific relationship context (e.g., family, friend, or workplace) to simulate interactive scenarios with a subject LLM. These observers engage in dialogues and subsequently provide ratings across the Big Five personality dimensions. Our experiments reveal that LLMs possess systematic biases in self-report personality ratings. Moreover, aggregating observer ratings effectively reduces non-systematic biases and achieves optimal reliability with 5-7 observers. The findings highlight the significant impact of relationship context on personality perception and demonstrate that a multi-observer paradigm yields a more robust and context-sensitive evaluation of LLM personality traits.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.08399"
+    },
+    "160e0d2ce771c77c1061302076f63b83": {
+        "title": "TP-RAG: Benchmarking Retrieval-Augmented Large Language Model Agents for Spatiotemporal-Aware Travel Planning",
+        "authors": [
+            "Hang Ni",
+            "Fan Liu",
+            "Xinyu Ma",
+            "Lixin Su",
+            "Shuaiqiang Wang",
+            "Dawei Yin",
+            "Hui Xiong",
+            "Hao Liu"
+        ],
+        "date": "2025/04/11",
+        "pdf": "http://arxiv.org/pdf/2504.08694",
+        "abstract": "Large language models (LLMs) have shown promise in automating travel planning, yet they often fall short in addressing nuanced spatiotemporal rationality. While existing benchmarks focus on basic plan validity, they neglect critical aspects such as route efficiency, POI appeal, and real-time adaptability. This paper introduces TP-RAG, the first benchmark tailored for retrieval-augmented, spatiotemporal-aware travel planning. Our dataset includes 2,348 real-world travel queries, 85,575 fine-grain annotated POIs, and 18,784 high-quality travel trajectory references sourced from online tourist documents, enabling dynamic and context-aware planning. Through extensive experiments, we reveal that integrating reference trajectories significantly improves spatial efficiency and POI rationality of the travel plan, while challenges persist in universality and robustness due to conflicting references and noisy data. To address these issues, we propose EvoRAG, an evolutionary framework that potently synergizes diverse retrieved trajectories with LLMs&#39; intrinsic reasoning. EvoRAG achieves state-of-the-art performance, improving spatiotemporal compliance and reducing commonsense violation compared to ground-up and retrieval-augmented baselines. Our work underscores the potential of hybridizing Web knowledge with LLM-driven optimization, paving the way for more reliable and adaptive travel planning agents.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ],
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.08694"
+    },
+    "461bfbd678b76474e544199679172f48": {
+        "title": "A Multi-view Discourse Framework for Integrating Semantic and Syntactic Features in Dialog Agents",
+        "authors": [
+            "Akanksha Mehndiratta",
+            "Krishna Asawa"
+        ],
+        "date": "2025/04/12",
+        "pdf": "http://arxiv.org/pdf/2504.09073",
+        "abstract": "Multiturn dialogue models aim to generate human-like responses by leveraging conversational context, consisting of utterances from previous exchanges. Existing methods often neglect the interactions between these utterances or treat all of them as equally significant. This paper introduces a discourse-aware framework for response selection in retrieval-based dialogue systems. The proposed model first encodes each utterance and response with contextual, positional, and syntactic features using Multi-view Canonical Correlation Analysis (MCCA). It then learns discourse tokens that capture relationships between an utterance and its surrounding turns in a shared subspace via Canonical Correlation Analysis (CCA). This two-step approach effectively integrates semantic and syntactic features to build discourse-level understanding. Experiments on the Ubuntu Dialogue Corpus demonstrate that our model achieves significant improvements in automatic evaluation metrics, highlighting its effectiveness in response selection.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Conversation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.09073"
+    },
+    "b5102a429a76797267aebe18cb0c14bc": {
+        "title": "UXAgent: A System for Simulating Usability Testing of Web Design with LLM Agents",
+        "authors": [
+            "Yuxuan Lu",
+            "Bingsheng Yao",
+            "Hansu Gu",
+            "Jing Huang",
+            "Jessie Wang",
+            "Yang Li",
+            "Jiri Gesi",
+            "Qi He",
+            "Toby Jia-Jun Li",
+            "Dakuo Wang"
+        ],
+        "date": "2025/04/13",
+        "pdf": "http://arxiv.org/pdf/2504.09407",
+        "abstract": "Usability testing is a fundamental research method that user experience (UX) researchers use to evaluate and iterate a web design, but\\textbf{ how to evaluate and iterate the usability testing study design } itself? Recent advances in Large Language Model-simulated Agent (\\textbf{LLM Agent}) research inspired us to design \\textbf{UXAgent} to support UX researchers in evaluating and reiterating their usability testing study design before they conduct the real human-subject study. Our system features a Persona Generator module, an LLM Agent module, and a Universal Browser Connector module to automatically generate thousands of simulated users to interactively test the target website. The system also provides an Agent Interview Interface and a Video Replay Interface so that the UX researchers can easily review and analyze the generated qualitative and quantitative log data. Through a heuristic evaluation, five UX researcher participants praised the innovation of our system but also expressed concerns about the future of LLM Agent usage in UX studies.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Role Playing"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.09407"
+    },
+    "1c1af06b4c613331d8e6a9fdd16309ed": {
+        "title": "SocioVerse: A World Model for Social Simulation Powered by LLM Agents and A Pool of 10 Million Real-World Users",
+        "authors": [
+            "Xinnong Zhang",
+            "Jiayu Lin",
+            "Xinyi Mou",
+            "Shiyue Yang",
+            "Xiawei Liu",
+            "Libo Sun",
+            "Hanjia Lyu",
+            "Yihang Yang",
+            "Weihong Qi",
+            "Yue Chen",
+            "Guanying Li",
+            "Ling Yan",
+            "Yao Hu",
+            "Siming Chen",
+            "Yu Wang",
+            "Xuanjing Huang",
+            "Jiebo Luo",
+            "Shiping Tang",
+            "Libo Wu",
+            "Baohua Zhou",
+            "Zhongyu Wei"
+        ],
+        "date": "2025/04/14",
+        "pdf": "http://arxiv.org/pdf/2504.10157",
+        "abstract": "Social simulation is transforming traditional social science research by modeling human behavior through interactions between virtual individuals and their environments. With recent advances in large language models (LLMs), this approach has shown growing potential in capturing individual differences and predicting group behaviors. However, existing methods face alignment challenges related to the environment, target users, interaction mechanisms, and behavioral patterns. To this end, we introduce SocioVerse, an LLM-agent-driven world model for social simulation. Our framework features four powerful alignment components and a user pool of 10 million real individuals. To validate its effectiveness, we conducted large-scale simulation experiments across three distinct domains: politics, news, and economics. Results demonstrate that SocioVerse can reflect large-scale population dynamics while ensuring diversity, credibility, and representativeness through standardized procedures and minimal manual adjustments.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.10157"
+    },
+    "18c8519869e643039a530ab9676a0f33": {
+        "title": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents",
+        "authors": [
+            "Jason Wei",
+            "Zhiqing Sun",
+            "Spencer Papay",
+            "Scott McKinney",
+            "Jeffrey Han",
+            "Isa Fulford",
+            "Hyung Won Chung",
+            "Alex Tachard Passos",
+            "William Fedus",
+            "Amelia Glaese"
+        ],
+        "date": "2025/04/16",
+        "pdf": "http://arxiv.org/pdf/2504.12516",
+        "abstract": "We present BrowseComp, a simple yet challenging benchmark for measuring the ability for agents to browse the web. BrowseComp comprises 1,266 questions that require persistently navigating the internet in search of hard-to-find, entangled information. Despite the difficulty of the questions, BrowseComp is simple and easy-to-use, as predicted answers are short and easily verifiable against reference answers. BrowseComp for browsing agents can be seen as analogous to how programming competitions are an incomplete but useful benchmark for coding agents. While BrowseComp sidesteps challenges of a true user query distribution, like generating long answers or resolving ambiguity, it measures the important core capability of exercising persistence and creativity in finding information. BrowseComp can be found at https://github.com/openai/simple-evals.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.12516"
+    },
+    "635731b8b31cb4e59cd8cb98cf37980c": {
+        "title": "MetaSynth: Meta-Prompting-Driven Agentic Scaffolds for Diverse Synthetic Data Generation",
+        "authors": [
+            "Haris Riaz",
+            "Sourav Bhabesh",
+            "Vinayak Arannil",
+            "Miguel Ballesteros",
+            "Graham Horwood"
+        ],
+        "date": "2025/04/17",
+        "pdf": "http://arxiv.org/pdf/2504.12563",
+        "abstract": "Recent smaller language models such Phi-3.5 and Phi-4 rely on synthetic data generated using larger Language models. Questions remain about leveraging synthetic data for other use cases, such as adapting LLMs to specific domains. A key limitation of synthetic data is low diversity, which negatively impacts its downstream applicability for improving other models. To address this, we propose MetaSynth, a method for generating synthetic data that enhances diversity through meta-prompting, where a language model orchestrates multiple &#34;expert&#34; LLM agents to collaboratively generate data. Using only 25 million tokens of synthetic data generated with MetaSynth, we successfully adapt a well-trained LLM (Mistral-7B-v0.3) to two specialized domains-Finance and Biomedicine-without compromising the capabilities of the resulting model in general tasks. In addition, we evaluate the diversity of our synthetic data using seven automated metrics, and find that it approaches the diversity of LLM pre-training corpora. Continually pre-training Mistral-7B-v0.3 with MetaSynth notably outperforms the base LLM, showing improvements of up to 4.08% in Finance and 13.75% in Biomedicine. The same model shows degraded performance when trained on data generated using a template prompt, even when the template includes prior generations and varying In-Context exemplars of real data. Our findings suggest that a few million tokens of diverse synthetic data without mixing any real data, is sufficient for effective domain adaptation when using MetaSynth.",
+        "code": "",
+        "category": [
+            [
+                "Automation",
+                "Workflow"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.12563"
+    },
+    "60e0dd85b6fe05db82391e9ec5c3589f": {
+        "title": "Pandora: A Code-Driven Large Language Model Agent for Unified Reasoning Across Diverse Structured Knowledge",
+        "authors": [
+            "Yongrui Chen",
+            "Junhao He",
+            "Linbo Fu",
+            "Shenyu Zhang",
+            "Rihui Jin",
+            "Xinbang Dai",
+            "Jiaqi Li",
+            "Dehai Min",
+            "Nan Hu",
+            "Yuxin Zhang",
+            "Guilin Qi",
+            "Yi Huang",
+            "Tongtong Wu"
+        ],
+        "date": "2025/04/17",
+        "pdf": "http://arxiv.org/pdf/2504.12734",
+        "abstract": "Unified Structured Knowledge Reasoning (USKR) aims to answer natural language questions (NLQs) by using structured sources such as tables, databases, and knowledge graphs in a unified way. Existing USKR methods either rely on employing task-specific strategies or custom-defined representations, which struggle to leverage the knowledge transfer between different SKR tasks or align with the prior of LLMs, thereby limiting their performance. This paper proposes a novel USKR framework named \\textsc{Pandora}, which takes advantage of \\textsc{Python}&#39;s \\textsc{Pandas} API to construct a unified knowledge representation for alignment with LLM pre-training. It employs an LLM to generate textual reasoning steps and executable Python code for each question. Demonstrations are drawn from a memory of training examples that cover various SKR tasks, facilitating knowledge transfer. Extensive experiments on four benchmarks involving three SKR tasks demonstrate that \\textsc{Pandora} outperforms existing unified frameworks and competes effectively with task-specific methods.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.12734"
+    },
+    "df5f21a5feebebf0178d8b9c72779186": {
+        "title": "Are AI agents the new machine translation frontier? Challenges and opportunities of single- and multi-agent systems for multilingual digital communication",
+        "authors": [
+            "Vicent Briva-Iglesias"
+        ],
+        "date": "2025/04/17",
+        "pdf": "http://arxiv.org/pdf/2504.12891",
+        "abstract": "The rapid evolution of artificial intelligence (AI) has introduced AI agents as a disruptive paradigm across various industries, yet their application in machine translation (MT) remains underexplored. This paper describes and analyses the potential of single- and multi-agent systems for MT, reflecting on how they could enhance multilingual digital communication. While single-agent systems are well-suited for simpler translation tasks, multi-agent systems, which involve multiple specialized AI agents collaborating in a structured manner, may offer a promising solution for complex scenarios requiring high accuracy, domain-specific knowledge, and contextual awareness. To demonstrate the feasibility of multi-agent workflows in MT, we are conducting a pilot study in legal MT. The study employs a multi-agent system involving four specialized AI agents for (i) translation, (ii) adequacy review, (iii) fluency review, and (iv) final editing. Our findings suggest that multi-agent systems may have the potential to significantly improve domain-adaptability and contextual awareness, with superior translation quality to traditional MT or single-agent systems. This paper also sets the stage for future research into multi-agent applications in MT, integration into professional translation workflows, and shares a demo of the system analyzed in the paper.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.12891"
+    },
+    "aa3a36bc627bea863f8d19eab8f5c15a": {
+        "title": "DialogueAgents: A Hybrid Agent-Based Speech Synthesis Framework for Multi-Party Dialogue",
+        "authors": [
+            "Xiang Li",
+            "Duyi Pan",
+            "Hongru Xiao",
+            "Jiale Han",
+            "Jing Tang",
+            "Jiabao Ma",
+            "Wei Wang",
+            "Bo Cheng"
+        ],
+        "date": "2025/04/20",
+        "pdf": "http://arxiv.org/pdf/2504.14482",
+        "abstract": "Speech synthesis is crucial for human-computer interaction, enabling natural and intuitive communication. However, existing datasets involve high construction costs due to manual annotation and suffer from limited character diversity, contextual scenarios, and emotional expressiveness. To address these issues, we propose DialogueAgents, a novel hybrid agent-based speech synthesis framework, which integrates three specialized agents -- a script writer, a speech synthesizer, and a dialogue critic -- to collaboratively generate dialogues. Grounded in a diverse character pool, the framework iteratively refines dialogue scripts and synthesizes speech based on speech review, boosting emotional expressiveness and paralinguistic features of the synthesized dialogues. Using DialogueAgent, we contribute MultiTalk, a bilingual, multi-party, multi-turn speech dialogue dataset covering diverse topics. Extensive experiments demonstrate the effectiveness of our framework and the high quality of the MultiTalk dataset. We release the dataset and code https://github.com/uirlx/DialogueAgents to facilitate future research on advanced speech synthesis models and customized data generation.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Conversation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.14482"
+    },
+    "262671ea1108ed868ed838dcebea4bbf": {
+        "title": "BookWorld: From Novels to Interactive Agent Societies for Creative Story Generation",
+        "authors": [
+            "Yiting Ran",
+            "Xintao Wang",
+            "Tian Qiu",
+            "Jiaqing Liang",
+            "Yanghua Xiao",
+            "Deqing Yang"
+        ],
+        "date": "2025/04/20",
+        "pdf": "http://arxiv.org/pdf/2504.14538",
+        "abstract": "Recent advances in large language models (LLMs) have enabled social simulation through multi-agent systems. Prior efforts focus on agent societies created from scratch, assigning agents with newly defined personas. However, simulating established fictional worlds and characters remain largely underexplored, despite its significant practical value. In this paper, we introduce BookWorld, a comprehensive system for constructing and simulating book-based multi-agent societies. BookWorld&#39;s design covers comprehensive real-world intricacies, including diverse and dynamic characters, fictional worldviews, geographical constraints and changes, e.t.c. BookWorld enables diverse applications including story generation, interactive games and social simulation, offering novel ways to extend and explore beloved fictional works. Through extensive experiments, we demonstrate that BookWorld generates creative, high-quality stories while maintaining fidelity to the source books, surpassing previous methods with a win rate of 75.36%. The code of this paper can be found at the project page: https://bookworld2025.github.io/.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.14538"
+    },
+    "80742f80499f4b7420d06ca7ea71b511": {
+        "title": "EvalAgent: Discovering Implicit Evaluation Criteria from the Web",
+        "authors": [
+            "Manya Wadhwa",
+            "Zayne Sprague",
+            "Chaitanya Malaviya",
+            "Philippe Laban",
+            "Junyi Jessy Li",
+            "Greg Durrett"
+        ],
+        "date": "2025/04/21",
+        "pdf": "http://arxiv.org/pdf/2504.15219",
+        "abstract": "Evaluation of language model outputs on structured writing tasks is typically conducted with a number of desirable criteria presented to human evaluators or large language models (LLMs). For instance, on a prompt like &#34;Help me draft an academic talk on coffee intake vs research productivity&#34;, a model response may be evaluated for criteria like accuracy and coherence. However, high-quality responses should do more than just satisfy basic task requirements. An effective response to this query should include quintessential features of an academic talk, such as a compelling opening, clear research questions, and a takeaway. To help identify these implicit criteria, we introduce EvalAgent, a novel framework designed to automatically uncover nuanced and task-specific criteria. EvalAgent first mines expert-authored online guidance. It then uses this evidence to propose diverse, long-tail evaluation criteria that are grounded in reliable external sources. Our experiments demonstrate that the grounded criteria produced by EvalAgent are often implicit (not directly stated in the user&#39;s prompt), yet specific (high degree of lexical precision). Further, EvalAgent criteria are often not satisfied by initial responses but they are actionable, such that responses can be refined to satisfy them. Finally, we show that combining LLM-generated and EvalAgent criteria uncovers more human-valued criteria than using LLMs alone.",
+        "code": "",
+        "category": [
+            [
+                "Automation",
+                "Automatic Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.15219"
+    },
+    "08eda25b86e5ec3f4e3211acf50ecd77": {
+        "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+        "authors": [
+            "Yutaro Yamada",
+            "Robert Tjarko Lange",
+            "Cong Lu",
+            "Shengran Hu",
+            "Chris Lu",
+            "Jakob Foerster",
+            "Jeff Clune",
+            "David Ha"
+        ],
+        "date": "2025/04/10",
+        "pdf": "http://arxiv.org/pdf/2504.08066",
+        "abstract": "AI is increasingly playing a pivotal role in transforming how scientific discoveries are made. We introduce The AI Scientist-v2, an end-to-end agentic system capable of producing the first entirely AI generated peer-review-accepted workshop paper. This system iteratively formulates scientific hypotheses, designs and executes experiments, analyzes and visualizes data, and autonomously authors scientific manuscripts. Compared to its predecessor (v1, Lu et al., 2024 arXiv:2408.06292), The AI Scientist-v2 eliminates the reliance on human-authored code templates, generalizes effectively across diverse machine learning domains, and leverages a novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent. Additionally, we enhance the AI reviewer component by integrating a Vision-Language Model (VLM) feedback loop for iterative refinement of content and aesthetics of the figures. We evaluated The AI Scientist-v2 by submitting three fully autonomous manuscripts to a peer-reviewed ICLR workshop. Notably, one manuscript achieved high enough scores to exceed the average human acceptance threshold, marking the first instance of a fully AI-generated paper successfully navigating a peer review. This accomplishment highlights the growing capability of AI in conducting all aspects of scientific research. We anticipate that further advancements in autonomous scientific discovery technologies will profoundly impact human knowledge generation, enabling unprecedented scalability in research productivity and significantly accelerating scientific breakthroughs, greatly benefiting society at large. We have open-sourced the code at https://github.com/SakanaAI/AI-Scientist-v2 to foster the future development of this transformative technology. We also discuss the role of AI in science, including AI safety.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Research"
+            ],
+            [
+                "Technique For Enhancement",
+                "Search"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.08066"
+    },
+    "a1ee3d31d7616d0b4308388fd25d0dd0": {
+        "title": "Task Memory Engine (TME): A Structured Memory Framework with Graph-Aware Extensions for Multi-Step LLM Agent Tasks",
+        "authors": [
+            "Ye Ye"
+        ],
+        "date": "2025/04/11",
+        "pdf": "http://arxiv.org/pdf/2504.08525",
+        "abstract": "Large Language Models (LLMs) are increasingly used as autonomous agents for multi-step tasks. However, most existing frameworks fail to maintain a structured understanding of the task state, often relying on linear prompt concatenation or shallow memory buffers. This leads to brittle performance, frequent hallucinations, and poor long-range coherence. In this work, we propose the Task Memory Engine (TME), a lightweight and structured memory module that tracks task execution using a hierarchical Task Memory Tree (TMT). Each node in the tree corresponds to a task step, storing relevant input, output, status, and sub-task relationships. We introduce a prompt synthesis method that dynamically generates LLM prompts based on the active node path, significantly improving execution consistency and contextual grounding. Through case studies and comparative experiments on multi-step agent tasks, we demonstrate that TME leads to better task completion accuracy and more interpretable behavior with minimal implementation overhead. A reference implementation of the core TME components is available at https://github.com/biubiutomato/TME-Agent, including basic examples and structured memory integration. While the current implementation uses a tree-based structure, TME is designed to be graph-aware, supporting reusable substeps, converging task paths, and shared dependencies. This lays the groundwork for future DAG-based memory architectures.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Memory Mechanism"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.08525"
+    },
+    "543210d11e4939d646fb7d91d10a4514": {
+        "title": "DocAgent: A Multi-Agent System for Automated Code Documentation Generation",
+        "authors": [
+            "Dayu Yang",
+            "Antoine Simoulin",
+            "Xin Qian",
+            "Xiaoyi Liu",
+            "Yuwei Cao",
+            "Zhaopu Teng",
+            "Grey Yang"
+        ],
+        "date": "2025/04/11",
+        "pdf": "http://arxiv.org/pdf/2504.08725",
+        "abstract": "High-quality code documentation is crucial for software development especially in the era of AI. However, generating it automatically using Large Language Models (LLMs) remains challenging, as existing approaches often produce incomplete, unhelpful, or factually incorrect outputs. We introduce DocAgent, a novel multi-agent collaborative system using topological code processing for incremental context building. Specialized agents (Reader, Searcher, Writer, Verifier, Orchestrator) then collaboratively generate documentation. We also propose a multi-faceted evaluation framework assessing Completeness, Helpfulness, and Truthfulness. Comprehensive experiments show DocAgent significantly outperforms baselines consistently. Our ablation study confirms the vital role of the topological processing order. DocAgent offers a robust approach for reliable code documentation generation in complex and proprietary repositories.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.08725"
+    },
+    "53fc0c31be6b71ada54bc7262ea7f686": {
+        "title": "AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories",
+        "authors": [
+            "Xing Han Lù",
+            "Amirhossein Kazemnejad",
+            "Nicholas Meade",
+            "Arkil Patel",
+            "Dongchan Shin",
+            "Alejandra Zambrano",
+            "Karolina Stańczak",
+            "Peter Shaw",
+            "Christopher J. Pal",
+            "Siva Reddy"
+        ],
+        "date": "2025/04/11",
+        "pdf": "http://arxiv.org/pdf/2504.08942",
+        "abstract": "Web agents enable users to perform tasks on web browsers through natural language interaction. Evaluating web agents trajectories is an important problem, since it helps us determine whether the agent successfully completed the tasks. Rule-based methods are widely used for this purpose, but they are challenging to extend to new tasks and may not always recognize successful trajectories. We may achieve higher accuracy through human evaluation, but the process would be substantially slower and more expensive. Automatic evaluations with LLMs may avoid the challenges of designing new rules and manually annotating trajectories, enabling faster and cost-effective evaluation. However, it is unclear how effective they are at evaluating web agents. To this end, we propose AgentRewardBench, the first benchmark to assess the effectiveness of LLM judges for evaluating web agents. AgentRewardBench contains 1302 trajectories across 5 benchmarks and 4 LLMs. Each trajectory in AgentRewardBench is reviewed by an expert, who answers questions pertaining to the success, side effects, and repetitiveness of the agent. Using our benchmark, we evaluate 12 LLM judges and find that no single LLM excels across all benchmarks. We also find that the rule-based evaluation used by common benchmarks tends to underreport the success rate of web agents, highlighting a key weakness of rule-based evaluation and the need to develop more flexible automatic evaluations. We release the benchmark at: https://agent-reward-bench.github.io",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.08942"
+    },
+    "201f3921e46ba0d65dacc0229adb21cb": {
+        "title": "A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, and Agentic Systems",
+        "authors": [
+            "Zixuan Ke",
+            "Fangkai Jiao",
+            "Yifei Ming",
+            "Xuan-Phi Nguyen",
+            "Austin Xu",
+            "Do Xuan Long",
+            "Minzhi Li",
+            "Chengwei Qin",
+            "Peifeng Wang",
+            "Silvio Savarese",
+            "Caiming Xiong",
+            "Shafiq Joty"
+        ],
+        "date": "2025/04/12",
+        "pdf": "http://arxiv.org/pdf/2504.09037",
+        "abstract": "Reasoning is a fundamental cognitive process that enables logical inference, problem-solving, and decision-making. With the rapid advancement of large language models (LLMs), reasoning has emerged as a key capability that distinguishes advanced AI systems from conventional models that empower chatbots. In this survey, we categorize existing methods along two orthogonal dimensions: (1) Regimes, which define the stage at which reasoning is achieved (either at inference time or through dedicated training); and (2) Architectures, which determine the components involved in the reasoning process, distinguishing between standalone LLMs and agentic compound systems that incorporate external tools, and multi-agent collaborations. Within each dimension, we analyze two key perspectives: (1) Input level, which focuses on techniques that construct high-quality prompts that the LLM condition on; and (2) Output level, which methods that refine multiple sampled candidates to enhance reasoning quality. This categorization provides a systematic understanding of the evolving landscape of LLM reasoning, highlighting emerging trends such as the shift from inference-scaling to learning-to-reason (e.g., DeepSeek-R1), and the transition to agentic workflows (e.g., OpenAI Deep Research, Manus Agent). Additionally, we cover a broad spectrum of learning algorithms, from supervised fine-tuning to reinforcement learning such as PPO and GRPO, and the training of reasoners and verifiers. We also examine key designs of agentic workflows, from established patterns like generator-evaluator and LLM debate to recent innovations. ...",
+        "code": "",
+        "category": [
+            [
+                "Survey",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.09037"
+    },
+    "1866d47555e344f3e4482ded8d8de7f1": {
+        "title": "EmoAgent: Assessing and Safeguarding Human-AI Interaction for Mental Health Safety",
+        "authors": [
+            "Jiahao Qiu",
+            "Yinghui He",
+            "Xinzhe Juan",
+            "Yimin Wang",
+            "Yuhan Liu",
+            "Zixin Yao",
+            "Yue Wu",
+            "Xun Jiang",
+            "Ling Yang",
+            "Mengdi Wang"
+        ],
+        "date": "2025/04/13",
+        "pdf": "http://arxiv.org/pdf/2504.09689",
+        "abstract": "The rise of LLM-driven AI characters raises safety concerns, particularly for vulnerable human users with psychological disorders. To address these risks, we propose EmoAgent, a multi-agent AI framework designed to evaluate and mitigate mental health hazards in human-AI interactions. EmoAgent comprises two components: EmoEval simulates virtual users, including those portraying mentally vulnerable individuals, to assess mental health changes before and after interactions with AI characters. It uses clinically proven psychological and psychiatric assessment tools (PHQ-9, PDI, PANSS) to evaluate mental risks induced by LLM. EmoGuard serves as an intermediary, monitoring users&#39; mental status, predicting potential harm, and providing corrective feedback to mitigate risks. Experiments conducted in popular character-based chatbots show that emotionally engaging dialogues can lead to psychological deterioration in vulnerable users, with mental state deterioration in more than 34.4% of the simulations. EmoGuard significantly reduces these deterioration rates, underscoring its role in ensuring safer AI-human interactions. Our code is available at: https://github.com/1akaman/EmoAgent",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.09689"
+    },
+    "abb8936c73c933f1c5b5cd5d6f768c19": {
+        "title": "AgentA/B: Automated and Scalable Web A/BTesting with Interactive LLM Agents",
+        "authors": [
+            "Dakuo Wang",
+            "Ting-Yao Hsu",
+            "Yuxuan Lu",
+            "Hansu Gu",
+            "Limeng Cui",
+            "Yaochen Xie",
+            "William Headean",
+            "Bingsheng Yao",
+            "Akash Veeragouni",
+            "Jiapeng Liu",
+            "Sreyashi Nag",
+            "Jessie Wang"
+        ],
+        "date": "2025/04/13",
+        "pdf": "http://arxiv.org/pdf/2504.09723",
+        "abstract": "A/B testing experiment is a widely adopted method for evaluating UI/UX design decisions in modern web applications. Yet, traditional A/B testing remains constrained by its dependence on the large-scale and live traffic of human participants, and the long time of waiting for the testing result. Through formative interviews with six experienced industry practitioners, we identified critical bottlenecks in current A/B testing workflows. In response, we present AgentA/B, a novel system that leverages Large Language Model-based autonomous agents (LLM Agents) to automatically simulate user interaction behaviors with real webpages. AgentA/B enables scalable deployment of LLM agents with diverse personas, each capable of navigating the dynamic webpage and interactively executing multi-step interactions like search, clicking, filtering, and purchasing. In a demonstrative controlled experiment, we employ AgentA/B to simulate a between-subject A/B testing with 1,000 LLM agents Amazon.com, and compare agent behaviors with real human shopping behaviors at a scale. Our findings suggest AgentA/B can emulate human-like behavior patterns.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.09723"
+    },
+    "556e227b7819455ff440fdf559579f78": {
+        "title": "A Survey of Large Language Model-Powered Spatial Intelligence Across Scales: Advances in Embodied Agents, Smart Cities, and Earth Science",
+        "authors": [
+            "Jie Feng",
+            "Jinwei Zeng",
+            "Qingyue Long",
+            "Hongyi Chen",
+            "Jie Zhao",
+            "Yanxin Xi",
+            "Zhilun Zhou",
+            "Yuan Yuan",
+            "Shengyuan Wang",
+            "Qingbin Zeng",
+            "Songwei Li",
+            "Yunke Zhang",
+            "Yuming Lin",
+            "Tong Li",
+            "Jingtao Ding",
+            "Chen Gao",
+            "Fengli Xu",
+            "Yong Li"
+        ],
+        "date": "2025/04/14",
+        "pdf": "http://arxiv.org/pdf/2504.09848",
+        "abstract": "Over the past year, the development of large language models (LLMs) has brought spatial intelligence into focus, with much attention on vision-based embodied intelligence. However, spatial intelligence spans a broader range of disciplines and scales, from navigation and urban planning to remote sensing and earth science. What are the differences and connections between spatial intelligence across these fields? In this paper, we first review human spatial cognition and its implications for spatial intelligence in LLMs. We then examine spatial memory, knowledge representations, and abstract reasoning in LLMs, highlighting their roles and connections. Finally, we analyze spatial intelligence across scales -- from embodied to urban and global levels -- following a framework that progresses from spatial memory and understanding to spatial reasoning and intelligence. Through this survey, we aim to provide insights into interdisciplinary spatial intelligence research and inspire future studies.",
+        "code": "",
+        "category": [
+            [
+                "Survey",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.09848"
+    },
+    "4774f10bebb60dd8a17409abefe535f9": {
+        "title": "Breaking the Data Barrier -- Building GUI Agents Through Task Generalization",
+        "authors": [
+            "Junlei Zhang",
+            "Zichen Ding",
+            "Chang Ma",
+            "Zijie Chen",
+            "Qiushi Sun",
+            "Zhenzhong Lan",
+            "Junxian He"
+        ],
+        "date": "2025/04/14",
+        "pdf": "http://arxiv.org/pdf/2504.10127",
+        "abstract": "Graphical User Interface (GUI) agents offer cross-platform solutions for automating complex digital tasks, with significant potential to transform productivity workflows. However, their performance is often constrained by the scarcity of high-quality trajectory data. To address this limitation, we propose training Vision Language Models (VLMs) on data-rich, reasoning-intensive tasks during a dedicated mid-training stage, and then examine how incorporating these tasks facilitates generalization to GUI planning scenarios. Specifically, we explore a range of tasks with readily available instruction-tuning data, including GUI perception, multimodal reasoning, and textual reasoning. Through extensive experiments across 11 mid-training tasks, we demonstrate that: (1) Task generalization proves highly effective, yielding substantial improvements across most settings. For instance, multimodal mathematical reasoning enhances performance on AndroidWorld by an absolute 6.3%. Remarkably, text-only mathematical data significantly boosts GUI web agent performance, achieving a 5.6% improvement on WebArena and 5.4% improvement on AndroidWorld, underscoring notable cross-modal generalization from text-based to visual domains; (2) Contrary to prior assumptions, GUI perception data - previously considered closely aligned with GUI agent tasks and widely utilized for training - has a comparatively limited impact on final performance; (3) Building on these insights, we identify the most effective mid-training tasks and curate optimized mixture datasets, resulting in absolute performance gains of 8.0% on WebArena and 12.2% on AndroidWorld. Our work provides valuable insights into cross-domain knowledge transfer for GUI agents and offers a practical approach to addressing data scarcity challenges in this emerging field. The code, data and models will be available at https://github.com/hkust-nlp/GUIMid.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.10127"
+    },
+    "45d33e17a8f4c0482b3ea4bb6ed222b2": {
+        "title": "GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents",
+        "authors": [
+            "Run Luo",
+            "Lu Wang",
+            "Wanwei He",
+            "Xiaobo Xia"
+        ],
+        "date": "2025/04/14",
+        "pdf": "http://arxiv.org/pdf/2504.10458",
+        "abstract": "Existing efforts in building Graphical User Interface (GUI) agents largely rely on the training paradigm of supervised fine-tuning on Large Vision-Language Models (LVLMs). However, this approach not only demands extensive amounts of training data but also struggles to effectively understand GUI screenshots and generalize to unseen interfaces. The issue significantly limits its application in real-world scenarios, especially for high-level tasks. Inspired by Reinforcement Fine-Tuning (RFT) in large reasoning models (e.g., DeepSeek-R1), which efficiently enhances the problem-solving capabilities of large language models in real-world settings, we propose \\name, the first reinforcement learning framework designed to enhance the GUI capabilities of LVLMs in high-level real-world task scenarios, through unified action space rule modeling. By leveraging a small amount of carefully curated high-quality data across multiple platforms (including Windows, Linux, MacOS, Android, and Web) and employing policy optimization algorithms such as Group Relative Policy Optimization (GRPO) to update the model, \\name achieves superior performance using only 0.02\\% of the data (3K vs. 13M) compared to previous state-of-the-art methods like OS-Atlas across eight benchmarks spanning three different platforms (mobile, desktop, and web). These results demonstrate the immense potential of reinforcement learning based on unified action space rule modeling in improving the execution capabilities of LVLMs for real-world GUI agent tasks.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.10458"
+    },
+    "c18b697f68b6bc1d709c167ff41ed85a": {
+        "title": "Toward Super Agent System with Hybrid AI Routers",
+        "authors": [
+            "Yuhang Yao",
+            "Haixin Wang",
+            "Yibo Chen",
+            "Jiawen Wang",
+            "Min Chang Jordan Ren",
+            "Bosheng Ding",
+            "Salman Avestimehr",
+            "Chaoyang He"
+        ],
+        "date": "2025/04/11",
+        "pdf": "http://arxiv.org/pdf/2504.10519",
+        "abstract": "AI Agents powered by Large Language Models are transforming the world through enormous applications. A super agent has the potential to fulfill diverse user needs, such as summarization, coding, and research, by accurately understanding user intent and leveraging the appropriate tools to solve tasks. However, to make such an agent viable for real-world deployment and accessible at scale, significant optimizations are required to ensure high efficiency and low cost. This paper presents a design of the Super Agent System. Upon receiving a user prompt, the system first detects the intent of the user, then routes the request to specialized task agents with the necessary tools or automatically generates agentic workflows. In practice, most applications directly serve as AI assistants on edge devices such as phones and robots. As different language models vary in capability and cloud-based models often entail high computational costs, latency, and privacy concerns, we then explore the hybrid mode where the router dynamically selects between local and cloud models based on task complexity. Finally, we introduce the blueprint of an on-device super agent enhanced with cloud. With advances in multi-modality models and edge hardware, we envision that most computations can be handled locally, with cloud collaboration only as needed. Such architecture paves the way for super agents to be seamlessly integrated into everyday life in the near future.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.10519"
+    },
+    "67bf38dfa8d80db1994b567ab90daf97": {
+        "title": "Towards Automated Safety Requirements Derivation Using Agent-based RAG",
+        "authors": [
+            "Balahari Vignesh Balu",
+            "Florian Geissler",
+            "Francesco Carella",
+            "Joao-Vitor Zacchi",
+            "Josef Jiru",
+            "Nuria Mata",
+            "Reinhard Stolle"
+        ],
+        "date": "2025/04/15",
+        "pdf": "http://arxiv.org/pdf/2504.11243",
+        "abstract": "We study the automated derivation of safety requirements in a self-driving vehicle use case, leveraging LLMs in combination with agent-based retrieval-augmented generation. Conventional approaches that utilise pre-trained LLMs to assist in safety analyses typically lack domain-specific knowledge. Existing RAG approaches address this issue, yet their performance deteriorates when handling complex queries and it becomes increasingly harder to retrieve the most relevant information. This is particularly relevant for safety-relevant applications. In this paper, we propose the use of agent-based RAG to derive safety requirements and show that the retrieved information is more relevant to the queries. We implement an agent-based approach on a document pool of automotive standards and the Apollo case study, as a representative example of an automated driving perception system. Our solution is tested on a data set of safety requirement questions and answers, extracted from the Apollo data. Evaluating a set of selected RAG metrics, we present and discuss advantages of a agent-based approach compared to default RAG methods.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ],
+            [
+                "Stability",
+                "Safety"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.11243"
+    },
+    "a9fe48fa73f5946f76dfadb945fa4310": {
+        "title": "The Obvious Invisible Threat: LLM-Powered GUI Agents&#39; Vulnerability to Fine-Print Injections",
+        "authors": [
+            "Chaoran Chen",
+            "Zhiping Zhang",
+            "Bingcan Guo",
+            "Shang Ma",
+            "Ibrahim Khalilov",
+            "Simret A Gebreegziabher",
+            "Yanfang Ye",
+            "Ziang Xiao",
+            "Yaxing Yao",
+            "Tianshi Li",
+            "Toby Jia-Jun Li"
+        ],
+        "date": "2025/04/15",
+        "pdf": "http://arxiv.org/pdf/2504.11281",
+        "abstract": "A Large Language Model (LLM) powered GUI agent is a specialized autonomous system that performs tasks on the user&#39;s behalf according to high-level instructions. It does so by perceiving and interpreting the graphical user interfaces (GUIs) of relevant apps, often visually, inferring necessary sequences of actions, and then interacting with GUIs by executing the actions such as clicking, typing, and tapping. To complete real-world tasks, such as filling forms or booking services, GUI agents often need to process and act on sensitive user data. However, this autonomy introduces new privacy and security risks. Adversaries can inject malicious content into the GUIs that alters agent behaviors or induces unintended disclosures of private information. These attacks often exploit the discrepancy between visual saliency for agents and human users, or the agent&#39;s limited ability to detect violations of contextual integrity in task automation. In this paper, we characterized six types of such attacks, and conducted an experimental study to test these attacks with six state-of-the-art GUI agents, 234 adversarial webpages, and 39 human participants. Our findings suggest that GUI agents are highly vulnerable, particularly to contextually embedded threats. Moreover, human users are also susceptible to many of these attacks, indicating that simple human oversight may not reliably prevent failures. This misalignment highlights the need for privacy-aware agent design. We propose practical defense strategies to inform the development of safer and more reliable GUI agents.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.11281"
+    },
+    "06f89a14e28121c8914689b62d424a46": {
+        "title": "GraphicBench: A Planning Benchmark for Graphic Design with Language Agents",
+        "authors": [
+            "Dayeon Ki",
+            "Tianyi Zhou",
+            "Marine Carpuat",
+            "Gang Wu",
+            "Puneet Mathur",
+            "Viswanathan Swaminathan"
+        ],
+        "date": "2025/04/15",
+        "pdf": "http://arxiv.org/pdf/2504.11571",
+        "abstract": "Large Language Model (LLM)-powered agents have unlocked new possibilities for automating human tasks. While prior work has focused on well-defined tasks with specified goals, the capabilities of agents in creative design tasks with open-ended goals remain underexplored. We introduce GraphicBench, a new planning benchmark for graphic design that covers 1,079 user queries and input images across four design types. We further present GraphicTown, an LLM agent framework with three design experts and 46 actions (tools) to choose from for executing each step of the planned workflows in web environments. Experiments with six LLMs demonstrate their ability to generate workflows that integrate both explicit design constraints from user queries and implicit commonsense constraints. However, these workflows often do not lead to successful execution outcomes, primarily due to challenges in: (1) reasoning about spatial relationships, (2) coordinating global dependencies across experts, and (3) retrieving the most appropriate action per step. We envision GraphicBench as a challenging yet valuable testbed for advancing LLM-agent planning and execution in creative design tasks.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Planning"
+            ],
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.11571"
+    },
+    "d03e29b1c480eded4d859495d91496e2": {
+        "title": "WebLists: Extracting Structured Information From Complex Interactive Websites Using Executable LLM Agents",
+        "authors": [
+            "Arth Bohra",
+            "Manvel Saroyan",
+            "Danil Melkozerov",
+            "Vahe Karufanyan",
+            "Gabriel Maher",
+            "Pascal Weinberger",
+            "Artem Harutyunyan",
+            "Giovanni Campagna"
+        ],
+        "date": "2025/04/17",
+        "pdf": "http://arxiv.org/pdf/2504.12682",
+        "abstract": "Most recent web agent research has focused on navigation and transaction tasks, with little emphasis on extracting structured data at scale. We present WebLists, a benchmark of 200 data-extraction tasks across four common business and enterprise use-cases. Each task requires an agent to navigate to a webpage, configure it appropriately, and extract complete datasets with well-defined schemas. We show that both LLMs with search capabilities and SOTA web agents struggle with these tasks, with a recall of 3% and 31%, respectively, despite higher performance on question-answering tasks. To address this challenge, we propose BardeenAgent, a novel framework that enables web agents to convert their execution into repeatable programs, and replay them at scale across pages with similar structure. BardeenAgent is also the first LLM agent to take advantage of the regular structure of HTML. In particular BardeenAgent constructs a generalizable CSS selector to capture all relevant items on the page, then fits the operations to extract the data. On the WebLists benchmark, BardeenAgent achieves 66% recall overall, more than doubling the performance of SOTA web agents, and reducing cost per output row by 3x.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.12682"
+    },
+    "bc64c55c097df561047a31ac93752bf7": {
+        "title": "X-Teaming: Multi-Turn Jailbreaks and Defenses with Adaptive Multi-Agents",
+        "authors": [
+            "Salman Rahman",
+            "Liwei Jiang",
+            "James Shiffer",
+            "Genglin Liu",
+            "Sheriff Issaka",
+            "Md Rizwan Parvez",
+            "Hamid Palangi",
+            "Kai-Wei Chang",
+            "Yejin Choi",
+            "Saadia Gabriel"
+        ],
+        "date": "2025/04/15",
+        "pdf": "http://arxiv.org/pdf/2504.13203",
+        "abstract": "Multi-turn interactions with language models (LMs) pose critical safety risks, as harmful intent can be strategically spread across exchanges. Yet, the vast majority of prior work has focused on single-turn safety, while adaptability and diversity remain among the key challenges of multi-turn red-teaming. To address these challenges, we present X-Teaming, a scalable framework that systematically explores how seemingly harmless interactions escalate into harmful outcomes and generates corresponding attack scenarios. X-Teaming employs collaborative agents for planning, attack optimization, and verification, achieving state-of-the-art multi-turn jailbreak effectiveness and diversity with success rates up to 98.1% across representative leading open-weight and closed-source models. In particular, X-Teaming achieves a 96.2% attack success rate against the latest Claude 3.7 Sonnet model, which has been considered nearly immune to single-turn attacks. Building on X-Teaming, we introduce XGuard-Train, an open-source multi-turn safety training dataset that is 20x larger than the previous best resource, comprising 30K interactive jailbreaks, designed to enable robust multi-turn safety alignment for LMs. Our work offers essential tools and insights for mitigating sophisticated conversational attacks, advancing the multi-turn safety of LMs.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.13203"
+    },
+    "5f2ed4d4715002b02ccf383096b33aae": {
+        "title": "CodeVisionary: An Agent-based Framework for Evaluating Large Language Models in Code Generation",
+        "authors": [
+            "Xinchen Wang",
+            "Pengfei Gao",
+            "Chao Peng",
+            "Ruida Hu",
+            "Cuiyun Gao"
+        ],
+        "date": "2025/04/18",
+        "pdf": "http://arxiv.org/pdf/2504.13472",
+        "abstract": "Large language models (LLMs) have demonstrated strong capabilities in code generation, underscoring the critical need for rigorous and comprehensive evaluation. Existing evaluation approaches fall into three categories, including human-centered, metric-based, and LLM-based. Considering that human-centered approaches are labour-intensive and metric-based ones overly rely on reference answers, LLM-based approaches are gaining increasing attention due to their stronger contextual understanding capabilities and superior efficiency. However, the performance of LLM-based approaches remains limited due to: (1) lack of multisource domain knowledge, and (2) insufficient comprehension of complex code. To mitigate the limitations, we propose CodeVisionary, the first LLM-based agent framework for evaluating LLMs in code generation. CodeVisionary consists of two stages: (1) Multiscore knowledge analysis stage, which aims to gather multisource and comprehensive domain knowledge by formulating and executing a stepwise evaluation plan. (2) Negotiation-based scoring stage, which involves multiple judges engaging in discussions to better comprehend the complex code and reach a consensus on the evaluation score. Extensive experiments demonstrate that CodeVisionary achieves the best performance for evaluating LLMs in code generation, outperforming the best baseline methods with average improvements of 0.202, 0.139, and 0.117 in Pearson, Spearman, and Kendall-Tau coefficients, respectively. Besides, CodeVisionary provides detailed evaluation reports, which assist developers in identifying shortcomings and making improvements. The resources of CodeVisionary are available at https://anonymous.4open.science/r/CodeVisionary.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Software Engineering"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.13472"
+    },
+    "65e942f4423049e5440ba0b97a261ca0": {
+        "title": "3MDBench: Medical Multimodal Multi-agent Dialogue Benchmark",
+        "authors": [
+            "Ivan Sviridov",
+            "Amina Miftakhova",
+            "Artemiy Tereshchenko",
+            "Galina Zubkova",
+            "Pavel Blinov",
+            "Andrey Savchenko"
+        ],
+        "date": "2025/03/26",
+        "pdf": "http://arxiv.org/pdf/2504.13861",
+        "abstract": "Large Vision-Language Models (LVLMs) are increasingly being explored for applications in telemedicine, yet their ability to engage with diverse patient behaviors remains underexplored. We introduce 3MDBench (Medical Multimodal Multi-agent Dialogue Benchmark), an open-source evaluation framework designed to assess LLM-driven medical consultations. Unlike existing benchmarks, 3MDBench simulates real-world patient variability by incorporating four temperament-driven Patient Agents and an Assessor Agent that evaluates diagnostic accuracy and dialogue quality. The benchmark integrates textual and image-based patient data across 34 common diagnoses, mirroring real-world telemedicine interactions. Under different diagnostic strategies, we evaluate state-of-the-art LVLMs. Our findings demonstrate that incorporating dialogue improves the F1 score from 50.4 to 54.2 compared to non-dialogue settings, underscoring the value of context-driven, information-seeking questioning. Additionally, we demonstrate that multimodal inputs enhance diagnostic efficiency. Image-supported models outperform text-only counterparts by raising the diagnostic F1 score from 52.8 to 54.2 in a similar dialogue setting. Finally, we suggest an approach that improves the diagnostic F1-score to 70.3 by training the CNN model on the diagnosis prediction task and incorporating its top-3 predictions into the LVLM context. 3MDBench provides a reproducible and extendable evaluation framework for AI-driven medical assistants. It offers insights into how patient temperament, dialogue strategies, and multimodal reasoning influence diagnosis quality. By addressing real-world complexities in telemedicine, our benchmark paves the way for more empathetic, reliable, and context-aware AI-driven healthcare solutions. The source code of our benchmark is publicly available: https://github.com/univanxx/3mdbench",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ],
+            [
+                "Interaction",
+                "Conversation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.13861"
+    },
+    "90f3dd3bd25715d6fc040f5f256dc3b7": {
+        "title": "A Survey on (M)LLM-Based GUI Agents",
+        "authors": [
+            "Fei Tang",
+            "Haolei Xu",
+            "Hang Zhang",
+            "Siqi Chen",
+            "Xingyu Wu",
+            "Yongliang Shen",
+            "Wenqi Zhang",
+            "Guiyang Hou",
+            "Zeqi Tan",
+            "Yuchen Yan",
+            "Kaitao Song",
+            "Jian Shao",
+            "Weiming Lu",
+            "Jun Xiao",
+            "Yueting Zhuang"
+        ],
+        "date": "2025/03/27",
+        "pdf": "http://arxiv.org/pdf/2504.13865",
+        "abstract": "Graphical User Interface (GUI) Agents have emerged as a transformative paradigm in human-computer interaction, evolving from rule-based automation scripts to sophisticated AI-driven systems capable of understanding and executing complex interface operations. This survey provides a comprehensive examination of the rapidly advancing field of LLM-based GUI Agents, systematically analyzing their architectural foundations, technical components, and evaluation methodologies. We identify and analyze four fundamental components that constitute modern GUI Agents: (1) perception systems that integrate text-based parsing with multimodal understanding for comprehensive interface comprehension; (2) exploration mechanisms that construct and maintain knowledge bases through internal modeling, historical experience, and external information retrieval; (3) planning frameworks that leverage advanced reasoning methodologies for task decomposition and execution; and (4) interaction systems that manage action generation with robust safety controls. Through rigorous analysis of these components, we reveal how recent advances in large language models and multimodal learning have revolutionized GUI automation across desktop, mobile, and web platforms. We critically examine current evaluation frameworks, highlighting methodological limitations in existing benchmarks while proposing directions for standardization. This survey also identifies key technical challenges, including accurate element localization, effective knowledge retrieval, long-horizon planning, and safety-aware execution control, while outlining promising research directions for enhancing GUI Agents&#39; capabilities. Our systematic review provides researchers and practitioners with a thorough understanding of the field&#39;s current state and offers insights into future developments in intelligent interface automation.",
+        "code": "",
+        "category": [
+            [
+                "Survey",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.13865"
+    },
+    "a6ed736863c0aa412804cdb28055e20d": {
+        "title": "System of Agentic AI for the Discovery of Metal-Organic Frameworks",
+        "authors": [
+            "Theo Jaffrelot Inizan",
+            "Sherry Yang",
+            "Aaron Kaplan",
+            "Yen-hsu Lin",
+            "Jian Yin",
+            "Saber Mirzaei",
+            "Mona Abdelgaid",
+            "Ali H. Alawadhi",
+            "KwangHwan Cho",
+            "Zhiling Zheng",
+            "Ekin Dogus Cubuk",
+            "Christian Borgs",
+            "Jennifer T. Chayes",
+            "Kristin A. Persson",
+            "Omar M. Yaghi"
+        ],
+        "date": "2025/04/18",
+        "pdf": "http://arxiv.org/pdf/2504.14110",
+        "abstract": "Generative models and machine learning promise accelerated material discovery in MOFs for CO2 capture and water harvesting but face significant challenges navigating vast chemical spaces while ensuring synthetizability. Here, we present MOFGen, a system of Agentic AI comprising interconnected agents: a large language model that proposes novel MOF compositions, a diffusion model that generates crystal structures, quantum mechanical agents that optimize and filter candidates, and synthetic-feasibility agents guided by expert rules and machine learning. Trained on all experimentally reported MOFs and computational databases, MOFGen generated hundreds of thousands of novel MOF structures and synthesizable organic linkers. Our methodology was validated through high-throughput experiments and the successful synthesis of five &#34;AI-dreamt&#34; MOFs, representing a major step toward automated synthesizable material discovery.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Chemistry"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.14110"
+    },
+    "4d597a4fbf497e77d7cdf4f41b96e065": {
+        "title": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
+        "authors": [
+            "Yuhang Liu",
+            "Pengxiang Li",
+            "Congkai Xie",
+            "Xavier Hu",
+            "Xiaotian Han",
+            "Shengyu Zhang",
+            "Hongxia Yang",
+            "Fei Wu"
+        ],
+        "date": "2025/04/19",
+        "pdf": "http://arxiv.org/pdf/2504.14239",
+        "abstract": "Multimodal Large Language Models (MLLMs) have powered Graphical User Interface (GUI) Agents, showing promise in automating tasks on computing devices. Recent works have begun exploring reasoning in GUI tasks with encouraging results. However, many current approaches rely on manually designed reasoning templates, which may result in reasoning that is not sufficiently robust and adaptive for complex GUI environments. Meanwhile, some existing agents continue to operate as Reactive Actors, relying primarily on implicit reasoning that may lack sufficient depth for GUI tasks demanding planning and error recovery. We argue that advancing these agents requires a shift from reactive acting towards acting based on deliberate reasoning. To facilitate this transformation, we introduce InfiGUI-R1, an MLLM-based GUI agent developed through our Actor2Reasoner framework, a reasoning-centric, two-stage training approach designed to progressively evolve agents from Reactive Actors to Deliberative Reasoners. The first stage, Reasoning Injection, focuses on establishing a basic reasoner. We employ Spatial Reasoning Distillation to transfer cross-modal spatial reasoning capabilities from teacher models to MLLMs through trajectories with explicit reasoning steps, enabling models to integrate GUI visual-spatial information with logical reasoning before action generation. The second stage, Deliberation Enhancement, refines the basic reasoner into a deliberative one using Reinforcement Learning. This stage introduces two approaches: Sub-goal Guidance, which rewards models for generating accurate intermediate sub-goals, and Error Recovery Scenario Construction, which creates failure-and-recovery training scenarios from identified prone-to-error steps. Experimental results show InfiGUI-R1 achieves strong performance in GUI grounding and trajectory tasks. Resources at https://github.com/Reallm-Labs/InfiGUI-R1.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.14239"
+    },
+    "0419e0702a7509a437d567ff228797e5": {
+        "title": "Meta-Thinking in LLMs via Multi-Agent Reinforcement Learning: A Survey",
+        "authors": [
+            "Ahsan Bilal",
+            "Muhammad Ahmed Mohsin",
+            "Muhammad Umer",
+            "Muhammad Awais Khan Bangash",
+            "Muhammad Ali Jamshed"
+        ],
+        "date": "2025/04/20",
+        "pdf": "http://arxiv.org/pdf/2504.14520",
+        "abstract": "This survey explores the development of meta-thinking capabilities in Large Language Models (LLMs) from a Multi-Agent Reinforcement Learning (MARL) perspective. Meta-thinking self-reflection, assessment, and control of thinking processes is an important next step in enhancing LLM reliability, flexibility, and performance, particularly for complex or high-stakes tasks. The survey begins by analyzing current LLM limitations, such as hallucinations and the lack of internal self-assessment mechanisms. It then talks about newer methods, including RL from human feedback (RLHF), self-distillation, and chain-of-thought prompting, and each of their limitations. The crux of the survey is to talk about how multi-agent architectures, namely supervisor-agent hierarchies, agent debates, and theory of mind frameworks, can emulate human-like introspective behavior and enhance LLM robustness. By exploring reward mechanisms, self-play, and continuous learning methods in MARL, this survey gives a comprehensive roadmap to building introspective, adaptive, and trustworthy LLMs. Evaluation metrics, datasets, and future research avenues, including neuroscience-inspired architectures and hybrid symbolic reasoning, are also discussed.",
+        "code": "",
+        "category": [
+            [
+                "Survey",
+                null
+            ],
+            [
+                "Training",
+                "RL"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.14520"
+    },
+    "78a5ce217186995eab8defe503191315": {
+        "title": "PLANET: A Collection of Benchmarks for Evaluating LLMs&#39; Planning Capabilities",
+        "authors": [
+            "Haoming Li",
+            "Zhaoliang Chen",
+            "Jonathan Zhang",
+            "Fei Liu"
+        ],
+        "date": "2025/04/21",
+        "pdf": "http://arxiv.org/pdf/2504.14773",
+        "abstract": "Planning is central to agents and agentic AI. The ability to plan, e.g., creating travel itineraries within a budget, holds immense potential in both scientific and commercial contexts. Moreover, optimal plans tend to require fewer resources compared to ad-hoc methods. To date, a comprehensive understanding of existing planning benchmarks appears to be lacking. Without it, comparing planning algorithms&#39; performance across domains or selecting suitable algorithms for new scenarios remains challenging. In this paper, we examine a range of planning benchmarks to identify commonly used testbeds for algorithm development and highlight potential gaps. These benchmarks are categorized into embodied environments, web navigation, scheduling, games and puzzles, and everyday task automation. Our study recommends the most appropriate benchmarks for various algorithms and offers insights to guide future benchmark development.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.14773"
+    },
+    "88e1823c2cf70a5006d97185bcf9eec0": {
+        "title": "Completing A Systematic Review in Hours instead of Months with Interactive AI Agents",
+        "authors": [
+            "Rui Qiu",
+            "Shijie Chen",
+            "Yu Su",
+            "Po-Yin Yen",
+            "Han-Wei Shen"
+        ],
+        "date": "2025/04/21",
+        "pdf": "http://arxiv.org/pdf/2504.14822",
+        "abstract": "Systematic reviews (SRs) are vital for evidence-based practice in high stakes disciplines, such as healthcare, but are often impeded by intensive labors and lengthy processes that can take months to complete. Due to the high demand for domain expertise, existing automatic summarization methods fail to accurately identify relevant studies and generate high-quality summaries. To that end, we introduce InsightAgent, a human-centered interactive AI agent powered by large language models that revolutionize this workflow. InsightAgent partitions a large literature corpus based on semantics and employs a multi-agent design for more focused processing of literature, leading to significant improvement in the quality of generated SRs. InsightAgent also provides intuitive visualizations of the corpus and agent trajectories, allowing users to effortlessly monitor the actions of the agent and provide real-time feedback based on their expertise. Our user studies with 9 medical professionals demonstrate that the visualization and interaction mechanisms can effectively improve the quality of synthesized SRs by 27.2%, reaching 79.7% of human-written quality. At the same time, user satisfaction is improved by 34.4%. With InsightAgent, it only takes a clinician about 1.5 hours, rather than months, to complete a high-quality systematic review.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Research"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.14822"
+    },
+    "74f1ff3dbc67c636d9e2b760dd8825fa": {
+        "title": "EducationQ: Evaluating LLMs&#39; Teaching Capabilities Through Multi-Agent Dialogue Framework",
+        "authors": [
+            "Yao Shi",
+            "Rongkeng Liang",
+            "Yong Xu"
+        ],
+        "date": "2025/04/21",
+        "pdf": "http://arxiv.org/pdf/2504.14928",
+        "abstract": "Large language models (LLMs) increasingly serve as educational tools, yet evaluating their teaching capabilities remains challenging due to the resource-intensive, context-dependent, and methodologically complex nature of teacher-student interactions. We introduce EducationQ, a multi-agent dialogue framework that efficiently assesses teaching capabilities through simulated dynamic educational scenarios, featuring specialized agents for teaching, learning, and evaluation. Testing 14 LLMs across major AI Organizations (OpenAI, Meta, Google, Anthropic, and others) on 1,498 questions spanning 13 disciplines and 10 difficulty levels reveals that teaching effectiveness does not correlate linearly with model scale or general reasoning capabilities - with some smaller open-source models outperforming larger commercial counterparts in teaching contexts. This finding highlights a critical gap in current evaluations that prioritize knowledge recall over interactive pedagogy. Our mixed-methods evaluation, combining quantitative metrics with qualitative analysis and expert case studies, identifies distinct pedagogical strengths employed by top-performing models (e.g., sophisticated questioning strategies, adaptive feedback mechanisms). Human expert evaluations show 78% agreement with our automated qualitative analysis of effective teaching behaviors, validating our methodology. EducationQ demonstrates that LLMs-as-teachers require specialized optimization beyond simple scaling, suggesting next-generation educational AI prioritize targeted enhancement of specific pedagogical effectiveness.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Conversation"
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.14928"
+    },
+    "81c137c15c7a21b7522b862ced6da4ce": {
+        "title": "TextArena",
+        "authors": [
+            "Leon Guertler",
+            "Bobby Cheng",
+            "Simon Yu",
+            "Bo Liu",
+            "Leshem Choshen",
+            "Cheston Tan"
+        ],
+        "date": "2025/04/15",
+        "pdf": "http://arxiv.org/pdf/2504.11442",
+        "abstract": "TextArena is an open-source collection of competitive text-based games for training and evaluation of agentic behavior in Large Language Models (LLMs). It spans 57+ unique environments (including single-player, two-player, and multi-player setups) and allows for easy evaluation of model capabilities via an online-play system (against humans and other submitted models) with real-time TrueSkill scores. Traditional benchmarks rarely assess dynamic social skills such as negotiation, theory of mind, and deception, creating a gap that TextArena addresses. Designed with research, community and extensibility in mind, TextArena emphasizes ease of adding new games, adapting the framework, testing models, playing against the models, and training models. Detailed documentation of environments, games, leaderboard, and examples are available on https://github.com/LeonGuertler/TextArena and https://www.textarena.ai/.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Environment&Platform"
+            ],
+            [
+                "Interaction",
+                "Game Playing"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.11442"
+    },
+    "a450e72fad06fbe38b9c400957db5f83": {
+        "title": "Enhancing Web Agents with Explicit Rollback Mechanisms",
+        "authors": [
+            "Zhisong Zhang",
+            "Tianqing Fang",
+            "Kaixin Ma",
+            "Wenhao Yu",
+            "Hongming Zhang",
+            "Haitao Mi",
+            "Dong Yu"
+        ],
+        "date": "2025/04/16",
+        "pdf": "http://arxiv.org/pdf/2504.11788",
+        "abstract": "With recent advancements in large language models, web agents have been greatly improved. However, dealing with complex and dynamic web environments requires more advanced planning and search abilities. Previous studies usually adopt a greedy one-way search strategy, which may struggle to recover from erroneous states. In this work, we enhance web agents with an explicit rollback mechanism, enabling the agent to revert back to a previous state in its navigation trajectory. This mechanism gives the model the flexibility to directly control the search process, leading to an effective and efficient web navigation method. We conduct experiments on two live web navigation benchmarks with zero-shot and fine-tuning settings. The results demonstrate the effectiveness of our proposed approach.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.11788"
+    },
+    "0fed4c3c952260463070d645f81afc44": {
+        "title": "HM-RAG: Hierarchical Multi-Agent Multimodal Retrieval Augmented Generation",
+        "authors": [
+            "Pei Liu",
+            "Xin Liu",
+            "Ruoyu Yao",
+            "Junming Liu",
+            "Siyuan Meng",
+            "Ding Wang",
+            "Jun Ma"
+        ],
+        "date": "2025/04/13",
+        "pdf": "http://arxiv.org/pdf/2504.12330",
+        "abstract": "While Retrieval-Augmented Generation (RAG) augments Large Language Models (LLMs) with external knowledge, conventional single-agent RAG remains fundamentally limited in resolving complex queries demanding coordinated reasoning across heterogeneous data ecosystems. We present HM-RAG, a novel Hierarchical Multi-agent Multimodal RAG framework that pioneers collaborative intelligence for dynamic knowledge synthesis across structured, unstructured, and graph-based data. The framework is composed of three-tiered architecture with specialized agents: a Decomposition Agent that dissects complex queries into contextually coherent sub-tasks via semantic-aware query rewriting and schema-guided context augmentation; Multi-source Retrieval Agents that carry out parallel, modality-specific retrieval using plug-and-play modules designed for vector, graph, and web-based databases; and a Decision Agent that uses consistency voting to integrate multi-source answers and resolve discrepancies in retrieval results through Expert Model Refinement. This architecture attains comprehensive query understanding by combining textual, graph-relational, and web-derived evidence, resulting in a remarkable 12.95% improvement in answer accuracy and a 3.56% boost in question classification accuracy over baseline RAG systems on the ScienceQA and CrisisMMD benchmarks. Notably, HM-RAG establishes state-of-the-art results in zero-shot settings on both datasets. Its modular architecture ensures seamless integration of new data modalities while maintaining strict data governance, marking a significant advancement in addressing the critical challenges of multimodal reasoning and knowledge synthesis in RAG systems. Code is available at https://github.com/ocean-luna/HMRAG.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.12330"
+    },
+    "8e00fae527a67bdbc7cbdf117abe6a7f": {
+        "title": "Guiding VLM Agents with Process Rewards at Inference Time for GUI Navigation",
+        "authors": [
+            "Zhiyuan Hu",
+            "Shiyun Xiong",
+            "Yifan Zhang",
+            "See-Kiong Ng",
+            "Anh Tuan Luu",
+            "Bo An",
+            "Shuicheng Yan",
+            "Bryan Hooi"
+        ],
+        "date": "2025/04/22",
+        "pdf": "http://arxiv.org/pdf/2504.16073",
+        "abstract": "Recent advancements in visual language models (VLMs) have notably enhanced their capabilities in handling complex Graphical User Interface (GUI) interaction tasks. Despite these improvements, current frameworks often struggle to generate correct actions in challenging GUI environments. State-of-the-art commercial VLMs are black-boxes, and fine-tuning open-source VLMs for GUI tasks requires significant resources. Additionally, existing trajectory-level evaluation and refinement techniques frequently fall short due to delayed feedback and local optimization issues. To address these challenges, we propose an approach that guides VLM agents with process supervision by a reward model during GUI navigation and control at inference time. This guidance allows the VLM agent to optimize actions at each inference step, thereby improving performance in both static and dynamic environments. In particular, our method demonstrates significant performance gains in three GUI navigation tasks, achieving a 3.4% improvement in single step action accuracy for static environments, along with a around 33% increase in task success rate in one dynamic environment. With further integration of trajectory reflection and retry mechanisms, we also demonstrate even greater enhancement in task success.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.16073"
+    },
+    "016ce932b472f51d913796f228fde87e": {
+        "title": "Less is More: Enhancing Structured Multi-Agent Reasoning via Quality-Guided Distillation",
+        "authors": [
+            "Jiahao Yuan",
+            "Xingzhe Sun",
+            "Xing Yu",
+            "Jingwen Wang",
+            "Dehui Du",
+            "Zhiqing Cui",
+            "Zixiang Di"
+        ],
+        "date": "2025/04/23",
+        "pdf": "http://arxiv.org/pdf/2504.16408",
+        "abstract": "The XLLM@ACL2025 Shared Task-III formulates a low-resource structural reasoning task that challenges LLMs to generate interpretable, step-by-step rationales with minimal labeled data. We present Less is More, the third-place winning approach in the XLLM@ACL2025 Shared Task-III, which focuses on structured reasoning from only 24 labeled examples. Our approach leverages a multi-agent framework with reverse-prompt induction, retrieval-augmented reasoning synthesis via GPT-4o, and dual-stage reward-guided filtering to distill high-quality supervision across three subtasks: question parsing, CoT parsing, and step-level verification. All modules are fine-tuned from Meta-Llama-3-8B-Instruct under a unified LoRA+ setup. By combining structure validation with reward filtering across few-shot and zero-shot prompts, our pipeline consistently improves structure reasoning quality. These results underscore the value of controllable data distillation in enhancing structured inference under low-resource constraints. Our code is available at https://github.com/Jiahao-Yuan/Less-is-More.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.16408"
+    },
+    "9af9ec59bf78701bb1c7a92216c994d6": {
+        "title": "Monte Carlo Planning with Large Language Model for Text-Based Game Agents",
+        "authors": [
+            "Zijing Shi",
+            "Meng Fang",
+            "Ling Chen"
+        ],
+        "date": "2025/04/23",
+        "pdf": "http://arxiv.org/pdf/2504.16855",
+        "abstract": "Text-based games provide valuable environments for language-based autonomous agents. However, planning-then-learning paradigms, such as those combining Monte Carlo Tree Search (MCTS) and reinforcement learning (RL), are notably time-consuming due to extensive iterations. Additionally, these algorithms perform uncertainty-driven exploration but lack language understanding and reasoning abilities. In this paper, we introduce the Monte Carlo planning with Dynamic Memory-guided Large language model (MC-DML) algorithm. MC-DML leverages the language understanding and reasoning capabilities of Large Language Models (LLMs) alongside the exploratory advantages of tree search algorithms. Specifically, we enhance LLMs with in-trial and cross-trial memory mechanisms, enabling them to learn from past experiences and dynamically adjust action evaluations during planning. We conduct experiments on a series of text-based games from the Jericho benchmark. Our results demonstrate that the MC-DML algorithm significantly enhances performance across various games at the initial planning phase, outperforming strong contemporary methods that require multiple iterations. This demonstrates the effectiveness of our algorithm, paving the way for more efficient language-grounded planning in complex environments.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Game Playing"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.16855"
+    },
+    "63a227eb2f33025f363ffecf0f4c5e72": {
+        "title": "OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents",
+        "authors": [
+            "Raghav Thind",
+            "Youran Sun",
+            "Ling Liang",
+            "Haizhao Yang"
+        ],
+        "date": "2025/04/23",
+        "pdf": "http://arxiv.org/pdf/2504.16918",
+        "abstract": "Optimization plays a vital role in scientific research and practical applications, but formulating a concrete optimization problem described in natural language into a mathematical form and selecting a suitable solver to solve the problem requires substantial domain expertise. We introduce \\textbf{OptimAI}, a framework for solving \\underline{Optim}ization problems described in natural language by leveraging LLM-powered \\underline{AI} agents, achieving superior performance over current state-of-the-art methods. Our framework is built upon four key roles: (1) a \\emph{formulator} that translates natural language problem descriptions into precise mathematical formulations; (2) a \\emph{planner} that constructs a high-level solution strategy prior to execution; and (3) a \\emph{coder} and a \\emph{code critic} capable of interacting with the environment and reflecting on outcomes to refine future actions. Ablation studies confirm that all roles are essential; removing the planner or code critic results in $5.8\\times$ and $3.1\\times$ drops in productivity, respectively. Furthermore, we introduce UCB-based debug scheduling to dynamically switch between alternative plans, yielding an additional $3.3\\times$ productivity gain. Our design emphasizes multi-agent collaboration, allowing us to conveniently explore the synergistic effect of combining diverse models within a unified system. Our approach attains 88.1\\% accuracy on the NLP4LP dataset and 71.2\\% on the Optibench (non-linear w/o table) subset, reducing error rates by 58\\% and 50\\% respectively over prior best results.",
+        "code": "",
+        "category": [
+            [
+                "Others",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.16918"
+    },
+    "3705d5ebaa6ae685ef47e12ab3a61ff5": {
+        "title": "A RAG-Based Multi-Agent LLM System for Natural Hazard Resilience and Adaptation",
+        "authors": [
+            "Yangxinyu Xie",
+            "Bowen Jiang",
+            "Tanwi Mallick",
+            "Joshua David Bergerson",
+            "John K. Hutchison",
+            "Duane R. Verner",
+            "Jordan Branham",
+            "M. Ross Alexander",
+            "Robert B. Ross",
+            "Yan Feng",
+            "Leslie-Anne Levy",
+            "Weijie Su",
+            "Camillo J. Taylor"
+        ],
+        "date": "2025/04/24",
+        "pdf": "http://arxiv.org/pdf/2504.17200",
+        "abstract": "Large language models (LLMs) are a transformational capability at the frontier of artificial intelligence and machine learning that can support decision-makers in addressing pressing societal challenges such as extreme natural hazard events. As generalized models, LLMs often struggle to provide context-specific information, particularly in areas requiring specialized knowledge. In this work we propose a retrieval-augmented generation (RAG)-based multi-agent LLM system to support analysis and decision-making in the context of natural hazards and extreme weather events. As a proof of concept, we present WildfireGPT, a specialized system focused on wildfire hazards. The architecture employs a user-centered, multi-agent design to deliver tailored risk insights across diverse stakeholder groups. By integrating natural hazard and extreme weather projection data, observational datasets, and scientific literature through an RAG framework, the system ensures both the accuracy and contextual relevance of the information it provides. Evaluation across ten expert-led case studies demonstrates that WildfireGPT significantly outperforms existing LLM-based solutions for decision support.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.17200"
+    },
+    "63f6ac566e172de14415ddc193116101": {
+        "title": "Exploring Personality-Aware Interactions in Salesperson Dialogue Agents",
+        "authors": [
+            "Sijia Cheng",
+            "Wen-Yu Chang",
+            "Yun-Nung Chen"
+        ],
+        "date": "2025/04/25",
+        "pdf": "http://arxiv.org/pdf/2504.18058",
+        "abstract": "The integration of dialogue agents into the sales domain requires a deep understanding of how these systems interact with users possessing diverse personas. This study explores the influence of user personas, defined using the Myers-Briggs Type Indicator (MBTI), on the interaction quality and performance of sales-oriented dialogue agents. Through large-scale testing and analysis, we assess the pre-trained agent&#39;s effectiveness, adaptability, and personalization capabilities across a wide range of MBTI-defined user types. Our findings reveal significant patterns in interaction dynamics, task completion rates, and dialogue naturalness, underscoring the future potential for dialogue agents to refine their strategies to better align with varying personality traits. This work not only provides actionable insights for building more adaptive and user-centric conversational systems in the sales domain but also contributes broadly to the field by releasing persona-defined user simulators. These simulators, unconstrained by domain, offer valuable tools for future research and demonstrate the potential for scaling personalized dialogue systems across diverse applications.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Role Playing"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.18058"
+    },
+    "583fb871d3127858377fb2e3b8ba9e10": {
+        "title": "MAGI: Multi-Agent Guided Interview for Psychiatric Assessment",
+        "authors": [
+            "Guanqun Bi",
+            "Zhuang Chen",
+            "Zhoufu Liu",
+            "Hongkai Wang",
+            "Xiyao Xiao",
+            "Yuqiang Xie",
+            "Wen Zhang",
+            "Yongkang Huang",
+            "Yuxuan Chen",
+            "Libiao Peng",
+            "Yi Feng",
+            "Minlie Huang"
+        ],
+        "date": "2025/04/25",
+        "pdf": "http://arxiv.org/pdf/2504.18260",
+        "abstract": "Automating structured clinical interviews could revolutionize mental healthcare accessibility, yet existing large language models (LLMs) approaches fail to align with psychiatric diagnostic protocols. We present MAGI, the first framework that transforms the gold-standard Mini International Neuropsychiatric Interview (MINI) into automatic computational workflows through coordinated multi-agent collaboration. MAGI dynamically navigates clinical logic via four specialized agents: 1) an interview tree guided navigation agent adhering to the MINI&#39;s branching structure, 2) an adaptive question agent blending diagnostic probing, explaining, and empathy, 3) a judgment agent validating whether the response from participants meet the node, and 4) a diagnosis Agent generating Psychometric Chain-of- Thought (PsyCoT) traces that explicitly map symptoms to clinical criteria. Experimental results on 1,002 real-world participants covering depression, generalized anxiety, social anxiety and suicide shows that MAGI advances LLM- assisted mental health assessment by combining clinical rigor, conversational adaptability, and explainable reasoning.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.18260"
+    },
+    "c58aa398cf2f88e27603d797c3430ee6": {
+        "title": "Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant",
+        "authors": [
+            "Lei Shen",
+            "Xiaoyu Shen"
+        ],
+        "date": "2025/04/25",
+        "pdf": "http://arxiv.org/pdf/2504.18373",
+        "abstract": "In recent years, multi-agent frameworks powered by large language models (LLMs) have advanced rapidly. Despite this progress, there is still a notable absence of benchmark datasets specifically tailored to evaluate their performance. To bridge this gap, we introduce Auto-SLURP, a benchmark dataset aimed at evaluating LLM-based multi-agent frameworks in the context of intelligent personal assistants. Auto-SLURP extends the original SLURP dataset -- initially developed for natural language understanding tasks -- by relabeling the data and integrating simulated servers and external services. This enhancement enables a comprehensive end-to-end evaluation pipeline, covering language understanding, task execution, and response generation. Our experiments demonstrate that Auto-SLURP presents a significant challenge for current state-of-the-art frameworks, highlighting that truly reliable and intelligent multi-agent personal assistants remain a work in progress. The dataset and related code are available at https://github.com/lorashen/Auto-SLURP/.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.18373"
+    },
+    "be86094e23f648c96b479e37e8b0851c": {
+        "title": "Stealing Creator&#39;s Workflow: A Creator-Inspired Agentic Framework with Iterative Feedback Loop for Improved Scientific Short-form Generation",
+        "authors": [
+            "Jong Inn Park",
+            "Maanas Taneja",
+            "Qianwen Wang",
+            "Dongyeop Kang"
+        ],
+        "date": "2025/04/26",
+        "pdf": "http://arxiv.org/pdf/2504.18805",
+        "abstract": "Generating engaging, accurate short-form videos from scientific papers is challenging due to content complexity and the gap between expert authors and readers. Existing end-to-end methods often suffer from factual inaccuracies and visual artifacts, limiting their utility for scientific dissemination. To address these issues, we propose SciTalk, a novel multi-LLM agentic framework, grounding videos in various sources, such as text, figures, visual styles, and avatars. Inspired by content creators&#39; workflows, SciTalk uses specialized agents for content summarization, visual scene planning, and text and layout editing, and incorporates an iterative feedback mechanism where video agents simulate user roles to give feedback on generated videos from previous iterations and refine generation prompts. Experimental evaluations show that SciTalk outperforms simple prompting methods in generating scientifically accurate and engaging content over the refined loop of video generation. Although preliminary results are still not yet matching human creators&#39; quality, our framework provides valuable insights into the challenges and benefits of feedback-driven video generation. Our code, data, and generated videos will be publicly available.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Feedback&Reflection"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.18805"
+    },
+    "5e896770ead42a91807a8c201991bd84": {
+        "title": "AndroidGen: Building an Android Language Agent under Data Scarcity",
+        "authors": [
+            "Hanyu Lai",
+            "Junjie Gao",
+            "Xiao Liu",
+            "Yifan Xu",
+            "Shudan Zhang",
+            "Yuxiao Dong",
+            "Jie Tang"
+        ],
+        "date": "2025/04/27",
+        "pdf": "http://arxiv.org/pdf/2504.19298",
+        "abstract": "Large language models have opened up a world of possibilities for various NLP tasks, sparking optimism for the future. Despite their potential, LLMs have yet to be widely used as agents on real mobile devices. The main challenge is the need for high-quality data sources. Time constraints and labor intensity often hinder human annotation. On the other hand, existing LLMs exhibit inadequate completion rates and need a robust data filtration strategy. Given these challenges, we develop a framework called AndroidGen to enhance the capabilities of LLM-based agents under data scarcity. In addition, we leverage AndroidGen to collect trajectories given human tasks and train open-source LLMs on these trajectories to develop an open-source mobile agent without manually labeled trajectories. We extensively evaluate AndroidGen with AndroidWorld, AitW, and various popular applications, demonstrating its improvements and revealing potential areas for future improvement. Code, model, and data are available at https://github.com/THUDM/AndroidGen.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.19298"
+    },
+    "79048dc11a1cb71839bfab33ae69c9fe": {
+        "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+        "authors": [
+            "Prateek Chhikara",
+            "Dev Khant",
+            "Saket Aryan",
+            "Taranjeet Singh",
+            "Deshraj Yadav"
+        ],
+        "date": "2025/04/28",
+        "pdf": "http://arxiv.org/pdf/2504.19413",
+        "abstract": "Large Language Models (LLMs) have demonstrated remarkable prowess in generating contextually coherent responses, yet their fixed context windows pose fundamental challenges for maintaining consistency over prolonged multi-session dialogues. We introduce Mem0, a scalable memory-centric architecture that addresses this issue by dynamically extracting, consolidating, and retrieving salient information from ongoing conversations. Building on this foundation, we further propose an enhanced variant that leverages graph-based memory representations to capture complex relational structures among conversational elements. Through comprehensive evaluations on LOCOMO benchmark, we systematically compare our approaches against six baseline categories: (i) established memory-augmented systems, (ii) retrieval-augmented generation (RAG) with varying chunk sizes and k-values, (iii) a full-context approach that processes the entire conversation history, (iv) an open-source memory solution, (v) a proprietary model system, and (vi) a dedicated memory management platform. Empirical results show that our methods consistently outperform all existing memory systems across four question categories: single-hop, temporal, multi-hop, and open-domain. Notably, Mem0 achieves 26% relative improvements in the LLM-as-a-Judge metric over OpenAI, while Mem0 with graph memory achieves around 2% higher overall score than the base configuration. Beyond accuracy gains, we also markedly reduce computational overhead compared to full-context method. In particular, Mem0 attains a 91% lower p95 latency and saves more than 90% token cost, offering a compelling balance between advanced reasoning capabilities and practical deployment constraints. Our findings highlight critical role of structured, persistent memory mechanisms for long-term conversational coherence, paving the way for more reliable and efficient LLM-driven AI agents.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Memory Mechanism"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.19413"
+    },
+    "c06dfe4a2c4d6fc07712608d187a87e6": {
+        "title": "m-KAILIN: Knowledge-Driven Agentic Scientific Corpus Distillation Framework for Biomedical Large Language Models Training",
+        "authors": [
+            "Meng Xiao",
+            "Xunxin Cai",
+            "Chengrui Wang",
+            "Yuanchun Zhou"
+        ],
+        "date": "2025/04/28",
+        "pdf": "http://arxiv.org/pdf/2504.19565",
+        "abstract": "The rapid progress of large language models (LLMs) in biomedical research has underscored the limitations of existing open-source annotated scientific corpora, which are often insufficient in quantity and quality. Addressing the challenge posed by the complex hierarchy of biomedical knowledge, we propose a knowledge-driven, multi-agent framework for scientific corpus distillation tailored for LLM training in the biomedical domain. Central to our approach is a collaborative multi-agent architecture, where specialized agents, each guided by the Medical Subject Headings (MeSH) hierarchy, work in concert to autonomously extract, synthesize, and self-evaluate high-quality textual data from vast scientific literature. These agents collectively generate and refine domain-specific question-answer pairs, ensuring comprehensive coverage and consistency with biomedical ontologies while minimizing manual involvement. Extensive experimental results show that language models trained on our multi-agent distilled datasets achieve notable improvements in biomedical question-answering tasks, outperforming both strong life sciences LLM baselines and advanced proprietary models. Notably, our AI-Ready dataset enables Llama3-70B to surpass GPT-4 with MedPrompt and Med-PaLM-2, despite their larger scale. Detailed ablation studies and case analyses further validate the effectiveness and synergy of each agent within the framework, highlighting the potential of multi-agent collaboration in biomedical LLM training.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Biology"
+            ],
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.19565"
+    },
+    "e0831da57aae9b36ad8c7e25934803d8": {
+        "title": "Assessing the Potential of Generative Agents in Crowdsourced Fact-Checking",
+        "authors": [
+            "Luigia Costabile",
+            "Gian Marco Orlando",
+            "Valerio La Gatta",
+            "Vincenzo Moscato"
+        ],
+        "date": "2025/04/24",
+        "pdf": "http://arxiv.org/pdf/2504.19940",
+        "abstract": "The growing spread of online misinformation has created an urgent need for scalable, reliable fact-checking solutions. Crowdsourced fact-checking - where non-experts evaluate claim veracity - offers a cost-effective alternative to expert verification, despite concerns about variability in quality and bias. Encouraged by promising results in certain contexts, major platforms such as X (formerly Twitter), Facebook, and Instagram have begun shifting from centralized moderation to decentralized, crowd-based approaches. In parallel, advances in Large Language Models (LLMs) have shown strong performance across core fact-checking tasks, including claim detection and evidence evaluation. However, their potential role in crowdsourced workflows remains unexplored. This paper investigates whether LLM-powered generative agents - autonomous entities that emulate human behavior and decision-making - can meaningfully contribute to fact-checking tasks traditionally reserved for human crowds. Using the protocol of La Barbera et al. (2024), we simulate crowds of generative agents with diverse demographic and ideological profiles. Agents retrieve evidence, assess claims along multiple quality dimensions, and issue final veracity judgments. Our results show that agent crowds outperform human crowds in truthfulness classification, exhibit higher internal consistency, and show reduced susceptibility to social and cognitive biases. Compared to humans, agents rely more systematically on informative criteria such as Accuracy, Precision, and Informativeness, suggesting a more structured decision-making process. Overall, our findings highlight the potential of generative agents as scalable, consistent, and less biased contributors to crowd-based fact-checking systems.",
+        "code": "",
+        "category": [
+            [
+                "Stability",
+                "Safety"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.19940"
+    },
+    "20cb08221d76d17458c388249b919883": {
+        "title": "MICE for CATs: Model-Internal Confidence Estimation for Calibrating Agents with Tools",
+        "authors": [
+            "Nishant Subramani",
+            "Jason Eisner",
+            "Justin Svegliato",
+            "Benjamin Van Durme",
+            "Yu Su",
+            "Sam Thomson"
+        ],
+        "date": "2025/04/28",
+        "pdf": "http://arxiv.org/pdf/2504.20168",
+        "abstract": "Tool-using agents that act in the world need to be both useful and safe. Well-calibrated model confidences can be used to weigh the risk versus reward of potential actions, but prior work shows that many models are poorly calibrated. Inspired by interpretability literature exploring the internals of models, we propose a novel class of model-internal confidence estimators (MICE) to better assess confidence when calling tools. MICE first decodes from each intermediate layer of the language model using logitLens and then computes similarity scores between each layer&#39;s generation and the final output. These features are fed into a learned probabilistic classifier to assess confidence in the decoded output. On the simulated trial and error (STE) tool-calling dataset using Llama3 models, we find that MICE beats or matches the baselines on smoothed expected calibration error. Using MICE confidences to determine whether to call a tool significantly improves over strong baselines on a new metric, expected tool-calling utility. Further experiments show that MICE is sample-efficient, can generalize zero-shot to unseen APIs, and results in higher tool-calling utility in scenarios with varying risk levels. Our code is open source, available at https://github.com/microsoft/mice_for_cats.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.20168"
+    },
+    "07c0be96eca60360f9c45d0dc47eec1d": {
+        "title": "BrAIcht, a theatrical agent that speaks like Bertolt Brecht&#39;s characters",
+        "authors": [
+            "Baz Roland",
+            "Kristina Malyseva",
+            "Anna Pappa",
+            "Tristan Cazenave"
+        ],
+        "date": "2025/04/29",
+        "pdf": "http://arxiv.org/pdf/2504.20552",
+        "abstract": "This project introduces BrAIcht, an AI conversational agent that creates dialogues in the distinctive style of the famous German playwright Bertolt Brecht. BrAIcht is fine-tuned using German LeoLM, a large language model with 7 billion parameters and a modified version of the base Llama2 suitable for German language tasks. For fine-tuning, 29 plays of Bertolt Brecht and 907 of other German plays that are stylistically similar to Bertolt Brecht are used to form a more di-erse dataset. Due to the limited memory capacity, a parameterefficient fine-tuning technique called QLoRA is implemented to train the large language model. The results, based on BLEU score and perplexity, show very promising performance of BrAIcht in generating dialogues in the style of Bertolt Brecht.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Role Playing"
+            ],
+            [
+                "Interaction",
+                "Conversation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.20552"
+    },
+    "819dc150c611aa47a22ccc884a8aa029": {
+        "title": "WebEvolver: Enhancing Web Agent Self-Improvement with Coevolving World Model",
+        "authors": [
+            "Tianqing Fang",
+            "Hongming Zhang",
+            "Zhisong Zhang",
+            "Kaixin Ma",
+            "Wenhao Yu",
+            "Haitao Mi",
+            "Dong Yu"
+        ],
+        "date": "2025/04/23",
+        "pdf": "http://arxiv.org/pdf/2504.21024",
+        "abstract": "Agent self-improvement, where the backbone Large Language Model (LLM) of the agent are trained on trajectories sampled autonomously based on their own policies, has emerged as a promising approach for enhancing performance. Recent advancements, particularly in web environments, face a critical limitation: their performance will reach a stagnation point during autonomous learning cycles, hindering further improvement. We argue that this stems from limited exploration of the web environment and insufficient exploitation of pre-trained web knowledge in LLMs. To improve the performance of self-improvement, we propose a novel framework that introduces a co-evolving World Model LLM. This world model predicts the next observation based on the current observation and action within the web environment. Leveraging LLMs&#39; pretrained knowledge of abundant web content, the World Model serves dual roles: (1) as a virtual web server generating self-instructed training data to continuously refine the agent&#39;s policy, and (2) as an imagination engine during inference, enabling look-ahead simulation to guide action selection for the agent LLM. Experiments in real-world web environments (Mind2Web-Live, WebVoyager, and GAIA-web) show a 10% performance gain over existing self-evolving agents, demonstrating the efficacy and generalizability of our approach, without using any distillation from more powerful close-sourced models. Our work establishes the necessity of integrating world models into autonomous agent frameworks to unlock sustained adaptability.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.21024"
+    },
+    "1efa7643e0746e7574ee210f8847b779": {
+        "title": "Talk Before You Retrieve: Agent-Led Discussions for Better RAG in Medical QA",
+        "authors": [
+            "Xuanzhao Dong",
+            "Wenhui Zhu",
+            "Hao Wang",
+            "Xiwen Chen",
+            "Peijie Qiu",
+            "Rui Yin",
+            "Yi Su",
+            "Yalin Wang"
+        ],
+        "date": "2025/04/30",
+        "pdf": "http://arxiv.org/pdf/2504.21252",
+        "abstract": "Medical question answering (QA) is a reasoning-intensive task that remains challenging for large language models (LLMs) due to hallucinations and outdated domain knowledge. Retrieval-Augmented Generation (RAG) provides a promising post-training solution by leveraging external knowledge. However, existing medical RAG systems suffer from two key limitations: (1) a lack of modeling for human-like reasoning behaviors during information retrieval, and (2) reliance on suboptimal medical corpora, which often results in the retrieval of irrelevant or noisy snippets. To overcome these challenges, we propose Discuss-RAG, a plug-and-play module designed to enhance the medical QA RAG system through collaborative agent-based reasoning. Our method introduces a summarizer agent that orchestrates a team of medical experts to emulate multi-turn brainstorming, thereby improving the relevance of retrieved content. Additionally, a decision-making agent evaluates the retrieved snippets before their final integration. Experimental results on four benchmark medical QA datasets show that Discuss-RAG consistently outperforms MedRAG, especially significantly improving answer accuracy by up to 16.67% on BioASQ and 12.20% on PubMedQA. The code is available at: https://github.com/LLM-VLM-GSL/Discuss-RAG.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ],
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.21252"
+    },
+    "ac00884693e04cf3fe78260fab71c204": {
+        "title": "A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment",
+        "authors": [
+            "Kun Wang",
+            "Guibin Zhang",
+            "Zhenhong Zhou",
+            "Jiahao Wu",
+            "Miao Yu",
+            "Shiqian Zhao",
+            "Chenlong Yin",
+            "Jinhu Fu",
+            "Yibo Yan",
+            "Hanjun Luo",
+            "Liang Lin",
+            "Zhihao Xu",
+            "Haolang Lu",
+            "Xinye Cao",
+            "Xinyun Zhou",
+            "Weifei Jin",
+            "Fanci Meng",
+            "Junyuan Mao",
+            "Hao Wu",
+            "Minghe Wang",
+            "Fan Zhang",
+            "Junfeng Fang",
+            "Chengwei Liu",
+            "Yifan Zhang",
+            "Qiankun Li",
+            "Chongye Guo",
+            "Yalan Qin",
+            "Yi Ding",
+            "Donghai Hong",
+            "Jiaming Ji",
+            "Xinfeng Li",
+            "Yifan Jiang",
+            "Dongxia Wang",
+            "Yihao Huang",
+            "Yufei Guo",
+            "Jen-tse Huang",
+            "Yanwei Yue",
+            "Wenke Huang",
+            "Guancheng Wan",
+            "Tianlin Li",
+            "Lei Bai",
+            "Jie Zhang",
+            "Qing Guo",
+            "Jingyi Wang",
+            "Tianlong Chen",
+            "Joey Tianyi Zhou",
+            "Xiaojun Jia",
+            "Weisong Sun",
+            "Cong Wu",
+            "Jing Chen",
+            "Xuming Hu",
+            "Yiming Li",
+            "Xiao Wang",
+            "Ningyu Zhang",
+            "Luu Anh Tuan",
+            "Guowen Xu",
+            "Tianwei Zhang",
+            "Xingjun Ma",
+            "Xiang Wang",
+            "Bo An",
+            "Jun Sun",
+            "Mohit Bansal",
+            "Shirui Pan",
+            "Yuval Elovici",
+            "Bhavya Kailkhura",
+            "Bo Li",
+            "Yaodong Yang",
+            "Hongwei Li",
+            "Wenyuan Xu",
+            "Yizhou Sun",
+            "Wei Wang",
+            "Qing Li",
+            "Ke Tang",
+            "Yu-Gang Jiang",
+            "Felix Juefei-Xu",
+            "Hui Xiong",
+            "Xiaofeng Wang",
+            "Shuicheng Yan",
+            "Dacheng Tao",
+            "Philip S. Yu",
+            "Qingsong Wen",
+            "Yang Liu"
+        ],
+        "date": "2025/04/22",
+        "pdf": "http://arxiv.org/pdf/2504.15585",
+        "abstract": "The remarkable success of Large Language Models (LLMs) has illuminated a promising pathway toward achieving Artificial General Intelligence for both academic and industrial communities, owing to their unprecedented performance across various applications. As LLMs continue to gain prominence in both research and commercial domains, their security and safety implications have become a growing concern, not only for researchers and corporations but also for every nation. Currently, existing surveys on LLM safety primarily focus on specific stages of the LLM lifecycle, e.g., deployment phase or fine-tuning phase, lacking a comprehensive understanding of the entire &#34;lifechain&#34; of LLMs. To address this gap, this paper introduces, for the first time, the concept of &#34;full-stack&#34; safety to systematically consider safety issues throughout the entire process of LLM training, deployment, and eventual commercialization. Compared to the off-the-shelf LLM safety surveys, our work demonstrates several distinctive advantages: (I) Comprehensive Perspective. We define the complete LLM lifecycle as encompassing data preparation, pre-training, post-training, deployment and final commercialization. To our knowledge, this represents the first safety survey to encompass the entire lifecycle of LLMs. (II) Extensive Literature Support. Our research is grounded in an exhaustive review of over 800+ papers, ensuring comprehensive coverage and systematic organization of security issues within a more holistic understanding. (III) Unique Insights. Through systematic literature analysis, we have developed reliable roadmaps and perspectives for each chapter. Our work identifies promising research directions, including safety in data generation, alignment techniques, model editing, and LLM-based agent systems. These insights provide valuable guidance for researchers pursuing future work in this field.",
+        "code": "",
+        "category": [
+            [
+                "Survey",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.15585"
+    },
+    "b4bb0624e7f1bae97e469f03b6875f64": {
+        "title": "A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions",
+        "authors": [
+            "Emre Can Acikgoz",
+            "Cheng Qian",
+            "Hongru Wang",
+            "Vardhan Dongre",
+            "Xiusi Chen",
+            "Heng Ji",
+            "Dilek Hakkani-Tür",
+            "Gokhan Tur"
+        ],
+        "date": "2025/04/07",
+        "pdf": "http://arxiv.org/pdf/2504.16939",
+        "abstract": "Recent advances in Large Language Models (LLMs) have propelled conversational AI from traditional dialogue systems into sophisticated agents capable of autonomous actions, contextual awareness, and multi-turn interactions with users. Yet, fundamental questions about their capabilities, limitations, and paths forward remain open. This survey paper presents a desideratum for next-generation Conversational Agents - what has been achieved, what challenges persist, and what must be done for more scalable systems that approach human-level intelligence. To that end, we systematically analyze LLM-driven Conversational Agents by organizing their capabilities into three primary dimensions: (i) Reasoning - logical, systematic thinking inspired by human intelligence for decision making, (ii) Monitor - encompassing self-awareness and user interaction monitoring, and (iii) Control - focusing on tool utilization and policy following. Building upon this, we introduce a novel taxonomy by classifying recent work on Conversational Agents around our proposed desideratum. We identify critical research gaps and outline key directions, including realistic evaluations, long-term multi-turn reasoning skills, self-evolution capabilities, collaborative and multi-agent task completion, personalization, and proactivity. This work aims to provide a structured foundation, highlight existing limitations, and offer insights into potential future research directions for Conversational Agents, ultimately advancing progress toward Artificial General Intelligence (AGI). We maintain a curated repository of papers at: https://github.com/emrecanacikgoz/awesome-conversational-agents.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Conversation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.16939"
+    },
+    "9a7d2a5749e682f91707ffe42e4c3f5e": {
+        "title": "Toward a Human-Centered Evaluation Framework for Trustworthy LLM-Powered GUI Agents",
+        "authors": [
+            "Chaoran Chen",
+            "Zhiping Zhang",
+            "Ibrahim Khalilov",
+            "Bingcan Guo",
+            "Simret A Gebreegziabher",
+            "Yanfang Ye",
+            "Ziang Xiao",
+            "Yaxing Yao",
+            "Tianshi Li",
+            "Toby Jia-Jun Li"
+        ],
+        "date": "2025/04/24",
+        "pdf": "http://arxiv.org/pdf/2504.17934",
+        "abstract": "The rise of Large Language Models (LLMs) has revolutionized Graphical User Interface (GUI) automation through LLM-powered GUI agents, yet their ability to process sensitive data with limited human oversight raises significant privacy and security risks. This position paper identifies three key risks of GUI agents and examines how they differ from traditional GUI automation and general autonomous agents. Despite these risks, existing evaluations focus primarily on performance, leaving privacy and security assessments largely unexplored. We review current evaluation metrics for both GUI and general LLM agents and outline five key challenges in integrating human evaluators for GUI agent assessments. To address these gaps, we advocate for a human-centered evaluation framework that incorporates risk assessments, enhances user awareness through in-context consent, and embeds privacy and security considerations into GUI agent design and evaluation.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ],
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.17934"
+    },
+    "e70cae08f6a03cde1d9dbc64b1c1f113": {
+        "title": "Collaborating Action by Action: A Multi-agent LLM Framework for Embodied Reasoning",
+        "authors": [
+            "Isadora White",
+            "Kolby Nottingham",
+            "Ayush Maniar",
+            "Max Robinson",
+            "Hansen Lillemark",
+            "Mehul Maheshwari",
+            "Lianhui Qin",
+            "Prithviraj Ammanabrolu"
+        ],
+        "date": "2025/04/24",
+        "pdf": "http://arxiv.org/pdf/2504.17950",
+        "abstract": "Collaboration is ubiquitous and essential in day-to-day life -- from exchanging ideas, to delegating tasks, to generating plans together. This work studies how LLMs can adaptively collaborate to perform complex embodied reasoning tasks. To this end we introduce MINDcraft, an easily extensible platform built to enable LLM agents to control characters in the open-world game of Minecraft; and MineCollab, a benchmark to test the different dimensions of embodied and collaborative reasoning. An experimental study finds that the primary bottleneck in collaborating effectively for current state-of-the-art agents is efficient natural language communication, with agent performance dropping as much as 15% when they are required to communicate detailed task completion plans. We conclude that existing LLM agents are ill-optimized for multi-agent collaboration, especially in embodied scenarios, and highlight the need to employ methods beyond in-context and imitation learning. Our website can be found here: https://mindcraft-minecollab.github.io/",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.17950"
+    },
+    "3543f039b8d65d85a66fbf9bda09c353": {
+        "title": "Anyprefer: An Agentic Framework for Preference Data Synthesis",
+        "authors": [
+            "Yiyang Zhou",
+            "Zhaoyang Wang",
+            "Tianle Wang",
+            "Shangyu Xing",
+            "Peng Xia",
+            "Bo Li",
+            "Kaiyuan Zheng",
+            "Zijian Zhang",
+            "Zhaorun Chen",
+            "Wenhao Zheng",
+            "Xuchao Zhang",
+            "Chetan Bansal",
+            "Weitong Zhang",
+            "Ying Wei",
+            "Mohit Bansal",
+            "Huaxiu Yao"
+        ],
+        "date": "2025/04/27",
+        "pdf": "http://arxiv.org/pdf/2504.19276",
+        "abstract": "High-quality preference data is essential for aligning foundation models with human values through preference learning. However, manual annotation of such data is often time-consuming and costly. Recent methods often adopt a self-rewarding approach, where the target model generates and annotates its own preference data, but this can lead to inaccuracies since the reward model shares weights with the target model, thereby amplifying inherent biases. To address these issues, we propose Anyprefer, a framework designed to synthesize high-quality preference data for aligning the target model. Anyprefer frames the data synthesis process as a cooperative two-player Markov Game, where the target model and the judge model collaborate together. Here, a series of external tools are introduced to assist the judge model in accurately rewarding the target model&#39;s responses, mitigating biases in the rewarding process. In addition, a feedback mechanism is introduced to optimize prompts for both models, enhancing collaboration and improving data quality. The synthesized data is compiled into a new preference dataset, Anyprefer-V1, consisting of 58K high-quality preference pairs. Extensive experiments show that Anyprefer significantly improves model alignment performance across four main applications, covering 21 datasets, achieving average improvements of 18.55% in five natural language generation datasets, 3.66% in nine vision-language understanding datasets, 30.05% in three medical image analysis datasets, and 16.00% in four visuo-motor control tasks.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "DPO"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.19276"
+    },
+    "2b3cec49f65e66f7e8c0919f155085ba": {
+        "title": "RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning",
+        "authors": [
+            "Zihan Wang",
+            "Kangrui Wang",
+            "Qineng Wang",
+            "Pingyue Zhang",
+            "Linjie Li",
+            "Zhengyuan Yang",
+            "Kefan Yu",
+            "Minh Nhat Nguyen",
+            "Licheng Liu",
+            "Eli Gottlieb",
+            "Monica Lam",
+            "Yiping Lu",
+            "Kyunghyun Cho",
+            "Jiajun Wu",
+            "Li Fei-Fei",
+            "Lijuan Wang",
+            "Yejin Choi",
+            "Manling Li"
+        ],
+        "date": "2025/04/24",
+        "pdf": "http://arxiv.org/pdf/2504.20073",
+        "abstract": "Training large language models (LLMs) as interactive agents presents unique challenges including long-horizon decision making and interacting with stochastic environment feedback. While reinforcement learning (RL) has enabled progress in static tasks, multi-turn agent RL training remains underexplored. We propose StarPO (State-Thinking-Actions-Reward Policy Optimization), a general framework for trajectory-level agent RL, and introduce RAGEN, a modular system for training and evaluating LLM agents. Our study on three stylized environments reveals three core findings. First, our agent RL training shows a recurring mode of Echo Trap where reward variance cliffs and gradient spikes; we address this with StarPO-S, a stabilized variant with trajectory filtering, critic incorporation, and decoupled clipping. Second, we find the shaping of RL rollouts would benefit from diverse initial states, medium interaction granularity and more frequent sampling. Third, we show that without fine-grained, reasoning-aware reward signals, agent reasoning hardly emerge through multi-turn RL and they may show shallow strategies or hallucinated thoughts. Code and environments are available at https://github.com/RAGEN-AI/RAGEN.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "RL"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.20073"
+    },
+    "dd65064eec75522926627d3ece2c91c3": {
+        "title": "MATCHA: Can Multi-Agent Collaboration Build a Trustworthy Conversational Recommender?",
+        "authors": [
+            "Zheng Hui",
+            "Xiaokai Wei",
+            "Yexi Jiang",
+            "Kevin Gao",
+            "Chen Wang",
+            "Frank Ong",
+            "Se-eun Yoon",
+            "Rachit Pareek",
+            "Michelle Gong"
+        ],
+        "date": "2025/04/26",
+        "pdf": "http://arxiv.org/pdf/2504.20094",
+        "abstract": "In this paper, we propose a multi-agent collaboration framework called MATCHA for conversational recommendation system, leveraging large language models (LLMs) to enhance personalization and user engagement. Users can request recommendations via free-form text and receive curated lists aligned with their interests, preferences, and constraints. Our system introduces specialized agents for intent analysis, candidate generation, ranking, re-ranking, explainability, and safeguards. These agents collaboratively improve recommendations accuracy, diversity, and safety. On eight metrics, our model achieves superior or comparable performance to the current state-of-the-art. Through comparisons with six baseline models, our approach addresses key challenges in conversational recommendation systems for game recommendations, including: (1) handling complex, user-specific requests, (2) enhancing personalization through multi-agent collaboration, (3) empirical evaluation and deployment, and (4) ensuring safe and trustworthy interactions.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Conversation"
+            ],
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.20094"
+    },
+    "001c74efba70cde5d98f87ad30fc45b2": {
+        "title": "ResearchCodeAgent: An LLM Multi-Agent System for Automated Codification of Research Methodologies",
+        "authors": [
+            "Shubham Gandhi",
+            "Dhruv Shah",
+            "Manasi Patwardhan",
+            "Lovekesh Vig",
+            "Gautam Shroff"
+        ],
+        "date": "2025/04/28",
+        "pdf": "http://arxiv.org/pdf/2504.20117",
+        "abstract": "In this paper we introduce ResearchCodeAgent, a novel multi-agent system leveraging large language models (LLMs) agents to automate the codification of research methodologies described in machine learning literature. The system bridges the gap between high-level research concepts and their practical implementation, allowing researchers auto-generating code of existing research papers for benchmarking or building on top-of existing methods specified in the literature with availability of partial or complete starter code. ResearchCodeAgent employs a flexible agent architecture with a comprehensive action suite, enabling context-aware interactions with the research environment. The system incorporates a dynamic planning mechanism, utilizing both short and long-term memory to adapt its approach iteratively. We evaluate ResearchCodeAgent on three distinct machine learning tasks with distinct task complexity and representing different parts of the ML pipeline: data augmentation, optimization, and data batching. Our results demonstrate the system&#39;s effectiveness and generalizability, with 46.9% of generated code being high-quality and error-free, and 25% showing performance improvements over baseline implementations. Empirical analysis shows an average reduction of 57.9% in coding time compared to manual implementation. We observe higher gains for more complex tasks. ResearchCodeAgent represents a significant step towards automating the research implementation process, potentially accelerating the pace of machine learning research.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Software Engineering"
+            ],
+            [
+                "Application",
+                "Research"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.20117"
+    },
+    "9fde1be049c67faa1a55aaa4428a0c28": {
+        "title": "LLM-Empowered Embodied Agent for Memory-Augmented Task Planning in Household Robotics",
+        "authors": [
+            "Marc Glocker",
+            "Peter Hönig",
+            "Matthias Hirschmanner",
+            "Markus Vincze"
+        ],
+        "date": "2025/04/30",
+        "pdf": "http://arxiv.org/pdf/2504.21716",
+        "abstract": "We present an embodied robotic system with an LLM-driven agent-orchestration architecture for autonomous household object management. The system integrates memory-augmented task planning, enabling robots to execute high-level user commands while tracking past actions. It employs three specialized agents: a routing agent, a task planning agent, and a knowledge base agent, each powered by task-specific LLMs. By leveraging in-context learning, our system avoids the need for explicit model training. RAG enables the system to retrieve context from past interactions, enhancing long-term object tracking. A combination of Grounded SAM and LLaMa3.2-Vision provides robust object detection, facilitating semantic scene understanding for task planning. Evaluation across three household scenarios demonstrates high task planning accuracy and an improvement in memory recall due to RAG. Specifically, Qwen2.5 yields best performance for specialized agents, while LLaMA3.1 excels in routing tasks. The source code is available at: https://github.com/marc1198/chat-hsr.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Memory Mechanism"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.21716"
+    },
+    "8c7fd1c6daa401bb83ed8cebd3fc3050": {
+        "title": "SWE-smith: Scaling Data for Software Engineering Agents",
+        "authors": [
+            "John Yang",
+            "Kilian Leret",
+            "Carlos E. Jimenez",
+            "Alexander Wettig",
+            "Kabir Khandpur",
+            "Yanzhe Zhang",
+            "Binyuan Hui",
+            "Ofir Press",
+            "Ludwig Schmidt",
+            "Diyi Yang"
+        ],
+        "date": "2025/04/30",
+        "pdf": "http://arxiv.org/pdf/2504.21798",
+        "abstract": "Despite recent progress in Language Models (LMs) for software engineering, collecting training data remains a significant pain point. Existing datasets are small, with at most 1,000s of training instances from 11 or fewer GitHub repositories. The procedures to curate such datasets are often complex, necessitating hundreds of hours of human labor; companion execution environments also take up several terabytes of storage, severely limiting their scalability and usability. To address this pain point, we introduce SWE-smith, a novel pipeline for generating software engineering training data at scale. Given any Python codebase, SWE-smith constructs a corresponding execution environment, then automatically synthesizes 100s to 1,000s of task instances that break existing test(s) in the codebase. Using SWE-smith, we create a dataset of 50k instances sourced from 128 GitHub repositories, an order of magnitude larger than all previous works. We train SWE-agent-LM-32B, achieving 40.2% Pass@1 resolve rate on the SWE-bench Verified benchmark, state of the art among open source models. We open source SWE-smith (collection procedure, task instances, trajectories, models) to lower the barrier of entry for research in LM systems for automated software engineering. All assets available at https://swesmith.com.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Software Engineering"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.21798"
+    },
+    "6cbfea86fa5ac20415473c7d850781ed": {
+        "title": "SimUSER: Simulating User Behavior with Large Language Models for Recommender System Evaluation",
+        "authors": [
+            "Nicolas Bougie",
+            "Narimasa Watanabe"
+        ],
+        "date": "2025/04/17",
+        "pdf": "http://arxiv.org/pdf/2504.12722",
+        "abstract": "Recommender systems play a central role in numerous real-life applications, yet evaluating their performance remains a significant challenge due to the gap between offline metrics and online behaviors. Given the scarcity and limits (e.g., privacy issues) of real user data, we introduce SimUSER, an agent framework that serves as believable and cost-effective human proxies. SimUSER first identifies self-consistent personas from historical data, enriching user profiles with unique backgrounds and personalities. Then, central to this evaluation are users equipped with persona, memory, perception, and brain modules, engaging in interactions with the recommender system. SimUSER exhibits closer alignment with genuine humans than prior work, both at micro and macro levels. Additionally, we conduct insightful experiments to explore the effects of thumbnails on click rates, the exposure effect, and the impact of reviews on user engagement. Finally, we refine recommender system parameters based on offline A/B test results, resulting in improved user engagement in the real world.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2504.12722"
+    },
+    "4baea3c1e563f0c9277c5c8c35b8e012": {
+        "title": "TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets",
+        "authors": [
+            "Yuzhe Yang",
+            "Yifei Zhang",
+            "Minghao Wu",
+            "Kaidi Zhang",
+            "Yunmiao Zhang",
+            "Honghai Yu",
+            "Yan Hu",
+            "Benyou Wang"
+        ],
+        "date": "2025/02/03",
+        "pdf": "http://arxiv.org/pdf/2502.01506",
+        "abstract": "The study of social emergence has long been a central focus in social science. Traditional modeling approaches, such as rule-based Agent-Based Models (ABMs), struggle to capture the diversity and complexity of human behavior, particularly the irrational factors emphasized in behavioral economics. Recently, large language model (LLM) agents have gained traction as simulation tools for modeling human behavior in social science and role-playing applications. Studies suggest that LLMs can account for cognitive biases, emotional fluctuations, and other non-rational influences, enabling more realistic simulations of socio-economic dynamics. In this work, we introduce TwinMarket, a novel multi-agent framework that leverages LLMs to simulate socio-economic systems. Specifically, we examine how individual behaviors, through interactions and feedback mechanisms, give rise to collective dynamics and emergent phenomena. Through experiments in a simulated stock market environment, we demonstrate how individual actions can trigger group behaviors, leading to emergent outcomes such as financial bubbles and recessions. Our approach provides valuable insights into the complex interplay between individual decision-making and collective socio-economic patterns.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2502.01506"
+    },
+    "f07a3317672b4794826308491dd60e77": {
+        "title": "A Survey on Large Language Model based Human-Agent Systems",
+        "authors": [
+            "Henry Peng Zou",
+            "Wei-Chieh Huang",
+            "Yaozu Wu",
+            "Yankai Chen",
+            "Chunyu Miao",
+            "Hoang Nguyen",
+            "Yue Zhou",
+            "Weizhi Zhang",
+            "Liancheng Fang",
+            "Langzhou He",
+            "Yangning Li",
+            "Yuwei Cao",
+            "Dongyuan Li",
+            "Renhe Jiang",
+            "Philip S. Yu"
+        ],
+        "date": "2025/05/01",
+        "pdf": "http://arxiv.org/pdf/2505.00753",
+        "abstract": "Recent advances in large language models (LLMs) have sparked growing interest in building fully autonomous agents. However, fully autonomous LLM-based agents still face significant challenges, including limited reliability due to hallucinations, difficulty in handling complex tasks, and substantial safety and ethical risks, all of which limit their feasibility and trustworthiness in real-world applications. To overcome these limitations, LLM-based human-agent systems (LLM-HAS) incorporate human-provided information, feedback, or control into the agent system to enhance system performance, reliability and safety. This paper provides the first comprehensive and structured survey of LLM-HAS. It clarifies fundamental concepts, systematically presents core components shaping these systems, including environment &amp; profiling, human feedback, interaction types, orchestration and communication, explores emerging applications, and discusses unique challenges and opportunities. By consolidating current knowledge and offering a structured overview, we aim to foster further research and innovation in this rapidly evolving interdisciplinary field. Paper lists and resources are available at https://github.com/HenryPengZou/Awesome-LLM-Based-Human-Agent-System-Papers.",
+        "code": "https://github.com/HenryPengZou/Awesome-LLM-Based-Human-Agent-System-Papers",
+        "category": [
+            [
+                "Survey",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2505.00753"
     }
 }
