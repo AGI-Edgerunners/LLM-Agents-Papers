@@ -1154,6 +1154,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/19] **ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings** | [[paper]](https://arxiv.org/abs/2305.11554) | [code]
 
 #### Simulation
+- [2025/04/22] **SimUSER: Simulating User Behavior with Large Language Models for Recommender System Evaluation** | [[paper]](https://arxiv.org/abs/2504.12722) | [code]
+
 - [2025/04/10] **MOSAIC: Modeling Social AI for Content Dissemination and Regulation in Multi-Agent Simulations** | [[paper]](https://arxiv.org/abs/2504.07830) | [code]
 
 - [2025/04/04] **APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay** | [[paper]](https://arxiv.org/abs/2504.03601) | [code]
