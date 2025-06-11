@@ -325,7 +325,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2025/03/03] **Improving Retrospective Language Agents via Joint Policy Gradient Optimization** | [[paper]](https://arxiv.org/abs/2503.01490) | [code]
 
-- [2025/02/20] **STeCa: Step-level Trajectory Calibration for LLM Agent Learning** | [[paper]](https://arxiv.org/abs/2502.14276) | [code]
+- [2025/02/20] **STeCa: Step-level Trajectory Calibration for LLM Agent Learning** | [[paper]](https://arxiv.org/abs/2502.14276) | [[code]](https://github.com/WangHanLinHenry/STeCa)
 
 - [2025/02/17] **Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning** | [[paper]](https://arxiv.org/abs/2502.11799) | [code]
 
@@ -371,7 +371,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2024/09/18] **MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning** | [[paper]](https://arxiv.org/abs/2409.12147) | [code]
 
-- [2024/09/05] **E2CL: Exploration-based Error Correction Learning for Embodied Agents** | [[paper]](https://arxiv.org/abs/2409.03256) | [code]
+- [2024/09/05] **E2CL: Exploration-based Error Correction Learning for Embodied Agents** | [[paper]](https://arxiv.org/abs/2409.03256) | [[code]](https://github.com/WangHanLinHenry/E2CL)
 
 - [2024/09/01] **Self-evolving Agents with reflective and memory-augmented abilities** | [[paper]](https://arxiv.org/abs/2409.00872) | [code]
 
@@ -1883,6 +1883,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/26] **Training Socially Aligned Language Models on Simulated Social Interactions** | [[paper]](https://arxiv.org/abs/2305.16960) | [code]
 
 #### RL
+- [2025/05/26] **SPA-RL: Reinforcing LLM Agents via Stepwise Progress Attribution** | [[paper]](https://arxiv.org/abs/2505.20732) | [[code]](https://github.com/WangHanLinHenry/SPA-RL-Agent)
+
 - [2025/04/24] **RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2504.20073) | [code]
 
 - [2025/04/20] **Meta-Thinking in LLMs via Multi-Agent Reinforcement Learning: A Survey** | [[paper]](https://arxiv.org/abs/2504.14520) | [code]
