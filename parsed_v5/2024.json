@@ -9418,7 +9418,7 @@
         "date": "2024/09/05",
         "pdf": "http://arxiv.org/pdf/2409.03256",
         "abstract": "Language models are exhibiting increasing capability in knowledge utilization and reasoning. However, when applied as agents in embodied environments, they often suffer from misalignment between their intrinsic knowledge and environmental knowledge, leading to infeasible actions. Traditional environment alignment methods, such as supervised learning on expert trajectories and reinforcement learning, encounter limitations in covering environmental knowledge and achieving efficient convergence, respectively. Inspired by human learning, we propose Exploration-based Error Correction Learning (E2CL), a novel framework that leverages exploration-induced errors and environmental feedback to enhance environment alignment for embodied agents. E2CL incorporates teacher-guided and teacher-free explorations to gather environmental feedback and correct erroneous actions. The agent learns to provide feedback and self-correct, thereby enhancing its adaptability to target environments. Extensive experiments in the VirtualHome environment demonstrate that E2CL-trained agents outperform those trained by baseline methods and exhibit superior self-correction capabilities.",
-        "code": "",
+        "code": "https://github.com/WangHanLinHenry/E2CL",
         "category": [
             [
                 "Technique For Enhancement",
