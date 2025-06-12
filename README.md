@@ -1065,6 +1065,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/04/26] **Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models** | [[paper]](https://arxiv.org/abs/2304.13835) | [code]
 
 #### Tool Usage
+- [2025/05/28] **WebDancer: Towards Autonomous Information Seeking Agency** | [[paper]](https://arxiv.org/pdf/2505.22648) | [[code]](https://github.com/Alibaba-NLP/WebAgent)
+
 - [2025/05/28] **RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments** | [[paper]](https://arxiv.org/abs/2505.21936) | [code]
 
 - [2025/05/28] **EvolveSearch: An Iterative Self-Evolving Search Agent** | [[paper]](https://arxiv.org/abs/2505.22501) | [code]
@@ -2087,6 +2089,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/26] **Training Socially Aligned Language Models on Simulated Social Interactions** | [[paper]](https://arxiv.org/abs/2305.16960) | [code]
 
 #### RL
+- [2025/05/28] **WebDancer: Towards Autonomous Information Seeking Agency** | [[paper]](https://arxiv.org/pdf/2505.22648) | [[code]](https://github.com/Alibaba-NLP/WebAgent)
+  
 - [2025/05/29] **ML-Agent: Reinforcing LLM Agents for Autonomous Machine Learning Engineering** | [[paper]](https://arxiv.org/abs/2505.23723) | [code]
 
 - [2025/05/28] **WorkForceAgent-R1: Incentivizing Reasoning Capability in LLM-based Web Agents via Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2505.22942) | [code]
