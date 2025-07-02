@@ -13200,5 +13200,26 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2505.24878"
+    },
+    "98012c5a058cc90d027af35e9858996a": {
+        "title": "Enhancing LLM Agent Safety via Causal Influence Prompting",
+        "authors": [
+            "Dongyoon Hahm",
+            "Woogyeol Jin",
+            "June Suk Choi",
+            "Sungsoo Ahn",
+            "Kimin Lee"
+        ],
+        "date": "2025/07/01",
+        "pdf": "http://arxiv.org/pdf/2507.00979",
+        "abstract": "As autonomous agents powered by large language models (LLMs) continue to demonstrate potential across various assistive tasks, ensuring their safe and reliable behavior is crucial for preventing unintended consequences. In this work, we introduce CIP, a novel technique that leverages causal influence diagrams (CIDs) to identify and mitigate risks arising from agent decision-making. CIDs provide a structured representation of cause-and-effect relationships, enabling agents to anticipate harmful outcomes and make safer decisions. Our approach consists of three key steps: (1) initializing a CID based on task specifications to outline the decision-making process, (2) guiding agent interactions with the environment using the CID, and (3) iteratively refining the CID based on observed behaviors and outcomes. Experimental results demonstrate that our method effectively enhances safety in both code execution and mobile device control tasks.",
+        "code": "",
+        "category": [
+            [
+                "Stability",
+                "Safety"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.00979"
     }
 }

@@ -1,6 +1,6 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2025/6/1
+Last Updated Time: 2025/7/2
 
 A repo lists papers related to LLM based agent. Includes
 - [Survey](#Survey)
@@ -2913,6 +2913,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Stability
 #### Safety
+- [2025/07/01] **Enhancing LLM Agent Safety via Causal Influence Prompting** | [[paper]](https://arxiv.org/abs/2507.00979) | [[code]](https://github.com/HahmDY/causal_influence_prompting.git)
+
 - [2025/05/29] **AgentAlign: Navigating Safety Alignment in the Shift from Informative to Agentic Large Language Models** | [[paper]](https://arxiv.org/abs/2505.23020) | [code]
 
 - [2025/05/28] **RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments** | [[paper]](https://arxiv.org/abs/2505.21936) | [code]
