@@ -1360,6 +1360,9 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/19] **ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings** | [[paper]](https://arxiv.org/abs/2305.11554) | [code]
 
 #### Simulation
+- [2025/06/30] **CitySim: Modeling Urban Behaviors and City Dynamics with Large-Scale LLM-Driven Agent Simulation
+** | [[paper]]([https://arxiv.org/abs/2505.23846](https://arxiv.org/abs/2506.21805)) | [code]
+
 - [2025/05/28] **Scalable, Symbiotic, AI and Non-AI Agent Based Parallel Discrete Event Simulations** | [[paper]](https://arxiv.org/abs/2505.23846) | [code]
 
 - [2025/05/26] **Embracing Imperfection: Simulating Students with Diverse Cognitive Levels Using LLM-based Agents** | [[paper]](https://arxiv.org/abs/2505.19997) | [code]
