@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/agi-edgerunners-llm-agents-papers-badge.png)](https://mseep.ai/app/agi-edgerunners-llm-agents-papers)
+
 # LLM-Agents-Papers
 ## :writing_hand: Description
 Last Updated Time: 2025/7/12
