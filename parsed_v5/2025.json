@@ -16798,5 +16798,810 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2506.24119"
+    },
+    "0eb2a844fe73d4f99eab87b7962fb4a4": {
+        "title": "LineRetriever: Planning-Aware Observation Reduction for Web Agents",
+        "authors": [
+            "Imene Kerboua",
+            "Sahar Omidi Shayegan",
+            "Megh Thakkar",
+            "Xing Han Lù",
+            "Massimo Caccia",
+            "Véronique Eglin",
+            "Alexandre Aussem",
+            "Jérémy Espinas",
+            "Alexandre Lacoste"
+        ],
+        "date": "2025/06/30",
+        "pdf": "http://arxiv.org/pdf/2507.00210",
+        "abstract": "While large language models have demonstrated impressive capabilities in web navigation tasks, the extensive context of web pages, often represented as DOM or Accessibility Tree (AxTree) structures, frequently exceeds model context limits. Current approaches like bottom-up truncation or embedding-based retrieval lose critical information about page state and action history. This is particularly problematic for adaptive planning in web agents, where understanding the current state is essential for determining future actions. We hypothesize that embedding models lack sufficient capacity to capture plan-relevant information, especially when retrieving content that supports future action prediction. This raises a fundamental question: how can retrieval methods be optimized for adaptive planning in web navigation tasks? In response, we introduce \\textit{LineRetriever}, a novel approach that leverages a language model to identify and retrieve observation lines most relevant to future navigation steps. Unlike traditional retrieval methods that focus solely on semantic similarity, \\textit{LineRetriever} explicitly considers the planning horizon, prioritizing elements that contribute to action prediction. Our experiments demonstrate that \\textit{LineRetriever} can reduce the size of the observation at each step for the web agent while maintaining consistent performance within the context limitations.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.00210"
+    },
+    "7434141bab96e8e379416c3b9173e46d": {
+        "title": "TransLaw: Benchmarking Large Language Models in Multi-Agent Simulation of the Collaborative Translation",
+        "authors": [
+            "Xi Xuan",
+            "King-kui Sin",
+            "Yufei Zhou",
+            "Chunyu Kit"
+        ],
+        "date": "2025/07/01",
+        "pdf": "http://arxiv.org/pdf/2507.00875",
+        "abstract": "Multi-agent systems empowered by large language models (LLMs) have demonstrated remarkable capabilities in a wide range of downstream applications, including machine translation. However, the potential of LLMs in translating Hong Kong legal judgments remains uncertain due to challenges such as intricate legal terminology, culturally embedded nuances, and strict linguistic structures. In this work, we introduce TransLaw, a novel multi-agent framework implemented for real-world Hong Kong case law translation. It employs three specialized agents, namely, Translator, Annotator, and Proofreader, to collaboratively produce translations for high accuracy in legal meaning, appropriateness in style, and adequate coherence and cohesion in structure. This framework supports customizable LLM configurations and achieves tremendous cost reduction compared to professional human translation services. We evaluated its performance using 13 open-source and commercial LLMs as agents and obtained interesting findings, including that it surpasses GPT-4o in legal semantic accuracy, structural coherence, and stylistic fidelity, yet trails human experts in contextualizing complex terminology and stylistic naturalness. Our platform website is available at CityUHK, and our bilingual judgment corpus used for the evaluation is available at Hugging Face.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ],
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.00875"
+    },
+    "4d65dc91f7e04d6e759aaaf39c3c806d": {
+        "title": "MALIBU Benchmark: Multi-Agent LLM Implicit Bias Uncovered",
+        "authors": [
+            "Imran Mirza",
+            "Cole Huang",
+            "Ishwara Vasista",
+            "Rohan Patil",
+            "Asli Akalin",
+            "Sean O&#39;Brien",
+            "Kevin Zhu"
+        ],
+        "date": "2025/04/10",
+        "pdf": "http://arxiv.org/pdf/2507.01019",
+        "abstract": "Multi-agent systems, which consist of multiple AI models interacting within a shared environment, are increasingly used for persona-based interactions. However, if not carefully designed, these systems can reinforce implicit biases in large language models (LLMs), raising concerns about fairness and equitable representation. We present MALIBU, a novel benchmark developed to assess the degree to which LLM-based multi-agent systems implicitly reinforce social biases and stereotypes. MALIBU evaluates bias in LLM-based multi-agent systems through scenario-based assessments. AI models complete tasks within predefined contexts, and their responses undergo evaluation by an LLM-based multi-agent judging system in two phases. In the first phase, judges score responses labeled with specific demographic personas (e.g., gender, race, religion) across four metrics. In the second phase, judges compare paired responses assigned to different personas, scoring them and selecting the superior response. Our study quantifies biases in LLM-generated outputs, revealing that bias mitigation may favor marginalized personas over true neutrality, emphasizing the need for nuanced detection, balanced fairness strategies, and transparent evaluation benchmarks in multi-agent systems.",
+        "code": "",
+        "category": [
+            [
+                "Stability",
+                "Bias"
+            ],
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.01019"
+    },
+    "5859fe4bd308e92cea42cb428cac0215": {
+        "title": "MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent",
+        "authors": [
+            "Hongli Yu",
+            "Tinghong Chen",
+            "Jiangtao Feng",
+            "Jiangjie Chen",
+            "Weinan Dai",
+            "Qiying Yu",
+            "Ya-Qin Zhang",
+            "Wei-Ying Ma",
+            "Jingjing Liu",
+            "Mingxuan Wang",
+            "Hao Zhou"
+        ],
+        "date": "2025/07/03",
+        "pdf": "http://arxiv.org/pdf/2507.02259",
+        "abstract": "Despite improvements by length extrapolation, efficient attention and memory modules, handling infinitely long documents with linear complexity without performance degradation during extrapolation remains the ultimate challenge in long-text processing. We directly optimize for long-text tasks in an end-to-end fashion and introduce a novel agent workflow, MemAgent, which reads text in segments and updates the memory using an overwrite strategy. We extend the DAPO algorithm to facilitate training via independent-context multi-conversation generation. MemAgent has demonstrated superb long-context capabilities, being able to extrapolate from an 8K context trained on 32K text to a 3.5M QA task with performance loss &lt; 5% and achieves 95%+ in 512K RULER test.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Memory Mechanism"
+            ],
+            [
+                "Training",
+                "RL"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.02259"
+    },
+    "ace0cff081ae94f9422424da7488466e": {
+        "title": "WebSailor: Navigating Super-human Reasoning for Web Agent",
+        "authors": [
+            "Kuan Li",
+            "Zhongwang Zhang",
+            "Huifeng Yin",
+            "Liwen Zhang",
+            "Litu Ou",
+            "Jialong Wu",
+            "Wenbiao Yin",
+            "Baixuan Li",
+            "Zhengwei Tao",
+            "Xinyu Wang",
+            "Weizhou Shen",
+            "Junkai Zhang",
+            "Dingchu Zhang",
+            "Xixi Wu",
+            "Yong Jiang",
+            "Ming Yan",
+            "Pengjun Xie",
+            "Fei Huang",
+            "Jingren Zhou"
+        ],
+        "date": "2025/07/03",
+        "pdf": "http://arxiv.org/pdf/2507.02592",
+        "abstract": "Transcending human cognitive limitations represents a critical frontier in LLM training. Proprietary agentic systems like DeepResearch have demonstrated superhuman capabilities on extremely complex information-seeking benchmarks such as BrowseComp, a feat previously unattainable. We posit that their success hinges on a sophisticated reasoning pattern absent in open-source models: the ability to systematically reduce extreme uncertainty when navigating vast information landscapes. Based on this insight, we introduce WebSailor, a complete post-training methodology designed to instill this crucial capability. Our approach involves generating novel, high-uncertainty tasks through structured sampling and information obfuscation, RFT cold start, and an efficient agentic RL training algorithm, Duplicating Sampling Policy Optimization (DUPO). With this integrated pipeline, WebSailor significantly outperforms all opensource agents in complex information-seeking tasks, matching proprietary agents&#39; performance and closing the capability gap.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.02592"
+    },
+    "56ab9548b7cd292c2929c039edb5f138": {
+        "title": "A Large Language Model-Empowered Agent for Reliable and Robust Structural Analysis",
+        "authors": [
+            "Jiachen Liu",
+            "Ziheng Geng",
+            "Ran Cao",
+            "Lu Cheng",
+            "Paolo Bocchini",
+            "Minghui Cheng"
+        ],
+        "date": "2025/06/27",
+        "pdf": "http://arxiv.org/pdf/2507.02938",
+        "abstract": "Large language models (LLMs) have exhibited remarkable capabilities across diverse open-domain tasks, yet their application in specialized domains such as civil engineering remains largely unexplored. This paper starts bridging this gap by evaluating and enhancing the reliability and robustness of LLMs in structural analysis of beams. Reliability is assessed through the accuracy of correct outputs under repetitive runs of the same problems, whereas robustness is evaluated via the performance across varying load and boundary conditions. A benchmark dataset, comprising eight beam analysis problems, is created to test the Llama-3.3 70B Instruct model. Results show that, despite a qualitative understanding of structural mechanics, the LLM lacks the quantitative reliability and robustness for engineering applications. To address these limitations, a shift is proposed that reframes the structural analysis as code generation tasks. Accordingly, an LLM-empowered agent is developed that (a) integrates chain-of-thought and few-shot prompting to generate accurate OpeeSeesPy code, and (b) automatically executes the code to produce structural analysis results. Experimental results demonstrate that the agent achieves accuracy exceeding 99.0% on the benchmark dataset, exhibiting reliable and robust performance across diverse conditions. Ablation studies highlight the complete example and function usage examples as the primary contributors to the agent&#39;s enhanced performance.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.02938"
+    },
+    "aa6e97574d8f2067d0ba52471085b0fe": {
+        "title": "GAF-Guard: An Agentic Framework for Risk Management and Governance in Large Language Models",
+        "authors": [
+            "Seshu Tirupathi",
+            "Dhaval Salwala",
+            "Elizabeth Daly",
+            "Inge Vejsbjerg"
+        ],
+        "date": "2025/07/01",
+        "pdf": "http://arxiv.org/pdf/2507.02986",
+        "abstract": "As Large Language Models (LLMs) continue to be increasingly applied across various domains, their widespread adoption necessitates rigorous monitoring to prevent unintended negative consequences and ensure robustness. Furthermore, LLMs must be designed to align with human values, like preventing harmful content and ensuring responsible usage. The current automated systems and solutions for monitoring LLMs in production are primarily centered on LLM-specific concerns like hallucination etc, with little consideration given to the requirements of specific use-cases and user preferences. This paper introduces GAF-Guard, a novel agentic framework for LLM governance that places the user, the use-case, and the model itself at the center. The framework is designed to detect and monitor risks associated with the deployment of LLM based applications. The approach models autonomous agents that identify risks, activate risk detection tools, within specific use-cases and facilitate continuous monitoring and reporting to enhance AI safety, and user expectations. The code is available at https://github.com/IBM/risk-atlas-nexus-demos/tree/main/gaf-guard.",
+        "code": "",
+        "category": [
+            [
+                "Stability",
+                "Safety"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.02986"
+    },
+    "859633d4c2938ad2a6f2dae147ac98c9": {
+        "title": "OpenTable-R1: A Reinforcement Learning Augmented Tool Agent for Open-Domain Table Question Answering",
+        "authors": [
+            "Zipeng Qiu"
+        ],
+        "date": "2025/07/02",
+        "pdf": "http://arxiv.org/pdf/2507.03018",
+        "abstract": "Open-domain table question answering traditionally relies on a two-stage pipeline: static table retrieval followed by a closed-domain answer. In contrast, we propose an end-to-end agentic framework that embeds multi-turn tool calls-using a BM25+-based search API and a SQLite SQL executor-directly into a large language model. To further adapt a compact 4B-parameter model, we introduce a two-stage fine-tuning process: supervised cold-start on easy questions, then Async GRPO reinforcement learning on harder cases with LoRA adapters and a rollout buffer. This unified approach enables the model to jointly retrieve, reason, and execute queries, yielding a dramatic accuracy improvement from single-digit zero-shot performance to over 0.86 exact match on a held-out test set. Our results underscore the effectiveness of integrating structured tool calls with targeted RL fine-tuning for scalable, accurate table QA. The code is available at https://github.com/TabibitoQZP/OpenTableR1.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "RL"
+            ],
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.03018"
+    },
+    "74f7c9ab3598432ec25a48b39694f8ad": {
+        "title": "RLVER: Reinforcement Learning with Verifiable Emotion Rewards for Empathetic Agents",
+        "authors": [
+            "Peisong Wang",
+            "Ruotian Ma",
+            "Bang Zhang",
+            "Xingyu Chen",
+            "Zhiwei He",
+            "Kang Luo",
+            "Qingsong Lv",
+            "Qingxuan Jiang",
+            "Zheng Xie",
+            "Shanyi Wang",
+            "Yuan Li",
+            "Fanghua Ye",
+            "Jian Li",
+            "Yifan Yang",
+            "Zhaopeng Tu",
+            "Xiaolong Li"
+        ],
+        "date": "2025/07/03",
+        "pdf": "http://arxiv.org/pdf/2507.03112",
+        "abstract": "Large language models (LLMs) excel at logical and algorithmic reasoning, yet their emotional intelligence (EQ) still lags far behind their cognitive prowess. While reinforcement learning from verifiable rewards (RLVR) has advanced in other domains, its application to dialogue-especially for emotional intelligence-remains underexplored. In this work, we introduce RLVER, the first end-to-end reinforcement learning framework that leverages verifiable emotion rewards from simulated users to cultivate higher-order empathetic abilities in LLMs. Within this framework, self-consistent affective simulated users engage in dialogue rollouts and produce deterministic emotion scores during conversations, serving as reward signals to guide the LLM&#39;s learning. Fine-tuning publicly available Qwen2.5-7B-Instruct model with PPO boosts its Sentient-Benchmark score from 13.3 to 79.2 while largely preserving mathematical and coding competence. Extensive experiments reveal that: (i) RLVER consistently improves multiple dialogue capabilities; (ii) Thinking and non-thinking models show distinct trends--thinking models excel in empathy and insight, while non-thinking models favor action; (iii) GRPO often yields stable gains, while PPO can push certain capabilities to a higher ceiling; (iv) More challenging environments are not always better-moderate ones can yield stronger outcomes. Our results show that RLVER is a practical route toward emotionally intelligent and broadly capable language agents.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "RL"
+            ],
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.03112"
+    },
+    "3181566d8580aad00277de14af2c9832": {
+        "title": "GRAFT: A Graph-based Flow-aware Agentic Framework for Document-level Machine Translation",
+        "authors": [
+            "Himanshu Dutta",
+            "Sunny Manchanda",
+            "Prakhar Bapat",
+            "Meva Ram Gurjar",
+            "Pushpak Bhattacharyya"
+        ],
+        "date": "2025/07/04",
+        "pdf": "http://arxiv.org/pdf/2507.03311",
+        "abstract": "Document level Machine Translation (DocMT) approaches often struggle with effectively capturing discourse level phenomena. Existing approaches rely on heuristic rules to segment documents into discourse units, which rarely align with the true discourse structure required for accurate translation. Otherwise, they fail to maintain consistency throughout the document during translation. To address these challenges, we propose Graph Augmented Agentic Framework for Document Level Translation (GRAFT), a novel graph based DocMT system that leverages Large Language Model (LLM) agents for document translation. Our approach integrates segmentation, directed acyclic graph (DAG) based dependency modelling, and discourse aware translation into a cohesive framework. Experiments conducted across eight translation directions and six diverse domains demonstrate that GRAFT achieves significant performance gains over state of the art DocMT systems. Specifically, GRAFT delivers an average improvement of 2.8 d BLEU on the TED test sets from IWSLT2017 over strong baselines and 2.3 d BLEU for domain specific translation from English to Chinese. Moreover, our analyses highlight the consistent ability of GRAFT to address discourse level phenomena, yielding coherent and contextually accurate translations.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.03311"
+    },
+    "463f01d5f6974ec22dfa5898c4bb6eb8": {
+        "title": "AI-VaxGuide: An Agentic RAG-Based LLM for Vaccination Decisions",
+        "authors": [
+            "Abdellah Zeggai",
+            "Ilyes Traikia",
+            "Abdelhak Lakehal",
+            "Abdennour Boulesnane"
+        ],
+        "date": "2025/07/04",
+        "pdf": "http://arxiv.org/pdf/2507.03493",
+        "abstract": "Vaccination plays a vital role in global public health, yet healthcare professionals often struggle to access immunization guidelines quickly and efficiently. National protocols and WHO recommendations are typically extensive and complex, making it difficult to extract precise information, especially during urgent situations. This project tackles that issue by developing a multilingual, intelligent question-answering system that transforms static vaccination guidelines into an interactive and user-friendly knowledge base. Built on a Retrieval-Augmented Generation (RAG) framework and enhanced with agent-based reasoning (Agentic RAG), the system provides accurate, context-sensitive answers to complex medical queries. Evaluation shows that Agentic RAG outperforms traditional methods, particularly in addressing multi-step or ambiguous questions. To support clinical use, the system is integrated into a mobile application designed for real-time, point-of-care access to essential vaccine information. AI-VaxGuide model is publicly available on https://huggingface.co/VaxGuide",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.03493"
+    },
+    "8216bd9664a8666dc0df6908fad14cea": {
+        "title": "Recon, Answer, Verify: Agents in Search of Truth",
+        "authors": [
+            "Satyam Shukla",
+            "Himanshu Dutta",
+            "Pushpak Bhattacharyya"
+        ],
+        "date": "2025/07/04",
+        "pdf": "http://arxiv.org/pdf/2507.03671",
+        "abstract": "Automated fact checking with large language models (LLMs) offers a scalable alternative to manual verification. Evaluating fact checking is challenging as existing benchmark datasets often include post claim analysis and annotator cues, which are absent in real world scenarios where claims are fact checked immediately after being made. This limits the realism of current evaluations. We present Politi Fact Only (PFO), a 5 class benchmark dataset of 2,982 political claims from politifact.com, where all post claim analysis and annotator cues have been removed manually. This ensures that models are evaluated using only the information that would have been available prior to the claim&#39;s verification. Evaluating LLMs on PFO, we see an average performance drop of 22% in terms of macro f1 compared to PFO&#39;s unfiltered version. Based on the identified challenges of the existing LLM based fact checking system, we propose RAV (Recon Answer Verify), an agentic framework with three agents: question generator, answer generator, and label generator. Our pipeline iteratively generates and answers sub questions to verify different aspects of the claim before finally generating the label. RAV generalizes across domains and label granularities, and it outperforms state of the art approaches on well known baselines RAWFC (fact checking, 3 class) by 25.28%, and on HOVER (encyclopedia, 2 class) by 1.54% on 2 hop, 4.94% on 3 hop, and 1.78% on 4 hop, sub categories respectively. RAV shows the least performance drop compared to baselines of 16.3% in macro f1 when we compare PFO with its unfiltered version.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.03671"
+    },
+    "a6f9538817c32b5adef9aca9de52e470": {
+        "title": "STRUCTSENSE: A Task-Agnostic Agentic Framework for Structured Information Extraction with Human-In-The-Loop Evaluation and Benchmarking",
+        "authors": [
+            "Tek Raj Chhetri",
+            "Yibei Chen",
+            "Puja Trivedi",
+            "Dorota Jarecka",
+            "Saif Haobsh",
+            "Patrick Ray",
+            "Lydia Ng",
+            "Satrajit S. Ghosh"
+        ],
+        "date": "2025/07/04",
+        "pdf": "http://arxiv.org/pdf/2507.03674",
+        "abstract": "The ability to extract structured information from unstructured sources-such as free-text documents and scientific literature-is critical for accelerating scientific discovery and knowledge synthesis. Large Language Models (LLMs) have demonstrated remarkable capabilities in various natural language processing tasks, including structured information extraction. However, their effectiveness often diminishes in specialized, domain-specific contexts that require nuanced understanding and expert-level domain knowledge. In addition, existing LLM-based approaches frequently exhibit poor transferability across tasks and domains, limiting their scalability and adaptability. To address these challenges, we introduce StructSense, a modular, task-agnostic, open-source framework for structured information extraction built on LLMs. StructSense is guided by domain-specific symbolic knowledge encoded in ontologies, enabling it to navigate complex domain content more effectively. It further incorporates agentic capabilities through self-evaluative judges that form a feedback loop for iterative refinement, and includes human-in-the-loop mechanisms to ensure quality and validation. We demonstrate that StructSense can overcome both the limitations of domain sensitivity and the lack of cross-task generalizability, as shown through its application to diverse neuroscience information extraction tasks.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.03674"
+    },
+    "e400d62b5f769d6b6f0b43d41a3393ef": {
+        "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+        "authors": [
+            "Yuanzhe Hu",
+            "Yu Wang",
+            "Julian McAuley"
+        ],
+        "date": "2025/07/07",
+        "pdf": "http://arxiv.org/pdf/2507.05257",
+        "abstract": "Recent benchmarks for Large Language Model (LLM) agents primarily focus on evaluating reasoning, planning, and execution capabilities, while another critical component-memory, encompassing how agents memorize, update, and retrieve long-term information-is under-evaluated due to the lack of benchmarks. We term agents with memory mechanisms as memory agents. In this paper, we identify four core competencies essential for memory agents: accurate retrieval, test-time learning, long-range understanding, and conflict resolution. Existing datasets either rely on limited context lengths or are tailored for static, long-context settings like book-based QA, which do not reflect the interactive, multi-turn nature of memory agents that incrementally accumulate information. Furthermore, no existing benchmarks cover all four competencies. Therefore, we introduce MemoryAgentBench, a new benchmark specifically designed for memory agents. Our benchmark combines reformulated existing datasets with newly constructed ones, covering the above four memory competencies, providing a systematic and challenging testbed for assessing memory quality. We evaluate a diverse set of memory agents, ranging from simple context-based and retrieval-augmented generation (RAG) systems to advanced agents with external memory modules and tool integration. Empirical results reveal that current methods fall short of mastering all four competencies, underscoring the need for further research into comprehensive memory mechanisms for LLM agents.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ],
+            [
+                "Technique For Enhancement",
+                "Memory Mechanism"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.05257"
+    },
+    "4f82a2479b07394328e0edbccf4e4752": {
+        "title": "MindFlow: Revolutionizing E-commerce Customer Support with Multimodal LLM Agents",
+        "authors": [
+            "Ming Gong",
+            "Xucheng Huang",
+            "Chenghan Yang",
+            "Xianhan Peng",
+            "Haoxin Wang",
+            "Yang Liu",
+            "Ling Jiang"
+        ],
+        "date": "2025/07/07",
+        "pdf": "http://arxiv.org/pdf/2507.05330",
+        "abstract": "Recent advances in large language models (LLMs) have enabled new applications in e-commerce customer service. However, their capabilities remain constrained in complex, multimodal scenarios. We present MindFlow, the first open-source multimodal LLM agent tailored for e-commerce. Built on the CoALA framework, it integrates memory, decision-making, and action modules, and adopts a modular &#34;MLLM-as-Tool&#34; strategy for effect visual-textual reasoning. Evaluated via online A/B testing and simulation-based ablation, MindFlow demonstrates substantial gains in handling complex queries, improving user satisfaction, and reducing operational costs, with a 93.53% relative improvement observed in real-world deployments.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Finance"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.05330"
+    },
+    "63c29ca04913563f4d933183cc096ae0": {
+        "title": "ECom-Bench: Can LLM Agent Resolve Real-World E-commerce Customer Support Issues?",
+        "authors": [
+            "Haoxin Wang",
+            "Xianhan Peng",
+            "Xucheng Huang",
+            "Yizhe Huang",
+            "Ming Gong",
+            "Chenghan Yang",
+            "Yang Liu",
+            "Ling Jiang"
+        ],
+        "date": "2025/07/08",
+        "pdf": "http://arxiv.org/pdf/2507.05639",
+        "abstract": "In this paper, we introduce ECom-Bench, the first benchmark framework for evaluating LLM agent with multimodal capabilities in the e-commerce customer support domain. ECom-Bench features dynamic user simulation based on persona information collected from real e-commerce customer interactions and a realistic task dataset derived from authentic e-commerce dialogues. These tasks, covering a wide range of business scenarios, are designed to reflect real-world complexities, making ECom-Bench highly challenging. For instance, even advanced models like GPT-4o achieve only a 10-20% pass^3 metric in our benchmark, highlighting the substantial difficulties posed by complex e-commerce scenarios. Upon publication, the code and data will be open-sourced to facilitate further research and development in this domain.",
+        "code": "",
+        "category": [
+            [
+                "Infrastructure",
+                "Benchmark&Evaluation"
+            ],
+            [
+                "Application",
+                "Finance"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.05639"
+    },
+    "1c44cd7dc4a921a6b18690a0c07a9fd1": {
+        "title": "Agentic-R1: Distilled Dual-Strategy Reasoning",
+        "authors": [
+            "Weihua Du",
+            "Pranjal Aggarwal",
+            "Sean Welleck",
+            "Yiming Yang"
+        ],
+        "date": "2025/07/08",
+        "pdf": "http://arxiv.org/pdf/2507.05707",
+        "abstract": "Current long chain-of-thought (long-CoT) models excel at mathematical reasoning but rely on slow and error-prone natural language traces. Tool-augmented agents address arithmetic via code execution, but often falter on complex logical tasks. We introduce a fine-tuning framework, DualDistill, that distills complementary reasoning strategies from multiple teachers into a unified student model. Using this approach, we train Agentic-R1, which dynamically selects the optimal strategy for each query, invoking tools for arithmetic and algorithmic problems, and using text-based reasoning for abstract ones. Our method improves accuracy across a range of tasks, including both computation-intensive and standard benchmarks, demonstrating the effectiveness of multi-strategy distillation in achieving robust and efficient reasoning. Our project is available at https://github.com/StigLidu/DualDistill",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "Fine tuning"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.05707"
+    },
+    "309622272ff9fa8dac80c6aa58f49374": {
+        "title": "Conditional Multi-Stage Failure Recovery for Embodied Agents",
+        "authors": [
+            "Youmna Farag",
+            "Svetlana Stoyanchev",
+            "Mohan Li",
+            "Simon Keizer",
+            "Rama Doddipatla"
+        ],
+        "date": "2025/07/08",
+        "pdf": "http://arxiv.org/pdf/2507.06016",
+        "abstract": "Embodied agents performing complex tasks are susceptible to execution failures, motivating the need for effective failure recovery mechanisms. In this work, we introduce a conditional multistage failure recovery framework that employs zero-shot chain prompting. The framework is structured into four error-handling stages, with three operating during task execution and one functioning as a post-execution reflection phase. Our approach utilises the reasoning capabilities of LLMs to analyse execution challenges within their environmental context and devise strategic solutions. We evaluate our method on the TfD benchmark of the TEACH dataset and achieve state-of-the-art performance, outperforming a baseline without error recovery by 11.5% and surpassing the strongest existing model by 19%.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Feedback&Reflection"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.06016"
+    },
+    "1046330f429b9bd1a498e5336643a55c": {
+        "title": "Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving",
+        "authors": [
+            "Xiangru Tang",
+            "Tianrui Qin",
+            "Tianhao Peng",
+            "Ziyang Zhou",
+            "Daniel Shao",
+            "Tingting Du",
+            "Xinming Wei",
+            "Peng Xia",
+            "Fang Wu",
+            "He Zhu",
+            "Ge Zhang",
+            "Jiaheng Liu",
+            "Xingyao Wang",
+            "Sirui Hong",
+            "Chenglin Wu",
+            "Hao Cheng",
+            "Chi Wang",
+            "Wangchunshu Zhou"
+        ],
+        "date": "2025/07/08",
+        "pdf": "http://arxiv.org/pdf/2507.06229",
+        "abstract": "As language agents tackle increasingly complex tasks, they struggle with effective error correction and experience reuse across domains. We introduce Agent KB, a hierarchical experience framework that enables complex agentic problem solving via a novel Reason-Retrieve-Refine pipeline. Agent KB addresses a core limitation: agents traditionally cannot learn from each other&#39;s experiences. By capturing both high-level strategies and detailed execution logs, Agent KB creates a shared knowledge base that enables cross-agent knowledge transfer. Evaluated on the GAIA benchmark, Agent KB improves success rates by up to 16.28 percentage points. On the most challenging tasks, Claude-3 improves from 38.46% to 57.69%, while GPT-4 improves from 53.49% to 73.26% on intermediate tasks. On SWE-bench code repair, Agent KB enables Claude-3 to improve from 41.33% to 53.33%. Our results suggest that Agent KB provides a modular, framework-agnostic infrastructure for enabling agents to learn from past experiences and generalize successful strategies to new tasks.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Single-Agent Framework"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.06229"
+    },
+    "bb86e7570fe59484509437e579ebecf0": {
+        "title": "Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings",
+        "authors": [
+            "Russell Taylor",
+            "Benjamin Herbert",
+            "Michael Sana"
+        ],
+        "date": "2025/07/09",
+        "pdf": "http://arxiv.org/pdf/2507.06506",
+        "abstract": "Translating wordplay across languages presents unique challenges that have long confounded both professional human translators and machine translation systems. This research proposes a novel approach for translating puns from English to French by combining state-of-the-art large language models with specialized techniques for wordplay generation. Our methodology employs a three-stage approach. First, we establish a baseline using multiple frontier large language models with feedback based on a new contrastive learning dataset. Second, we implement a guided chain-of-thought pipeline with combined phonetic-semantic embeddings. Third, we implement a multi-agent generator-discriminator framework for evaluating and regenerating puns with feedback. Moving beyond the limitations of literal translation, our methodology&#39;s primary objective is to capture the linguistic creativity and humor of the source text wordplay, rather than simply duplicating its vocabulary. Our best runs earned first and second place in the CLEF JOKER 2025 Task 2 competition where they were evaluated manually by expert native French speakers. This research addresses a gap between translation studies and computational linguistics by implementing linguistically-informed techniques for wordplay translation, advancing our understanding of how language models can be leveraged to handle the complex interplay between semantic ambiguity, phonetic similarity, and the implicit cultural and linguistic awareness needed for successful humor.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.06506"
+    },
+    "b8b8a5e49d282ddf0f9b13cb07d383a1": {
+        "title": "VisualTrap: A Stealthy Backdoor Attack on GUI Agents via Visual Grounding Manipulation",
+        "authors": [
+            "Ziang Ye",
+            "Yang Zhang",
+            "Wentao Shi",
+            "Xiaoyu You",
+            "Fuli Feng",
+            "Tat-Seng Chua"
+        ],
+        "date": "2025/07/09",
+        "pdf": "http://arxiv.org/pdf/2507.06899",
+        "abstract": "Graphical User Interface (GUI) agents powered by Large Vision-Language Models (LVLMs) have emerged as a revolutionary approach to automating human-machine interactions, capable of autonomously operating personal devices (e.g., mobile phones) or applications within the device to perform complex real-world tasks in a human-like manner. However, their close integration with personal devices raises significant security concerns, with many threats, including backdoor attacks, remaining largely unexplored. This work reveals that the visual grounding of GUI agent-mapping textual plans to GUI elements-can introduce vulnerabilities, enabling new types of backdoor attacks. With backdoor attack targeting visual grounding, the agent&#39;s behavior can be compromised even when given correct task-solving plans. To validate this vulnerability, we propose VisualTrap, a method that can hijack the grounding by misleading the agent to locate textual plans to trigger locations instead of the intended targets. VisualTrap uses the common method of injecting poisoned data for attacks, and does so during the pre-training of visual grounding to ensure practical feasibility of attacking. Empirical results show that VisualTrap can effectively hijack visual grounding with as little as 5% poisoned data and highly stealthy visual triggers (invisible to the human eye); and the attack can be generalized to downstream tasks, even after clean fine-tuning. Moreover, the injected trigger can remain effective across different GUI environments, e.g., being trained on mobile/web and generalizing to desktop environments. These findings underscore the urgent need for further research on backdoor attack risks in GUI agents.",
+        "code": "",
+        "category": [
+            [
+                "Stability",
+                "Safety"
+            ],
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.06899"
+    },
+    "e3a9eb0f8bc23af7842f32120defca11": {
+        "title": "MIND: A Multi-agent Framework for Zero-shot Harmful Meme Detection",
+        "authors": [
+            "Ziyan Liu",
+            "Chunxiao Fan",
+            "Haoran Lou",
+            "Yuexin Wu",
+            "Kaiwei Deng"
+        ],
+        "date": "2025/07/09",
+        "pdf": "http://arxiv.org/pdf/2507.06908",
+        "abstract": "The rapid expansion of memes on social media has highlighted the urgent need for effective approaches to detect harmful content. However, traditional data-driven approaches struggle to detect new memes due to their evolving nature and the lack of up-to-date annotated data. To address this issue, we propose MIND, a multi-agent framework for zero-shot harmful meme detection that does not rely on annotated data. MIND implements three key strategies: 1) We retrieve similar memes from an unannotated reference set to provide contextual information. 2) We propose a bi-directional insight derivation mechanism to extract a comprehensive understanding of similar memes. 3) We then employ a multi-agent debate mechanism to ensure robust decision-making through reasoned arbitration. Extensive experiments on three meme datasets demonstrate that our proposed framework not only outperforms existing zero-shot approaches but also shows strong generalization across different model architectures and parameter scales, providing a scalable solution for harmful meme detection. The code is available at https://github.com/destroy-lonely/MIND.",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.06908"
+    },
+    "f5e204e08754cf7e2561248609e3cc64": {
+        "title": "Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation",
+        "authors": [
+            "Anirban Saha Anik",
+            "Xiaoying Song",
+            "Elliott Wang",
+            "Bryan Wang",
+            "Bengisu Yarimbas",
+            "Lingzi Hong"
+        ],
+        "date": "2025/07/09",
+        "pdf": "http://arxiv.org/pdf/2507.07307",
+        "abstract": "Large language models (LLMs) incorporated with Retrieval-Augmented Generation (RAG) have demonstrated powerful capabilities in generating counterspeech against misinformation. However, current studies rely on limited evidence and offer less control over final outputs. To address these challenges, we propose a Multi-agent Retrieval-Augmented Framework to generate counterspeech against health misinformation, incorporating multiple LLMs to optimize knowledge retrieval, evidence enhancement, and response refinement. Our approach integrates both static and dynamic evidence, ensuring that the generated counterspeech is relevant, well-grounded, and up-to-date. Our method outperforms baseline approaches in politeness, relevance, informativeness, and factual accuracy, demonstrating its effectiveness in generating high-quality counterspeech. To further validate our approach, we conduct ablation studies to verify the necessity of each component in our framework. Furthermore, human evaluations reveal that refinement significantly enhances counterspeech quality and obtains human preference.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "RAG"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.07307"
+    },
+    "c83d3103119ee68e898a793b7a3e0578": {
+        "title": "SAND: Boosting LLM Agents with Self-Taught Action Deliberation",
+        "authors": [
+            "Yu Xia",
+            "Yiran Jenny Shen",
+            "Junda Wu",
+            "Tong Yu",
+            "Sungchul Kim",
+            "Ryan A. Rossi",
+            "Lina Yao",
+            "Julian McAuley"
+        ],
+        "date": "2025/07/10",
+        "pdf": "http://arxiv.org/pdf/2507.07441",
+        "abstract": "Large Language Model (LLM) agents are commonly tuned with supervised finetuning on ReAct-style expert trajectories or preference optimization over pairwise rollouts. Most of these methods focus on imitating specific expert behaviors or promoting chosen reasoning thoughts and actions over rejected ones. However, without reasoning and comparing over alternatives actions, LLM agents finetuned with these methods may over-commit towards seemingly plausible but suboptimal actions due to limited action space exploration. To address this, in this paper we propose Self-taught ActioN Deliberation (SAND) framework, enabling LLM agents to explicitly deliberate over candidate actions before committing to one. To tackle the challenges of when and what to deliberate given large action space and step-level action evaluation, we incorporate self-consistency action sampling and execution-guided action critique to help synthesize step-wise action deliberation thoughts using the base model of the LLM agent. In an iterative manner, the deliberation trajectories are then used to finetune the LLM agent itself. Evaluating on two representative interactive agent tasks, SAND achieves an average 20% improvement over initial supervised finetuning and also outperforms state-of-the-art agent tuning approaches.",
+        "code": "",
+        "category": [
+            [
+                "Training",
+                "Fine tuning"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.07441"
+    },
+    "38c9ae35d95bffa1c442eadd5f7ba4bb": {
+        "title": "Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System",
+        "authors": [
+            "Yuanchen Shi",
+            "Longyin Zhang",
+            "Fang Kong"
+        ],
+        "date": "2025/07/10",
+        "pdf": "http://arxiv.org/pdf/2507.07509",
+        "abstract": "The growing need for psychological support due to increasing pressures has exposed the scarcity of relevant datasets, particularly in non-English languages. To address this, we propose a framework that leverages limited real-world data and expert knowledge to fine-tune two large language models: Dialog Generator and Dialog Modifier. The Generator creates large-scale psychological counseling dialogues based on predefined paths, which guide system response strategies and user interactions, forming the basis for effective support. The Modifier refines these dialogues to align with real-world data quality. Through both automated and manual review, we construct the Chinese Psychological support Dialogue Dataset (CPsDD), containing 68K dialogues across 13 groups, 16 psychological problems, 13 causes, and 12 support focuses. Additionally, we introduce the Comprehensive Agent Dialogue Support System (CADSS), where a Profiler analyzes user characteristics, a Summarizer condenses dialogue history, a Planner selects strategies, and a Supporter generates empathetic responses. The experimental results of the Strategy Prediction and Emotional Support Conversation (ESC) tasks demonstrate that CADSS achieves state-of-the-art performance on both CPsDD and ESConv datasets.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ],
+            [
+                "Infrastructure",
+                "Dataset"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.07509"
+    },
+    "55b64aa47282e761af91a5b9166c0bbd": {
+        "title": "Automating MD simulations for Proteins using Large language Models: NAMD-Agent",
+        "authors": [
+            "Achuth Chandrasekhar",
+            "Amir Barati Farimani"
+        ],
+        "date": "2025/07/10",
+        "pdf": "http://arxiv.org/pdf/2507.07887",
+        "abstract": "Molecular dynamics simulations are an essential tool in understanding protein structure, dynamics, and function at the atomic level. However, preparing high quality input files for MD simulations can be a time consuming and error prone process. In this work, we introduce an automated pipeline that leverages Large Language Models (LLMs), specifically Gemini 2.0 Flash, in conjunction with python scripting and Selenium based web automation to streamline the generation of MD input files. The pipeline exploits CHARMM GUI&#39;s comprehensive web-based interface for preparing simulation-ready inputs for NAMD. By integrating Gemini&#39;s code generation and iterative refinement capabilities, simulation scripts are automatically written, executed, and revised to navigate CHARMM GUI, extract appropriate parameters, and produce the required NAMD input files. Post processing is performed using additional software to further refine the simulation outputs, thereby enabling a complete and largely hands free workflow. Our results demonstrate that this approach reduces setup time, minimizes manual errors, and offers a scalable solution for handling multiple protein systems in parallel. This automated framework paves the way for broader application of LLMs in computational structural biology, offering a robust and adaptable platform for future developments in simulation automation.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Simulation"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.07887"
+    },
+    "0707058191a512c89d3fa5a6501d3df2": {
+        "title": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
+        "authors": [
+            "Yu Wang",
+            "Xi Chen"
+        ],
+        "date": "2025/07/10",
+        "pdf": "http://arxiv.org/pdf/2507.07957",
+        "abstract": "Although memory capabilities of AI agents are gaining increasing attention, existing solutions remain fundamentally limited. Most rely on flat, narrowly scoped memory components, constraining their ability to personalize, abstract, and reliably recall user-specific information over time. To this end, we introduce MIRIX, a modular, multi-agent memory system that redefines the future of AI memory by solving the field&#39;s most critical challenge: enabling language models to truly remember. Unlike prior approaches, MIRIX transcends text to embrace rich visual and multimodal experiences, making memory genuinely useful in real-world scenarios. MIRIX consists of six distinct, carefully structured memory types: Core, Episodic, Semantic, Procedural, Resource Memory, and Knowledge Vault, coupled with a multi-agent framework that dynamically controls and coordinates updates and retrieval. This design enables agents to persist, reason over, and accurately retrieve diverse, long-term user data at scale. We validate MIRIX in two demanding settings. First, on ScreenshotVQA, a challenging multimodal benchmark comprising nearly 20,000 high-resolution computer screenshots per sequence, requiring deep contextual understanding and where no existing memory systems can be applied, MIRIX achieves 35% higher accuracy than the RAG baseline while reducing storage requirements by 99.9%. Second, on LOCOMO, a long-form conversation benchmark with single-modal textual input, MIRIX attains state-of-the-art performance of 85.4%, far surpassing existing baselines. These results show that MIRIX sets a new performance standard for memory-augmented LLM agents. To allow users to experience our memory system, we provide a packaged application powered by MIRIX. It monitors the screen in real time, builds a personalized memory base, and offers intuitive visualization and secure local storage to ensure privacy.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Memory Mechanism"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.07957"
+    },
+    "c0334a5012b37c98fef7a9dbbded70a3": {
+        "title": "PyVision: Agentic Vision with Dynamic Tooling",
+        "authors": [
+            "Shitian Zhao",
+            "Haoquan Zhang",
+            "Shaoheng Lin",
+            "Ming Li",
+            "Qilong Wu",
+            "Kaipeng Zhang",
+            "Chen Wei"
+        ],
+        "date": "2025/07/10",
+        "pdf": "http://arxiv.org/pdf/2507.07998",
+        "abstract": "LLMs are increasingly deployed as agents, systems capable of planning, reasoning, and dynamically calling external tools. However, in visual reasoning, prior approaches largely remain limited by predefined workflows and static toolsets. In this report, we present PyVision, an interactive, multi-turn framework that enables MLLMs to autonomously generate, execute, and refine Python-based tools tailored to the task at hand, unlocking flexible and interpretable problem-solving. We develop a taxonomy of the tools created by PyVision and analyze their usage across a diverse set of benchmarks. Quantitatively, PyVision achieves consistent performance gains, boosting GPT-4.1 by +7.8% on V* and Claude-4.0-Sonnet by +31.1% on VLMsAreBlind-mini. These results point to a broader shift: dynamic tooling allows models not just to use tools, but to invent them, advancing toward more agentic visual reasoning.",
+        "code": "",
+        "category": [
+            [
+                "Interaction",
+                "Tool Usage"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.07998"
+    },
+    "ffa78fdffca6bafa4e92d8d3a1cbef11": {
+        "title": "State and Memory is All You Need for Robust and Reliable AI Agents",
+        "authors": [
+            "Matthew Muhoberac",
+            "Atharva Parikh",
+            "Nirvi Vakharia",
+            "Saniya Virani",
+            "Aco Radujevic",
+            "Savannah Wood",
+            "Meghav Verma",
+            "Dimitri Metaxotos",
+            "Jeyaraman Soundararajan",
+            "Thierry Masquelin",
+            "Alexander G. Godfrey",
+            "Sean Gardner",
+            "Dobrila Rudnicki",
+            "Sam Michael",
+            "Gaurav Chopra"
+        ],
+        "date": "2025/06/30",
+        "pdf": "http://arxiv.org/pdf/2507.00081",
+        "abstract": "Large language models (LLMs) have enabled powerful advances in natural language understanding and generation. Yet their application to complex, real-world scientific workflows remain limited by challenges in memory, planning, and tool integration. Here, we introduce SciBORG (Scientific Bespoke Artificial Intelligence Agents Optimized for Research Goals), a modular agentic framework that allows LLM-based agents to autonomously plan, reason, and achieve robust and reliable domain-specific task execution. Agents are constructed dynamically from source code documentation and augmented with finite-state automata (FSA) memory, enabling persistent state tracking and context-aware decision-making. This approach eliminates the need for manual prompt engineering and allows for robust, scalable deployment across diverse applications via maintaining context across extended workflows and to recover from tool or execution failures. We validate SciBORG through integration with both physical and virtual hardware, such as microwave synthesizers for executing user-specified reactions, with context-aware decision making and demonstrate its use in autonomous multi-step bioassay retrieval from the PubChem database utilizing multi-step planning, reasoning, agent-to-agent communication and coordination for execution of exploratory tasks. Systematic benchmarking shows that SciBORG agents achieve reliable execution, adaptive planning, and interpretable state transitions. Our results show that memory and state awareness are critical enablers of agentic planning and reliability, offering a generalizable foundation for deploying AI agents in complex environments.",
+        "code": "",
+        "category": [
+            [
+                "Technique For Enhancement",
+                "Memory Mechanism"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.00081"
+    },
+    "e61f838ab6a6e79f6e9d09543a34d26b": {
+        "title": "Data Agent: A Holistic Architecture for Orchestrating Data+AI Ecosystems",
+        "authors": [
+            "Zhaoyan Sun",
+            "Jiayi Wang",
+            "Xinyang Zhao",
+            "Jiachi Wang",
+            "Guoliang Li"
+        ],
+        "date": "2025/07/02",
+        "pdf": "http://arxiv.org/pdf/2507.01599",
+        "abstract": "Traditional Data+AI systems utilize data-driven techniques to optimize performance, but they rely heavily on human experts to orchestrate system pipelines, enabling them to adapt to changes in data, queries, tasks, and environments. For instance, while there are numerous data science tools available, developing a pipeline planning system to coordinate these tools remains challenging. This difficulty arises because existing Data+AI systems have limited capabilities in semantic understanding, reasoning, and planning. Fortunately, we have witnessed the success of large language models (LLMs) in enhancing semantic understanding, reasoning, and planning abilities. It is crucial to incorporate LLM techniques to revolutionize data systems for orchestrating Data+AI applications effectively. To achieve this, we propose the concept of a &#39;Data Agent&#39; - a comprehensive architecture designed to orchestrate Data+AI ecosystems, which focuses on tackling data-related tasks by integrating knowledge comprehension, reasoning, and planning capabilities. We delve into the challenges involved in designing data agents, such as understanding data/queries/environments/tools, orchestrating pipelines/workflows, optimizing and executing pipelines, and fostering pipeline self-reflection. Furthermore, we present examples of data agent systems, including a data science agent, data analytics agents (such as unstructured data analytics agent, semantic structured data analytics agent, data lake analytics agent, and multi-modal data analytics agent), and a database administrator (DBA) agent. We also outline several open challenges associated with designing data agent systems.",
+        "code": "",
+        "category": [
+            [
+                "Others",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.01599"
+    },
+    "80b81be3db0feae7224843f59b928a5d": {
+        "title": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+        "authors": [
+            "Ruofan Jin",
+            "Zaixi Zhang",
+            "Mengdi Wang",
+            "Le Cong"
+        ],
+        "date": "2025/07/01",
+        "pdf": "http://arxiv.org/pdf/2507.02004",
+        "abstract": "The rapid growth of biomedical data, tools, and literature has created a fragmented research landscape that outpaces human expertise. While AI agents offer a solution, they typically rely on static, manually curated toolsets, limiting their ability to adapt and scale. Here, we introduce STELLA, a self-evolving AI agent designed to overcome these limitations. STELLA employs a multi-agent architecture that autonomously improves its own capabilities through two core mechanisms: an evolving Template Library for reasoning strategies and a dynamic Tool Ocean that expands as a Tool Creation Agent automatically discovers and integrates new bioinformatics tools. This allows STELLA to learn from experience. We demonstrate that STELLA achieves state-of-the-art accuracy on a suite of biomedical benchmarks, scoring approximately 26\\% on Humanity&#39;s Last Exam: Biomedicine, 54\\% on LAB-Bench: DBQA, and 63\\% on LAB-Bench: LitQA, outperforming leading models by up to 6 percentage points. More importantly, we show that its performance systematically improves with experience; for instance, its accuracy on the Humanity&#39;s Last Exam benchmark almost doubles with increased trials. STELLA represents a significant advance towards AI Agent systems that can learn and grow, dynamically scaling their expertise to accelerate the pace of biomedical discovery.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ],
+            [
+                "Application",
+                "Research"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.02004"
+    },
+    "ac23ae73f4300bd3daa67e8a8ee53966": {
+        "title": "Large Language Model Agent for Modular Task Execution in Drug Discovery",
+        "authors": [
+            "Janghoon Ock",
+            "Radheesh Sharma Meda",
+            "Srivathsan Badrinarayanan",
+            "Neha S. Aluru",
+            "Achuth Chandrasekhar",
+            "Amir Barati Farimani"
+        ],
+        "date": "2025/06/26",
+        "pdf": "http://arxiv.org/pdf/2507.02925",
+        "abstract": "We present a modular framework powered by large language models (LLMs) that automates and streamlines key tasks across the early-stage computational drug discovery pipeline. By combining LLM reasoning with domain-specific tools, the framework performs biomedical data retrieval, domain-specific question answering, molecular generation, property prediction, property-aware molecular refinement, and 3D protein-ligand structure generation. In a case study targeting BCL-2 in lymphocytic leukemia, the agent autonomously retrieved relevant biomolecular information-including FASTA sequences, SMILES representations, and literature-and answered mechanistic questions with improved contextual accuracy over standard LLMs. It then generated chemically diverse seed molecules and predicted 67 ADMET-related properties, which guided iterative molecular refinement. Across two refinement rounds, the number of molecules with QED &gt; 0.6 increased from 34 to 55, and those passing at least four out of five empirical drug-likeness rules rose from 29 to 52, within a pool of 194 molecules. The framework also employed Boltz-2 to generate 3D protein-ligand complexes and provide rapid binding affinity estimates for candidate compounds. These results demonstrate that the approach effectively supports molecular screening, prioritization, and structure evaluation. Its modular design enables flexible integration of evolving tools and models, providing a scalable foundation for AI-assisted therapeutic discovery.",
+        "code": "",
+        "category": [
+            [
+                "Application",
+                "Medicine"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.02925"
+    },
+    "406f6534cab9f00c1fed137d10c16b4f": {
+        "title": "LTLCrit: A Temporal Logic-based LLM Critic for Safe and Efficient Embodied Agents",
+        "authors": [
+            "Anand Gokhale",
+            "Vaibhav Srivastava",
+            "Francesco Bullo"
+        ],
+        "date": "2025/07/04",
+        "pdf": "http://arxiv.org/pdf/2507.03293",
+        "abstract": "Large language models (LLMs) have demonstrated promise in reasoning tasks and general decision-making in static environments. In long-term planning tasks, however, errors tend to accumulate, often leading to unsafe or inefficient behavior, limiting their use in general-purpose settings. We propose a modular actor-critic architecture in which an LLM actor is guided by LTLCrit, a trajectory-level LLM critic that communicates via linear temporal logic (LTL). Our setup combines the reasoning strengths of language models with the guarantees of formal logic. The actor selects high-level actions from natural language observations, while the critic analyzes full trajectories and proposes new LTL constraints that shield the actor from future unsafe or inefficient behavior. The architecture supports both fixed, hand-specified safety constraints and adaptive, learned soft constraints that promote long-term efficiency. Our architecture is model-agnostic: any LLM-based planner can serve as the actor, and LTLCrit serves as a logic-generating wrapper. We formalize planning as graph traversal under symbolic constraints, allowing LTLCrit to analyze failed or suboptimal trajectories and generate new temporal logic rules that improve future behavior. We evaluate our system on the Minecraft diamond-mining benchmark, achieving 100% completion rates and improving efficiency compared to baseline LLM planners. Our results suggest that enabling LLMs to supervise each other through logic is a powerful and flexible paradigm for safe, generalizable decision making.",
+        "code": "",
+        "category": [
+            [
+                "Stability",
+                "Safety"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.03293"
+    },
+    "b616751854657c362589380c87b3ce50": {
+        "title": "Agent-Based Detection and Resolution of Incompleteness and Ambiguity in Interactions with Large Language Models",
+        "authors": [
+            "Riya Naik",
+            "Ashwin Srinivasan",
+            "Swati Agarwal",
+            "Estrid He"
+        ],
+        "date": "2025/07/04",
+        "pdf": "http://arxiv.org/pdf/2507.03726",
+        "abstract": "Many of us now treat LLMs as modern-day oracles asking it almost any kind of question. However, consulting an LLM does not have to be a single turn activity. But long multi-turn interactions can get tedious if it is simply to clarify contextual information that can be arrived at through reasoning. In this paper, we examine the use of agent-based architecture to bolster LLM-based Question-Answering systems with additional reasoning capabilities. We examine the automatic resolution of potential incompleteness or ambiguities in questions by transducers implemented using LLM-based agents. We focus on several benchmark datasets that are known to contain questions with these deficiencies to varying degrees. We equip different LLMs (GPT-3.5-Turbo and Llama-4-Scout) with agents that act as specialists in detecting and resolving deficiencies of incompleteness and ambiguity. The agents are implemented as zero-shot ReAct agents. Rather than producing an answer in a single step, the model now decides between 3 actions a) classify b) resolve c) answer. Action a) decides if the question is incomplete, ambiguous, or normal. Action b) determines if any deficiencies identified can be resolved. Action c) answers the resolved form of the question. We compare the use of LLMs with and without the use of agents with these components. Our results show benefits of agents with transducer 1) A shortening of the length of interactions with human 2) An improvement in the answer quality and 3) Explainable resolution of deficiencies in the question. On the negative side we find while it may result in additional LLM invocations and in some cases, increased latency. But on tested datasets, the benefits outweigh the costs except when questions already have sufficient context. Suggesting the agent-based approach could be a useful mechanism to harness the power of LLMs to develop more robust QA systems.",
+        "code": "",
+        "category": [
+            [
+                "Others",
+                null
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2507.03726"
     }
 }
