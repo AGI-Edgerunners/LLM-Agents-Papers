@@ -2949,7 +2949,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2025/01/24] **Multi-agent KTO: Reinforcing Strategic Interactions of Large Language Model in Language Game** | [[paper]](https://arxiv.org/abs/2501.14225) | [code]
 
-- [2025/01/24] **Unmasking Conversational Bias in AI Multiagent Systems** | [[paper]](https://arxiv.org/abs/2501.14844) | [code]
+- [2025/01/24] **Unmasking Conversational Bias in AI Multiagent Systems** | [[paper]](https://arxiv.org/abs/2501.14844) | [[code]](https://anonymous.4open.science/r/LLMsConversationalBias-7725/)
 
 - [2025/01/22] **FilmAgent: A Multi-Agent Framework for End-to-End Film Automation in Virtual 3D Spaces** | [[paper]](https://arxiv.org/abs/2501.12909) | [code]
 
