@@ -1528,6 +1528,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2025/05/25] **When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas** | [[paper]](https://arxiv.org/abs/2505.19212) | [code]
 
+- [2025/05/22] **Beyond Static Testbeds: An Interaction-Centric Agent Simulation Platform for Dynamic Recommender Systems** | [[paper]](https://aclanthology.org/2025.emnlp-main.956) | [[code]](https://github.com/jinsong8/RecInter)
+
 - [2025/05/19] **Simulation Agent: A Framework for Integrating Simulation and Large Language Models for Enhanced Decision-Making** | [[paper]](https://arxiv.org/abs/2505.13761) | [code]
 
 - [2025/05/11] **EcoLANG: Efficient and Effective Agent Communication Language Induction for Social Simulation** | [[paper]](https://arxiv.org/abs/2505.06904) | [code]
