@@ -3273,6 +3273,9 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Stability
 #### Safety
+
+- [2026/02/13] **AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems** | [[paper]](https://arxiv.org/abs/2602.11510) | [code]
+
 - [2025/07/09] **VisualTrap: A Stealthy Backdoor Attack on GUI Agents via Visual Grounding Manipulation** | [[paper]](https://arxiv.org/abs/2507.06899) | [code]
 
 - [2025/07/04] **LTLCrit: A Temporal Logic-based LLM Critic for Safe and Efficient Embodied Agents** | [[paper]](https://arxiv.org/abs/2507.03293) | [code]
