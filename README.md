@@ -60,6 +60,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2025/06/06] **Evolutionary Perspectives on the Evaluation of LLM-Based AI Agents: A Comprehensive Survey** | [[paper]](https://arxiv.org/abs/2506.11102) | [code]
 
+- [2026/03/04] **Internal Safety Collapse in Frontier Large Language Models** | [[paper]](https://arxiv.org/abs/2603.23509) | [[code]](https://github.com/wuyoscar/ISC-Bench)
+
 - [2025/05/27] **Creativity in LLM-based Multi-Agent Systems: A Survey** | [[paper]](https://arxiv.org/abs/2505.21116) | [code]
 
 - [2025/05/24] **Multi-Party Conversational Agents: A Survey** | [[paper]](https://arxiv.org/abs/2505.18845) | [code]
