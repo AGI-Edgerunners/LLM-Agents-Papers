@@ -1622,7 +1622,11 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Application
 #### Math
+- [2026/02/19] **AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing** | [[paper]](https://arxiv.org/abs/2602.17607) | [code]
+
 - [2025/05/21] **ModelingAgent: Bridging LLMs and Mathematical Modeling for Real-World Challenges** | [[paper]](https://arxiv.org/abs/2505.15068) | [code]
+
+- [2025/04/23] **OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents** | [[paper]](https://arxiv.org/abs/2504.16918) | [code]
 
 - [2025/03/23] **MathAgent: Leveraging a Mixture-of-Math-Agent Framework for Real-World Multimodal Mathematical Error Detection** | [[paper]](https://arxiv.org/abs/2503.18132) | [code]
 
