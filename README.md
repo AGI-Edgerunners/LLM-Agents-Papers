@@ -3447,6 +3447,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Infrastructure
 #### Benchmark&Evaluation
+- [2026/04/15] **ClawBench: Evaluating Browser Agents on Live Production Websites with Submission-Interception** | [[paper]](https://arxiv.org/abs/2604.08523) | [[code]](https://github.com/reacher-z/ClawBench)
+
 - [2025/07/08] **ECom-Bench: Can LLM Agent Resolve Real-World E-commerce Customer Support Issues?** | [[paper]](https://arxiv.org/abs/2507.05639) | [code]
 
 - [2025/07/07] **Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions** | [[paper]](https://arxiv.org/abs/2507.05257) | [code]
