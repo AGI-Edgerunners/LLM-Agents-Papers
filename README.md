@@ -2639,6 +2639,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/25] **Voyager: An Open-Ended Embodied Agent with Large Language Models** | [[paper]](https://arxiv.org/abs/2305.16291) | [code]
 
 #### Multi-Agent System
+- [2026/04/02] **CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery** | [[paper]](https://arxiv.org/abs/2604.01658) | [[code]](https://github.com/Human-Agent-Society/CORAL)
+
 - [2025/07/09] **Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings** | [[paper]](https://arxiv.org/abs/2507.06506) | [code]
 
 - [2025/07/09] **MIND: A Multi-agent Framework for Zero-shot Harmful Meme Detection** | [[paper]](https://arxiv.org/abs/2507.06908) | [code]
