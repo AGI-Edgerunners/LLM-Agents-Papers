@@ -663,6 +663,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Interaction
 #### Role Playing
+- [2026/06/05] **PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation** | [[paper]](https://arxiv.org/abs/2606.05697) | [code]
+
 - [2025/06/28] **Agent-to-Agent Theory of Mind: Testing Interlocutor Awareness among Large Language Models** | [[paper]](https://arxiv.org/abs/2506.22957) | [code]
 
 - [2025/06/24] **MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration** | [[paper]](https://arxiv.org/abs/2506.19835) | [code]
