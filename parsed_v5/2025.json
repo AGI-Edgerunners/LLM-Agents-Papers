@@ -17603,5 +17603,25 @@
             ]
         ],
         "url": "https://arxiv.org/abs/2507.03726"
+    },
+    "7698699f458864cdfecfb4b1c02a5c2d": {
+        "title": "Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations",
+        "authors": [
+            "Yunzhe Wang",
+            "Gale M. Lucas",
+            "Burcin Becerik-Gerber",
+            "Volkan Ustun"
+        ],
+        "date": "2025/09/19",
+        "pdf": "http://arxiv.org/pdf/2509.16457",
+        "abstract": "",
+        "code": "",
+        "category": [
+            [
+                "Scaling",
+                "Multi-Agent System"
+            ]
+        ],
+        "url": "https://arxiv.org/abs/2509.16457"
     }
 }
