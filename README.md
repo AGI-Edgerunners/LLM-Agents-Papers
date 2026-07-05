@@ -1622,7 +1622,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Application
 #### Math
-- [2026/02/19] **AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing** | [[paper]](https://arxiv.org/abs/2602.17607) | [code]
+- [2026/02/19] **AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing** | [[paper]](https://arxiv.org/abs/2602.17607) | [[code]](https://github.com/Daviddjddu/Autonumerics)
 
 - [2025/05/21] **ModelingAgent: Bridging LLMs and Mathematical Modeling for Real-World Challenges** | [[paper]](https://arxiv.org/abs/2505.15068) | [code]
 
