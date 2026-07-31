@@ -1039,7 +1039,7 @@ For more comprehensive reading, we also recommend other paper lists:
 
 - [2025/05/25] **When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas** | [[paper]](https://arxiv.org/abs/2505.19212) | [code]
 
-- [2025/05/23] **CoMet: Metaphor-Driven Covert Communication for Multi-Agent Language Games** | [[paper]](https://arxiv.org/abs/2505.18218) | [code]
+- [2025/05/23] **CoMet: Metaphor-Driven Covert Communication for Multi-Agent Language Games** | [[paper]](https://arxiv.org/abs/2505.18218) | [[code]](https://github.com/xushuhang1122/CoMet)
 
 - [2025/05/20] **BAR: A Backward Reasoning based Agent for Complex Minecraft Tasks** | [[paper]](https://arxiv.org/abs/2505.14079) | [code]
 
@@ -1132,7 +1132,15 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/04/06] **Can Large Language Models Play Text Games Well? Current State-of-the-Art and Open Questions** | [[paper]](https://arxiv.org/abs/2304.02868) | [code]
 
 #### Human-Agent Interaction
+- [2025/10/08] **TrackVLA++: Unleashing Reasoning and Memory Capabilities in VLA Models for Embodied Visual Tracking** | [[paper]](https://arxiv.org/abs/2510.07134)
+
 - [2025/06/11] **A Call for Collaborative Intelligence: Why Human-Agent Systems Should Precede AI Autonomy** | [[paper]](https://arxiv.org/abs/2506.09420) | [code]
+
+- [2025/05/29] **TrackVLA: Embodied Visual Tracking in the Wild** | [[paper]](https://arxiv.org/abs/2505.23189) | [[code]](https://github.com/wsakobe/TrackVLA)
+
+- [2025/05/28] **Communication-Efficient Desire Alignment for Embodied Agent-Human Adaptation** | [[paper]](https://arxiv.org/abs/2505.22503)
+
+- [2025/05/27] **Hierarchical Instruction-aware Embodied Visual Tracking** | [[paper]](https://arxiv.org/abs/2505.20710)
 
 - [2025/05/16] **Talk to Your Slides: Language-Driven Agents for Efficient Slide Editing** | [[paper]](https://arxiv.org/abs/2505.11604) | [code]
 
@@ -1502,6 +1510,12 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/19] **ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings** | [[paper]](https://arxiv.org/abs/2305.11554) | [code]
 
 #### Simulation
+- [2026/06/06] **EduMirror: Modeling Educational Social Dynamics with Value-driven Multi-agent Simulation** | [[paper]](https://arxiv.org/abs/2606.07948)
+- [2026/03/14] **Beyond Self-Interest: Modeling Social-Oriented Motivation for Human-like Multi-Agent Interactions** | [[paper]](https://arxiv.org/abs/2603.13890) | [[code]](https://github.com/jingzhe-lin/ASVO)
+- [2026/03/14] **How do Role Models Shape Collective Morality? Exemplar-Driven Moral Learning in Multi-Agent Simulation** | [[paper]](https://arxiv.org/abs/2603.13876)
+- [2025/12/03] **Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia** | [[paper]](https://arxiv.org/abs/2512.03318) | [[code]](https://github.com/google-deepmind/concordia)
+- [2025/09/22] **Why Are We Moral? An LLM-based Agent Simulation Approach to Study Moral Evolution** | [[paper]](https://arxiv.org/abs/2509.17703) | [[code]](https://github.com/MoralAgentSim/social-evol-sim)
+
 - [2025/07/10] **Automating MD simulations for Proteins using Large language Models: NAMD-Agent** | [[paper]](https://arxiv.org/abs/2507.07887) | [code]
 
 - [2025/07/01] **TransLaw: Benchmarking Large Language Models in Multi-Agent Simulation of the Collaborative Translation** | [[paper]](https://arxiv.org/abs/2507.00875) | [code]
@@ -1563,6 +1577,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2025/01/12] **LLMs Model Non-WEIRD Populations: Experiments with Synthetic Cultural Agents** | [[paper]](https://arxiv.org/abs/2501.06834) | [code]
 
 - [2024/12/10] **Political Actor Agent: Simulating Legislative System for Roll Call Votes Prediction with Large Language Models** | [[paper]](https://arxiv.org/abs/2412.07144) | [code]
+
+- [2024/12/09] **Simulating Human-like Daily Activities with Desire-driven Autonomy** | [[paper]](https://arxiv.org/abs/2412.06435) | [[code]](https://github.com/zfw1226/D2A)
 
 - [2024/11/18] **OASIS: Open Agent Social Interaction Simulations with One Million Agents** | [[paper]](https://arxiv.org/abs/2411.11581) | [code]
 
@@ -3447,6 +3463,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Infrastructure
 #### Benchmark&Evaluation
+- [2026/06/01] **RescueBench: Can Embodied Agents Save Lives in the Wild?** | [[paper]](https://arxiv.org/abs/2606.01848) | [[code]](https://github.com/UnrealZoo/RescueBench)
+
 - [2025/07/08] **ECom-Bench: Can LLM Agent Resolve Real-World E-commerce Customer Support Issues?** | [[paper]](https://arxiv.org/abs/2507.05639) | [code]
 
 - [2025/07/07] **Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions** | [[paper]](https://arxiv.org/abs/2507.05257) | [code]
@@ -3514,6 +3532,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2025/05/26] **On Path to Multimodal Historical Reasoning: HistBench and HistAgent** | [[paper]](https://arxiv.org/abs/2505.20246) | [code]
 
 - [2025/05/24] **CRMArena-Pro: Holistic Assessment of LLM Agents Across Diverse Business Scenarios and Interactions** | [[paper]](https://arxiv.org/abs/2505.18878) | [code]
+
+- [2025/05/23] **Is Your LLM Really Mastering the Concept? A Multi-Agent Benchmark** | [[paper]](https://arxiv.org/abs/2505.17512) | [[code]](https://github.com/xushuhang1122/CK-Arena)
 
 - [2025/05/22] **BioDSA-1K: Benchmarking Data Science Agents for Biomedical Research** | [[paper]](https://arxiv.org/abs/2505.16100) | [code]
 
@@ -3789,6 +3809,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2025/02/14] **The Ann Arbor Architecture for Agent-Oriented Programming** | [[paper]](https://arxiv.org/abs/2502.09903) | [[code]](https://github.com/aaalgo/postline_0.1)
 
 - [2024/12/30] **Training Software Engineering Agents and Verifiers with SWE-Gym** | [[paper]](https://arxiv.org/abs/2412.21139) | [code]
+
+- [2024/12/30] **UnrealZoo: Enriching Photo-realistic Virtual Worlds for Embodied AI** | [[paper]](https://arxiv.org/abs/2412.20977) | [[code]](https://github.com/UnrealZoo/unrealzoo-gym)
 
 - [2024/11/05] **SAUCE: Synchronous and Asynchronous User-Customizable Environment for Multi-Agent LLM Interaction** | [[paper]](https://arxiv.org/abs/2411.03397) | [code]
 
