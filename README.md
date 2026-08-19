@@ -1502,6 +1502,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/19] **ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings** | [[paper]](https://arxiv.org/abs/2305.11554) | [code]
 
 #### Simulation
+- [2026/07/08] **CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents** | [[paper]](https://arxiv.org/abs/2608.16897) | [code]
+
 - [2025/07/10] **Automating MD simulations for Proteins using Large language Models: NAMD-Agent** | [[paper]](https://arxiv.org/abs/2507.07887) | [code]
 
 - [2025/07/01] **TransLaw: Benchmarking Large Language Models in Multi-Agent Simulation of the Collaborative Translation** | [[paper]](https://arxiv.org/abs/2507.00875) | [code]
