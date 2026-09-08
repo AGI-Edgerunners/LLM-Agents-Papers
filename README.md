@@ -2333,6 +2333,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/05/26] **Training Socially Aligned Language Models on Simulated Social Interactions** | [[paper]](https://arxiv.org/abs/2305.16960) | [code]
 
 #### RL
+
+- [2026/08/16] **Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report** | [[paper]](https://arxiv.org/abs/2608.15763)
 - [2025/07/03] **MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent** | [[paper]](https://arxiv.org/abs/2507.02259) | [code]
 
 - [2025/07/03] **RLVER: Reinforcement Learning with Verifiable Emotion Rewards for Empathetic Agents** | [[paper]](https://arxiv.org/abs/2507.03112) | [code]
