@@ -3447,6 +3447,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Infrastructure
 #### Benchmark&Evaluation
+- [2026/09/27] **TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces** | [[paper]](https://arxiv.org/abs/2609.33295) | [[project]](https://zhishanq.github.io/TraceDance/)
+
 - [2025/07/08] **ECom-Bench: Can LLM Agent Resolve Real-World E-commerce Customer Support Issues?** | [[paper]](https://arxiv.org/abs/2507.05639) | [code]
 
 - [2025/07/07] **Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions** | [[paper]](https://arxiv.org/abs/2507.05257) | [code]
