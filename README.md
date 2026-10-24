@@ -1167,6 +1167,8 @@ For more comprehensive reading, we also recommend other paper lists:
 - [2023/04/26] **Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models** | [[paper]](https://arxiv.org/abs/2304.13835) | [code]
 
 #### Tool Usage
+- [2026/01/19] **Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction** | [[paper]](https://arxiv.org/abs/2601.12762) | [[code]](https://github.com/NEUIR/ToolMaster)
+
 - [2025/07/10] **PyVision: Agentic Vision with Dynamic Tooling** | [[paper]](https://arxiv.org/abs/2507.07998) | [code]
 
 - [2025/07/09] **VisualTrap: A Stealthy Backdoor Attack on GUI Agents via Visual Grounding Manipulation** | [[paper]](https://arxiv.org/abs/2507.06899) | [code]
