@@ -3449,6 +3449,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ### Infrastructure
 #### Benchmark&Evaluation
+- [2026/10/13] **Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution** | [[paper]](https://arxiv.org/abs/2610.17816) | [[code]](https://github.com/OpenBMB/EC2-Bench)
+
 - [2025/07/08] **ECom-Bench: Can LLM Agent Resolve Real-World E-commerce Customer Support Issues?** | [[paper]](https://arxiv.org/abs/2507.05639) | [code]
 
 - [2025/07/07] **Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions** | [[paper]](https://arxiv.org/abs/2507.05257) | [code]
